@@ -140,8 +140,8 @@ h1 {
 
 .btn {
   background-color: var(--card);
-  border: 2px solid #374151;
-  color: var(--text);
+  border: 2px solid #374151; /* Dark grey border */
+  color: #f3f4f6; /* Bright text specifically set */
   border-radius: 10px;
   padding: 16px 18px;
   font-size: 1.05rem;
@@ -149,7 +149,6 @@ h1 {
   transition: background var(--transition), border-color var(--transition), transform 0.15s ease;
   text-align: left;
   line-height: 1.35;
-  /* prevent text selection on tap */
   user-select: none;
   -webkit-user-select: none;
 }
@@ -162,6 +161,7 @@ h1 {
   background-color: #374151;
   border-color: #4b5563;
   padding: 18px;
+  color: #ffffff; /* Ensure white text */
 }
 
 /* Hover only on devices that support it (not phones) */
@@ -184,16 +184,16 @@ h1 {
 }
 
 .btn.correct {
-  background-color: var(--correct-bg);
-  border-color: var(--correct-border);
-  color: #155724;
+  background-color: rgba(20, 83, 45, 0.8); /* Darker green background */
+  border-color: #22c55e;
+  color: #ffffff !important; /* Force white text */
   font-weight: 600;
 }
 
 .btn.wrong {
-  background-color: var(--wrong-bg);
-  border-color: var(--wrong-border);
-  color: #721c24;
+  background-color: rgba(127, 29, 29, 0.8); /* Darker red background */
+  border-color: #ef4444;
+  color: #ffffff !important; /* Force white text */
 }
 
 /* ========== EXPLANATION ========== */
