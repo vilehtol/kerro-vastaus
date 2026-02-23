@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Älypää-Visa</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#007bff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="icon-192.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+
+  <!-- ===== START SCREEN ===== -->
+  <div id="start-screen">
+    <h1>🧠 Älypää-Visa</h1>
+    <p class="subtitle">Valitse kuinka monta kysymystä haluat pelata:</p>
+    <div class="options-container">
+      <button class="btn" onclick="startQuiz(10)">Pelaa 10 kysymystä</button>
+      <button class="btn" onclick="startQuiz(20)">Pelaa 20 kysymystä</button>
+      <button class="btn" onclick="startQuiz(50)">Pelaa 50 kysymystä</button>
+    </div>
+    <div id="install-banner">📲 Asenna sovellus puhelimeen</div>
+  </div>
+
+  <!-- ===== QUIZ BOX ===== -->
+  <div id="quiz-box" style="display:none;">
+    <div class="score-board">Pisteet: <span id="score">0</span></div>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar-fill" id="progress-fill"></div>
+    </div>
+    <div class="question-text" id="question">Ladataan...</div>
+    <div class="options-container" id="options"></div>
+    <div class="explanation" id="explanation"></div>
+    <p class="high-score" id="high-score" style="display:none;"></p>
+    <button id="next-btn" onclick="nextQuestion()">Seuraava kysymys ➜</button>
+    <button id="share-btn" class="action-btn" style="display:none;">📤 Jaa tuloksesi kavereille</button>
+  </div>
+
+</div>
+
+<!-- Scripts: questions first, then game logic -->
+<script src="questions.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
