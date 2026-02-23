@@ -153,15 +153,29 @@ h1 {
   -webkit-user-select: none;
 }
 
-/* Start-screen buttons */
-#start-screen .btn {
+/* Start-screen buttons & select */
+#start-screen .btn, #category-select {
   text-align: center;
   font-weight: 700;
   font-size: 1.1rem;
   background-color: #374151;
   border-color: #4b5563;
-  padding: 18px;
-  color: #ffffff; /* Ensure white text */
+  padding: 16px;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  cursor: pointer;
+  appearance: none; /* Custom dropdown arrow */
+}
+
+/* Custom arrow for select */
+select#category-select {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1.5em;
 }
 
 /* Hover only on devices that support it (not phones) */

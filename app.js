@@ -18,6 +18,7 @@ let peliKysymykset       = [];
 let currentQuestionIndex = 0;
 let score                = 0;
 let valittuMaara         = 0;
+let valittuKategoria     = 'Kaikki'; // Oletus
 
 // ---------- PWA: Service Worker ----------
 if ('serviceWorker' in navigator) {
@@ -25,20 +26,13 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js')
       .then(reg => {
         console.log('SW registered:', reg.scope);
-
-        // Check for updates every 60 seconds
         setInterval(() => reg.update(), 60 * 1000);
-
-        // When a new SW is waiting, reload to get fresh version
         reg.addEventListener('updatefound', () => {
           const newSW = reg.installing;
           if (!newSW) return;
           newSW.addEventListener('statechange', () => {
-            if (newSW.state === 'activated') {
-              // Only auto-reload if user is on start screen (not mid-quiz)
-              if (startScreen && startScreen.style.display !== 'none') {
-                window.location.reload();
-              }
+            if (newSW.state === 'activated' && startScreen && startScreen.style.display !== 'none') {
+              window.location.reload();
             }
           });
         });
@@ -49,7 +43,6 @@ if ('serviceWorker' in navigator) {
 
 // ---------- PWA: Install prompt ----------
 let deferredInstallPrompt = null;
-
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   deferredInstallPrompt = e;
@@ -58,8 +51,6 @@ window.addEventListener('beforeinstallprompt', (e) => {
     installBanner.addEventListener('click', async () => {
       installBanner.style.display = 'none';
       deferredInstallPrompt.prompt();
-      const result = await deferredInstallPrompt.userChoice;
-      console.log('Install prompt result:', result.outcome);
       deferredInstallPrompt = null;
     });
   }
@@ -75,22 +66,9 @@ function sekoita(array) {
   return kopio;
 }
 
-// ---------- localStorage high scores ----------
-function getHighScore(count) {
-  try {
-    return parseInt(localStorage.getItem(`visa_high_${count}`)) || 0;
-  } catch { return 0; }
-}
-
-function setHighScore(count, score) {
-  try { localStorage.setItem(`visa_high_${count}`, score); } catch {}
-}
-
-// ---------- Smart question selection (avoid repeats across games) ----------
+// ---------- Smart question selection ----------
 function getRecentlySeenIds() {
-  try {
-    return JSON.parse(localStorage.getItem('visa_seen') || '[]');
-  } catch { return []; }
+  try { return JSON.parse(localStorage.getItem('visa_seen') || '[]'); } catch { return []; }
 }
 
 function markQuestionsAsSeen(questions) {
@@ -98,31 +76,49 @@ function markQuestionsAsSeen(questions) {
     let seen = getRecentlySeenIds();
     const newIds = questions.map(q => q.question);
     seen = [...seen, ...newIds];
-    // Keep only the last N entries so old questions rotate back
     const keepCount = Math.floor(kaikkiKysymykset.length * 0.6);
-    if (seen.length > keepCount) {
-      seen = seen.slice(seen.length - keepCount);
-    }
+    if (seen.length > keepCount) seen = seen.slice(seen.length - keepCount);
     localStorage.setItem('visa_seen', JSON.stringify(seen));
   } catch {}
 }
 
-function smartSelect(count) {
-  const seen = new Set(getRecentlySeenIds());
-  const unseen = kaikkiKysymykset.filter(q => !seen.has(q.question));
-  const alreadySeen = kaikkiKysymykset.filter(q => seen.has(q.question));
+function selectQuestionsByCategory(category) {
+  if (!category || category === 'Kaikki') {
+    return kaikkiKysymykset;
+  }
+  // Suodata kategorian mukaan. Jos kysymyksellä ei ole kategoriaa, se lasketaan 'Yleistieto'
+  return kaikkiKysymykset.filter(q => (q.category || 'Yleistieto') === category);
+}
 
-  // Prioritize unseen, fill rest from seen (all shuffled)
-  const pool = [...sekoita(unseen), ...sekoita(alreadySeen)];
-  const selected = pool.slice(0, count);
+function smartSelect(count, category) {
+  // 1. Hae kaikki tähän kategoriaan kuuluvat kysymykset
+  let candidates = selectQuestionsByCategory(category);
+  
+  // Jos kategoriassa on liian vähän kysymyksiä, täydennä muilla (Shuffle fill)
+  if (candidates.length < count) {
+    const others = kaikkiKysymykset.filter(q => !candidates.includes(q));
+    candidates = [...candidates, ...sekoita(others).slice(0, count - candidates.length)];
+  }
 
-  // Re-shuffle selected so order is random
-  return sekoita(selected);
+  // 2. Jaa nähtyihin ja ei-nähtyihin
+  const seenIds = new Set(getRecentlySeenIds());
+  const unseen = candidates.filter(q => !seenIds.has(q.question));
+  const seen = candidates.filter(q => seenIds.has(q.question));
+
+  // 3. Priorisoi uudet, täytä vanhoilla
+  const pool = [...sekoita(unseen), ...sekoita(seen)];
+  
+  // 4. Palauta haluttu määrä
+  return sekoita(pool.slice(0, count));
 }
 
 // ---------- Start game ----------
 function startQuiz(maara) {
   valittuMaara = maara;
+  
+  // Hae valittu kategoria dropdownista
+  const catSelect = document.getElementById('category-select');
+  valittuKategoria = catSelect ? catSelect.value : 'Kaikki';
 
   // Switch view
   startScreen.style.display = 'none';
@@ -131,24 +127,20 @@ function startQuiz(maara) {
   // Reset state
   currentQuestionIndex = 0;
   score = 0;
-  scoreElement.innerText = score;
+  if (scoreElement) scoreElement.innerText = score;
   updateProgress();
 
-  // Hide result elements
-  if (shareButton)     shareButton.style.display = 'none';
+  if (shareButton) shareButton.style.display = 'none';
   if (highScoreElement) highScoreElement.style.display = 'none';
 
-  // Smart selection: prioritize questions you haven't seen recently
-  const maksimi = Math.min(maara, kaikkiKysymykset.length);
-  peliKysymykset = smartSelect(maksimi);
-
-  // Mark these questions as seen for future games
+  // Select questions
+  peliKysymykset = smartSelect(maara, valittuKategoria);
+  
+  // Mark as seen
   markQuestionsAsSeen(peliKysymykset);
 
   showQuestion();
 }
-
-// Expose startQuiz globally (called from HTML onclick)
 window.startQuiz = startQuiz;
 
 // ---------- Progress bar ----------
@@ -165,12 +157,15 @@ function showQuestion() {
   updateProgress();
 
   const q = peliKysymykset[currentQuestionIndex];
-  questionElement.innerText =
-    `Kysymys ${currentQuestionIndex + 1}/${peliKysymykset.length}: ${q.question}`;
+  
+  // Näytä kategoria jos se on olemassa
+  let catText = q.category ? `[${q.category}] ` : '';
+  if (valittuKategoria !== 'Kaikki') catText = ''; // Ei tarvi toistaa jos kaikki on samaa
 
-  // Shuffle answer options too!
+  questionElement.innerText = 
+    `Kysymys ${currentQuestionIndex + 1}/${peliKysymykset.length}: ${catText}${q.question}`;
+
   const shuffledOptions = sekoita(q.answerOptions);
-
   shuffledOptions.forEach(option => {
     const button = document.createElement('button');
     button.innerText = option.text;
@@ -182,129 +177,79 @@ function showQuestion() {
   });
 }
 
-// ---------- Reset between questions ----------
+// ---------- Reset & Answer & Next (Same as before) ----------
 function resetState() {
-  nextButton.style.display = 'none';
-  explanationElement.style.display = 'none';
-  explanationElement.innerText = '';
-  while (optionsElement.firstChild) {
-    optionsElement.removeChild(optionsElement.firstChild);
+  if (nextButton) nextButton.style.display = 'none';
+  if (explanationElement) {
+    explanationElement.style.display = 'none';
+    explanationElement.innerText = '';
   }
+  while (optionsElement.firstChild) optionsElement.removeChild(optionsElement.firstChild);
 }
 
-// ---------- Answer selection ----------
 function selectAnswer(e) {
   const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === 'true';
-
-  // Haptic feedback on mobile
-  if (navigator.vibrate) {
-    navigator.vibrate(isCorrect ? [30] : [50, 30, 50]);
-  }
+  if (navigator.vibrate) navigator.vibrate(isCorrect ? [30] : [50, 30, 50]);
 
   if (isCorrect) {
     selectedBtn.classList.add('correct');
     score++;
-    scoreElement.innerText = score;
-    explanationElement.innerText = '✅ Oikein! ' + (selectedBtn.dataset.rationale || '');
+    if (scoreElement) scoreElement.innerText = score;
+    if (explanationElement) explanationElement.innerText = '✅ Oikein! ' + (selectedBtn.dataset.rationale || '');
   } else {
     selectedBtn.classList.add('wrong');
-    // Highlight the correct answer
     Array.from(optionsElement.children).forEach(btn => {
       if (btn.dataset.correct === 'true') {
         btn.classList.add('correct');
-        explanationElement.innerText =
-          `❌ Väärin. Oikea vastaus: ${btn.innerText}. ${btn.dataset.rationale || ''}`;
+        if (explanationElement) explanationElement.innerText = `❌ Väärin. Oikea vastaus: ${btn.innerText}. ${btn.dataset.rationale || ''}`;
       }
     });
   }
-
-  explanationElement.style.display = 'block';
-
-  // Disable all buttons
+  if (explanationElement) explanationElement.style.display = 'block';
   Array.from(optionsElement.children).forEach(btn => { btn.disabled = true; });
-
-  nextButton.innerText = 'Seuraava kysymys ➜';
-  nextButton.style.display = 'block';
+  if (nextButton) {
+    nextButton.innerText = 'Seuraava kysymys ➜';
+    nextButton.style.display = 'block';
+  }
 }
 
-// ---------- Next question ----------
 function nextQuestion() {
   currentQuestionIndex++;
-  if (currentQuestionIndex < peliKysymykset.length) {
-    showQuestion();
-  } else {
-    showScore();
-  }
+  if (currentQuestionIndex < peliKysymykset.length) showQuestion();
+  else showScore();
 }
 window.nextQuestion = nextQuestion;
 
 // ---------- End screen ----------
 function showScore() {
   resetState();
-  updateProgress(); // fill to 100%
+  updateProgress();
   if (progressFill) progressFill.style.width = '100%';
 
   const total = peliKysymykset.length;
   const pct = Math.round((score / total) * 100);
-
-  // Emoji based on performance
-  let emoji = '🤔';
-  if (pct >= 90)      emoji = '🏆';
-  else if (pct >= 70) emoji = '🎉';
-  else if (pct >= 50) emoji = '👍';
-  else if (pct >= 30) emoji = '😅';
-  else                emoji = '💪';
-
+  
+  let emoji = pct >= 90 ? '🏆' : pct >= 70 ? '🎉' : pct >= 50 ? '👍' : pct >= 30 ? '😅' : '💪';
+  
   questionElement.innerHTML = `
     <div class="result-emoji">${emoji}</div>
     <div class="result-score">${score} / ${total} oikein</div>
     <div class="result-percent">${pct}%</div>
+    <div class="subtitle" style="margin-top:10px">${valittuKategoria}-visa</div>
   `;
 
-  // High score check
-  const prev = getHighScore(valittuMaara);
-  if (score > prev) {
-    setHighScore(valittuMaara, score);
-    if (highScoreElement) {
-      highScoreElement.innerText = '🎖️ Uusi ennätys!';
-      highScoreElement.className = 'high-score new-record';
-      highScoreElement.style.display = 'block';
-    }
-  } else if (prev > 0 && highScoreElement) {
-    highScoreElement.innerText = `Ennätys: ${prev}/${valittuMaara}`;
-    highScoreElement.className = 'high-score';
-    highScoreElement.style.display = 'block';
+  if (shareButton) shareButton.style.display = 'block';
+  if (nextButton) {
+    nextButton.innerText = '🔄 Pelaa uudelleen';
+    nextButton.style.display = 'block';
+    nextButton.onclick = palaaAlkuvalikkoon;
   }
-
-  // Share button (Web Share API)
-  if (navigator.share && shareButton) {
-    shareButton.style.display = 'block';
-    shareButton.onclick = async () => {
-      try {
-        await navigator.share({
-          title: 'Älypää-Visa tulos',
-          text: `Sain ${score}/${total} (${pct}%) Älypää-Visassa! Pystytkö parempaan? 🧠`,
-          url: window.location.href
-        });
-      } catch (err) {
-        // user cancelled or error — ignore
-      }
-    };
-  }
-
-  // "Play again" button
-  nextButton.innerText = '🔄 Pelaa uudelleen';
-  nextButton.style.display = 'block';
-  nextButton.onclick = palaaAlkuvalikkoon;
 }
 
-// ---------- Return to menu ----------
 function palaaAlkuvalikkoon() {
   quizBox.style.display = 'none';
   startScreen.style.display = 'block';
   if (shareButton) shareButton.style.display = 'none';
-  if (highScoreElement) highScoreElement.style.display = 'none';
-  // Restore next button's normal handler
-  nextButton.onclick = nextQuestion;
+  if (nextButton) nextButton.onclick = nextQuestion;
 }

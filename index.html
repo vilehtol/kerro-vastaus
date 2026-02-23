@@ -22,7 +22,20 @@
   <!-- ===== START SCREEN ===== -->
   <div id="start-screen">
     <h1>🧠 Älypää-Visa</h1>
-    <p class="subtitle">Valitse kuinka monta kysymystä haluat pelata:</p>
+    
+    <div style="margin-bottom: 24px;">
+      <label for="category-select" class="subtitle" style="display:block; margin-bottom: 8px;">Valitse aihe:</label>
+      <select id="category-select" class="btn" style="width:100%; text-align:center; padding:12px; margin-bottom:16px;">
+        <option value="Kaikki">🌍 Kaikki aiheet (Sekoitus)</option>
+        <option value="Maantieto">🗺️ Maantieto</option>
+        <option value="Tiede">🔬 Tiede & Luonto</option>
+        <option value="Historia">📜 Historia</option>
+        <option value="Viihde">🎬 Viihde & Kulttuuri</option>
+        <option value="Urheilu">⚽ Urheilu</option>
+      </select>
+    </div>
+
+    <p class="subtitle">Valitse pelin pituus:</p>
     <div class="options-container">
       <button class="btn" onclick="startQuiz(10)">Pelaa 10 kysymystä</button>
       <button class="btn" onclick="startQuiz(20)">Pelaa 20 kysymystä</button>

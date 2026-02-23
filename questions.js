@@ -2,7 +2,519 @@
 // Lähde: kysymykset-tiedosto
 
 const kaikkiKysymykset = [
-  // --- UUDET KYSYMYKSET (Lisätty Tipi:n toimesta) ---
+  // --- UUDET KATEGORIAKYSYMYKSET (Lisätty Tipi:n toimesta - Erä 2: 50 kpl) ---
+  
+  // MAANTIETO (10 kpl)
+  {
+    "question": "Mikä on Afrikan väkiluvultaan suurin valtio?",
+    "category": "Maantieto",
+    "answerOptions": [
+      { "text": "Egypti", "isCorrect": false },
+      { "text": "Nigeria", "isCorrect": true, "rationale": "Nigeriassa asuu yli 200 miljoonaa ihmistä." },
+      { "text": "Etelä-Afrikka", "isCorrect": false },
+      { "text": "Etiopia", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mihin maanosaan kuuluu Madagaskar?",
+    "category": "Maantieto",
+    "answerOptions": [
+      { "text": "Aasia", "isCorrect": false },
+      { "text": "Afrikka", "isCorrect": true, "rationale": "Madagaskar on saarivaltio Afrikan itärannikolla." },
+      { "text": "Etelä-Amerikka", "isCorrect": false },
+      { "text": "Oseania", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on Turkin pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      { "text": "Istanbul", "isCorrect": false },
+      { "text": "Ankara", "isCorrect": true, "rationale": "Ankara on pääkaupunki, vaikka Istanbul on suurin kaupunki." },
+      { "text": "Izmir", "isCorrect": false },
+      { "text": "Antalya", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä joki virtaa Lontoon läpi?",
+    "category": "Maantieto",
+    "answerOptions": [
+      { "text": "Seine", "isCorrect": false },
+      { "text": "Tonava", "isCorrect": false },
+      { "text": "Thames", "isCorrect": true, "rationale": "Thames-joki virtaa Lontoon halki." },
+      { "text": "Rein", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on maailman kuivin aavikko (napa-alueiden ulkopuolella)?",
+    "category": "Maantieto",
+    "answerOptions": [
+      { "text": "Sahara", "isCorrect": false },
+      { "text": "Gobi", "isCorrect": false },
+      { "text": "Atacama", "isCorrect": true, "rationale": "Atacama Chilessä on maailman kuivin aavikko." },
+      { "text": "Kalahari", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Missä kaupungissa sijaitsee kuuluisa Colosseum?",
+    "category": "Maantieto",
+    "answerOptions": [
+      { "text": "Ateena", "isCorrect": false },
+      { "text": "Rooma", "isCorrect": true, "rationale": "Colosseum on Roomassa sijaitseva antiikin amfiteatteri." },
+      { "text": "Milano", "isCorrect": false },
+      { "text": "Pariisi", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on Kanadan pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      { "text": "Toronto", "isCorrect": false },
+      { "text": "Vancouver", "isCorrect": false },
+      { "text": "Montreal", "isCorrect": false },
+      { "text": "Ottawa", "isCorrect": true, "rationale": "Ottawa valittiin pääkaupungiksi vuonna 1857." }
+    ]
+  },
+  {
+    "question": "Mikä on Viron toiseksi suurin kaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      { "text": "Pärnu", "isCorrect": false },
+      { "text": "Tartto", "isCorrect": true, "rationale": "Tartto on Viron toiseksi suurin kaupunki ja yliopistokaupunki." },
+      { "text": "Narva", "isCorrect": false },
+      { "text": "Viljandi", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä valtio on muodoltaan kuin saapas?",
+    "category": "Maantieto",
+    "answerOptions": [
+      { "text": "Kreikka", "isCorrect": false },
+      { "text": "Espanja", "isCorrect": false },
+      { "text": "Italia", "isCorrect": true, "rationale": "Italiaa kutsutaan usein 'saappaaksi' sen muodon vuoksi." },
+      { "text": "Portugali", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on maailman syvin järvi?",
+    "category": "Maantieto",
+    "answerOptions": [
+      { "text": "Tanganjikajärvi", "isCorrect": false },
+      { "text": "Baikaljärvi", "isCorrect": true, "rationale": "Baikaljärvi Siperiassa on maailman syvin (1642 m)." },
+      { "text": "Kaspianmeri", "isCorrect": false },
+      { "text": "Victoriajärvi", "isCorrect": false }
+    ]
+  },
+
+  // TIEDE & LUONTO (10 kpl)
+  {
+    "question": "Mikä on alkuaineen 'O' nimi?",
+    "category": "Tiede",
+    "answerOptions": [
+      { "text": "Kulta", "isCorrect": false },
+      { "text": "Happi (Oxygen)", "isCorrect": true, "rationale": "O on hapen kemiallinen merkki." },
+      { "text": "Osmium", "isCorrect": false },
+      { "text": "Hopea", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä planeetta tunnetaan renkaistaan?",
+    "category": "Tiede",
+    "answerOptions": [
+      { "text": "Mars", "isCorrect": false },
+      { "text": "Saturnus", "isCorrect": true, "rationale": "Saturnuksen renkaat ovat aurinkokunnan näyttävimmät." },
+      { "text": "Neptunus", "isCorrect": false },
+      { "text": "Merkurius", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mitä eläintä pidetään viisauden symbolina?",
+    "category": "Luonto",
+    "answerOptions": [
+      { "text": "Kotka", "isCorrect": false },
+      { "text": "Pöllö", "isCorrect": true, "rationale": "Pöllö on perinteisesti viisauden symboli mytologiassa." },
+      { "text": "Karhu", "isCorrect": false },
+      { "text": "Kettu", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on veden jäätymispiste (Celsius)?",
+    "category": "Tiede",
+    "answerOptions": [
+      { "text": "-100°C", "isCorrect": false },
+      { "text": "0°C", "isCorrect": true, "rationale": "Vesi jäätyy nolla-asteessa normaalipaineessa." },
+      { "text": "10°C", "isCorrect": false },
+      { "text": "-273°C", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on ihmisen suurin aisti?",
+    "category": "Tiede",
+    "answerOptions": [
+      { "text": "Kuulo", "isCorrect": false },
+      { "text": "Näkö", "isCorrect": true, "rationale": "Näköaisti tuo aivoille eniten informaatiota ympäristöstä." },
+      { "text": "Tunto", "isCorrect": false },
+      { "text": "Haju", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä eläin on 'Kuningas' viidakossa (sanonnan mukaan)?",
+    "category": "Luonto",
+    "answerOptions": [
+      { "text": "Tiikeri", "isCorrect": false },
+      { "text": "Elefantti", "isCorrect": false },
+      { "text": "Leijona", "isCorrect": true, "rationale": "Leijonaa kutsutaan eläinten kuninkaaksi." },
+      { "text": "Gorilla", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä kaasu aiheuttaa kasvihuoneilmiötä eniten?",
+    "category": "Tiede",
+    "answerOptions": [
+      { "text": "Happi", "isCorrect": false },
+      { "text": "Hiilidioksidi", "isCorrect": true, "rationale": "Hiilidioksidi on merkittävin ihmisen tuottama kasvihuonekaasu." },
+      { "text": "Typpi", "isCorrect": false },
+      { "text": "Helium", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä lintu ei osaa lentää, mutta juoksee nopeasti?",
+    "category": "Luonto",
+    "answerOptions": [
+      { "text": "Strutsi", "isCorrect": true, "rationale": "Strutsi on maailman suurin lintu eikä se osaa lentää." },
+      { "text": "Haukka", "isCorrect": false },
+      { "text": "Pulu", "isCorrect": false },
+      { "text": "Lokki", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on maailman kovin mineraali?",
+    "category": "Tiede",
+    "answerOptions": [
+      { "text": "Kvartsi", "isCorrect": false },
+      { "text": "Timantti", "isCorrect": true, "rationale": "Timantti on kovuusasteikolla 10 (kovin)." },
+      { "text": "Talkki", "isCorrect": false },
+      { "text": "Kulta", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on sähkön yksikkö 'W'?",
+    "category": "Tiede",
+    "answerOptions": [
+      { "text": "Watti", "isCorrect": true, "rationale": "Watti on tehon yksikkö." },
+      { "text": "Voltti", "isCorrect": false },
+      { "text": "Ampeeri", "isCorrect": false },
+      { "text": "Joule", "isCorrect": false }
+    ]
+  },
+
+  // HISTORIA (10 kpl)
+  {
+    "question": "Milloin Titanic upposi?",
+    "category": "Historia",
+    "answerOptions": [
+      { "text": "1905", "isCorrect": false },
+      { "text": "1912", "isCorrect": true, "rationale": "Titanic upposi neitsytmatkallaan huhtikuussa 1912." },
+      { "text": "1920", "isCorrect": false },
+      { "text": "1898", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka oli Ranskan keisari 1800-luvun alussa?",
+    "category": "Historia",
+    "answerOptions": [
+      { "text": "Ludvig XIV", "isCorrect": false },
+      { "text": "Napoleon Bonaparte", "isCorrect": true, "rationale": "Napoleon hallitsi Ranskaa ja suurta osaa Eurooppaa." },
+      { "text": "Kaarle Suuri", "isCorrect": false },
+      { "text": "Robespierre", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä maa rakensi Berliinin muurin?",
+    "category": "Historia",
+    "answerOptions": [
+      { "text": "Länsi-Saksa", "isCorrect": false },
+      { "text": "Itä-Saksa (DDR)", "isCorrect": true, "rationale": "DDR rakensi muurin vuonna 1961." },
+      { "text": "Puola", "isCorrect": false },
+      { "text": "Neuvostoliitto", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka oli Yhdysvaltain ensimmäinen presidentti?",
+    "category": "Historia",
+    "answerOptions": [
+      { "text": "Thomas Jefferson", "isCorrect": false },
+      { "text": "Abraham Lincoln", "isCorrect": false },
+      { "text": "George Washington", "isCorrect": true, "rationale": "Washington valittiin presidentiksi vuonna 1789." },
+      { "text": "John Adams", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä oli viikinkien käyttämä laivatyyppi?",
+    "category": "Historia",
+    "answerOptions": [
+      { "text": "Kaljuuna", "isCorrect": false },
+      { "text": "Pitkävene (Drakkar)", "isCorrect": true, "rationale": "Viikingit tunnettiin nopeista pitkäveneistään." },
+      { "text": "Koggi", "isCorrect": false },
+      { "text": "Fregatti", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Missä maassa käytiin Ruusujen sota?",
+    "category": "Historia",
+    "answerOptions": [
+      { "text": "Ranska", "isCorrect": false },
+      { "text": "Englanti", "isCorrect": true, "rationale": "Ruusujen sota oli Englannin sisällissota 1400-luvulla." },
+      { "text": "Saksa", "isCorrect": false },
+      { "text": "Italia", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka keksi kirjapainotaidon Euroopassa?",
+    "category": "Historia",
+    "answerOptions": [
+      { "text": "Johannes Gutenberg", "isCorrect": true, "rationale": "Gutenberg kehitti irtokirjasimet 1400-luvulla." },
+      { "text": "Leonardo da Vinci", "isCorrect": false },
+      { "text": "Martin Luther", "isCorrect": false },
+      { "text": "Galileo Galilei", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Milloin ihminen kävi ensimmäisen kerran Kuussa?",
+    "category": "Historia",
+    "answerOptions": [
+      { "text": "1959", "isCorrect": false },
+      { "text": "1969", "isCorrect": true, "rationale": "Apollo 11 laskeutui Kuuhun heinäkuussa 1969." },
+      { "text": "1972", "isCorrect": false },
+      { "text": "1980", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä sivilisaatio rakensi pyramidit?",
+    "category": "Historia",
+    "answerOptions": [
+      { "text": "Antiikin Kreikka", "isCorrect": false },
+      { "text": "Rooman valtakunta", "isCorrect": false },
+      { "text": "Muinainen Egypti", "isCorrect": true, "rationale": "Pyramidit olivat faaraoiden hautoja." },
+      { "text": "Maya-intiaanit", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka oli Neuvostoliiton johtaja toisen maailmansodan aikana?",
+    "category": "Historia",
+    "answerOptions": [
+      { "text": "Lenin", "isCorrect": false },
+      { "text": "Stalin", "isCorrect": true, "rationale": "Josif Stalin johti Neuvostoliittoa sodan aikana." },
+      { "text": "Hruštšov", "isCorrect": false },
+      { "text": "Gorbatshev", "isCorrect": false }
+    ]
+  },
+
+  // VIIHDE & KULTTUURI (10 kpl)
+  {
+    "question": "Mikä on Simpsonien kotikaupunki?",
+    "category": "Viihde",
+    "answerOptions": [
+      { "text": "South Park", "isCorrect": false },
+      { "text": "Quahog", "isCorrect": false },
+      { "text": "Springfield", "isCorrect": true, "rationale": "Simpsonit asuvat Springfieldissä." },
+      { "text": "Shelbyville", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka esittää Jack Sparrow'ta?",
+    "category": "Viihde",
+    "answerOptions": [
+      { "text": "Brad Pitt", "isCorrect": false },
+      { "text": "Johnny Depp", "isCorrect": true, "rationale": "Johnny Depp teki roolista ikonisen." },
+      { "text": "Tom Cruise", "isCorrect": false },
+      { "text": "Orlando Bloom", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on Batmanin oikea nimi?",
+    "category": "Viihde",
+    "answerOptions": [
+      { "text": "Clark Kent", "isCorrect": false },
+      { "text": "Peter Parker", "isCorrect": false },
+      { "text": "Bruce Wayne", "isCorrect": true, "rationale": "Bruce Wayne on miljonääri, joka pukeutuu lepakoiksi." },
+      { "text": "Tony Stark", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka laulaa hitin 'Rolling in the Deep'?",
+    "category": "Viihde",
+    "answerOptions": [
+      { "text": "Beyoncé", "isCorrect": false },
+      { "text": "Adele", "isCorrect": true, "rationale": "Kappale on Adelen albumilta '21'." },
+      { "text": "Rihanna", "isCorrect": false },
+      { "text": "Lady Gaga", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on James Bondin agenttinumero?",
+    "category": "Viihde",
+    "answerOptions": [
+      { "text": "001", "isCorrect": false },
+      { "text": "007", "isCorrect": true, "rationale": "Bond, James Bond. 007." },
+      { "text": "009", "isCorrect": false },
+      { "text": "911", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on maailman suosituin lautapeli?",
+    "category": "Viihde",
+    "answerOptions": [
+      { "text": "Monopoly", "isCorrect": true, "rationale": "Monopolya on myyty satoja miljoonia kappaleita." },
+      { "text": "Shakki", "isCorrect": false },
+      { "text": "Afrikan Tähti", "isCorrect": false },
+      { "text": "Risk", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka ohjasi elokuvan 'Taru sormusten herrasta'?",
+    "category": "Viihde",
+    "answerOptions": [
+      { "text": "Steven Spielberg", "isCorrect": false },
+      { "text": "George Lucas", "isCorrect": false },
+      { "text": "Peter Jackson", "isCorrect": true, "rationale": "Peter Jackson ohjasi trilogian Uudessa-Seelannissa." },
+      { "text": "Christopher Nolan", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on videopelihahmo Marion veljen nimi?",
+    "category": "Viihde",
+    "answerOptions": [
+      { "text": "Wario", "isCorrect": false },
+      { "text": "Luigi", "isCorrect": true, "rationale": "Luigi on Marion pidempi ja vihreäpukuinen veli." },
+      { "text": "Yoshi", "isCorrect": false },
+      { "text": "Bowser", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Missä kaupungissa 'Frendit' (Friends) sarja tapahtuu?",
+    "category": "Viihde",
+    "answerOptions": [
+      { "text": "Los Angeles", "isCorrect": false },
+      { "text": "New York", "isCorrect": true, "rationale": "Sarja sijoittuu Manhattanille New Yorkiin." },
+      { "text": "Chicago", "isCorrect": false },
+      { "text": "Lontoo", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka on Aku Ankan rikas setä?",
+    "category": "Viihde",
+    "answerOptions": [
+      { "text": "Hannu Hanhi", "isCorrect": false },
+      { "text": "Roope Ankka", "isCorrect": true, "rationale": "Roope Ankka (Scrooge McDuck) on maailman rikkain ankka." },
+      { "text": "Touho Ankka", "isCorrect": false },
+      { "text": "Milla Magia", "isCorrect": false }
+    ]
+  },
+
+  // URHEILU (10 kpl)
+  {
+    "question": "Mikä maa on voittanut eniten jääkiekon maailmanmestaruuksia?",
+    "category": "Urheilu",
+    "answerOptions": [
+      { "text": "Suomi", "isCorrect": false },
+      { "text": "Kanada", "isCorrect": true, "rationale": "Kanadalla on eniten kultamitaleja." },
+      { "text": "Venäjä", "isCorrect": false },
+      { "text": "Ruotsi", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuinka pitkä on maratonjuoksu?",
+    "category": "Urheilu",
+    "answerOptions": [
+      { "text": "40 km", "isCorrect": false },
+      { "text": "42,195 km", "isCorrect": true, "rationale": "Tämä on virallinen olympiamatka." },
+      { "text": "50 km", "isCorrect": false },
+      { "text": "21 km", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Missä lajissa käytetään palloa nimeltä 'kiekko'?",
+    "category": "Urheilu",
+    "answerOptions": [
+      { "text": "Jalkapallo", "isCorrect": false },
+      { "text": "Jääkiekko", "isCorrect": true, "rationale": "Jääkiekossa peliväline on kuminen kiekko." },
+      { "text": "Koripallo", "isCorrect": false },
+      { "text": "Salibandy", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka on kaikkien aikojen nopein juoksija 100 metrillä?",
+    "category": "Urheilu",
+    "answerOptions": [
+      { "text": "Carl Lewis", "isCorrect": false },
+      { "text": "Usain Bolt", "isCorrect": true, "rationale": "Usain Boltin ennätys on 9,58 sekuntia." },
+      { "text": "Tyson Gay", "isCorrect": false },
+      { "text": "Jesse Owens", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on Formula 1 -sarjan menestynein talli (valmistajien mestaruudet)?",
+    "category": "Urheilu",
+    "answerOptions": [
+      { "text": "Mercedes", "isCorrect": false },
+      { "text": "McLaren", "isCorrect": false },
+      { "text": "Ferrari", "isCorrect": true, "rationale": "Ferrarilla on eniten mestaruuksia historiassa." },
+      { "text": "Red Bull", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on jalkapallojoukkueessa kentällä?",
+    "category": "Urheilu",
+    "answerOptions": [
+      { "text": "9", "isCorrect": false },
+      { "text": "10", "isCorrect": false },
+      { "text": "11", "isCorrect": true, "rationale": "Kentällä on 11 pelaajaa, joista yksi on maalivahti." },
+      { "text": "12", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä maa isännöi kesäolympialaisia 2024?",
+    "category": "Urheilu",
+    "answerOptions": [
+      { "text": "Japani", "isCorrect": false },
+      { "text": "Ranska (Pariisi)", "isCorrect": true, "rationale": "Pariisi on kisaisäntä 2024." },
+      { "text": "Yhdysvallat", "isCorrect": false },
+      { "text": "Kiina", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka on Teemu Selänne?",
+    "category": "Urheilu",
+    "answerOptions": [
+      { "text": "Keihäänheittäjä", "isCorrect": false },
+      { "text": "Jääkiekkoilija", "isCorrect": true, "rationale": "Selänne on legendaarinen suomalainen jääkiekkoilija (Finnish Flash)." },
+      { "text": "Rallikuski", "isCorrect": false },
+      { "text": "Hiihtäjä", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä laji ei kuulu olympialaisiin?",
+    "category": "Urheilu",
+    "answerOptions": [
+      { "text": "Golf", "isCorrect": false },
+      { "text": "Rugby", "isCorrect": false },
+      { "text": "Keilailu", "isCorrect": true, "rationale": "Keilailu ei ole olympialaji, vaikka se on suosittu." },
+      { "text": "Skeittaus", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mitä välinettä käytetään tenniksessä?",
+    "category": "Urheilu",
+    "answerOptions": [
+      { "text": "Maila", "isCorrect": true, "rationale": "Tennistä pelataan mailalla ja pallolla." },
+      { "text": "Mela", "isCorrect": false },
+      { "text": "Sauva", "isCorrect": false },
+      { "text": "Kypärä", "isCorrect": false }
+    ]
+  },
+
+  // --- VANHAT KYSYMYKSET ---
   {
     "question": "Mikä on maailman suurin valtameri?",
     "answerOptions": [
