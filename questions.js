@@ -2,6 +2,278 @@
 // Lähde: kysymykset-tiedosto
 
 const kaikkiKysymykset = [
+  // --- UUDET KYSYMYKSET (Lisätty Tipi:n toimesta) ---
+  {
+    "question": "Mikä on maailman suurin valtameri?",
+    "answerOptions": [
+      { "text": "Atlantin valtameri", "isCorrect": false },
+      { "text": "Intian valtameri", "isCorrect": false },
+      { "text": "Tyynimeri", "isCorrect": true, "rationale": "Tyynimeri peittää noin kolmanneksen Maan pinta-alasta." },
+      { "text": "Jäämeri", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka kirjoitti 'Tuntemattoman sotilaan'?",
+    "answerOptions": [
+      { "text": "Mika Waltari", "isCorrect": false },
+      { "text": "Väinö Linna", "isCorrect": true, "rationale": "Väinö Linna julkaisi romaanin vuonna 1954." },
+      { "text": "Aleksis Kivi", "isCorrect": false },
+      { "text": "Eino Leino", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on kemiallinen merkki raudalle?",
+    "answerOptions": [
+      { "text": "Fe", "isCorrect": true, "rationale": "Fe tulee latinan sanasta 'ferrum'." },
+      { "text": "Ir", "isCorrect": false },
+      { "text": "Ra", "isCorrect": false },
+      { "text": "Rd", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Milloin Suomi liittyi Euroopan unioniin?",
+    "answerOptions": [
+      { "text": "1992", "isCorrect": false },
+      { "text": "1995", "isCorrect": true, "rationale": "Suomi liittyi EU:hun 1. tammikuuta 1995." },
+      { "text": "1998", "isCorrect": false },
+      { "text": "2002", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä planeetta tunnetaan 'punaisena planeettana'?",
+    "answerOptions": [
+      { "text": "Venus", "isCorrect": false },
+      { "text": "Jupiter", "isCorrect": false },
+      { "text": "Mars", "isCorrect": true, "rationale": "Marsin pinta on rautaoksidin (ruosteen) peittämä." },
+      { "text": "Merkurius", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä valuutta on käytössä Japanissa?",
+    "answerOptions": [
+      { "text": "Won", "isCorrect": false },
+      { "text": "Yuan", "isCorrect": false },
+      { "text": "Jeni (Yen)", "isCorrect": true, "rationale": "Japanin rahayksikkö on jeni (JPY)." },
+      { "text": "Baht", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on ihmiskehon suurin sisäelin?",
+    "answerOptions": [
+      { "text": "Sydän", "isCorrect": false },
+      { "text": "Maksa", "isCorrect": true, "rationale": "Maksa on suurin rauhanen ja sisäelin. Iho on suurin elin, mutta se on ulkoinen." },
+      { "text": "Keuhkot", "isCorrect": false },
+      { "text": "Munuaiset", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka maalasi Mona Lisan?",
+    "answerOptions": [
+      { "text": "Vincent van Gogh", "isCorrect": false },
+      { "text": "Leonardo da Vinci", "isCorrect": true, "rationale": "Da Vinci maalasi teoksen 1500-luvun alussa." },
+      { "text": "Michelangelo", "isCorrect": false },
+      { "text": "Rembrandt", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on Brasilian virallinen kieli?",
+    "answerOptions": [
+      { "text": "Espanja", "isCorrect": false },
+      { "text": "Portugali", "isCorrect": true, "rationale": "Brasilia on ainoa portugalinkielinen maa Etelä-Amerikassa." },
+      { "text": "Englanti", "isCorrect": false },
+      { "text": "Ranska", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on nollan (0) ja yhden (1) muodostama lukujärjestelmä?",
+    "answerOptions": [
+      { "text": "Desimaalijärjestelmä", "isCorrect": false },
+      { "text": "Heksadesimaalijärjestelmä", "isCorrect": false },
+      { "text": "Binäärijärjestelmä", "isCorrect": true, "rationale": "Tietokoneet käyttävät binäärijärjestelmää tiedon käsittelyyn." },
+      { "text": "Oktaalijärjestelmä", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä eläin on maailman nopein maanisäkäs?",
+    "answerOptions": [
+      { "text": "Leijona", "isCorrect": false },
+      { "text": "Gaselli", "isCorrect": false },
+      { "text": "Gepardi", "isCorrect": true, "rationale": "Gepardi voi juosta lyhyitä matkoja jopa 120 km/h." },
+      { "text": "Hevonen", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen kansallislintu?",
+    "answerOptions": [
+      { "text": "Kotka", "isCorrect": false },
+      { "text": "Joutsen (Laulujoutsen)", "isCorrect": true, "rationale": "Laulujoutsen valittiin Suomen kansallislinnuksi vuonna 1981." },
+      { "text": "Peippo", "isCorrect": false },
+      { "text": "Korppi", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on timantti?",
+    "answerOptions": [
+      { "text": "Hiili", "isCorrect": true, "rationale": "Timantti on hiilen allotrooppinen muoto." },
+      { "text": "Pii", "isCorrect": false },
+      { "text": "Kvartsi", "isCorrect": false },
+      { "text": "Rikki", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka keksi hehkulampun (kaupallisesti merkittävän version)?",
+    "answerOptions": [
+      { "text": "Nikola Tesla", "isCorrect": false },
+      { "text": "Thomas Edison", "isCorrect": true, "rationale": "Edison patentoi ja kaupallisti hehkulampun 1879." },
+      { "text": "Alexander Graham Bell", "isCorrect": false },
+      { "text": "James Watt", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on maapallon eteläisin manner?",
+    "answerOptions": [
+      { "text": "Etelä-Amerikka", "isCorrect": false },
+      { "text": "Afrikka", "isCorrect": false },
+      { "text": "Australia", "isCorrect": false },
+      { "text": "Etelämanner (Antarktis)", "isCorrect": true, "rationale": "Etelämanner sijaitsee etelänavan ympärillä." }
+    ]
+  },
+  {
+    "question": "Mikä on roomalainen numero luvulle 10?",
+    "answerOptions": [
+      { "text": "V", "isCorrect": false },
+      { "text": "L", "isCorrect": false },
+      { "text": "X", "isCorrect": true, "rationale": "X tarkoittaa kymmentä." },
+      { "text": "C", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on maailman puhutuin kieli (äidinkielenä)?",
+    "answerOptions": [
+      { "text": "Englanti", "isCorrect": false },
+      { "text": "Espanja", "isCorrect": false },
+      { "text": "Mandariinikiina", "isCorrect": true, "rationale": "Mandariinikiinalla on eniten äidinkielisiä puhujia." },
+      { "text": "Hindi", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on veden pH-arvo (neutraali)?",
+    "answerOptions": [
+      { "text": "5", "isCorrect": false },
+      { "text": "7", "isCorrect": true, "rationale": "Puhdas vesi on neutraalia, pH 7." },
+      { "text": "9", "isCorrect": false },
+      { "text": "0", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä bändi teki kappaleen 'Bohemian Rhapsody'?",
+    "answerOptions": [
+      { "text": "The Beatles", "isCorrect": false },
+      { "text": "Led Zeppelin", "isCorrect": false },
+      { "text": "Queen", "isCorrect": true, "rationale": "Queen julkaisi kappaleen vuonna 1975." },
+      { "text": "Pink Floyd", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen suurin järvi?",
+    "answerOptions": [
+      { "text": "Päijänne", "isCorrect": false },
+      { "text": "Saimaa", "isCorrect": true, "rationale": "Saimaa on Suomen suurin ja Euroopan neljänneksi suurin järvi." },
+      { "text": "Inarijärvi", "isCorrect": false },
+      { "text": "Oulujärvi", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on valonlähde, joka tuottaa koherenttia valoa?",
+    "answerOptions": [
+      { "text": "LED", "isCorrect": false },
+      { "text": "Laser", "isCorrect": true, "rationale": "Laser (Light Amplification by Stimulated Emission of Radiation) tuottaa koherenttia valoa." },
+      { "text": "Loisteputki", "isCorrect": false },
+      { "text": "Hehkulamppu", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä maa voitti jalkapallon miesten maailmanmestaruuden 2022?",
+    "answerOptions": [
+      { "text": "Ranska", "isCorrect": false },
+      { "text": "Brasilia", "isCorrect": false },
+      { "text": "Argentiina", "isCorrect": true, "rationale": "Argentiina voitti Ranskan finaalissa rangaistuspotkuilla." },
+      { "text": "Saksa", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on ihmisen DNA:n rakenne?",
+    "answerOptions": [
+      { "text": "Yksinkertainen kierre", "isCorrect": false },
+      { "text": "Kaksoiskierre (Double Helix)", "isCorrect": true, "rationale": "Watson ja Crick kuvasivat DNA:n kaksoiskierteeksi vuonna 1953." },
+      { "text": "Kolmoiskierre", "isCorrect": false },
+      { "text": "Suora ketju", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on maailman pienin valtio?",
+    "answerOptions": [
+      { "text": "Monaco", "isCorrect": false },
+      { "text": "San Marino", "isCorrect": false },
+      { "text": "Vatikaani", "isCorrect": true, "rationale": "Vatikaanivaltio on pinta-alaltaan ja asukasluvultaan maailman pienin." },
+      { "text": "Liechtenstein", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Kuka on kuuluisin salapoliisihahmo, jonka loi Arthur Conan Doyle?",
+    "answerOptions": [
+      { "text": "Hercule Poirot", "isCorrect": false },
+      { "text": "Sherlock Holmes", "isCorrect": true, "rationale": "Sherlock Holmes esiintyi ensimmäisen kerran vuonna 1887." },
+      { "text": "Miss Marple", "isCorrect": false },
+      { "text": "Philip Marlowe", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on Islannin pääkaupunki?",
+    "answerOptions": [
+      { "text": "Oslo", "isCorrect": false },
+      { "text": "Reykjavik", "isCorrect": true, "rationale": "Reykjavik on maailman pohjoisin itsenäisen valtion pääkaupunki." },
+      { "text": "Helsinki", "isCorrect": false },
+      { "text": "Kööpenhamina", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on sähkövirran yksikkö?",
+    "answerOptions": [
+      { "text": "Voltti", "isCorrect": false },
+      { "text": "Watti", "isCorrect": false },
+      { "text": "Ampeeri", "isCorrect": true, "rationale": "Sähkövirran tunnus on I ja yksikkö ampeeri (A)." },
+      { "text": "Ohmi", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on kuuluisin kryptovaluutta?",
+    "answerOptions": [
+      { "text": "Ethereum", "isCorrect": false },
+      { "text": "Bitcoin", "isCorrect": true, "rationale": "Bitcoin luotiin vuonna 2009 ja se on markkina-arvoltaan suurin." },
+      { "text": "Dogecoin", "isCorrect": false },
+      { "text": "Litecoin", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen pisin joki?",
+    "answerOptions": [
+      { "text": "Kemijoki", "isCorrect": true, "rationale": "Kemijoki on yli 550 km pitkä." },
+      { "text": "Oulujoki", "isCorrect": false },
+      { "text": "Tornionjoki", "isCorrect": false },
+      { "text": "Kokemäenjoki", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Mikä on 'pilvi' tietotekniikassa?",
+    "answerOptions": [
+      { "text": "Sääilmiö", "isCorrect": false },
+      { "text": "Internetin kautta tarjottavat palvelut ja tallennustila", "isCorrect": true, "rationale": "Cloud computing tarkoittaa hajautettuja palvelinresursseja." },
+      { "text": "Tietokoneen tuuletin", "isCorrect": false },
+      { "text": "Näytönsuoja", "isCorrect": false }
+    ]
+  },
+
   {
     "question": "Mikä on Suomen korkein tunturi?",
     "answerOptions": [

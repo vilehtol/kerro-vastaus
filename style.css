@@ -2,19 +2,19 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --primary: #007bff;
-  --primary-dark: #0056b3;
-  --correct: #28a745;
-  --correct-bg: #d4edda;
-  --correct-border: #c3e6cb;
-  --wrong: #dc3545;
-  --wrong-bg: #f8d7da;
-  --wrong-border: #f5c6cb;
-  --text: #2c3e50;
-  --text-light: #666;
-  --bg: #f0f2f5;
-  --card: #ffffff;
-  --shadow: 0 4px 24px rgba(0,0,0,0.10);
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --correct: #86efac;
+  --correct-bg: rgba(20, 83, 45, 0.5);
+  --correct-border: #22c55e;
+  --wrong: #fca5a5;
+  --wrong-bg: rgba(127, 29, 29, 0.5);
+  --wrong-border: #ef4444;
+  --text: #f3f4f6;
+  --text-light: #9ca3af;
+  --bg: #111827;
+  --card: #1f2937;
+  --shadow: 0 4px 24px rgba(0,0,0,0.5);
   --radius: 12px;
   --transition: 0.25s ease;
   /* safe area for notch phones */
@@ -140,7 +140,8 @@ h1 {
 
 .btn {
   background-color: var(--card);
-  border: 2px solid #e0e0e0;
+  border: 2px solid #374151;
+  color: var(--text);
   border-radius: 10px;
   padding: 16px 18px;
   font-size: 1.05rem;
@@ -158,15 +159,16 @@ h1 {
   text-align: center;
   font-weight: 700;
   font-size: 1.1rem;
-  background-color: #f8f9fa;
+  background-color: #374151;
+  border-color: #4b5563;
   padding: 18px;
 }
 
 /* Hover only on devices that support it (not phones) */
 @media (hover: hover) {
   .btn:hover:not(:disabled) {
-    background-color: #e9ecef;
-    border-color: #bbb;
+    background-color: #374151;
+    border-color: var(--primary);
     transform: translateY(-1px);
   }
 }
@@ -198,7 +200,9 @@ h1 {
 .explanation {
   margin-top: 16px;
   padding: 14px 16px;
-  background-color: #e8f4fd;
+  background-color: rgba(59, 130, 246, 0.15);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  color: #93c5fd;
   border-radius: 8px;
   display: none;
   text-align: left;
