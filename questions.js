@@ -2,6 +2,8293 @@
 // Lähde: kysymykset-tiedosto
 
 const kaikkiKysymykset = [
+
+  {
+    "question": "Mikä on maan Ranska pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Pariisi",
+        "isCorrect": true
+      },
+      {
+        "text": "Riad",
+        "isCorrect": false
+      },
+      {
+        "text": "Riika",
+        "isCorrect": false
+      },
+      {
+        "text": "Alger",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Saksa pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Berliini",
+        "isCorrect": true
+      },
+      {
+        "text": "Pretoria",
+        "isCorrect": false
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Mexico City",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Espanja pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Madrid",
+        "isCorrect": true
+      },
+      {
+        "text": "Rooma",
+        "isCorrect": false
+      },
+      {
+        "text": "New York",
+        "isCorrect": false
+      },
+      {
+        "text": "Wien",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Italia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Rooma",
+        "isCorrect": true
+      },
+      {
+        "text": "Peking",
+        "isCorrect": false
+      },
+      {
+        "text": "Bagdad",
+        "isCorrect": false
+      },
+      {
+        "text": "Madrid",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Portugali pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Lissabon",
+        "isCorrect": true
+      },
+      {
+        "text": "Rooma",
+        "isCorrect": false
+      },
+      {
+        "text": "New York",
+        "isCorrect": false
+      },
+      {
+        "text": "Pariisi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Puola pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Varsova",
+        "isCorrect": true
+      },
+      {
+        "text": "Kööpenhamina",
+        "isCorrect": false
+      },
+      {
+        "text": "Tokio",
+        "isCorrect": false
+      },
+      {
+        "text": "Wellington",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Tanska pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kööpenhamina",
+        "isCorrect": true
+      },
+      {
+        "text": "Tunis",
+        "isCorrect": false
+      },
+      {
+        "text": "Washington",
+        "isCorrect": false
+      },
+      {
+        "text": "New York",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Norja pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Oslo",
+        "isCorrect": true
+      },
+      {
+        "text": "Bogota",
+        "isCorrect": false
+      },
+      {
+        "text": "Tripoli",
+        "isCorrect": false
+      },
+      {
+        "text": "Dakar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Ruotsi pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Tukholma",
+        "isCorrect": true
+      },
+      {
+        "text": "Kairo",
+        "isCorrect": false
+      },
+      {
+        "text": "Pretoria",
+        "isCorrect": false
+      },
+      {
+        "text": "Ottawa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Suomi pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Helsinki",
+        "isCorrect": true
+      },
+      {
+        "text": "Wien",
+        "isCorrect": false
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Oslo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Viro pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Tallinna",
+        "isCorrect": true
+      },
+      {
+        "text": "Wellington",
+        "isCorrect": false
+      },
+      {
+        "text": "Pretoria",
+        "isCorrect": false
+      },
+      {
+        "text": "Ateena",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Venäjä pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Moskova",
+        "isCorrect": true
+      },
+      {
+        "text": "Alger",
+        "isCorrect": false
+      },
+      {
+        "text": "Ankara",
+        "isCorrect": false
+      },
+      {
+        "text": "Madrid",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kiina pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Peking",
+        "isCorrect": true
+      },
+      {
+        "text": "Tokio",
+        "isCorrect": false
+      },
+      {
+        "text": "Oslo",
+        "isCorrect": false
+      },
+      {
+        "text": "Canberra",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Japani pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Tokio",
+        "isCorrect": true
+      },
+      {
+        "text": "Helsinki",
+        "isCorrect": false
+      },
+      {
+        "text": "Ateena",
+        "isCorrect": false
+      },
+      {
+        "text": "Bagdad",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Thaimaa pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Bangkok",
+        "isCorrect": true
+      },
+      {
+        "text": "Ateena",
+        "isCorrect": false
+      },
+      {
+        "text": "Teheran",
+        "isCorrect": false
+      },
+      {
+        "text": "Tokio",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Vietnam pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Hanoi",
+        "isCorrect": true
+      },
+      {
+        "text": "Kööpenhamina",
+        "isCorrect": false
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Washington",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Intia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "New Delhi",
+        "isCorrect": true
+      },
+      {
+        "text": "Sydney",
+        "isCorrect": false
+      },
+      {
+        "text": "Berliini",
+        "isCorrect": false
+      },
+      {
+        "text": "Dakar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Egypti pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kairo",
+        "isCorrect": true
+      },
+      {
+        "text": "Kööpenhamina",
+        "isCorrect": false
+      },
+      {
+        "text": "New York",
+        "isCorrect": false
+      },
+      {
+        "text": "Madrid",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Etelä-Afrikka pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Pretoria",
+        "isCorrect": true
+      },
+      {
+        "text": "Oslo",
+        "isCorrect": false
+      },
+      {
+        "text": "Madrid",
+        "isCorrect": false
+      },
+      {
+        "text": "Nairobi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kenia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Nairobi",
+        "isCorrect": true
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Lima",
+        "isCorrect": false
+      },
+      {
+        "text": "Kairo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Brasilia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Brasília",
+        "isCorrect": true
+      },
+      {
+        "text": "Berliini",
+        "isCorrect": false
+      },
+      {
+        "text": "Rooma",
+        "isCorrect": false
+      },
+      {
+        "text": "Lagos",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Argentiina pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Buenos Aires",
+        "isCorrect": true
+      },
+      {
+        "text": "Budapest",
+        "isCorrect": false
+      },
+      {
+        "text": "Varsova",
+        "isCorrect": false
+      },
+      {
+        "text": "Addis Abeba",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Chile pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Santiago",
+        "isCorrect": true
+      },
+      {
+        "text": "Lima",
+        "isCorrect": false
+      },
+      {
+        "text": "Kairo",
+        "isCorrect": false
+      },
+      {
+        "text": "Bogota",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Peru pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Lima",
+        "isCorrect": true
+      },
+      {
+        "text": "Pariisi",
+        "isCorrect": false
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Alger",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kanada pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Ottawa",
+        "isCorrect": true
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Pariisi",
+        "isCorrect": false
+      },
+      {
+        "text": "Rabat",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Yhdysvallat pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Washington D.C.",
+        "isCorrect": true
+      },
+      {
+        "text": "Madrid",
+        "isCorrect": false
+      },
+      {
+        "text": "Caracas",
+        "isCorrect": false
+      },
+      {
+        "text": "Brasilia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Meksiko pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Mexico City",
+        "isCorrect": true
+      },
+      {
+        "text": "Lima",
+        "isCorrect": false
+      },
+      {
+        "text": "Varsova",
+        "isCorrect": false
+      },
+      {
+        "text": "Oslo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Australia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Canberra",
+        "isCorrect": true
+      },
+      {
+        "text": "Tunis",
+        "isCorrect": false
+      },
+      {
+        "text": "Riika",
+        "isCorrect": false
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Uusi-Seelanti pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Wellington",
+        "isCorrect": true
+      },
+      {
+        "text": "Kairo",
+        "isCorrect": false
+      },
+      {
+        "text": "Helsinki",
+        "isCorrect": false
+      },
+      {
+        "text": "Buenos Aires",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Indonesia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Jakarta",
+        "isCorrect": true
+      },
+      {
+        "text": "Rooma",
+        "isCorrect": false
+      },
+      {
+        "text": "Sydney",
+        "isCorrect": false
+      },
+      {
+        "text": "Caracas",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Malesia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kuala Lumpur",
+        "isCorrect": true
+      },
+      {
+        "text": "New York",
+        "isCorrect": false
+      },
+      {
+        "text": "Washington",
+        "isCorrect": false
+      },
+      {
+        "text": "Rooma",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Filippiinit pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Manila",
+        "isCorrect": true
+      },
+      {
+        "text": "Rabat",
+        "isCorrect": false
+      },
+      {
+        "text": "Abuja",
+        "isCorrect": false
+      },
+      {
+        "text": "Riika",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Etelä-Korea pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Soul",
+        "isCorrect": true
+      },
+      {
+        "text": "Pariisi",
+        "isCorrect": false
+      },
+      {
+        "text": "Washington",
+        "isCorrect": false
+      },
+      {
+        "text": "Budapest",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Pohjois-Korea pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Pjongjang",
+        "isCorrect": true
+      },
+      {
+        "text": "Kapkaupunki",
+        "isCorrect": false
+      },
+      {
+        "text": "Ateena",
+        "isCorrect": false
+      },
+      {
+        "text": "Bogota",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Turkki pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Ankara",
+        "isCorrect": true
+      },
+      {
+        "text": "Madrid",
+        "isCorrect": false
+      },
+      {
+        "text": "Helsinki",
+        "isCorrect": false
+      },
+      {
+        "text": "Mexico City",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kreikka pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Ateena",
+        "isCorrect": true
+      },
+      {
+        "text": "Addis Abeba",
+        "isCorrect": false
+      },
+      {
+        "text": "Riika",
+        "isCorrect": false
+      },
+      {
+        "text": "Lima",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Irlanti pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Dublin",
+        "isCorrect": true
+      },
+      {
+        "text": "Tokio",
+        "isCorrect": false
+      },
+      {
+        "text": "Teheran",
+        "isCorrect": false
+      },
+      {
+        "text": "Peking",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Islanti pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Reykjavik",
+        "isCorrect": true
+      },
+      {
+        "text": "Kairo",
+        "isCorrect": false
+      },
+      {
+        "text": "Pariisi",
+        "isCorrect": false
+      },
+      {
+        "text": "Teheran",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Belgia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Bryssel",
+        "isCorrect": true
+      },
+      {
+        "text": "Tallinna",
+        "isCorrect": false
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Kööpenhamina",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Hollanti pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Amsterdam",
+        "isCorrect": true
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Rooma",
+        "isCorrect": false
+      },
+      {
+        "text": "Abuja",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Itävalta pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Wien",
+        "isCorrect": true
+      },
+      {
+        "text": "Addis Abeba",
+        "isCorrect": false
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Caracas",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Sveitsi pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Bern",
+        "isCorrect": true
+      },
+      {
+        "text": "Tokio",
+        "isCorrect": false
+      },
+      {
+        "text": "Kairo",
+        "isCorrect": false
+      },
+      {
+        "text": "Washington",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Tšekki pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Praha",
+        "isCorrect": true
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Oslo",
+        "isCorrect": false
+      },
+      {
+        "text": "Rabat",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Unkari pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Budapest",
+        "isCorrect": true
+      },
+      {
+        "text": "Washington",
+        "isCorrect": false
+      },
+      {
+        "text": "Praha",
+        "isCorrect": false
+      },
+      {
+        "text": "Santiago",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Ukraina pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kiova",
+        "isCorrect": true
+      },
+      {
+        "text": "Bukarest",
+        "isCorrect": false
+      },
+      {
+        "text": "Tukholma",
+        "isCorrect": false
+      },
+      {
+        "text": "Lagos",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Romania pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Bukarest",
+        "isCorrect": true
+      },
+      {
+        "text": "New York",
+        "isCorrect": false
+      },
+      {
+        "text": "Sofia",
+        "isCorrect": false
+      },
+      {
+        "text": "Wellington",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Bulgaria pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Sofia",
+        "isCorrect": true
+      },
+      {
+        "text": "Rooma",
+        "isCorrect": false
+      },
+      {
+        "text": "Rabat",
+        "isCorrect": false
+      },
+      {
+        "text": "Nairobi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kroatia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Zagreb",
+        "isCorrect": true
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Wien",
+        "isCorrect": false
+      },
+      {
+        "text": "Tallinna",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Serbia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Belgrad",
+        "isCorrect": true
+      },
+      {
+        "text": "Tripoli",
+        "isCorrect": false
+      },
+      {
+        "text": "Oslo",
+        "isCorrect": false
+      },
+      {
+        "text": "Budapest",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kolumbia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Bogotá",
+        "isCorrect": true
+      },
+      {
+        "text": "Madrid",
+        "isCorrect": false
+      },
+      {
+        "text": "Ateena",
+        "isCorrect": false
+      },
+      {
+        "text": "Ottawa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Venezuela pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Caracas",
+        "isCorrect": true
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Berliini",
+        "isCorrect": false
+      },
+      {
+        "text": "Santiago",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kuuba pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Havanna",
+        "isCorrect": true
+      },
+      {
+        "text": "Budapest",
+        "isCorrect": false
+      },
+      {
+        "text": "Caracas",
+        "isCorrect": false
+      },
+      {
+        "text": "Alger",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Marokko pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Rabat",
+        "isCorrect": true
+      },
+      {
+        "text": "Tunis",
+        "isCorrect": false
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Varsova",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Nigeria pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Abuja",
+        "isCorrect": true
+      },
+      {
+        "text": "Peking",
+        "isCorrect": false
+      },
+      {
+        "text": "Bukarest",
+        "isCorrect": false
+      },
+      {
+        "text": "Alger",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Etiopia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Addis Abeba",
+        "isCorrect": true
+      },
+      {
+        "text": "Pretoria",
+        "isCorrect": false
+      },
+      {
+        "text": "Vilna",
+        "isCorrect": false
+      },
+      {
+        "text": "Washington",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Iran pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Teheran",
+        "isCorrect": true
+      },
+      {
+        "text": "Tripoli",
+        "isCorrect": false
+      },
+      {
+        "text": "Varsova",
+        "isCorrect": false
+      },
+      {
+        "text": "Nairobi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Irak pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Bagdad",
+        "isCorrect": true
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Nairobi",
+        "isCorrect": false
+      },
+      {
+        "text": "Tripoli",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Saudi-Arabia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Riad",
+        "isCorrect": true
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Alger",
+        "isCorrect": false
+      },
+      {
+        "text": "Madrid",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Israel pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Jerusalem",
+        "isCorrect": true
+      },
+      {
+        "text": "Helsinki",
+        "isCorrect": false
+      },
+      {
+        "text": "Ankara",
+        "isCorrect": false
+      },
+      {
+        "text": "Tripoli",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Pakistan pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Islamabad",
+        "isCorrect": true
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Pariisi",
+        "isCorrect": false
+      },
+      {
+        "text": "Teheran",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Japani valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Jeni",
+        "isCorrect": true
+      },
+      {
+        "text": "Real",
+        "isCorrect": false
+      },
+      {
+        "text": "Liira",
+        "isCorrect": false
+      },
+      {
+        "text": "Dollari",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kiina valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Yuan",
+        "isCorrect": true
+      },
+      {
+        "text": "Sol",
+        "isCorrect": false
+      },
+      {
+        "text": "Liira",
+        "isCorrect": false
+      },
+      {
+        "text": "Markka",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Venäjä valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Rupla",
+        "isCorrect": true
+      },
+      {
+        "text": "Floriini",
+        "isCorrect": false
+      },
+      {
+        "text": "Won",
+        "isCorrect": false
+      },
+      {
+        "text": "Kruunu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Iso-Britannia valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Punta",
+        "isCorrect": true
+      },
+      {
+        "text": "Markka",
+        "isCorrect": false
+      },
+      {
+        "text": "Floriini",
+        "isCorrect": false
+      },
+      {
+        "text": "Quetzal",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Sveitsi valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Frangi",
+        "isCorrect": true
+      },
+      {
+        "text": "Jeni",
+        "isCorrect": false
+      },
+      {
+        "text": "Liira",
+        "isCorrect": false
+      },
+      {
+        "text": "Markka",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Ruotsi valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kruunu",
+        "isCorrect": true
+      },
+      {
+        "text": "Real",
+        "isCorrect": false
+      },
+      {
+        "text": "Liira",
+        "isCorrect": false
+      },
+      {
+        "text": "Won",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Norja valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kruunu",
+        "isCorrect": true
+      },
+      {
+        "text": "Ringgit",
+        "isCorrect": false
+      },
+      {
+        "text": "Dollari",
+        "isCorrect": false
+      },
+      {
+        "text": "Real",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Tanska valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kruunu",
+        "isCorrect": true
+      },
+      {
+        "text": "Ringgit",
+        "isCorrect": false
+      },
+      {
+        "text": "Punta",
+        "isCorrect": false
+      },
+      {
+        "text": "Boliviano",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Puola valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Zloty",
+        "isCorrect": true
+      },
+      {
+        "text": "Kruunu",
+        "isCorrect": false
+      },
+      {
+        "text": "Dollari",
+        "isCorrect": false
+      },
+      {
+        "text": "Real",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Turkki valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Liira",
+        "isCorrect": true
+      },
+      {
+        "text": "Colon",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeni",
+        "isCorrect": false
+      },
+      {
+        "text": "Randi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Etelä-Afrikka valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Randi",
+        "isCorrect": true
+      },
+      {
+        "text": "Peso",
+        "isCorrect": false
+      },
+      {
+        "text": "Baht",
+        "isCorrect": false
+      },
+      {
+        "text": "Lempira",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Brasilia valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Real",
+        "isCorrect": true
+      },
+      {
+        "text": "Yuan",
+        "isCorrect": false
+      },
+      {
+        "text": "Lempira",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeni",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Thaimaa valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Baht",
+        "isCorrect": true
+      },
+      {
+        "text": "Guarani",
+        "isCorrect": false
+      },
+      {
+        "text": "Frangi",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeni",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Vietnam valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Dong",
+        "isCorrect": true
+      },
+      {
+        "text": "Ringgit",
+        "isCorrect": false
+      },
+      {
+        "text": "Frangi",
+        "isCorrect": false
+      },
+      {
+        "text": "Sol",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Intia valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Rupia",
+        "isCorrect": true
+      },
+      {
+        "text": "Peso",
+        "isCorrect": false
+      },
+      {
+        "text": "Markka",
+        "isCorrect": false
+      },
+      {
+        "text": "Won",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Israel valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Sekeli",
+        "isCorrect": true
+      },
+      {
+        "text": "Jeni",
+        "isCorrect": false
+      },
+      {
+        "text": "Liira",
+        "isCorrect": false
+      },
+      {
+        "text": "Punta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Meksiko valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Peso",
+        "isCorrect": true
+      },
+      {
+        "text": "Ringgit",
+        "isCorrect": false
+      },
+      {
+        "text": "Kruunu",
+        "isCorrect": false
+      },
+      {
+        "text": "Cordoba",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Argentiina valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Peso",
+        "isCorrect": true
+      },
+      {
+        "text": "Lempira",
+        "isCorrect": false
+      },
+      {
+        "text": "Guarani",
+        "isCorrect": false
+      },
+      {
+        "text": "Frangi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kolumbia valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Peso",
+        "isCorrect": true
+      },
+      {
+        "text": "Dinaari",
+        "isCorrect": false
+      },
+      {
+        "text": "Ringgit",
+        "isCorrect": false
+      },
+      {
+        "text": "Dollari",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Chile valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Peso",
+        "isCorrect": true
+      },
+      {
+        "text": "Rupla",
+        "isCorrect": false
+      },
+      {
+        "text": "Dollari",
+        "isCorrect": false
+      },
+      {
+        "text": "Markka",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kanada valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Dollari",
+        "isCorrect": true
+      },
+      {
+        "text": "Frangi",
+        "isCorrect": false
+      },
+      {
+        "text": "Colon",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeni",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Australia valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Dollari",
+        "isCorrect": true
+      },
+      {
+        "text": "Shillinki",
+        "isCorrect": false
+      },
+      {
+        "text": "Liira",
+        "isCorrect": false
+      },
+      {
+        "text": "Kruunu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Uusi-Seelanti valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Dollari",
+        "isCorrect": true
+      },
+      {
+        "text": "Quetzal",
+        "isCorrect": false
+      },
+      {
+        "text": "Ringgit",
+        "isCorrect": false
+      },
+      {
+        "text": "Frangi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Singapore valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Dollari",
+        "isCorrect": true
+      },
+      {
+        "text": "Jeni",
+        "isCorrect": false
+      },
+      {
+        "text": "Punta",
+        "isCorrect": false
+      },
+      {
+        "text": "Dinaari",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Malesia valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Ringgit",
+        "isCorrect": true
+      },
+      {
+        "text": "Jeni",
+        "isCorrect": false
+      },
+      {
+        "text": "Baht",
+        "isCorrect": false
+      },
+      {
+        "text": "Shillinki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Indonesia valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Rupia",
+        "isCorrect": true
+      },
+      {
+        "text": "Real",
+        "isCorrect": false
+      },
+      {
+        "text": "Liira",
+        "isCorrect": false
+      },
+      {
+        "text": "Lempira",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Etelä-Korea valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Won",
+        "isCorrect": true
+      },
+      {
+        "text": "Sol",
+        "isCorrect": false
+      },
+      {
+        "text": "Peso",
+        "isCorrect": false
+      },
+      {
+        "text": "Punta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Unkari valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Forintti",
+        "isCorrect": true
+      },
+      {
+        "text": "Frangi",
+        "isCorrect": false
+      },
+      {
+        "text": "Shillinki",
+        "isCorrect": false
+      },
+      {
+        "text": "Sol",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Tšekki valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Koruna",
+        "isCorrect": true
+      },
+      {
+        "text": "Rupia",
+        "isCorrect": false
+      },
+      {
+        "text": "Rupla",
+        "isCorrect": false
+      },
+      {
+        "text": "Frangi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Ukraina valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Hryvnia",
+        "isCorrect": true
+      },
+      {
+        "text": "Kruunu",
+        "isCorrect": false
+      },
+      {
+        "text": "Rupia",
+        "isCorrect": false
+      },
+      {
+        "text": "Baht",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kenia valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Shillinki",
+        "isCorrect": true
+      },
+      {
+        "text": "Rupla",
+        "isCorrect": false
+      },
+      {
+        "text": "Dollari",
+        "isCorrect": false
+      },
+      {
+        "text": "Quetzal",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Egypti valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Punta",
+        "isCorrect": true
+      },
+      {
+        "text": "Dollari",
+        "isCorrect": false
+      },
+      {
+        "text": "Ringgit",
+        "isCorrect": false
+      },
+      {
+        "text": "Sol",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään H?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Vety",
+        "isCorrect": true
+      },
+      {
+        "text": "Xenon",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      },
+      {
+        "text": "Hiili",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään He?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Helium",
+        "isCorrect": true
+      },
+      {
+        "text": "Boori",
+        "isCorrect": false
+      },
+      {
+        "text": "Typpi",
+        "isCorrect": false
+      },
+      {
+        "text": "Radon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Li?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Litium",
+        "isCorrect": true
+      },
+      {
+        "text": "Kalium",
+        "isCorrect": false
+      },
+      {
+        "text": "Kalsium",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään C?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Hiili",
+        "isCorrect": true
+      },
+      {
+        "text": "Kupari",
+        "isCorrect": false
+      },
+      {
+        "text": "Pii",
+        "isCorrect": false
+      },
+      {
+        "text": "Kalium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään N?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Typpi",
+        "isCorrect": true
+      },
+      {
+        "text": "Vety",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      },
+      {
+        "text": "Tina",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään O?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Happi",
+        "isCorrect": true
+      },
+      {
+        "text": "Krypton",
+        "isCorrect": false
+      },
+      {
+        "text": "Vety",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään F?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Fluori",
+        "isCorrect": true
+      },
+      {
+        "text": "Hiili",
+        "isCorrect": false
+      },
+      {
+        "text": "Plutonium",
+        "isCorrect": false
+      },
+      {
+        "text": "Lyijy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Ne?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Neon",
+        "isCorrect": true
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      },
+      {
+        "text": "Rauta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Na?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Natrium",
+        "isCorrect": true
+      },
+      {
+        "text": "Boori",
+        "isCorrect": false
+      },
+      {
+        "text": "Hiili",
+        "isCorrect": false
+      },
+      {
+        "text": "Pii",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Mg?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Magnesium",
+        "isCorrect": true
+      },
+      {
+        "text": "Fosfori",
+        "isCorrect": false
+      },
+      {
+        "text": "Vety",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Al?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Alumiini",
+        "isCorrect": true
+      },
+      {
+        "text": "Kloori",
+        "isCorrect": false
+      },
+      {
+        "text": "Hiili",
+        "isCorrect": false
+      },
+      {
+        "text": "Xenon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Si?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Pii",
+        "isCorrect": true
+      },
+      {
+        "text": "Hopea",
+        "isCorrect": false
+      },
+      {
+        "text": "Uraani",
+        "isCorrect": false
+      },
+      {
+        "text": "Hiili",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään P?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Fosfori",
+        "isCorrect": true
+      },
+      {
+        "text": "Typpi",
+        "isCorrect": false
+      },
+      {
+        "text": "Uraani",
+        "isCorrect": false
+      },
+      {
+        "text": "Magnesium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään S?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Rikki",
+        "isCorrect": true
+      },
+      {
+        "text": "Tina",
+        "isCorrect": false
+      },
+      {
+        "text": "Fosfori",
+        "isCorrect": false
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Cl?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kloori",
+        "isCorrect": true
+      },
+      {
+        "text": "Rauta",
+        "isCorrect": false
+      },
+      {
+        "text": "Vety",
+        "isCorrect": false
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään K?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kalium",
+        "isCorrect": true
+      },
+      {
+        "text": "Xenon",
+        "isCorrect": false
+      },
+      {
+        "text": "Hopea",
+        "isCorrect": false
+      },
+      {
+        "text": "Kulta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Ca?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kalsium",
+        "isCorrect": true
+      },
+      {
+        "text": "Tina",
+        "isCorrect": false
+      },
+      {
+        "text": "Kupari",
+        "isCorrect": false
+      },
+      {
+        "text": "Hopea",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Fe?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Rauta",
+        "isCorrect": true
+      },
+      {
+        "text": "Fosfori",
+        "isCorrect": false
+      },
+      {
+        "text": "Lyijy",
+        "isCorrect": false
+      },
+      {
+        "text": "Kulta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Cu?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kupari",
+        "isCorrect": true
+      },
+      {
+        "text": "Krypton",
+        "isCorrect": false
+      },
+      {
+        "text": "Alumiini",
+        "isCorrect": false
+      },
+      {
+        "text": "Kalsium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Zn?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Sinkki",
+        "isCorrect": true
+      },
+      {
+        "text": "Tina",
+        "isCorrect": false
+      },
+      {
+        "text": "Argon",
+        "isCorrect": false
+      },
+      {
+        "text": "Magnesium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Ag?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Hopea",
+        "isCorrect": true
+      },
+      {
+        "text": "Kupari",
+        "isCorrect": false
+      },
+      {
+        "text": "Xenon",
+        "isCorrect": false
+      },
+      {
+        "text": "Typpi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Au?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kulta",
+        "isCorrect": true
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Rikki",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Hg?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Elohopea",
+        "isCorrect": true
+      },
+      {
+        "text": "Lyijy",
+        "isCorrect": false
+      },
+      {
+        "text": "Krypton",
+        "isCorrect": false
+      },
+      {
+        "text": "Xenon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Pb?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Lyijy",
+        "isCorrect": true
+      },
+      {
+        "text": "Kalsium",
+        "isCorrect": false
+      },
+      {
+        "text": "Xenon",
+        "isCorrect": false
+      },
+      {
+        "text": "Kupari",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään U?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Uraani",
+        "isCorrect": true
+      },
+      {
+        "text": "Kupari",
+        "isCorrect": false
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Magnesium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Sn?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Tina",
+        "isCorrect": true
+      },
+      {
+        "text": "Xenon",
+        "isCorrect": false
+      },
+      {
+        "text": "Rikki",
+        "isCorrect": false
+      },
+      {
+        "text": "Vety",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään I?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Jodi",
+        "isCorrect": true
+      },
+      {
+        "text": "Rikki",
+        "isCorrect": false
+      },
+      {
+        "text": "Argon",
+        "isCorrect": false
+      },
+      {
+        "text": "Hiili",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Xe?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Xenon",
+        "isCorrect": true
+      },
+      {
+        "text": "Rauta",
+        "isCorrect": false
+      },
+      {
+        "text": "Kulta",
+        "isCorrect": false
+      },
+      {
+        "text": "Neon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Cs?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Cesium",
+        "isCorrect": true
+      },
+      {
+        "text": "Kalsium",
+        "isCorrect": false
+      },
+      {
+        "text": "Rauta",
+        "isCorrect": false
+      },
+      {
+        "text": "Helium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Ba?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Barium",
+        "isCorrect": true
+      },
+      {
+        "text": "Argon",
+        "isCorrect": false
+      },
+      {
+        "text": "Alumiini",
+        "isCorrect": false
+      },
+      {
+        "text": "Fosfori",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Pt?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Platina",
+        "isCorrect": true
+      },
+      {
+        "text": "Vety",
+        "isCorrect": false
+      },
+      {
+        "text": "Alumiini",
+        "isCorrect": false
+      },
+      {
+        "text": "Fosfori",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Ra?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Radium",
+        "isCorrect": true
+      },
+      {
+        "text": "Kupari",
+        "isCorrect": false
+      },
+      {
+        "text": "Kalium",
+        "isCorrect": false
+      },
+      {
+        "text": "Plutonium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Pu?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Plutonium",
+        "isCorrect": true
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Rauta",
+        "isCorrect": false
+      },
+      {
+        "text": "Lyijy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Ti?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Titaani",
+        "isCorrect": true
+      },
+      {
+        "text": "Rauta",
+        "isCorrect": false
+      },
+      {
+        "text": "Xenon",
+        "isCorrect": false
+      },
+      {
+        "text": "Kulta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Cr?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kromi",
+        "isCorrect": true
+      },
+      {
+        "text": "Hopea",
+        "isCorrect": false
+      },
+      {
+        "text": "Krypton",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Mn?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Mangaani",
+        "isCorrect": true
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Neon",
+        "isCorrect": false
+      },
+      {
+        "text": "Hopea",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Co?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Koboltti",
+        "isCorrect": true
+      },
+      {
+        "text": "Kalsium",
+        "isCorrect": false
+      },
+      {
+        "text": "Hopea",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Ni?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Nikkeli",
+        "isCorrect": true
+      },
+      {
+        "text": "Alumiini",
+        "isCorrect": false
+      },
+      {
+        "text": "Kalsium",
+        "isCorrect": false
+      },
+      {
+        "text": "Pii",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Br?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Bromi",
+        "isCorrect": true
+      },
+      {
+        "text": "Kloori",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      },
+      {
+        "text": "Boori",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Kr?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Krypton",
+        "isCorrect": true
+      },
+      {
+        "text": "Helium",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      },
+      {
+        "text": "Alumiini",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin ensimmäinen maailmansota alkoi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1914",
+        "isCorrect": true
+      },
+      {
+        "text": "1990",
+        "isCorrect": false
+      },
+      {
+        "text": "1912",
+        "isCorrect": false
+      },
+      {
+        "text": "1942",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin ensimmäinen maailmansota päättyi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1918",
+        "isCorrect": true
+      },
+      {
+        "text": "1952",
+        "isCorrect": false
+      },
+      {
+        "text": "1926",
+        "isCorrect": false
+      },
+      {
+        "text": "1970",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin toinen maailmansota alkoi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1939",
+        "isCorrect": true
+      },
+      {
+        "text": "1934",
+        "isCorrect": false
+      },
+      {
+        "text": "1908",
+        "isCorrect": false
+      },
+      {
+        "text": "1992",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin toinen maailmansota päättyi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1945",
+        "isCorrect": true
+      },
+      {
+        "text": "1900",
+        "isCorrect": false
+      },
+      {
+        "text": "1954",
+        "isCorrect": false
+      },
+      {
+        "text": "1984",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin ihminen käveli kuussa?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1969",
+        "isCorrect": true
+      },
+      {
+        "text": "1908",
+        "isCorrect": false
+      },
+      {
+        "text": "1916",
+        "isCorrect": false
+      },
+      {
+        "text": "1918",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin berliinin muuri murtui?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1989",
+        "isCorrect": true
+      },
+      {
+        "text": "1900",
+        "isCorrect": false
+      },
+      {
+        "text": "1958",
+        "isCorrect": false
+      },
+      {
+        "text": "1954",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin suomi itsenäistyi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1917",
+        "isCorrect": true
+      },
+      {
+        "text": "1936",
+        "isCorrect": false
+      },
+      {
+        "text": "1966",
+        "isCorrect": false
+      },
+      {
+        "text": "1934",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin suomi liittyi eu:hun?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1995",
+        "isCorrect": true
+      },
+      {
+        "text": "1926",
+        "isCorrect": false
+      },
+      {
+        "text": "1972",
+        "isCorrect": false
+      },
+      {
+        "text": "1914",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin kolumbus purjehti amerikkaan?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1492",
+        "isCorrect": true
+      },
+      {
+        "text": "1948",
+        "isCorrect": false
+      },
+      {
+        "text": "1976",
+        "isCorrect": false
+      },
+      {
+        "text": "1986",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin ranskan vallankumous alkoi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1789",
+        "isCorrect": true
+      },
+      {
+        "text": "1918",
+        "isCorrect": false
+      },
+      {
+        "text": "1930",
+        "isCorrect": false
+      },
+      {
+        "text": "1940",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin titanic upposi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1912",
+        "isCorrect": true
+      },
+      {
+        "text": "1916",
+        "isCorrect": false
+      },
+      {
+        "text": "1986",
+        "isCorrect": false
+      },
+      {
+        "text": "1900",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin john f. kennedy murhattiin?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1963",
+        "isCorrect": true
+      },
+      {
+        "text": "1992",
+        "isCorrect": false
+      },
+      {
+        "text": "1934",
+        "isCorrect": false
+      },
+      {
+        "text": "1936",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin tšernobylin ydinvoimalaonnettomuus?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1986",
+        "isCorrect": true
+      },
+      {
+        "text": "1996",
+        "isCorrect": false
+      },
+      {
+        "text": "1900",
+        "isCorrect": false
+      },
+      {
+        "text": "1902",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin wtc-iskut new yorkissa?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "2001",
+        "isCorrect": true
+      },
+      {
+        "text": "1912",
+        "isCorrect": false
+      },
+      {
+        "text": "1950",
+        "isCorrect": false
+      },
+      {
+        "text": "1936",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin uskonpuhdistus alkoi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1517",
+        "isCorrect": true
+      },
+      {
+        "text": "1904",
+        "isCorrect": false
+      },
+      {
+        "text": "1968",
+        "isCorrect": false
+      },
+      {
+        "text": "1908",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin suomesta tuli osa venäjää?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1809",
+        "isCorrect": true
+      },
+      {
+        "text": "1904",
+        "isCorrect": false
+      },
+      {
+        "text": "1926",
+        "isCorrect": false
+      },
+      {
+        "text": "1994",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin helsingin olympialaiset?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1952",
+        "isCorrect": true
+      },
+      {
+        "text": "1900",
+        "isCorrect": false
+      },
+      {
+        "text": "1910",
+        "isCorrect": false
+      },
+      {
+        "text": "1926",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin neuvostoliitto hajosi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1991",
+        "isCorrect": true
+      },
+      {
+        "text": "1912",
+        "isCorrect": false
+      },
+      {
+        "text": "1908",
+        "isCorrect": false
+      },
+      {
+        "text": "1994",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin wrightin veljesten ensilento?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1903",
+        "isCorrect": true
+      },
+      {
+        "text": "1906",
+        "isCorrect": false
+      },
+      {
+        "text": "1900",
+        "isCorrect": false
+      },
+      {
+        "text": "1962",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin juri gagarin kävi avaruudessa?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1961",
+        "isCorrect": true
+      },
+      {
+        "text": "1900",
+        "isCorrect": false
+      },
+      {
+        "text": "1992",
+        "isCorrect": false
+      },
+      {
+        "text": "1962",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin hastingsin taistelu?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1066",
+        "isCorrect": true
+      },
+      {
+        "text": "1980",
+        "isCorrect": false
+      },
+      {
+        "text": "1962",
+        "isCorrect": false
+      },
+      {
+        "text": "1994",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin yhdysvaltain sisällissota päättyi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1865",
+        "isCorrect": true
+      },
+      {
+        "text": "1960",
+        "isCorrect": false
+      },
+      {
+        "text": "1946",
+        "isCorrect": false
+      },
+      {
+        "text": "1982",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin wall streetin pörssiromahdus?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1929",
+        "isCorrect": true
+      },
+      {
+        "text": "1902",
+        "isCorrect": false
+      },
+      {
+        "text": "1964",
+        "isCorrect": false
+      },
+      {
+        "text": "1962",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin lapin sota alkoi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1944",
+        "isCorrect": true
+      },
+      {
+        "text": "1964",
+        "isCorrect": false
+      },
+      {
+        "text": "1914",
+        "isCorrect": false
+      },
+      {
+        "text": "1990",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Jalkapallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "11",
+        "isCorrect": true
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "text": "13",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Jääkiekko?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "text": "14",
+        "isCorrect": false
+      },
+      {
+        "text": "30",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Koripallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "5",
+        "isCorrect": true
+      },
+      {
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "text": "14",
+        "isCorrect": false
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Lentopallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "text": "50",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Käsipallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Pesäpallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "9",
+        "isCorrect": true
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Rugby Union?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "15",
+        "isCorrect": true
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Amerikkalainen jalkapallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "11",
+        "isCorrect": true
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "50",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Futsal?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "5",
+        "isCorrect": true
+      },
+      {
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "text": "7",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Vesipallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "30",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Kaukalopallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "13",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Salibandy?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "text": "20",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään leijona kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Kissa",
+        "isCorrect": true
+      },
+      {
+        "text": "Nisäkäs",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyönteinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään susi kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Koira",
+        "isCorrect": true
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Nilviäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Matelija",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään karhu kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Karhu",
+        "isCorrect": true
+      },
+      {
+        "text": "Matelija",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyönteinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Hämähäkkieläin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään kotka kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Lintu",
+        "isCorrect": true
+      },
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": false
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyönteinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään hauki kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Kala",
+        "isCorrect": true
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyönteinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Nilviäinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään sammakko kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": true
+      },
+      {
+        "text": "Matelija",
+        "isCorrect": false
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään kyy kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Matelija",
+        "isCorrect": true
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Nilviäinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään ihminen kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Nisäkäs",
+        "isCorrect": true
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": false
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään valas kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Nisäkäs",
+        "isCorrect": true
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Hämähäkkieläin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään delfiini kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Nisäkäs",
+        "isCorrect": true
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Nilviäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Matelija",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään hai kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Kala",
+        "isCorrect": true
+      },
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": false
+      },
+      {
+        "text": "Matelija",
+        "isCorrect": false
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään krokotiili kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Matelija",
+        "isCorrect": true
+      },
+      {
+        "text": "Nisäkäs",
+        "isCorrect": false
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään strutsi kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Lintu",
+        "isCorrect": true
+      },
+      {
+        "text": "Nisäkäs",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyönteinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään pingviini kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Lintu",
+        "isCorrect": true
+      },
+      {
+        "text": "Nisäkäs",
+        "isCorrect": false
+      },
+      {
+        "text": "Hämähäkkieläin",
+        "isCorrect": false
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään lepakko kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Nisäkäs",
+        "isCorrect": true
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      },
+      {
+        "text": "Matelija",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään hämähäkki kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Hämähäkkieläin",
+        "isCorrect": true
+      },
+      {
+        "text": "Hyönteinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Nisäkäs",
+        "isCorrect": false
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Netflixin sarjan 'The Crown' aihe?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Iso-Britannian kuningashuone",
+        "isCorrect": true
+      },
+      {
+        "text": "Ranskan vallankumous",
+        "isCorrect": false
+      },
+      {
+        "text": "Game of Thrones",
+        "isCorrect": false
+      },
+      {
+        "text": "Viikinkien valloitus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on kuuluisin 007-agentti?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "James Bond",
+        "isCorrect": true
+      },
+      {
+        "text": "Jason Bourne",
+        "isCorrect": false
+      },
+      {
+        "text": "Jack Bauer",
+        "isCorrect": false
+      },
+      {
+        "text": "Ethan Hunt",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman suurin kahvilaketju?",
+    "category": "Kulttuuri",
+    "answerOptions": [
+      {
+        "text": "Starbucks",
+        "isCorrect": true
+      },
+      {
+        "text": "Costa Coffee",
+        "isCorrect": false
+      },
+      {
+        "text": "Espresso House",
+        "isCorrect": false
+      },
+      {
+        "text": "Tim Hortons",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen yleisin sukunimi?",
+    "category": "Kulttuuri",
+    "answerOptions": [
+      {
+        "text": "Korhonen",
+        "isCorrect": true
+      },
+      {
+        "text": "Virtanen",
+        "isCorrect": false
+      },
+      {
+        "text": "Mäkinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Nieminen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on kirjoittanut 'Muumi'-kirjat?",
+    "category": "Kulttuuri",
+    "answerOptions": [
+      {
+        "text": "Tove Jansson",
+        "isCorrect": true
+      },
+      {
+        "text": "Astrid Lindgren",
+        "isCorrect": false
+      },
+      {
+        "text": "Mauri Kunnas",
+        "isCorrect": false
+      },
+      {
+        "text": "Elsa Beskow",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Googlen omistama videopalvelu?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "YouTube",
+        "isCorrect": true
+      },
+      {
+        "text": "Vimeo",
+        "isCorrect": false
+      },
+      {
+        "text": "Twitch",
+        "isCorrect": false
+      },
+      {
+        "text": "TikTok",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Teslan toimitusjohtajan etunimi?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "Elon",
+        "isCorrect": true
+      },
+      {
+        "text": "Jeff",
+        "isCorrect": false
+      },
+      {
+        "text": "Bill",
+        "isCorrect": false
+      },
+      {
+        "text": "Mark",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Applen puhelimen nimi?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "iPhone",
+        "isCorrect": true
+      },
+      {
+        "text": "Galaxy",
+        "isCorrect": false
+      },
+      {
+        "text": "Pixel",
+        "isCorrect": false
+      },
+      {
+        "text": "Lumia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Italian tunnetuin ruoka?",
+    "category": "Ruoka",
+    "answerOptions": [
+      {
+        "text": "Pizza",
+        "isCorrect": true
+      },
+      {
+        "text": "Sushi",
+        "isCorrect": false
+      },
+      {
+        "text": "Taco",
+        "isCorrect": false
+      },
+      {
+        "text": "Hampurilainen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Japanin tunnetuin ruoka?",
+    "category": "Ruoka",
+    "answerOptions": [
+      {
+        "text": "Sushi",
+        "isCorrect": true
+      },
+      {
+        "text": "Pizza",
+        "isCorrect": false
+      },
+      {
+        "text": "Currywurst",
+        "isCorrect": false
+      },
+      {
+        "text": "Paella",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka maalasi 'Huuto'-taulun?",
+    "category": "Kulttuuri",
+    "answerOptions": [
+      {
+        "text": "Edvard Munch",
+        "isCorrect": true
+      },
+      {
+        "text": "Vincent van Gogh",
+        "isCorrect": false
+      },
+      {
+        "text": "Claude Monet",
+        "isCorrect": false
+      },
+      {
+        "text": "Salvador Dali",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman nopein lintu (syöksyssä)?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Muuttohaukka",
+        "isCorrect": true
+      },
+      {
+        "text": "Kotka",
+        "isCorrect": false
+      },
+      {
+        "text": "Pääskynen",
+        "isCorrect": false
+      },
+      {
+        "text": "Strutsi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman suurin maaeläin?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Afrikannorsu",
+        "isCorrect": true
+      },
+      {
+        "text": "Sinivalas",
+        "isCorrect": false
+      },
+      {
+        "text": "Kirahvi",
+        "isCorrect": false
+      },
+      {
+        "text": "Virtahepo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on jääkiekkojoukkue Helsingistä?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "HIFK",
+        "isCorrect": true
+      },
+      {
+        "text": "Tappara",
+        "isCorrect": false
+      },
+      {
+        "text": "Kärpät",
+        "isCorrect": false
+      },
+      {
+        "text": "TPS",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen suosituin joukkuelaji harrastajamäärältään?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "Jalkapallo",
+        "isCorrect": true
+      },
+      {
+        "text": "Jääkiekko",
+        "isCorrect": false
+      },
+      {
+        "text": "Salibandy",
+        "isCorrect": false
+      },
+      {
+        "text": "Koripallo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on Suomen presidentti (2024)?",
+    "category": "Yleistieto",
+    "answerOptions": [
+      {
+        "text": "Alexander Stubb",
+        "isCorrect": true
+      },
+      {
+        "text": "Sauli Niinistö",
+        "isCorrect": false
+      },
+      {
+        "text": "Tarja Halonen",
+        "isCorrect": false
+      },
+      {
+        "text": "Pekka Haavisto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Ruotsin rahayksikkö?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kruunu",
+        "isCorrect": true
+      },
+      {
+        "text": "Euro",
+        "isCorrect": false
+      },
+      {
+        "text": "Markka",
+        "isCorrect": false
+      },
+      {
+        "text": "Dollari",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Viron rahayksikkö?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Euro",
+        "isCorrect": true
+      },
+      {
+        "text": "Kruunu",
+        "isCorrect": false
+      },
+      {
+        "text": "Markka",
+        "isCorrect": false
+      },
+      {
+        "text": "Rupla",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on jalkapallon MM-kisojen väli vuosissa?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "4 vuotta",
+        "isCorrect": true
+      },
+      {
+        "text": "2 vuotta",
+        "isCorrect": false
+      },
+      {
+        "text": "3 vuotta",
+        "isCorrect": false
+      },
+      {
+        "text": "5 vuotta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on Aku Ankan tyttöystävä?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Iines Ankka",
+        "isCorrect": true
+      },
+      {
+        "text": "Minni Hiiri",
+        "isCorrect": false
+      },
+      {
+        "text": "Heluna",
+        "isCorrect": false
+      },
+      {
+        "text": "Milla Magia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Mikki Hiiren koiran nimi?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Pluto",
+        "isCorrect": true
+      },
+      {
+        "text": "Hessu",
+        "isCorrect": false
+      },
+      {
+        "text": "Snoopy",
+        "isCorrect": false
+      },
+      {
+        "text": "Lassie",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman korkein rakennus (2024)?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "Burj Khalifa",
+        "isCorrect": true
+      },
+      {
+        "text": "Eiffel-torni",
+        "isCorrect": false
+      },
+      {
+        "text": "Empire State Building",
+        "isCorrect": false
+      },
+      {
+        "text": "Shanghai Tower",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä maassa on eniten asukkaita (2024)?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Intia",
+        "isCorrect": true
+      },
+      {
+        "text": "Kiina",
+        "isCorrect": false
+      },
+      {
+        "text": "USA",
+        "isCorrect": false
+      },
+      {
+        "text": "Venäjä",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Facebookin perustajan nimi?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "Mark Zuckerberg",
+        "isCorrect": true
+      },
+      {
+        "text": "Bill Gates",
+        "isCorrect": false
+      },
+      {
+        "text": "Steve Jobs",
+        "isCorrect": false
+      },
+      {
+        "text": "Elon Musk",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Amazonin perustajan nimi?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "Jeff Bezos",
+        "isCorrect": true
+      },
+      {
+        "text": "Tim Cook",
+        "isCorrect": false
+      },
+      {
+        "text": "Satya Nadella",
+        "isCorrect": false
+      },
+      {
+        "text": "Larry Page",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Microsoftin perustajan nimi?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "Bill Gates",
+        "isCorrect": true
+      },
+      {
+        "text": "Steve Jobs",
+        "isCorrect": false
+      },
+      {
+        "text": "Mark Zuckerberg",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeff Bezos",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman suurin valtio pinta-alaltaan?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Venäjä",
+        "isCorrect": true
+      },
+      {
+        "text": "Kanada",
+        "isCorrect": false
+      },
+      {
+        "text": "Kiina",
+        "isCorrect": false
+      },
+      {
+        "text": "USA",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman pienin manner?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Australia (Oseania)",
+        "isCorrect": true
+      },
+      {
+        "text": "Eurooppa",
+        "isCorrect": false
+      },
+      {
+        "text": "Etelämanner",
+        "isCorrect": false
+      },
+      {
+        "text": "Etelä-Amerikka",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on planeetta Maan ainoa luonnollinen satelliitti?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kuu",
+        "isCorrect": true
+      },
+      {
+        "text": "Aurinko",
+        "isCorrect": false
+      },
+      {
+        "text": "Mars",
+        "isCorrect": false
+      },
+      {
+        "text": "Venus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on veden kemiallinen kaava?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "H2O",
+        "isCorrect": true
+      },
+      {
+        "text": "CO2",
+        "isCorrect": false
+      },
+      {
+        "text": "O2",
+        "isCorrect": false
+      },
+      {
+        "text": "NaCl",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on ihmisen normaali ruumiinlämpö (noin)?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "37°C",
+        "isCorrect": true
+      },
+      {
+        "text": "35°C",
+        "isCorrect": false
+      },
+      {
+        "text": "39°C",
+        "isCorrect": false
+      },
+      {
+        "text": "40°C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako päivää on karkausvuodessa?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "366",
+        "isCorrect": true
+      },
+      {
+        "text": "365",
+        "isCorrect": false
+      },
+      {
+        "text": "364",
+        "isCorrect": false
+      },
+      {
+        "text": "360",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen suurin kaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Helsinki",
+        "isCorrect": true
+      },
+      {
+        "text": "Tampere",
+        "isCorrect": false
+      },
+      {
+        "text": "Turku",
+        "isCorrect": false
+      },
+      {
+        "text": "Oulu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen toiseksi suurin kaupunki (väkiluvultaan)?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Espoo",
+        "isCorrect": true
+      },
+      {
+        "text": "Tampere",
+        "isCorrect": false
+      },
+      {
+        "text": "Vantaa",
+        "isCorrect": false
+      },
+      {
+        "text": "Turku",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen pohjoisin kunta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Utsjoki",
+        "isCorrect": true
+      },
+      {
+        "text": "Inari",
+        "isCorrect": false
+      },
+      {
+        "text": "Rovaniemi",
+        "isCorrect": false
+      },
+      {
+        "text": "Enontekiö",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka voitti F1-maailmanmestaruuden 2007?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "Kimi Räikkönen",
+        "isCorrect": true
+      },
+      {
+        "text": "Lewis Hamilton",
+        "isCorrect": false
+      },
+      {
+        "text": "Fernando Alonso",
+        "isCorrect": false
+      },
+      {
+        "text": "Felipe Massa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on kirjoittanut 'Seitsemän veljestä'?",
+    "category": "Kulttuuri",
+    "answerOptions": [
+      {
+        "text": "Aleksis Kivi",
+        "isCorrect": true
+      },
+      {
+        "text": "Eino Leino",
+        "isCorrect": false
+      },
+      {
+        "text": "Minna Canth",
+        "isCorrect": false
+      },
+      {
+        "text": "J.L. Runeberg",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen kansalliseläin?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Karhu",
+        "isCorrect": true
+      },
+      {
+        "text": "Hirvi",
+        "isCorrect": false
+      },
+      {
+        "text": "Joutsen",
+        "isCorrect": false
+      },
+      {
+        "text": "Ilves",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen kansalliskukka?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Kielo",
+        "isCorrect": true
+      },
+      {
+        "text": "Ruusu",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinivuokko",
+        "isCorrect": false
+      },
+      {
+        "text": "Päivänkakkara",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen kansallispuu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Rauduskoivu",
+        "isCorrect": true
+      },
+      {
+        "text": "Mänty",
+        "isCorrect": false
+      },
+      {
+        "text": "Kuusi",
+        "isCorrect": false
+      },
+      {
+        "text": "Tammi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä valuutta on Yhdysvalloissa?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Dollari",
+        "isCorrect": true
+      },
+      {
+        "text": "Euro",
+        "isCorrect": false
+      },
+      {
+        "text": "Punta",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeni",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on 'Android'?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "Käyttöjärjestelmä",
+        "isCorrect": true
+      },
+      {
+        "text": "Tietokone",
+        "isCorrect": false
+      },
+      {
+        "text": "Pelkonsoli",
+        "isCorrect": false
+      },
+      {
+        "text": "Automerkki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on 'iOS'?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "Applen käyttöjärjestelmä",
+        "isCorrect": true
+      },
+      {
+        "text": "Googlen käyttöjärjestelmä",
+        "isCorrect": false
+      },
+      {
+        "text": "Nokian puhelin",
+        "isCorrect": false
+      },
+      {
+        "text": "Samsungin tabletti",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on 'Batman' elokuvissa?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Bruce Wayne",
+        "isCorrect": true
+      },
+      {
+        "text": "Clark Kent",
+        "isCorrect": false
+      },
+      {
+        "text": "Peter Parker",
+        "isCorrect": false
+      },
+      {
+        "text": "Tony Stark",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on 'Hämähäkkimiehen' oikea nimi?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Peter Parker",
+        "isCorrect": true
+      },
+      {
+        "text": "Bruce Banner",
+        "isCorrect": false
+      },
+      {
+        "text": "Steve Rogers",
+        "isCorrect": false
+      },
+      {
+        "text": "Wade Wilson",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on 'Teräsmies'?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Clark Kent",
+        "isCorrect": true
+      },
+      {
+        "text": "Lex Luthor",
+        "isCorrect": false
+      },
+      {
+        "text": "Barry Allen",
+        "isCorrect": false
+      },
+      {
+        "text": "Bruce Wayne",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman suosituin videopalvelu?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "YouTube",
+        "isCorrect": true
+      },
+      {
+        "text": "Vimeo",
+        "isCorrect": false
+      },
+      {
+        "text": "Dailymotion",
+        "isCorrect": false
+      },
+      {
+        "text": "Twitch",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on Microsoftin nykyinen toimitusjohtaja (2024)?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "Satya Nadella",
+        "isCorrect": true
+      },
+      {
+        "text": "Bill Gates",
+        "isCorrect": false
+      },
+      {
+        "text": "Steve Ballmer",
+        "isCorrect": false
+      },
+      {
+        "text": "Tim Cook",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on Applen nykyinen toimitusjohtaja (2024)?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "Tim Cook",
+        "isCorrect": true
+      },
+      {
+        "text": "Steve Jobs",
+        "isCorrect": false
+      },
+      {
+        "text": "Jony Ive",
+        "isCorrect": false
+      },
+      {
+        "text": "Sundar Pichai",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Googlen emoyhtiön nimi?",
+    "category": "Teknologia",
+    "answerOptions": [
+      {
+        "text": "Alphabet",
+        "isCorrect": true
+      },
+      {
+        "text": "Beta",
+        "isCorrect": false
+      },
+      {
+        "text": "Omega",
+        "isCorrect": false
+      },
+      {
+        "text": "Meta",
+        "isCorrect": false
+      }
+    ]
+  }
+,
+
+  {
+    "question": "Mikä maa voitti jalkapallon EM-kultaa 2024?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "Englanti",
+        "isCorrect": false
+      },
+      {
+        "text": "Espanja",
+        "isCorrect": true,
+        "rationale": "Espanja voitti Englannin finaalissa."
+      },
+      {
+        "text": "Saksa",
+        "isCorrect": false
+      },
+      {
+        "text": "Ranska",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on kaikkien aikojen eniten NBA-pisteitä tehnyt pelaaja (2025 tilanne)?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "Michael Jordan",
+        "isCorrect": false
+      },
+      {
+        "text": "Kobe Bryant",
+        "isCorrect": false
+      },
+      {
+        "text": "LeBron James",
+        "isCorrect": true,
+        "rationale": "LeBron ohitti Kareem Abdul-Jabbarin ennätyksen."
+      },
+      {
+        "text": "Stephen Curry",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä kaupungissa pidettiin vuoden 1952 kesäolympialaiset?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "Tukholma",
+        "isCorrect": false
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Helsinki",
+        "isCorrect": true,
+        "rationale": "Helsingin olympialaiset ovat ainoat Suomessa pidetyt."
+      },
+      {
+        "text": "Oslo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on menestynein suomalainen F1-kuljettaja mestaruuksilla mitattuna?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "Kimi Räikkönen",
+        "isCorrect": false
+      },
+      {
+        "text": "Mika Häkkinen",
+        "isCorrect": true,
+        "rationale": "Mika Häkkinen voitti kaksi maailmanmestaruutta (1998, 1999)."
+      },
+      {
+        "text": "Keke Rosberg",
+        "isCorrect": false
+      },
+      {
+        "text": "Valtteri Bottas",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on tenniksen Grand Slam -turnaus, joka pelataan massakentällä?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "Wimbledon",
+        "isCorrect": false
+      },
+      {
+        "text": "US Open",
+        "isCorrect": false
+      },
+      {
+        "text": "Australian Open",
+        "isCorrect": false
+      },
+      {
+        "text": "Ranskan avoimet (Roland Garros)",
+        "isCorrect": true,
+        "rationale": "Roland Garros on ainoa massalla pelattava Grand Slam."
+      }
+    ]
+  },
+  {
+    "question": "Kuka on ohjannut elokuvat 'Inception' ja 'Interstellar'?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Quentin Tarantino",
+        "isCorrect": false
+      },
+      {
+        "text": "Christopher Nolan",
+        "isCorrect": true,
+        "rationale": "Nolan tunnetaan monimutkaisista tieteiselokuvistaan."
+      },
+      {
+        "text": "Denis Villeneuve",
+        "isCorrect": false
+      },
+      {
+        "text": "Martin Scorsese",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Netflixin katsotuin englanninkielinen sarja (2024)?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Stranger Things",
+        "isCorrect": false
+      },
+      {
+        "text": "Wednesday",
+        "isCorrect": true,
+        "rationale": "Wednesday rikkoi ennätyksiä julkaisunsa jälkeen."
+      },
+      {
+        "text": "Bridgerton",
+        "isCorrect": false
+      },
+      {
+        "text": "The Crown",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka näytteli Iron Mania Marvel-elokuvissa?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Chris Evans",
+        "isCorrect": false
+      },
+      {
+        "text": "Robert Downey Jr.",
+        "isCorrect": true,
+        "rationale": "RDJ aloitti MCU:n Iron Manilla vuonna 2008."
+      },
+      {
+        "text": "Chris Hemsworth",
+        "isCorrect": false
+      },
+      {
+        "text": "Mark Ruffalo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman myydyin albumi?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Pink Floyd - Dark Side of the Moon",
+        "isCorrect": false
+      },
+      {
+        "text": "Michael Jackson - Thriller",
+        "isCorrect": true,
+        "rationale": "Thriller on myynyt arviolta yli 66 miljoonaa kopiota."
+      },
+      {
+        "text": "Eagles - Greatest Hits",
+        "isCorrect": false
+      },
+      {
+        "text": "AC/DC - Back in Black",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka voitti Euroviisut vuonna 2023?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Käärijä (Suomi)",
+        "isCorrect": false
+      },
+      {
+        "text": "Loreen (Ruotsi)",
+        "isCorrect": true,
+        "rationale": "Loreen voitti kappaleella 'Tattoo'."
+      },
+      {
+        "text": "Måneskin (Italia)",
+        "isCorrect": false
+      },
+      {
+        "text": "Kalush Orchestra (Ukraina)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Ranska pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Pariisi",
+        "isCorrect": true
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Wellington",
+        "isCorrect": false
+      },
+      {
+        "text": "Peking",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Saksa pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Berliini",
+        "isCorrect": true
+      },
+      {
+        "text": "Ottawa",
+        "isCorrect": false
+      },
+      {
+        "text": "Sydney",
+        "isCorrect": false
+      },
+      {
+        "text": "Riika",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Espanja pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Madrid",
+        "isCorrect": true
+      },
+      {
+        "text": "Bagdad",
+        "isCorrect": false
+      },
+      {
+        "text": "Tallinna",
+        "isCorrect": false
+      },
+      {
+        "text": "Dakar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Italia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Rooma",
+        "isCorrect": true
+      },
+      {
+        "text": "Vilna",
+        "isCorrect": false
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Ankara",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Portugali pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Lissabon",
+        "isCorrect": true
+      },
+      {
+        "text": "Alger",
+        "isCorrect": false
+      },
+      {
+        "text": "Riika",
+        "isCorrect": false
+      },
+      {
+        "text": "Pretoria",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Puola pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Varsova",
+        "isCorrect": true
+      },
+      {
+        "text": "Teheran",
+        "isCorrect": false
+      },
+      {
+        "text": "Rooma",
+        "isCorrect": false
+      },
+      {
+        "text": "Tripoli",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Tanska pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kööpenhamina",
+        "isCorrect": true
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Rabat",
+        "isCorrect": false
+      },
+      {
+        "text": "Bukarest",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Norja pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Oslo",
+        "isCorrect": true
+      },
+      {
+        "text": "Ottawa",
+        "isCorrect": false
+      },
+      {
+        "text": "Addis Abeba",
+        "isCorrect": false
+      },
+      {
+        "text": "Brasilia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Ruotsi pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Tukholma",
+        "isCorrect": true
+      },
+      {
+        "text": "Kapkaupunki",
+        "isCorrect": false
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Tallinna",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Suomi pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Helsinki",
+        "isCorrect": true
+      },
+      {
+        "text": "Peking",
+        "isCorrect": false
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Tripoli",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Viro pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Tallinna",
+        "isCorrect": true
+      },
+      {
+        "text": "Tokio",
+        "isCorrect": false
+      },
+      {
+        "text": "Santiago",
+        "isCorrect": false
+      },
+      {
+        "text": "Pariisi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Venäjä pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Moskova",
+        "isCorrect": true
+      },
+      {
+        "text": "Bagdad",
+        "isCorrect": false
+      },
+      {
+        "text": "Kööpenhamina",
+        "isCorrect": false
+      },
+      {
+        "text": "Santiago",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kiina pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Peking",
+        "isCorrect": true
+      },
+      {
+        "text": "Rooma",
+        "isCorrect": false
+      },
+      {
+        "text": "Alger",
+        "isCorrect": false
+      },
+      {
+        "text": "Berliini",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Japani pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Tokio",
+        "isCorrect": true
+      },
+      {
+        "text": "Lima",
+        "isCorrect": false
+      },
+      {
+        "text": "Kööpenhamina",
+        "isCorrect": false
+      },
+      {
+        "text": "Ottawa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Thaimaa pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Bangkok",
+        "isCorrect": true
+      },
+      {
+        "text": "Peking",
+        "isCorrect": false
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Riika",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Vietnam pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Hanoi",
+        "isCorrect": true
+      },
+      {
+        "text": "Oslo",
+        "isCorrect": false
+      },
+      {
+        "text": "Budapest",
+        "isCorrect": false
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Intia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "New Delhi",
+        "isCorrect": true
+      },
+      {
+        "text": "Berliini",
+        "isCorrect": false
+      },
+      {
+        "text": "Tunis",
+        "isCorrect": false
+      },
+      {
+        "text": "Oslo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Egypti pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kairo",
+        "isCorrect": true
+      },
+      {
+        "text": "Praha",
+        "isCorrect": false
+      },
+      {
+        "text": "Rooma",
+        "isCorrect": false
+      },
+      {
+        "text": "Berliini",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Etelä-Afrikka pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Pretoria",
+        "isCorrect": true
+      },
+      {
+        "text": "Lagos",
+        "isCorrect": false
+      },
+      {
+        "text": "Budapest",
+        "isCorrect": false
+      },
+      {
+        "text": "Ateena",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kenia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Nairobi",
+        "isCorrect": true
+      },
+      {
+        "text": "Pariisi",
+        "isCorrect": false
+      },
+      {
+        "text": "Bagdad",
+        "isCorrect": false
+      },
+      {
+        "text": "Brasilia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Brasilia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Brasília",
+        "isCorrect": true
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Kairo",
+        "isCorrect": false
+      },
+      {
+        "text": "Ottawa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Argentiina pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Buenos Aires",
+        "isCorrect": true
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Bagdad",
+        "isCorrect": false
+      },
+      {
+        "text": "Kööpenhamina",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Chile pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Santiago",
+        "isCorrect": true
+      },
+      {
+        "text": "Sofia",
+        "isCorrect": false
+      },
+      {
+        "text": "Berliini",
+        "isCorrect": false
+      },
+      {
+        "text": "Canberra",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Peru pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Lima",
+        "isCorrect": true
+      },
+      {
+        "text": "Sofia",
+        "isCorrect": false
+      },
+      {
+        "text": "Tallinna",
+        "isCorrect": false
+      },
+      {
+        "text": "Sydney",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kanada pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Ottawa",
+        "isCorrect": true
+      },
+      {
+        "text": "Tokio",
+        "isCorrect": false
+      },
+      {
+        "text": "Alger",
+        "isCorrect": false
+      },
+      {
+        "text": "Buenos Aires",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Yhdysvallat pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Washington D.C.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tukholma",
+        "isCorrect": false
+      },
+      {
+        "text": "Ankara",
+        "isCorrect": false
+      },
+      {
+        "text": "Pretoria",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Meksiko pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Mexico City",
+        "isCorrect": true
+      },
+      {
+        "text": "Berliini",
+        "isCorrect": false
+      },
+      {
+        "text": "Santiago",
+        "isCorrect": false
+      },
+      {
+        "text": "Teheran",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Australia pääkaupunki?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Canberra",
+        "isCorrect": true
+      },
+      {
+        "text": "Varsova",
+        "isCorrect": false
+      },
+      {
+        "text": "Tokio",
+        "isCorrect": false
+      },
+      {
+        "text": "Bagdad",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Japani valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Jeni",
+        "isCorrect": true
+      },
+      {
+        "text": "Dinaari",
+        "isCorrect": false
+      },
+      {
+        "text": "Dollari",
+        "isCorrect": false
+      },
+      {
+        "text": "Guarani",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Kiina valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Yuan",
+        "isCorrect": true
+      },
+      {
+        "text": "Sol",
+        "isCorrect": false
+      },
+      {
+        "text": "Guarani",
+        "isCorrect": false
+      },
+      {
+        "text": "Punta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Venäjä valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Rupla",
+        "isCorrect": true
+      },
+      {
+        "text": "Shillinki",
+        "isCorrect": false
+      },
+      {
+        "text": "Euro",
+        "isCorrect": false
+      },
+      {
+        "text": "Dollari",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Iso-Britannia valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Punta",
+        "isCorrect": true
+      },
+      {
+        "text": "Rupia",
+        "isCorrect": false
+      },
+      {
+        "text": "Peso",
+        "isCorrect": false
+      },
+      {
+        "text": "Cordoba",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Sveitsi valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Frangi",
+        "isCorrect": true
+      },
+      {
+        "text": "Ringgit",
+        "isCorrect": false
+      },
+      {
+        "text": "Punta",
+        "isCorrect": false
+      },
+      {
+        "text": "Rupia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Ruotsi valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kruunu",
+        "isCorrect": true
+      },
+      {
+        "text": "Shillinki",
+        "isCorrect": false
+      },
+      {
+        "text": "Boliviano",
+        "isCorrect": false
+      },
+      {
+        "text": "Dinaari",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Norja valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kruunu",
+        "isCorrect": true
+      },
+      {
+        "text": "Boliviano",
+        "isCorrect": false
+      },
+      {
+        "text": "Liira",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeni",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Tanska valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Kruunu",
+        "isCorrect": true
+      },
+      {
+        "text": "Randi",
+        "isCorrect": false
+      },
+      {
+        "text": "Frangi",
+        "isCorrect": false
+      },
+      {
+        "text": "Liira",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Puola valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Zloty",
+        "isCorrect": true
+      },
+      {
+        "text": "Quetzal",
+        "isCorrect": false
+      },
+      {
+        "text": "Rupla",
+        "isCorrect": false
+      },
+      {
+        "text": "Kruunu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Turkki valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Liira",
+        "isCorrect": true
+      },
+      {
+        "text": "Guarani",
+        "isCorrect": false
+      },
+      {
+        "text": "Euro",
+        "isCorrect": false
+      },
+      {
+        "text": "Dinaari",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Etelä-Afrikka valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Randi",
+        "isCorrect": true
+      },
+      {
+        "text": "Kruunu",
+        "isCorrect": false
+      },
+      {
+        "text": "Sol",
+        "isCorrect": false
+      },
+      {
+        "text": "Real",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Brasilia valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Real",
+        "isCorrect": true
+      },
+      {
+        "text": "Dollari",
+        "isCorrect": false
+      },
+      {
+        "text": "Dong",
+        "isCorrect": false
+      },
+      {
+        "text": "Shillinki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Thaimaa valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Baht",
+        "isCorrect": true
+      },
+      {
+        "text": "Cordoba",
+        "isCorrect": false
+      },
+      {
+        "text": "Rupla",
+        "isCorrect": false
+      },
+      {
+        "text": "Won",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Vietnam valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Dong",
+        "isCorrect": true
+      },
+      {
+        "text": "Dinaari",
+        "isCorrect": false
+      },
+      {
+        "text": "Guarani",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeni",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Intia valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Rupia",
+        "isCorrect": true
+      },
+      {
+        "text": "Frangi",
+        "isCorrect": false
+      },
+      {
+        "text": "Floriini",
+        "isCorrect": false
+      },
+      {
+        "text": "Shillinki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maan Israel valuutta?",
+    "category": "Maantieto",
+    "answerOptions": [
+      {
+        "text": "Sekeli",
+        "isCorrect": true
+      },
+      {
+        "text": "Colon",
+        "isCorrect": false
+      },
+      {
+        "text": "Frangi",
+        "isCorrect": false
+      },
+      {
+        "text": "Boliviano",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään H?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Vety",
+        "isCorrect": true
+      },
+      {
+        "text": "Rauta",
+        "isCorrect": false
+      },
+      {
+        "text": "Boori",
+        "isCorrect": false
+      },
+      {
+        "text": "Kulta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään He?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Helium",
+        "isCorrect": true
+      },
+      {
+        "text": "Rauta",
+        "isCorrect": false
+      },
+      {
+        "text": "Hiili",
+        "isCorrect": false
+      },
+      {
+        "text": "Plutonium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Li?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Litium",
+        "isCorrect": true
+      },
+      {
+        "text": "Lyijy",
+        "isCorrect": false
+      },
+      {
+        "text": "Kalium",
+        "isCorrect": false
+      },
+      {
+        "text": "Vety",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään C?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Hiili",
+        "isCorrect": true
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Vety",
+        "isCorrect": false
+      },
+      {
+        "text": "Rauta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään N?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Typpi",
+        "isCorrect": true
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Alumiini",
+        "isCorrect": false
+      },
+      {
+        "text": "Uraani",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään O?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Happi",
+        "isCorrect": true
+      },
+      {
+        "text": "Kalsium",
+        "isCorrect": false
+      },
+      {
+        "text": "Kupari",
+        "isCorrect": false
+      },
+      {
+        "text": "Magnesium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään F?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Fluori",
+        "isCorrect": true
+      },
+      {
+        "text": "Fosfori",
+        "isCorrect": false
+      },
+      {
+        "text": "Lyijy",
+        "isCorrect": false
+      },
+      {
+        "text": "Pii",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Ne?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Neon",
+        "isCorrect": true
+      },
+      {
+        "text": "Kupari",
+        "isCorrect": false
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Kloori",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Na?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Natrium",
+        "isCorrect": true
+      },
+      {
+        "text": "Kulta",
+        "isCorrect": false
+      },
+      {
+        "text": "Kloori",
+        "isCorrect": false
+      },
+      {
+        "text": "Alumiini",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Mg?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Magnesium",
+        "isCorrect": true
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Kloori",
+        "isCorrect": false
+      },
+      {
+        "text": "Vety",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Al?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Alumiini",
+        "isCorrect": true
+      },
+      {
+        "text": "Radon",
+        "isCorrect": false
+      },
+      {
+        "text": "Neon",
+        "isCorrect": false
+      },
+      {
+        "text": "Tina",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Si?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Pii",
+        "isCorrect": true
+      },
+      {
+        "text": "Lyijy",
+        "isCorrect": false
+      },
+      {
+        "text": "Natrium",
+        "isCorrect": false
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään P?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Fosfori",
+        "isCorrect": true
+      },
+      {
+        "text": "Hopea",
+        "isCorrect": false
+      },
+      {
+        "text": "Krypton",
+        "isCorrect": false
+      },
+      {
+        "text": "Neon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään S?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Rikki",
+        "isCorrect": true
+      },
+      {
+        "text": "Boori",
+        "isCorrect": false
+      },
+      {
+        "text": "Typpi",
+        "isCorrect": false
+      },
+      {
+        "text": "Kalsium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Cl?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kloori",
+        "isCorrect": true
+      },
+      {
+        "text": "Alumiini",
+        "isCorrect": false
+      },
+      {
+        "text": "Hiili",
+        "isCorrect": false
+      },
+      {
+        "text": "Kupari",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään K?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kalium",
+        "isCorrect": true
+      },
+      {
+        "text": "Typpi",
+        "isCorrect": false
+      },
+      {
+        "text": "Tina",
+        "isCorrect": false
+      },
+      {
+        "text": "Xenon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Ca?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kalsium",
+        "isCorrect": true
+      },
+      {
+        "text": "Rikki",
+        "isCorrect": false
+      },
+      {
+        "text": "Magnesium",
+        "isCorrect": false
+      },
+      {
+        "text": "Kloori",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Fe?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Rauta",
+        "isCorrect": true
+      },
+      {
+        "text": "Kulta",
+        "isCorrect": false
+      },
+      {
+        "text": "Helium",
+        "isCorrect": false
+      },
+      {
+        "text": "Argon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Cu?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kupari",
+        "isCorrect": true
+      },
+      {
+        "text": "Kalium",
+        "isCorrect": false
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Kloori",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Zn?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Sinkki",
+        "isCorrect": true
+      },
+      {
+        "text": "Kulta",
+        "isCorrect": false
+      },
+      {
+        "text": "Hopea",
+        "isCorrect": false
+      },
+      {
+        "text": "Argon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Ag?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Hopea",
+        "isCorrect": true
+      },
+      {
+        "text": "Kupari",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinkki",
+        "isCorrect": false
+      },
+      {
+        "text": "Xenon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Au?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Kulta",
+        "isCorrect": true
+      },
+      {
+        "text": "Kloori",
+        "isCorrect": false
+      },
+      {
+        "text": "Vety",
+        "isCorrect": false
+      },
+      {
+        "text": "Kalsium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Hg?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Elohopea",
+        "isCorrect": true
+      },
+      {
+        "text": "Rauta",
+        "isCorrect": false
+      },
+      {
+        "text": "Plutonium",
+        "isCorrect": false
+      },
+      {
+        "text": "Typpi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään Pb?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Lyijy",
+        "isCorrect": true
+      },
+      {
+        "text": "Kloori",
+        "isCorrect": false
+      },
+      {
+        "text": "Helium",
+        "isCorrect": false
+      },
+      {
+        "text": "Fosfori",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on merkiltään U?",
+    "category": "Tiede",
+    "answerOptions": [
+      {
+        "text": "Uraani",
+        "isCorrect": true
+      },
+      {
+        "text": "Xenon",
+        "isCorrect": false
+      },
+      {
+        "text": "Magnesium",
+        "isCorrect": false
+      },
+      {
+        "text": "Argon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin ensimmäinen maailmansota alkoi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1914",
+        "isCorrect": true
+      },
+      {
+        "text": "1962",
+        "isCorrect": false
+      },
+      {
+        "text": "1940",
+        "isCorrect": false
+      },
+      {
+        "text": "1996",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin ensimmäinen maailmansota päättyi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1918",
+        "isCorrect": true
+      },
+      {
+        "text": "1948",
+        "isCorrect": false
+      },
+      {
+        "text": "1932",
+        "isCorrect": false
+      },
+      {
+        "text": "1910",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin toinen maailmansota alkoi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1939",
+        "isCorrect": true
+      },
+      {
+        "text": "1916",
+        "isCorrect": false
+      },
+      {
+        "text": "1906",
+        "isCorrect": false
+      },
+      {
+        "text": "1994",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin toinen maailmansota päättyi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1945",
+        "isCorrect": true
+      },
+      {
+        "text": "1946",
+        "isCorrect": false
+      },
+      {
+        "text": "1948",
+        "isCorrect": false
+      },
+      {
+        "text": "1936",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin ihminen käveli kuussa?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1969",
+        "isCorrect": true
+      },
+      {
+        "text": "1906",
+        "isCorrect": false
+      },
+      {
+        "text": "1986",
+        "isCorrect": false
+      },
+      {
+        "text": "1948",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin berliinin muuri murtui?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1989",
+        "isCorrect": true
+      },
+      {
+        "text": "1948",
+        "isCorrect": false
+      },
+      {
+        "text": "1916",
+        "isCorrect": false
+      },
+      {
+        "text": "1984",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin suomi itsenäistyi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1917",
+        "isCorrect": true
+      },
+      {
+        "text": "1922",
+        "isCorrect": false
+      },
+      {
+        "text": "1900",
+        "isCorrect": false
+      },
+      {
+        "text": "1986",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin suomi liittyi eu:hun?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1995",
+        "isCorrect": true
+      },
+      {
+        "text": "1928",
+        "isCorrect": false
+      },
+      {
+        "text": "1924",
+        "isCorrect": false
+      },
+      {
+        "text": "1992",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin kolumbus purjehti amerikkaan?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1492",
+        "isCorrect": true
+      },
+      {
+        "text": "1900",
+        "isCorrect": false
+      },
+      {
+        "text": "1986",
+        "isCorrect": false
+      },
+      {
+        "text": "1948",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Milloin ranskan vallankumous alkoi?",
+    "category": "Historia",
+    "answerOptions": [
+      {
+        "text": "1789",
+        "isCorrect": true
+      },
+      {
+        "text": "1942",
+        "isCorrect": false
+      },
+      {
+        "text": "1994",
+        "isCorrect": false
+      },
+      {
+        "text": "1920",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Jalkapallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "11",
+        "isCorrect": true
+      },
+      {
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "text": "14",
+        "isCorrect": false
+      },
+      {
+        "text": "13",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Jääkiekko?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "50",
+        "isCorrect": false
+      },
+      {
+        "text": "100",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Koripallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "5",
+        "isCorrect": true
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "text": "100",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Lentopallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "text": "14",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Käsipallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "text": "13",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Pesäpallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "9",
+        "isCorrect": true
+      },
+      {
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "text": "7",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Rugby Union?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "15",
+        "isCorrect": true
+      },
+      {
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Amerikkalainen jalkapallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "11",
+        "isCorrect": true
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Futsal?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "5",
+        "isCorrect": true
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Vesipallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "text": "11",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Kaukalopallo?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pelaajaa on kentällä joukkueessa lajissa Salibandy?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "50",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään leijona kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Kissa",
+        "isCorrect": true
+      },
+      {
+        "text": "Matelija",
+        "isCorrect": false
+      },
+      {
+        "text": "Nisäkäs",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyönteinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään susi kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Koira",
+        "isCorrect": true
+      },
+      {
+        "text": "Hämähäkkieläin",
+        "isCorrect": false
+      },
+      {
+        "text": "Matelija",
+        "isCorrect": false
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään karhu kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Karhu",
+        "isCorrect": true
+      },
+      {
+        "text": "Nilviäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään kotka kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Lintu",
+        "isCorrect": true
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään hauki kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Kala",
+        "isCorrect": true
+      },
+      {
+        "text": "Hyönteinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Hämähäkkieläin",
+        "isCorrect": false
+      },
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään sammakko kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": true
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Nilviäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään kyy kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Matelija",
+        "isCorrect": true
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyönteinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään ihminen kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Nisäkäs",
+        "isCorrect": true
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Hämähäkkieläin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään valas kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Nisäkäs",
+        "isCorrect": true
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Hämähäkkieläin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään delfiini kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Nisäkäs",
+        "isCorrect": true
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Hämähäkkieläin",
+        "isCorrect": false
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään hai kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Kala",
+        "isCorrect": true
+      },
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": false
+      },
+      {
+        "text": "Matelija",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyönteinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään krokotiili kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Matelija",
+        "isCorrect": true
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Äyriäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään strutsi kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Lintu",
+        "isCorrect": true
+      },
+      {
+        "text": "Nisäkäs",
+        "isCorrect": false
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään pingviini kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Lintu",
+        "isCorrect": true
+      },
+      {
+        "text": "Nilviäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Matelija",
+        "isCorrect": false
+      },
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään lepakko kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Nisäkäs",
+        "isCorrect": true
+      },
+      {
+        "text": "Sammakkoeläin",
+        "isCorrect": false
+      },
+      {
+        "text": "Kala",
+        "isCorrect": false
+      },
+      {
+        "text": "Lintu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mihin eläinryhmään hämähäkki kuuluu?",
+    "category": "Luonto",
+    "answerOptions": [
+      {
+        "text": "Hämähäkkieläin",
+        "isCorrect": true
+      },
+      {
+        "text": "Matelija",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyönteinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Nilviäinen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on 'Avatar' (2009) elokuvan planeetan nimi?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Pandora",
+        "isCorrect": true
+      },
+      {
+        "text": "Tatooine",
+        "isCorrect": false
+      },
+      {
+        "text": "Vulcan",
+        "isCorrect": false
+      },
+      {
+        "text": "Arrakis",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka kirjoitti 'Taru sormusten herrasta' -kirjat?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "J.R.R. Tolkien",
+        "isCorrect": true
+      },
+      {
+        "text": "C.S. Lewis",
+        "isCorrect": false
+      },
+      {
+        "text": "George R.R. Martin",
+        "isCorrect": false
+      },
+      {
+        "text": "J.K. Rowling",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on videopelihahmo Sonicin väri?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Sininen",
+        "isCorrect": true
+      },
+      {
+        "text": "Punainen",
+        "isCorrect": false
+      },
+      {
+        "text": "Vihreä",
+        "isCorrect": false
+      },
+      {
+        "text": "Keltainen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä bändi esittää kappaleen 'Enter Sandman'?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Metallica",
+        "isCorrect": true
+      },
+      {
+        "text": "Iron Maiden",
+        "isCorrect": false
+      },
+      {
+        "text": "AC/DC",
+        "isCorrect": false
+      },
+      {
+        "text": "Nirvana",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka näytteli pääosaa elokuvassa 'Titanic'?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Leonardo DiCaprio",
+        "isCorrect": true
+      },
+      {
+        "text": "Brad Pitt",
+        "isCorrect": false
+      },
+      {
+        "text": "Tom Cruise",
+        "isCorrect": false
+      },
+      {
+        "text": "Matt Damon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Simpsonien koiran nimi?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Pukin pikku apuri",
+        "isCorrect": true
+      },
+      {
+        "text": "Lassie",
+        "isCorrect": false
+      },
+      {
+        "text": "Snoopy",
+        "isCorrect": false
+      },
+      {
+        "text": "Pluto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman katsotuin urheilutapahtuma?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "Jalkapallon MM-kisat",
+        "isCorrect": true
+      },
+      {
+        "text": "Super Bowl",
+        "isCorrect": false
+      },
+      {
+        "text": "Olympialaiset",
+        "isCorrect": false
+      },
+      {
+        "text": "Tour de France",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä lajissa kilpaillaan Stanley Cupista?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "Jääkiekko",
+        "isCorrect": true
+      },
+      {
+        "text": "Jalkapallo",
+        "isCorrect": false
+      },
+      {
+        "text": "Koripallo",
+        "isCorrect": false
+      },
+      {
+        "text": "Amerikkalainen jalkapallo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on kaikkien aikojen menestynein olympiaurheilija (mitalien määrässä)?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "Michael Phelps",
+        "isCorrect": true
+      },
+      {
+        "text": "Usain Bolt",
+        "isCorrect": false
+      },
+      {
+        "text": "Paavo Nurmi",
+        "isCorrect": false
+      },
+      {
+        "text": "Larisa Latynina",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on golfin 'hole-in-one'?",
+    "category": "Urheilu",
+    "answerOptions": [
+      {
+        "text": "Pallo menee reikään yhdellä lyönnillä",
+        "isCorrect": true
+      },
+      {
+        "text": "Pallo menee veteen",
+        "isCorrect": false
+      },
+      {
+        "text": "Pallo menee hiekkaesteeseen",
+        "isCorrect": false
+      },
+      {
+        "text": "Peli päättyy tasan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä maa on voittanut Euroviisut useimmin (vuoteen 2024 mennessä)?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Irlanti",
+        "isCorrect": true
+      },
+      {
+        "text": "Ruotsi",
+        "isCorrect": true,
+        "rationale": "Ruotsi tasoitti voitot 7:ään vuonna 2023."
+      },
+      {
+        "text": "Iso-Britannia",
+        "isCorrect": false
+      },
+      {
+        "text": "Ranska",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on Spider-Manin alter ego?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Peter Parker",
+        "isCorrect": true
+      },
+      {
+        "text": "Bruce Wayne",
+        "isCorrect": false
+      },
+      {
+        "text": "Clark Kent",
+        "isCorrect": false
+      },
+      {
+        "text": "Tony Stark",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Netflixin suosittu sarja, jossa pelataan lastenleikkejä kuoleman uhalla?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Squid Game",
+        "isCorrect": true
+      },
+      {
+        "text": "Alice in Borderland",
+        "isCorrect": false
+      },
+      {
+        "text": "Black Mirror",
+        "isCorrect": false
+      },
+      {
+        "text": "Money Heist",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka laulaa kappaleen 'Shape of You'?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Ed Sheeran",
+        "isCorrect": true
+      },
+      {
+        "text": "Justin Bieber",
+        "isCorrect": false
+      },
+      {
+        "text": "Bruno Mars",
+        "isCorrect": false
+      },
+      {
+        "text": "Shawn Mendes",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on videopeli 'Fortnite' tunnetuin pelimuoto?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Battle Royale",
+        "isCorrect": true
+      },
+      {
+        "text": "Team Deathmatch",
+        "isCorrect": false
+      },
+      {
+        "text": "Capture the Flag",
+        "isCorrect": false
+      },
+      {
+        "text": "Story Mode",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Harry Potterin pöllön nimi?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Hedwig",
+        "isCorrect": true
+      },
+      {
+        "text": "Errol",
+        "isCorrect": false
+      },
+      {
+        "text": "Pigwidgeon",
+        "isCorrect": false
+      },
+      {
+        "text": "Fawkes",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka näytteli Jokeria elokuvassa 'The Dark Knight'?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Heath Ledger",
+        "isCorrect": true
+      },
+      {
+        "text": "Joaquin Phoenix",
+        "isCorrect": false
+      },
+      {
+        "text": "Jared Leto",
+        "isCorrect": false
+      },
+      {
+        "text": "Jack Nicholson",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman suurin suoratoistopalvelu?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Netflix",
+        "isCorrect": true
+      },
+      {
+        "text": "Disney+",
+        "isCorrect": false
+      },
+      {
+        "text": "Amazon Prime Video",
+        "isCorrect": false
+      },
+      {
+        "text": "HBO Max",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on 'Star Wars' -elokuvien luoja?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "George Lucas",
+        "isCorrect": true
+      },
+      {
+        "text": "Steven Spielberg",
+        "isCorrect": false
+      },
+      {
+        "text": "J.J. Abrams",
+        "isCorrect": false
+      },
+      {
+        "text": "James Cameron",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Disneyn ensimmäinen pitkä animaatioelokuva?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Lumikki ja seitsemän kääpiötä",
+        "isCorrect": true
+      },
+      {
+        "text": "Pinokkio",
+        "isCorrect": false
+      },
+      {
+        "text": "Fantasia",
+        "isCorrect": false
+      },
+      {
+        "text": "Dumbo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on YouTuben katsotuin video (2024)?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Baby Shark Dance",
+        "isCorrect": true
+      },
+      {
+        "text": "Despacito",
+        "isCorrect": false
+      },
+      {
+        "text": "Gangnam Style",
+        "isCorrect": false
+      },
+      {
+        "text": "Shape of You",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on tunnettu kappaleesta 'Bad Guy'?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Billie Eilish",
+        "isCorrect": true
+      },
+      {
+        "text": "Dua Lipa",
+        "isCorrect": false
+      },
+      {
+        "text": "Ariana Grande",
+        "isCorrect": false
+      },
+      {
+        "text": "Taylor Swift",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Pokémon-sarjan maskotti?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "Pikachu",
+        "isCorrect": true
+      },
+      {
+        "text": "Charizard",
+        "isCorrect": false
+      },
+      {
+        "text": "Bulbasaur",
+        "isCorrect": false
+      },
+      {
+        "text": "Mewtwo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on James Bondin pomo?",
+    "category": "Viihde",
+    "answerOptions": [
+      {
+        "text": "M",
+        "isCorrect": true
+      },
+      {
+        "text": "Q",
+        "isCorrect": false
+      },
+      {
+        "text": "Z",
+        "isCorrect": false
+      },
+      {
+        "text": "K",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman myydyin kirja (Raamatun jälkeen)?",
+    "category": "Kulttuuri",
+    "answerOptions": [
+      {
+        "text": "Don Quijote",
+        "isCorrect": true
+      },
+      {
+        "text": "Harry Potter ja viisasten kivi",
+        "isCorrect": false
+      },
+      {
+        "text": "Taru sormusten herrasta",
+        "isCorrect": false
+      },
+      {
+        "text": "Pikku prinssi",
+        "isCorrect": false
+      }
+    ]
+  }
+,
   // --- UUDET KYSYMYKSET (Erä 3: 100 kpl - Historia & Maantieto) ---
   
   // HISTORIA
