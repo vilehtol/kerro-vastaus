@@ -225,6 +225,11 @@ select#category-select {
   animation: fadeUp 0.3s ease;
 }
 
+.explanation strong {
+  color: #fbbf24; /* Golden color for "Tiesitkö että..." */
+  font-weight: 700;
+}
+
 /* ========== ACTION BUTTONS ========== */
 #next-btn, .action-btn {
   margin-top: 18px;

@@ -192,21 +192,34 @@ function selectAnswer(e) {
   const isCorrect = selectedBtn.dataset.correct === 'true';
   if (navigator.vibrate) navigator.vibrate(isCorrect ? [30] : [50, 30, 50]);
 
+  const q = peliKysymykset[currentQuestionIndex];
+  let explanationText = '';
+
   if (isCorrect) {
     selectedBtn.classList.add('correct');
     score++;
     if (scoreElement) scoreElement.innerText = score;
-    if (explanationElement) explanationElement.innerText = '✅ Oikein! ' + (selectedBtn.dataset.rationale || '');
+    explanationText = '✅ Oikein! ' + (selectedBtn.dataset.rationale || '');
   } else {
     selectedBtn.classList.add('wrong');
     Array.from(optionsElement.children).forEach(btn => {
       if (btn.dataset.correct === 'true') {
+        explanationText = `❌ Väärin. Oikea vastaus: ${btn.innerText}. ${btn.dataset.rationale || ''}`;
         btn.classList.add('correct');
-        if (explanationElement) explanationElement.innerText = `❌ Väärin. Oikea vastaus: ${btn.innerText}. ${btn.dataset.rationale || ''}`;
       }
     });
   }
-  if (explanationElement) explanationElement.style.display = 'block';
+
+  // Lisää "Tiesitkö että..." -fakta jos se on olemassa
+  if (q.didYouKnow) {
+    explanationText += `\n\n💡 <strong>Tiesitkö että...</strong>\n${q.didYouKnow}`;
+  }
+
+  if (explanationElement) {
+    explanationElement.innerHTML = explanationText.replace(/\n/g, '<br>');
+    explanationElement.style.display = 'block';
+  }
+
   Array.from(optionsElement.children).forEach(btn => { btn.disabled = true; });
   if (nextButton) {
     nextButton.innerText = 'Seuraava kysymys ➜';

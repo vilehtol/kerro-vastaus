@@ -6,6 +6,7 @@ const kaikkiKysymykset = [
   {
     "question": "Mikä on maan Ranska pääkaupunki?",
     "category": "Maantieto",
+    "didYouKnow": "Pariisi on nimeltään 'Valojen kaupunki', koska se oli ensimmäisiä eurooppalaisia kaupunkeja, joka sai kaasuvalot kaduille. Eiffel-tornin korkeudella on 5 senttimetrin vaihtelu lämpötilan mukaan!",
     "answerOptions": [
       {
         "text": "Pariisi",
@@ -28,6 +29,7 @@ const kaikkiKysymykset = [
   {
     "question": "Mikä on maan Saksa pääkaupunki?",
     "category": "Maantieto",
+    "didYouKnow": "Berliini oli jaettuna kahtia Berliinin muurin takia vuosina 1961-1989. Muuri jakoi kaupungin länsi- ja itäosaan, ja sen kaatuminen symboloi kylmän sodan loppua.",
     "answerOptions": [
       {
         "text": "Berliini",
@@ -50,6 +52,7 @@ const kaikkiKysymykset = [
   {
     "question": "Mikä on maan Espanja pääkaupunki?",
     "category": "Maantieto",
+    "didYouKnow": "Madrid sijaitsee 667 metrin korkeudella merenpinnasta, mikä tekee siitä Euroopan korkeimmalle rakennetun pääkaupungin. Kaupungissa on myös yli 3 000 tuntia auringonpaistetta vuodessa!",
     "answerOptions": [
       {
         "text": "Madrid",
@@ -72,6 +75,7 @@ const kaikkiKysymykset = [
   {
     "question": "Mikä on maan Italia pääkaupunki?",
     "category": "Maantieto",
+    "didYouKnow": "Rooma on yksi maailman vanhimmista jatkuvasti asutuista kaupungeista, ja sitä kutsutaan 'ikuiseksi kaupungiksi'. Colosseum, maailman suurin amfiteatteri, valmistui vuonna 80 jKr ja siihen mahtui 50 000 katsojaa!",
     "answerOptions": [
       {
         "text": "Rooma",
@@ -204,6 +208,7 @@ const kaikkiKysymykset = [
   {
     "question": "Mikä on maan Suomi pääkaupunki?",
     "category": "Maantieto",
+    "didYouKnow": "Helsinki on maailman pohjoisin miljoonan asukkaan metropolialue. Kaupunki perustettiin vuonna 1550, ja siitä tuli Suomen pääkaupunki vuonna 1812. Helsinki tunnetaan myös nimellä 'Itämeren tytär'.",
     "answerOptions": [
       {
         "text": "Helsinki",
@@ -2030,6 +2035,7 @@ const kaikkiKysymykset = [
   {
     "question": "Mikä alkuaine on merkiltään H?",
     "category": "Tiede",
+    "didYouKnow": "Vety on maailmankaikkeuden yleisin alkuaine - se muodostaa noin 75% kaikesta näkyvästä aineesta! Tähtien, mukaan lukien Auringon, pääasiallinen energia tulee vedyn fuusiosta heliumiksi. Vety on myös kevyin tunnettu alkuaine.",
     "answerOptions": [
       {
         "text": "Vety",
@@ -2910,6 +2916,7 @@ const kaikkiKysymykset = [
   {
     "question": "Milloin ensimmäinen maailmansota alkoi?",
     "category": "Historia",
+    "didYouKnow": "Ensimmäisen maailmansodan laukaisi Itävalta-Unkarin arkkiherttua Franz Ferdinandin murha Sarajevossa 28. kesäkuuta 1914. Sodan syttymiseen vaikutti monimutkainen liittoutumajärjestelmä, joka veti nopeasti useimmat Euroopan suurvallat mukaan konfliktiin.",
     "answerOptions": [
       {
         "text": "1914",
@@ -3438,6 +3445,7 @@ const kaikkiKysymykset = [
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Jalkapallo?",
     "category": "Urheilu",
+    "didYouKnow": "Jalkapallon säännöt standardoitiin vuonna 1863 Englannissa, kun perustettiin maailman ensimmäinen jalkapalloseura Football Association. Jalkapallo on maailman suosituin laji - FIFA:n mukaan sitä pelaa yli 250 miljoonaa pelaajaa yli 200 maassa!",
     "answerOptions": [
       {
         "text": "11",
@@ -4164,6 +4172,7 @@ const kaikkiKysymykset = [
   {
     "question": "Mikä on Googlen omistama videopalvelu?",
     "category": "Teknologia",
+    "didYouKnow": "YouTube perustettiin helmikuussa 2005, ja ensimmäinen video 'Me at the zoo' ladattiin 23. huhtikuuta 2005. Google osti YouTuben vuonna 2006 hintaan 1,65 miljardia dollaria. Nykyään YouTubeen ladataan yli 500 tuntia videota joka minuutti!",
     "answerOptions": [
       {
         "text": "YouTube",
