@@ -1,22 +1,21 @@
-/* ========== RESET & BASE ========== */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
 :root {
   --primary: #6366f1;
   --primary-dark: #4f46e5;
   --correct: #86efac;
-  --correct-bg: rgba(20, 83, 45, 0.5);
+  --correct-bg: rgba(20, 83, 45, 0.6);
   --correct-border: #22c55e;
   --wrong: #fca5a5;
-  --wrong-bg: rgba(127, 29, 29, 0.5);
+  --wrong-bg: rgba(127, 29, 29, 0.6);
   --wrong-border: #ef4444;
   --text: #f3f4f6;
   --text-light: #9ca3af;
-  --bg: #111827;
-  --card: #1f2937;
-  --shadow: 0 4px 24px rgba(0,0,0,0.5);
-  --radius: 12px;
-  --transition: 0.25s ease;
+  --bg-grad-start: #0f172a;
+  --bg-grad-end: #1e1b4b;
+  --card: rgba(31, 41, 55, 0.7); /* Glassmorphism base */
+  --card-border: rgba(255, 255, 255, 0.08);
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  --radius: 16px;
+  --transition: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   /* safe area for notch phones */
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
@@ -28,8 +27,8 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background-color: var(--bg);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(135deg, var(--bg-grad-start), var(--bg-grad-end));
   color: var(--text);
   display: flex;
   justify-content: center;
@@ -38,11 +37,15 @@ body {
   min-height: 100dvh;
   padding: calc(16px + var(--safe-top)) 12px calc(16px + var(--safe-bottom));
   -webkit-tap-highlight-color: transparent;
+  background-attachment: fixed;
 }
 
-/* ========== CARD ========== */
+/* ========== CARD (Glassmorphism) ========== */
 .quiz-container {
   background-color: var(--card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--card-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   width: 100%;
@@ -51,83 +54,77 @@ body {
   text-align: center;
   margin-top: 8vh;
   /* animate in */
-  animation: fadeUp 0.4s ease;
+  animation: fadeUp 0.5s ease-out;
 }
 
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(18px); }
+  from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
 /* ========== TYPOGRAPHY ========== */
 h1 {
-  font-size: 1.8rem;
-  margin-bottom: 4px;
-  color: var(--text);
+  font-size: 2rem;
+  margin-bottom: 8px;
+  background: linear-gradient(to right, #818cf8, #c084fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  letter-spacing: -0.5px;
 }
 
 .subtitle {
   color: var(--text-light);
   margin-bottom: 24px;
   font-size: 1.05rem;
-  line-height: 1.4;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
 /* ========== SCORE & PROGRESS ========== */
 .score-board {
   font-size: 1.15rem;
   color: var(--text-light);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
 }
 
 .progress-bar-wrap {
   width: 100%;
-  height: 6px;
-  background: #e9ecef;
-  border-radius: 3px;
-  margin-bottom: 20px;
+  height: 8px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+  margin-bottom: 24px;
   overflow: hidden;
 }
 
 .progress-bar-fill {
   height: 100%;
-  background: var(--primary);
-  border-radius: 3px;
-  transition: width 0.4s ease;
+  background: linear-gradient(90deg, var(--primary), #a855f7);
+  border-radius: 4px;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   width: 0%;
-}
-
-/* ========== HIGH SCORE ========== */
-.high-score {
-  font-size: 0.85rem;
-  color: var(--text-light);
-  margin-top: -16px;
-  margin-bottom: 20px;
-}
-.high-score.new-record {
-  color: var(--correct);
-  font-weight: 700;
-  animation: pulse 0.6s ease;
-}
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.08); }
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
 }
 
 /* ========== QUESTION ========== */
 .question-text {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 700;
-  margin-bottom: 20px;
-  color: var(--text);
-  line-height: 1.35;
+  margin-bottom: 24px;
+  color: #fff;
+  line-height: 1.4;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
   /* slide animation */
-  animation: slideIn 0.3s ease;
+  animation: slideIn 0.3s ease-out;
 }
 
 @keyframes slideIn {
-  from { opacity: 0; transform: translateX(24px); }
+  from { opacity: 0; transform: translateX(10px); }
   to   { opacity: 1; transform: translateX(0); }
 }
 
@@ -135,177 +132,176 @@ h1 {
 .options-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 .btn {
-  background-color: var(--card);
-  border: 2px solid #374151; /* Dark grey border */
-  color: #f3f4f6; /* Bright text specifically set */
-  border-radius: 10px;
-  padding: 16px 18px;
-  font-size: 1.05rem;
+  background: rgba(55, 65, 81, 0.6);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #f3f4f6;
+  border-radius: 12px;
+  padding: 18px 20px;
+  font-size: 1.1rem;
   cursor: pointer;
-  transition: background var(--transition), border-color var(--transition), transform 0.15s ease;
+  transition: all var(--transition);
   text-align: left;
   line-height: 1.35;
   user-select: none;
   -webkit-user-select: none;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
 }
+
+/* Subtle gloss effect */
+.btn::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: linear-gradient(rgba(255,255,255,0.05), transparent);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.btn:hover::after { opacity: 1; }
 
 /* Start-screen buttons & select */
 #start-screen .btn, #category-select {
   text-align: center;
   font-weight: 700;
   font-size: 1.1rem;
-  background-color: #374151;
+  background: linear-gradient(to bottom, #374151, #1f2937);
   border-color: #4b5563;
   padding: 16px;
   color: #ffffff;
   width: 100%;
-  border-radius: 10px;
-  border-width: 2px;
-  border-style: solid;
-  cursor: pointer;
-  appearance: none; /* Custom dropdown arrow */
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
-/* Custom arrow for select */
 select#category-select {
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
-  background-repeat: no-repeat;
-  background-position: right 1rem center;
-  background-size: 1.5em;
+  background-color: #1f2937;
+  margin-bottom: 12px;
 }
 
-/* Hover only on devices that support it (not phones) */
+/* Hover */
 @media (hover: hover) {
   .btn:hover:not(:disabled) {
-    background-color: #374151;
+    background-color: rgba(75, 85, 99, 0.8);
     border-color: var(--primary);
-    transform: translateY(-1px);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   }
 }
 
-/* Active press feedback for all devices */
+/* Active */
 .btn:active:not(:disabled) {
-  transform: scale(0.97);
+  transform: scale(0.98);
 }
 
 .btn:disabled {
   cursor: default;
-  opacity: 0.85;
+  opacity: 0.7;
 }
 
+/* Feedback States */
 .btn.correct {
-  background-color: rgba(20, 83, 45, 0.8); /* Darker green background */
-  border-color: #22c55e;
-  color: #ffffff !important; /* Force white text */
-  font-weight: 600;
+  background: linear-gradient(to right, rgba(20, 83, 45, 0.9), rgba(22, 101, 52, 0.9));
+  border-color: #4ade80;
+  color: #ffffff !important;
+  font-weight: 700;
+  box-shadow: 0 0 15px rgba(74, 222, 128, 0.4);
 }
 
 .btn.wrong {
-  background-color: rgba(127, 29, 29, 0.8); /* Darker red background */
-  border-color: #ef4444;
-  color: #ffffff !important; /* Force white text */
+  background: linear-gradient(to right, rgba(127, 29, 29, 0.9), rgba(153, 27, 27, 0.9));
+  border-color: #f87171;
+  color: #ffffff !important;
 }
 
 /* ========== EXPLANATION ========== */
 .explanation {
-  margin-top: 16px;
-  padding: 14px 16px;
-  background-color: rgba(59, 130, 246, 0.15);
-  border: 1px solid rgba(59, 130, 246, 0.3);
-  color: #93c5fd;
+  margin-top: 20px;
+  padding: 16px 20px;
+  background: rgba(30, 58, 138, 0.4);
+  border-left: 4px solid #60a5fa;
+  color: #dbeafe;
   border-radius: 8px;
   display: none;
   text-align: left;
-  line-height: 1.45;
-  font-size: 0.95rem;
+  line-height: 1.6;
+  font-size: 1rem;
   animation: fadeUp 0.3s ease;
 }
 
 .explanation strong {
-  color: #fbbf24; /* Golden color for "Tiesitkö että..." */
-  font-weight: 700;
+  display: block;
+  margin-bottom: 4px;
+  color: #fbbf24; /* Golden title */
+  font-weight: 800;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 /* ========== ACTION BUTTONS ========== */
 #next-btn, .action-btn {
-  margin-top: 18px;
-  padding: 14px 24px;
-  background-color: var(--primary);
+  margin-top: 24px;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   font-size: 1.1rem;
   font-weight: 700;
   cursor: pointer;
   display: none;
   width: 100%;
-  transition: background var(--transition), transform 0.15s ease;
-  user-select: none;
-  -webkit-user-select: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 #next-btn:active, .action-btn:active {
-  transform: scale(0.97);
+  transform: scale(0.98);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 @media (hover: hover) {
   #next-btn:hover, .action-btn:hover {
-    background-color: var(--primary-dark);
+    filter: brightness(1.1);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(99, 102, 241, 0.4);
   }
 }
 
-/* Share button styling */
+/* Share button */
 #share-btn {
-  background-color: #28a745;
-  margin-top: 10px;
-}
-@media (hover: hover) {
-  #share-btn:hover { background-color: #218838; }
+  background: linear-gradient(135deg, #10b981, #059669);
+  margin-top: 12px;
 }
 
 /* ========== RESULT SCREEN ========== */
 .result-emoji {
-  font-size: 3rem;
-  margin-bottom: 8px;
+  font-size: 4rem;
+  margin-bottom: 12px;
+  animation: pulse 1s infinite;
 }
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
 .result-score {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 800;
   margin-bottom: 4px;
+  color: #fff;
 }
 .result-percent {
-  font-size: 1.1rem;
-  color: var(--text-light);
-  margin-bottom: 20px;
-}
-
-/* ========== INSTALL BANNER ========== */
-#install-banner {
-  display: none;
-  margin-top: 14px;
-  padding: 12px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-radius: 10px;
-  cursor: pointer;
+  font-size: 1.2rem;
+  color: #a78bfa; /* Light purple */
+  margin-bottom: 24px;
   font-weight: 600;
-  font-size: 0.95rem;
-  text-align: center;
-  user-select: none;
-}
-
-/* ========== RESPONSIVE FINE-TUNING ========== */
-@media (max-width: 380px) {
-  .quiz-container { padding: 18px 14px 22px; }
-  h1 { font-size: 1.5rem; }
-  .question-text { font-size: 1.1rem; }
-  .btn { padding: 14px 14px; font-size: 1rem; }
-}
-
-@media (min-width: 600px) {
-  .quiz-container { margin-top: 12vh; padding: 32px 30px 36px; }
 }
