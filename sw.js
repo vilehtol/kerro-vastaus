@@ -1,6 +1,6 @@
 // Service Worker — auto-updating PWA
 // !! Bump this version string every deploy to trigger SW update !!
-const CACHE_NAME = 'visa-v2.0';
+const CACHE_NAME = 'visa-v2.1-' + new Date().toISOString().slice(0,10);
 const ASSETS = [
   './',
   './index.html',
@@ -14,10 +14,10 @@ const ASSETS = [
 
 // Install — cache core assets, activate immediately
 self.addEventListener('install', (event) => {
+  self.skipWaiting(); // Force activation immediately
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => cache.addAll(ASSETS))
-      .then(() => self.skipWaiting())
   );
 });
 
@@ -28,7 +28,7 @@ self.addEventListener('activate', (event) => {
       Promise.all(
         keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))
       )
-    ).then(() => self.clients.claim())
+    ).then(() => self.clients.claim()) // Take control of all pages immediately
   );
 });
 
