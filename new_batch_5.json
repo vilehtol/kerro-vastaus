@@ -1,0 +1,331 @@
+[
+  {
+    "question": "Kuka kirjoitti 'Jumalallisen näytelmän'?",
+    "options": ["Dante Alighieri", "Giovanni Boccaccio", "Francesco Petrarca", "Ludovico Ariosto"],
+    "answer": "Dante Alighieri",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Jumalainen näytelmä (Divina Commedia) kirjoitettiin 1300-luvulla ja se kuvaa Danten matkan helvetin, kiirastulen ja paratiisin läpi."
+  },
+  {
+    "question": "Mikä on maailman suurin energianlähde?",
+    "options": ["Öljy", "Hiili", "Maakaasu", "Ydinvoima"],
+    "answer": "Öljy",
+    "category": "Tiede",
+    "didYouKnow": "Öljy on edelleen maailman suurin energianlähde, vaikka uusiutuvan energian osuus kasvaa nopeasti."
+  },
+  {
+    "question": "Mikä eläin voi elää ilman päätään viikon?",
+    "options": ["Kana", "Etana", "Torakka", "Sammakko"],
+    "answer": "Torakka",
+    "category": "Luonto",
+    "didYouKnow": "Torakka voi elää ilman päätään jopa viikon, koska sen hermosto on hajautettu ja se hengittää kehon sivuista."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen yleisurheilun maailmanmestaruuden (World Championships)?",
+    "options": ["Carl Lewis", "Edwin Moses", "Sebastian Coe", "Sergey Bubka"],
+    "answer": "Carl Lewis",
+    "category": "Urheilu",
+    "didYouKnow": "Carl Lewis voitti 100 metrin kullan ensimmäisissä yleisurheilun MM-kisoissa Helsingissä 1983."
+  },
+  {
+    "question": "Mikä on maailman suurin koralliriutta?",
+    "options": ["Iso valliriutta", "Belize Barrier Reef", "Punainenmeren riutta", "New Caledonian Barrier Reef"],
+    "answer": "Iso valliriutta",
+    "category": "Maantieto",
+    "didYouKnow": "Iso valliriutta Australian rannikolla on maailman suurin koralliriutta ja se on näkyvissä avaruudesta."
+  },
+  {
+    "question": "Kuka sävelli 'Boheemielämää' (La Bohème)?",
+    "options": ["Giacomo Puccini", "Giuseppe Verdi", "Gioachino Rossini", "Gaetano Donizetti"],
+    "answer": "Giacomo Puccini",
+    "category": "Taide",
+    "didYouKnow": "La Bohème kantaesitettiin vuonna 1896 ja se on yksi maailman eniten esitetyistä oopperoista."
+  },
+  {
+    "question": "Mikä on maailman vanhin elossa oleva puu?",
+    "options": ["Methuselah-mänty", "Sequoia", "Baobab", "Tammi"],
+    "answer": "Methuselah-mänty",
+    "category": "Luonto",
+    "didYouKnow": "Methuselah-mänty on yli 4800 vuotta vanha ja kasvaa Kaliforniassa. Sen tarkka sijainti pidetään salassa suojelun vuoksi."
+  },
+  {
+    "question": "Mikä on maailman suurin manderinlaajuinen järvi?",
+    "options": ["Ylä-järvi", "Victoriajärvi", "Michiganjärvi", "Tanganjikajärvi"],
+    "answer": "Ylä-järvi",
+    "category": "Maantieto",
+    "didYouKnow": "Ylä-järvi on pinta-alaltaan maailman suurin makean veden järvi - suurempi kuin Tšekki."
+  },
+  {
+    "question": "Kuka kirjoitti 'Vanha mies ja meri'?",
+    "options": ["Ernest Hemingway", "John Steinbeck", "William Faulkner", "F. Scott Fitzgerald"],
+    "answer": "Ernest Hemingway",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Vanha mies ja meri voitti Pulitzer-palkinnon vuonna 1953 ja vaikutti Hemingwayn Nobel-palkintoon vuonna 1954."
+  },
+  {
+    "question": "Mikä on maailman yleisin verisolutyyppi?",
+    "options": ["O positiivinen", "A positiivinen", "B positiivinen", "AB positiivinen"],
+    "answer": "O positiivinen",
+    "category": "Tiede",
+    "didYouKnow": "O positiivista veriryhmää on noin 35-40% maailman väestöllä, ja se on yleisin veriryhmä."
+  },
+  {
+    "question": "Mikä eläin voi juosta veden päällä?",
+    "options": ["Basiliskuslisko", "Vesikirppu", "Vesihyönteinen", "Kaikki edellä mainitut"],
+    "answer": "Basiliskuslisko",
+    "category": "Luonto",
+    "didYouKnow": "Basiliskuslisko voi juosta veden päällä jopa 20 metriä lyömällä jaloillaan vettä nopeasti - siksi sitä kutsutaan 'Jeesus-liskoksi'."
+  },
+  {
+    "question": "Missä maassa pelattiin ensimmäinen baseball-otteluottelu?",
+    "options": ["Yhdysvallat", "Kanada", "Kuba", "Japani"],
+    "answer": "Yhdysvallat",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäinen dokumentoitu baseball-ottelu pelattiin Hobokenissa, New Jerseyssä vuonna 1846."
+  },
+  {
+    "question": "Mikä on maailman suurin pääkaupunki väkiluvultaan?",
+    "options": ["Tokio", "Delhi", "Peking", "Mexico City"],
+    "answer": "Tokio",
+    "category": "Maantieto",
+    "didYouKnow": "Tokion suurkaupunkialueella asuu yli 38 miljoonaa ihmistä, mikä tekee siitä maailman suurimman kaupungin."
+  },
+  {
+    "question": "Kuka maalasi 'Syntymä Venuksen'?",
+    "options": ["Sandro Botticelli", "Leonardo da Vinci", "Raphael", "Michelangelo"],
+    "answer": "Sandro Botticelli",
+    "category": "Taide",
+    "didYouKnow": "Venuksen syntymä maalattiin 1480-luvulla ja se on yksi renessanssin tunnetuimmista teoksista."
+  },
+  {
+    "question": "Mikä on maailman vanhin kirjoitusjärjestelmä?",
+    "options": ["Nuolenpääkirjoitus", "Hieroglyfit", "Kiinalaiset merkit", "Foinikialaiset kirjaimet"],
+    "answer": "Nuolenpääkirjoitus",
+    "category": "Historia",
+    "didYouKnow": "Nuolenpääkirjoitus kehitettiin Mesopotamiassa noin 3200 eaa. ja se on vanhin tunnettu kirjoitusjärjestelmä."
+  },
+  {
+    "question": "Mikä on maailman nopein kasvi kasvamaan?",
+    "options": ["Bambu", "Eukalyptus", "Akacia", "Pajupuu"],
+    "answer": "Bambu",
+    "category": "Luonto",
+    "didYouKnow": "Bambu voi kasvaa jopa 91 senttimetriä päivässä - se on maailman nopein kasvava kasvi."
+  },
+  {
+    "question": "Mikä on maailman suurin yksittäinen elävä organismi?",
+    "options": ["Pando-haavikko", "Sinivalas", "Sequoia-puu", "Sieniverkosto"],
+    "answer": "Pando-haavikko",
+    "category": "Tiede",
+    "didYouKnow": "Pando on haavikon klooni Utahissa, joka painaa yli 6000 tonnia ja on noin 80 000 vuotta vanha."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen nyrkkeilyn raskaan sarjan maailmanmestaruuden?",
+    "options": ["John L. Sullivan", "James J. Corbett", "Bob Fitzsimmons", "Jack Johnson"],
+    "answer": "John L. Sullivan",
+    "category": "Urheilu",
+    "didYouKnow": "John L. Sullivan voitti ensimmäisen virallisen raskaan sarjan maailmanmestaruuden vuonna 1885."
+  },
+  {
+    "question": "Mikä on maailman suurin luola?",
+    "options": ["Hang Sơn Đoòng", "Mammoth Cave", "Krubera Cave", "Carlsbad Caverns"],
+    "answer": "Hang Sơn Đoòng",
+    "category": "Maantieto",
+    "didYouKnow": "Hang Sơn Đoòng Vietnamissa on maailman suurin luola - niin suuri, että sinne mahtuisi kokonainen kaupunginkortteli."
+  },
+  {
+    "question": "Kuka kirjoitti '1984'?",
+    "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Philip K. Dick"],
+    "answer": "George Orwell",
+    "category": "Kirjallisuus",
+    "didYouKnow": "1984 julkaistiin vuonna 1949 ja se on dystopinen romaani totalitaarisesta yhteiskunnasta, jossa 'Iso veli' valvoo kaikkia."
+  },
+  {
+    "question": "Mikä on ihmisen normaali kehon lämpötila?",
+    "options": ["37°C", "36°C", "38°C", "35°C"],
+    "answer": "37°C",
+    "category": "Tiede",
+    "didYouKnow": "Ihmisen normaali kehon lämpötila vaihtelee hieman, mutta keskiarvo on noin 36,5-37,5°C."
+  },
+  {
+    "question": "Mikä on maailman myrkyllisin sammakko?",
+    "options": ["Kultanuolisammakko", "Sininen nuolisammakko", "Punainen nuolisammakko", "Vihreä nuolisammakko"],
+    "answer": "Kultanuolisammakko",
+    "category": "Luonto",
+    "didYouKnow": "Kultanuolisammakon iho sisältää tarpeeksi myrkkyä tappaakseen 10 aikuista ihmistä. Se elää Kolumbian sademetsässä."
+  },
+  {
+    "question": "Missä kaupungissa järjestettiin ensimmäiset Kansainyhteisön kisat (Commonwealth Games)?",
+    "options": ["Hamilton, Kanada", "Lontoo, Iso-Britannia", "Sydney, Australia", "Auckland, Uusi-Seelanti"],
+    "answer": "Hamilton, Kanada",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäiset Kansainyhteisön kisat (silloin British Empire Games) järjestettiin Hamiltonissa, Kanadassa vuonna 1930."
+  },
+  {
+    "question": "Mikä on maailman suurin vuoristo?",
+    "options": ["Himalaja", "Andit", "Kalliovuoret", "Alpit"],
+    "answer": "Himalaja",
+    "category": "Maantieto",
+    "didYouKnow": "Himalaja sisältää 14 yli 8000 metrin huippua, mukaan lukien Mount Everest - maailman korkein vuori."
+  },
+  {
+    "question": "Kuka sävelli 'Carmina Burana'n?",
+    "options": ["Carl Orff", "Gustav Mahler", "Richard Strauss", "Igor Stravinsky"],
+    "answer": "Carl Orff",
+    "category": "Taide",
+    "didYouKnow": "Carmina Burana sävellettiin vuonna 1937 ja sen kuuluisa aloituskappale 'O Fortuna' on yksi maailman tunnetuimmista klassisen musiikin teoksista."
+  },
+  {
+    "question": "Mikä on maailman vanhin demokratia?",
+    "options": ["Islanti", "Kreikka", "Yhdysvallat", "Sveitsi"],
+    "answer": "Islanti",
+    "category": "Historia",
+    "didYouKnow": "Islannin Althing perustettiin vuonna 930 ja se on maailman vanhin toimiva parlamentti."
+  },
+  {
+    "question": "Mikä on maailman suurin saaristo?",
+    "options": ["Indonesia", "Filippiinit", "Japani", "Kreikka"],
+    "answer": "Indonesia",
+    "category": "Maantieto",
+    "didYouKnow": "Indonesia koostuu yli 17 000 saaresta, mikä tekee siitä maailman suurimman saariston."
+  },
+  {
+    "question": "Mikä on ihmiskehon vahvin lihas suhteessa kokoonsa?",
+    "options": ["Pureskelijihas", "Sydänlihas", "Kielihas", "Pakaralihas"],
+    "answer": "Pureskelijihas",
+    "category": "Tiede",
+    "didYouKnow": "Pureskelijihas (masseter) voi tuottaa jopa 200 kg purevoimaa - eniten kaikkien lihasten joukossa suhteessa kokoonsa."
+  },
+  {
+    "question": "Mikä eläin voi uida takaperin?",
+    "options": ["Krokotiili", "Hai", "Delfiini", "Kilpikonna"],
+    "answer": "Krokotiili",
+    "category": "Luonto",
+    "didYouKnow": "Krokotiili on yksi harvoista eläimistä, joka voi uida takaperin käyttämällä häntäänsä ohjaukseen."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen tenniksen Davis Cupin?",
+    "options": ["Yhdysvallat", "Iso-Britannia", "Australia", "Ranska"],
+    "answer": "Yhdysvallat",
+    "category": "Urheilu",
+    "didYouKnow": "Yhdysvallat voitti ensimmäisen Davis Cupin vuonna 1900 voittaen Iso-Britannian Bostonissa."
+  },
+  {
+    "question": "Mikä on maailman pisin rautatie?",
+    "options": ["Trans-Siperian rata", "Canadian Pacific Railway", "Indian Pacific", "Orient Express"],
+    "answer": "Trans-Siperian rata",
+    "category": "Maantieto",
+    "didYouKnow": "Trans-Siperian rata on 9289 kilometriä pitkä ja se kulkee Moskovasta Vladivostokiin - matka kestää 7 päivää."
+  },
+  {
+    "question": "Kuka kirjoitti 'Kersantin Katch-22'?",
+    "options": ["Joseph Heller", "Kurt Vonnegut", "Norman Mailer", "James Jones"],
+    "answer": "Joseph Heller",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Catch-22 julkaistiin vuonna 1961 ja se on satininen sodanvastainen romaani toisen maailmansodan aikaisesta ilmavoimista."
+  },
+  {
+    "question": "Mikä on maailman vanhin tunnistettu kaupunki?",
+    "options": ["Jeriko", "Damaskos", "Ateena", "Byblos"],
+    "answer": "Jeriko",
+    "category": "Historia",
+    "didYouKnow": "Jeriko on yli 11 000 vuotta vanha ja sitä pidetään maailman vanhimpana jatkuvasti asuttuna kaupunkina."
+  },
+  {
+    "question": "Mikä on maa päivällisten planeetta aurinkokunnassamme?",
+    "options": ["Mars", "Venus", "Merkurius", "Jupiter"],
+    "answer": "Venus",
+    "category": "Tiede",
+    "didYouKnow": "Venus on kirkkain planeetta taivaalla ja sitä kutsutaan 'iltätähdeksi' tai 'aamutähdeksi' riippuen milloin se näkyy."
+  },
+  {
+    "question": "Mikä eläin voi nukkua kolme vuotta kerrallaan?",
+    "options": ["Etana", "Sammakko", "Kilpikonna", "Lepakko"],
+    "answer": "Etana",
+    "category": "Luonto",
+    "didYouKnow": "Etanat voivat talvehtia tai kesäunella jopa kolme vuotta peräkkäin epäsuotuisten olosuhteiden aikana."
+  },
+  {
+    "question": "Missä maassa pelattiin ensimmäinen jääkiekko-ottelu?",
+    "options": ["Kanada", "Yhdysvallat", "Ruotsi", "Suomi"],
+    "answer": "Kanada",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäinen järjestetty sisäjääkiekko-ottelu pelattiin Montrealissa, Kanadassa vuonna 1875."
+  },
+  {
+    "question": "Mikä on maailman suurin mannerjakoalue?",
+    "options": ["Aasia", "Afrikka", "Pohjois-Amerikka", "Etelä-Amerikka"],
+    "answer": "Aasia",
+    "category": "Maantieto",
+    "didYouKnow": "Aasia on pinta-alaltaan 44,58 miljoonaa neliökilometriä - noin 30% maan pinta-alasta."
+  },
+  {
+    "question": "Kuka maalasi 'Amerikkalaisen goottilaisuuden'?",
+    "options": ["Grant Wood", "Edward Hopper", "Georgia O'Keeffe", "Andrew Wyeth"],
+    "answer": "Grant Wood",
+    "category": "Taide",
+    "didYouKnow": "American Gothic maalattiin vuonna 1930 ja siitä on tullut yksi amerikkalaisesta taiteesta tunnetuimmista ikoneista."
+  },
+  {
+    "question": "Mikä on maailman vanhin vielä toimiva yritys?",
+    "options": ["Kongō Gumi (Japani)", "St. Peter Stifts Kulinarium (Itävalta)", "Staffelter Hof (Saksa)", "Château de Goulaine (Ranska)"],
+    "answer": "Kongō Gumi (Japani)",
+    "category": "Historia",
+    "didYouKnow": "Kongō Gumi perustettiin vuonna 578 Japanissa ja se on erikoistunut temppeleiden rakentamiseen - yli 1400 vuotta vanha yritys."
+  },
+  {
+    "question": "Mikä on maailman yleisin metallialkuaine maankuoressa?",
+    "options": ["Alumiini", "Rauta", "Kupari", "Sinkki"],
+    "answer": "Alumiini",
+    "category": "Tiede",
+    "didYouKnow": "Alumiini muodostaa noin 8% maankuoresta, mutta sitä valmistettiin vasta 1800-luvulla tehokkaasti."
+  },
+  {
+    "question": "Mikä lintu rakentaa suurimman pesän?",
+    "options": ["Merikotka", "Strutsi", "Kondori", "Albatrossi"],
+    "answer": "Merikotka",
+    "category": "Luonto",
+    "didYouKnow": "Merikotkien pesät voivat painaa jopa 2 tonnia ja olla 4 metriä syviä - ne rakentavat samaan pesään vuodesta toiseen."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen pesäpallon maailmanmestaruuden?",
+    "options": ["Suomi", "Ruotsi", "Viro", "Australia"],
+    "answer": "Suomi",
+    "category": "Urheilu",
+    "didYouKnow": "Pesäpallon MM-kisat on järjestetty vain kerran, vuonna 1993 Suomessa, ja Suomi voitti turnauksen."
+  },
+  {
+    "question": "Mikä on maailman suurin vallihautu?",
+    "options": ["Grand Canyon", "Mariaanien hauta", "Valles Marineris (Mars)", "Yarlung Tsangpo Grand Canyon"],
+    "answer": "Grand Canyon",
+    "category": "Maantieto",
+    "didYouKnow": "Grand Canyon on 446 kilometriä pitkä ja paikoitellen jopa 29 kilometriä leveä - se on yksi maailman seitsemästä luonnonihmeestä."
+  },
+  {
+    "question": "Kuka kirjoitti 'Suuri Gatsby'?",
+    "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "John Steinbeck", "William Faulkner"],
+    "answer": "F. Scott Fitzgerald",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Suuri Gatsby julkaistiin vuonna 1925 ja se on klassinen amerikkalainen romaani 1920-luvun kultaisesta kaudesta."
+  },
+  {
+    "question": "Mikä on maailman kylmin mitattu lämpötila?",
+    "options": ["-89,2°C", "-98,6°C", "-78,5°C", "-94,7°C"],
+    "answer": "-89,2°C",
+    "category": "Tiede",
+    "didYouKnow": "Kylmin mitattu luonnonlämpötila on -89,2°C, joka mitattiin Vostok-asemalla Antarktiksellaalla heinäkuussa 1983."
+  },
+  {
+    "question": "Mikä on maailman myrkyllisin hämähäkki?",
+    "options": ["Sydney-suppiohämähäkki", "Brasilialainen vaeltavahämähäkki", "Mustalesk", "Ruskea erakko"],
+    "answer": "Sydney-suppiohämähäkki",
+    "category": "Luonto",
+    "didYouKnow": "Sydney-suppiohämähäkki on maailman myrkyllisin hämähäkki ihmisille, mutta vastamyrkky on saatavilla vuodesta 1981 lähtien."
+  },
+  {
+    "question": "Missä maassa järjestettiin ensimmäiset naisten jalkapallon maailmanmestaruuskisat?",
+    "options": ["Kiina", "Yhdysvallat", "Norja", "Ruotsi"],
+    "answer": "Kiina",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäiset naisten jalkapallon MM-kisat järjestettiin Kiinassa vuonna 1991, ja turnauksen voitti Yhdysvallat."
+  }
+]

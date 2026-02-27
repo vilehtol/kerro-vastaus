@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Mikä yritys kehitti ensimmäisen iPhone-puhelimen?",
+    "options": [
+      "Apple",
+      "Samsung",
+      "Nokia",
+      "Motorola"
+    ],
+    "answer": "Apple",
+    "category": "Teknologia",
+    "didYouKnow": "Ensimmäinen iPhone julkaistiin vuonna 2007, ja se mullisti älypuhelinteollisuuden."
+  },
+  {
+    "question": "Mikä on maailman nopein maaeläin?",
+    "options": [
+      "Gepardi",
+      "Leijona",
+      "Antilooppi",
+      "Käärmekotkaan"
+    ],
+    "answer": "Gepardi",
+    "category": "Luonto",
+    "didYouKnow": "Gepardi voi juosta jopa 120 km/h ja kiihdyttää 0:sta 100 km/h kolmessa sekunnissa."
+  },
+  {
+    "question": "Kuka kirjoitti klassikkoromaanin '1984'?",
+    "options": [
+      "George Orwell",
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "Isaac Asimov"
+    ],
+    "answer": "George Orwell",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Romaani julkaistiin vuonna 1949, ja se kuvaa dystooppista tulevaisuutta totalitaarisen hallinnon alla."
+  },
+  {
+    "question": "Mikä bändi julkaisi albumin 'The Dark Side of the Moon'?",
+    "options": [
+      "Pink Floyd",
+      "The Beatles",
+      "Led Zeppelin",
+      "Queen"
+    ],
+    "answer": "Pink Floyd",
+    "category": "Musiikki",
+    "didYouKnow": "Albumi on yksi kaikkien aikojen myydyimmistä ja pysyi Billboard 200 -listalla yli 900 viikkoa."
+  },
+  {
+    "question": "Mistä maasta cappuccino-kahvi on peräisin?",
+    "options": [
+      "Italia",
+      "Ranska",
+      "Espanja",
+      "Kreikka"
+    ],
+    "answer": "Italia",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Cappuccinon nimi tulee kapusiinimunkkien ruskeista kaaputeista, jotka muistuttavat juoman väriä."
+  },
+  {
+    "question": "Mikä on Linux-käyttöjärjestelmän maskotti?",
+    "options": [
+      "Pingviini (Tux)",
+      "Karhu",
+      "Koira",
+      "Kissa"
+    ],
+    "answer": "Pingviini (Tux)",
+    "category": "Teknologia",
+    "didYouKnow": "Tux-pingviini on ollut Linuxin maskotti vuodesta 1996, ja sen loi Larry Ewing."
+  },
+  {
+    "question": "Mikä on maailman suurin koralliriutta?",
+    "options": [
+      "Iso valliriutta (Great Barrier Reef)",
+      "Mesoamerikkalainen riutta",
+      "Punaisenmeren riutta",
+      "Uuden-Kaledonin riutta"
+    ],
+    "answer": "Iso valliriutta (Great Barrier Reef)",
+    "category": "Luonto",
+    "didYouKnow": "Iso valliriutta Australiassa on yli 2300 km pitkä ja näkyy avaruudesta."
+  },
+  {
+    "question": "Kuka kirjoitti Harry Potter -kirjasarjan?",
+    "options": [
+      "J.K. Rowling",
+      "J.R.R. Tolkien",
+      "C.S. Lewis",
+      "Philip Pullman"
+    ],
+    "answer": "J.K. Rowling",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Ensimmäinen Harry Potter -kirja julkaistiin vuonna 1997, ja siitä on tullut maailman myydyin kirjasarja."
+  },
+  {
+    "question": "Mikä on Mozartin etunimeä?",
+    "options": [
+      "Wolfgang Amadeus",
+      "Johann Sebastian",
+      "Ludwig van",
+      "Franz Joseph"
+    ],
+    "answer": "Wolfgang Amadeus",
+    "category": "Musiikki",
+    "didYouKnow": "Mozart sävelsi ensimmäisen teoksensa 5-vuotiaana ja jätti jälkeensä yli 600 teosta."
+  },
+  {
+    "question": "Mistä maasta sushi on peräisin?",
+    "options": [
+      "Japani",
+      "Kiina",
+      "Korea",
+      "Thaimaa"
+    ],
+    "answer": "Japani",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Sushi kehitettiin alun perin kalan säilömistavaksi Japanissa jo vuosisatoja sitten."
+  },
+  {
+    "question": "Mikä yritys omistaa Instagram-palvelun?",
+    "options": [
+      "Meta (Facebook)",
+      "Google",
+      "Twitter",
+      "Microsoft"
+    ],
+    "answer": "Meta (Facebook)",
+    "category": "Teknologia",
+    "didYouKnow": "Facebook osti Instagramin vuonna 2012 miljardilla dollarilla, kun palvelussa oli vasta 30 miljoonaa käyttäjää."
+  },
+  {
+    "question": "Mikä on maailman suurin nisäkäs?",
+    "options": [
+      "Sinivalas",
+      "Afrikan elefantti",
+      "Valkohai",
+      "Käärmekorva"
+    ],
+    "answer": "Sinivalas",
+    "category": "Luonto",
+    "didYouKnow": "Sinivalas voi painaa jopa 200 tonnia ja on pidempi kuin kolme linja-autoa peräkkäin."
+  },
+  {
+    "question": "Kuka kirjoitti 'Seitsemän veljestä'?",
+    "options": [
+      "Aleksis Kivi",
+      "Mika Waltari",
+      "Frans Emil Sillanpää",
+      "Väinö Linna"
+    ],
+    "answer": "Aleksis Kivi",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Seitsemän veljestä (1870) on ensimmäinen suomenkielinen romaani ja Suomen kirjallisuuden kulmakivi."
+  },
+  {
+    "question": "Mikä on maailman myydyin single koskaan?",
+    "options": [
+      "White Christmas (Bing Crosby)",
+      "Candle in the Wind (Elton John)",
+      "I Will Always Love You (Whitney Houston)",
+      "Bohemian Rhapsody (Queen)"
+    ],
+    "answer": "White Christmas (Bing Crosby)",
+    "category": "Musiikki",
+    "didYouKnow": "Bing Crosbyn White Christmas on myynyt yli 50 miljoonaa kappaletta vuodesta 1942 lähtien."
+  },
+  {
+    "question": "Mikä vihanneksia sisältävä juoma on tunnettu terveellisyydestään?",
+    "options": [
+      "Vihersmoothie",
+      "Appelsiinimehu",
+      "Omenamehu",
+      "Karpalomehu"
+    ],
+    "answer": "Vihersmoothie",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Vihersmoothiet sisältävät usein lehtivihanneksia kuten pinaattia, jotka ovat täynnä vitamiineja ja kivennäisaineita."
+  },
+  {
+    "question": "Mikä on HTML:n täysnimi?",
+    "options": [
+      "HyperText Markup Language",
+      "High-Tech Modern Language",
+      "Home Tool Markup Language",
+      "Hyperlink and Text Markup Language"
+    ],
+    "answer": "HyperText Markup Language",
+    "category": "Teknologia",
+    "didYouKnow": "HTML on www-sivujen perusta, ja sen kehitti Tim Berners-Lee vuonna 1991."
+  },
+  {
+    "question": "Mikä lintu voi lentää taaksepäin?",
+    "options": [
+      "Kolibri",
+      "Pääskynen",
+      "Haukka",
+      "Papukaija"
+    ],
+    "answer": "Kolibri",
+    "category": "Luonto",
+    "didYouKnow": "Kolibrit ovat ainoita lintuja, jotka voivat lentää taaksepäin ja paikallaan leijailla ilmassa."
+  },
+  {
+    "question": "Kuka kirjoitti 'Tuntematon sotilas'?",
+    "options": [
+      "Väinö Linna",
+      "Aleksis Kivi",
+      "Mika Waltari",
+      "Sofi Oksanen"
+    ],
+    "answer": "Väinö Linna",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Tuntematon sotilas (1954) on Suomen luetuimpia kirjoja ja kuvaa suomalaisten kokemuksia jatkosodassa."
+  },
+  {
+    "question": "Mikä instrumentti on jazzin keskiössä?",
+    "options": [
+      "Saksofoni",
+      "Kitara",
+      "Viulu",
+      "Huilu"
+    ],
+    "answer": "Saksofoni",
+    "category": "Musiikki",
+    "didYouKnow": "Saksofoni keksittiin 1840-luvulla, ja siitä tuli jazzin tunnusomainen soitin."
+  },
+  {
+    "question": "Mistä maasta pizza on peräisin?",
+    "options": [
+      "Italia",
+      "Kreikka",
+      "Espanja",
+      "Ranska"
+    ],
+    "answer": "Italia",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Pizza margherita luotiin Napolissa vuonna 1889 Italian kuningatar Margheritalle."
+  },
+  {
+    "question": "Mikä on maailman käytetyin ohjelmointikieli vuonna 2023?",
+    "options": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "C++"
+    ],
+    "answer": "Python",
+    "category": "Teknologia",
+    "didYouKnow": "Python on suosittu datatieteessä, tekoälyssä ja web-kehityksessä sen yksinkertaisuuden vuoksi."
+  },
+  {
+    "question": "Mikä eläin on tunnettu pitkästä kaulastaan?",
+    "options": [
+      "Kirahvi",
+      "Strutsi",
+      "Albatrossi",
+      "Norsu"
+    ],
+    "answer": "Kirahvi",
+    "category": "Luonto",
+    "didYouKnow": "Kirahvin kaula voi olla jopa 2 metriä pitkä, mutta siinä on silti vain 7 nikamaa kuten ihmisillä."
+  },
+  {
+    "question": "Kuka kirjoitti 'Kalevalan'?",
+    "options": [
+      "Elias Lönnrot",
+      "Aleksis Kivi",
+      "J.L. Runeberg",
+      "Zachris Topelius"
+    ],
+    "answer": "Elias Lönnrot",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Elias Lönnrot kokosi Kalevalan suomalaisesta kansanrunoudesta 1800-luvulla. Se on Suomen kansalliseepos."
+  },
+  {
+    "question": "Mikä yhtye teki kappaleen 'Stairway to Heaven'?",
+    "options": [
+      "Led Zeppelin",
+      "Deep Purple",
+      "Black Sabbath",
+      "The Rolling Stones"
+    ],
+    "answer": "Led Zeppelin",
+    "category": "Musiikki",
+    "didYouKnow": "Stairway to Heaven on yksi rock-historian ikonisimmista kappaleista, ja se julkaistiin vuonna 1971."
+  },
+  {
+    "question": "Mikä juusto on alkuperältään Ranskasta ja on tunnettu sinihomejuustona?",
+    "options": [
+      "Roquefort",
+      "Cheddar",
+      "Gouda",
+      "Mozzarella"
+    ],
+    "answer": "Roquefort",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Roquefort on lampaanmaidosta tehty sinihomejuusto, jota on valmistettu jo vuosisatojen ajan."
+  },
+  {
+    "question": "Mikä on Bitcoin?",
+    "options": [
+      "Kryptovaluutta",
+      "Verkkopalvelu",
+      "Peli",
+      "Ohjelmisto"
+    ],
+    "answer": "Kryptovaluutta",
+    "category": "Teknologia",
+    "didYouKnow": "Bitcoin on ensimmäinen hajautettu kryptovaluutta, jonka loi tuntematon Satoshi Nakamoto vuonna 2009."
+  },
+  {
+    "question": "Mikä eläin on Australian symboli?",
+    "options": [
+      "Kenguru",
+      "Koala",
+      "Emu",
+      "Dingo"
+    ],
+    "answer": "Kenguru",
+    "category": "Luonto",
+    "didYouKnow": "Kenguru esiintyy Australian vaakunassa ja on maan tunnetuin eläin."
+  },
+  {
+    "question": "Kuka kirjoitti 'Rikos ja rangaistus'?",
+    "options": [
+      "Fjodor Dostojevski",
+      "Leo Tolstoi",
+      "Anton Tšehov",
+      "Nikolai Gogol"
+    ],
+    "answer": "Fjodor Dostojevski",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Rikos ja rangaistus (1866) on syvällinen psykologinen romaani, joka käsittelee syyllisyyttä ja katumusta."
+  },
+  {
+    "question": "Mikä bändi julkaisi albumin 'Abbey Road'?",
+    "options": [
+      "The Beatles",
+      "The Rolling Stones",
+      "The Who",
+      "Pink Floyd"
+    ],
+    "answer": "The Beatles",
+    "category": "Musiikki",
+    "didYouKnow": "Abbey Road (1969) on The Beatlesin viimeisiä albumeja, ja sen kansikuva suojatiellä on ikoninen."
+  },
+  {
+    "question": "Mitä hedelmää käytetään guacamolessa?",
+    "options": [
+      "Avokado",
+      "Tomaatti",
+      "Lime",
+      "Mango"
+    ],
+    "answer": "Avokado",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Guacamole on perinteinen meksikolainen kastike, jonka pääraaka-aine on avokado."
+  },
+  {
+    "question": "Mikä yritys kehitti Android-käyttöjärjestelmän?",
+    "options": [
+      "Google",
+      "Apple",
+      "Microsoft",
+      "Samsung"
+    ],
+    "answer": "Google",
+    "category": "Teknologia",
+    "didYouKnow": "Google osti Android Inc:n vuonna 2005 ja kehitti siitä maailman suosituimman mobiilikäyttöjärjestelmän."
+  },
+  {
+    "question": "Mikä on maailman hitain nisäkäs?",
+    "options": [
+      "Laiskiainen",
+      "Kilpikonna",
+      "Panda",
+      "Koala"
+    ],
+    "answer": "Laiskiainen",
+    "category": "Luonto",
+    "didYouKnow": "Laiskiainen liikkuu maassa vain noin 2 metriä tunnissa ja viettää suurimman osan ajasta puissa."
+  },
+  {
+    "question": "Kuka kirjoitti 'Kerttu ja Kaarne'?",
+    "options": [
+      "Grimmin veljekset",
+      "Hans Christian Andersen",
+      "Charles Perrault",
+      "Astrid Lindgren"
+    ],
+    "answer": "Grimmin veljekset",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Grimmin veljekset keräsivät ja julkaisivat satuja 1800-luvulla, ja heidän kokoelmansa on klassikko."
+  },
+  {
+    "question": "Mikä on maailman myydyin albumi kautta aikojen?",
+    "options": [
+      "Thriller (Michael Jackson)",
+      "Back in Black (AC/DC)",
+      "The Dark Side of the Moon (Pink Floyd)",
+      "Abbey Road (The Beatles)"
+    ],
+    "answer": "Thriller (Michael Jackson)",
+    "category": "Musiikki",
+    "didYouKnow": "Thriller (1982) on myynyt yli 66 miljoonaa kappaletta maailmanlaajuisesti."
+  },
+  {
+    "question": "Mikä maa on pastan synnyinmaa?",
+    "options": [
+      "Italia",
+      "Kiina",
+      "Kreikka",
+      "Ranska"
+    ],
+    "answer": "Italia",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Vaikka nuudeleita on syöty Kiinassa vuosituhansia, moderni pasta kehitettiin Italiassa."
+  },
+  {
+    "question": "Mikä on maailman ensimmäinen video YouTube:ssa?",
+    "options": [
+      "Me at the zoo",
+      "Charlie Bit My Finger",
+      "Evolution of Dance",
+      "Gangnam Style"
+    ],
+    "answer": "Me at the zoo",
+    "category": "Teknologia",
+    "didYouKnow": "Ensimmäinen YouTube-video 'Me at the zoo' ladattiin 23. huhtikuuta 2005 YouTuben perustajan toimesta."
+  },
+  {
+    "question": "Mikä eläin voi elää ilman vettä pisimpään?",
+    "options": [
+      "Kenguru-rotta",
+      "Kameli",
+      "Norsu",
+      "Koala"
+    ],
+    "answer": "Kenguru-rotta",
+    "category": "Luonto",
+    "didYouKnow": "Kenguru-rotta voi elää koko elämänsä ilman juomista, sillä se saa kaiken tarvitsemansa nesteen ravinnosta."
+  },
+  {
+    "question": "Kuka kirjoitti 'Yksinäisyyden sata vuotta'?",
+    "options": [
+      "Gabriel García Márquez",
+      "Pablo Neruda",
+      "Jorge Luis Borges",
+      "Octavio Paz"
+    ],
+    "answer": "Gabriel García Márquez",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Yksinäisyyden sata vuotta (1967) on maagisen realismin mestariteos ja voitti Nobel-palkinnon tekijälleen."
+  },
+  {
+    "question": "Kuka on kuningas rock 'n' rollin?",
+    "options": [
+      "Elvis Presley",
+      "Chuck Berry",
+      "Little Richard",
+      "Buddy Holly"
+    ],
+    "answer": "Elvis Presley",
+    "category": "Musiikki",
+    "didYouKnow": "Elvis Presleyllä on yli 150 albumia kultaa, platinaa tai multi-platina USA:ssa."
+  },
+  {
+    "question": "Mikä on maailman kuumin chili?",
+    "options": [
+      "Carolina Reaper",
+      "Trinidad Scorpion",
+      "Ghost Pepper",
+      "Habanero"
+    ],
+    "answer": "Carolina Reaper",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Carolina Reaper mitattiin kuumimmaksi chiliksi vuonna 2013, keskimäärin 1,6 miljoonaa Scoville-yksikköä."
+  },
+  {
+    "question": "Mikä tiedostoformaatti on kuvalle yleisin?",
+    "options": [
+      "JPEG",
+      "PNG",
+      "GIF",
+      "BMP"
+    ],
+    "answer": "JPEG",
+    "category": "Teknologia",
+    "didYouKnow": "JPEG (Joint Photographic Experts Group) kehitettiin 1992, ja se on edelleen yleisin valokuvien formaatti."
+  },
+  {
+    "question": "Mikä lintu on Uuden-Seelannin kansallislintu?",
+    "options": [
+      "Kiivi",
+      "Kea",
+      "Kakapo",
+      "Kotka"
+    ],
+    "answer": "Kiivi",
+    "category": "Luonto",
+    "didYouKnow": "Kiivi on lentokyvytön lintu, joka on ainutlaatuinen Uudessa-Seelannissa ja maan tunnetuin symboli."
+  },
+  {
+    "question": "Kuka kirjoitti 'Hobitti'?",
+    "options": [
+      "J.R.R. Tolkien",
+      "C.S. Lewis",
+      "J.K. Rowling",
+      "George R.R. Martin"
+    ],
+    "answer": "J.R.R. Tolkien",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Hobitti (1937) esittelee Keski-Maan maailman, joka jatkuu Taru sormusten herrasta -trilogiassa."
+  },
+  {
+    "question": "Mikä on klassisen musiikin aikakaudella tunnetuin säveltäjä?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Johann Sebastian Bach",
+      "Wolfgang Amadeus Mozart",
+      "Antonio Vivaldi"
+    ],
+    "answer": "Ludwig van Beethoven",
+    "category": "Musiikki",
+    "didYouKnow": "Beethoven sävelsi yhdeksännen sinfoniansa täysin kuuroumalla ja se on yksi musiikin mestariteoksista."
+  },
+  {
+    "question": "Mistä maasta tiramisu on peräisin?",
+    "options": [
+      "Italia",
+      "Ranska",
+      "Espanja",
+      "Kreikka"
+    ],
+    "answer": "Italia",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Tiramisu tarkoittaa italiaksi 'nosta minut ylös', ja se kehitettiin 1960-luvulla Pohjois-Italiassa."
+  },
+  {
+    "question": "Mikä on maailman ensimmäinen verkkoselaimen nimi?",
+    "options": [
+      "WorldWideWeb",
+      "Mosaic",
+      "Netscape Navigator",
+      "Internet Explorer"
+    ],
+    "answer": "WorldWideWeb",
+    "category": "Teknologia",
+    "didYouKnow": "Tim Berners-Lee kehitti ensimmäisen verkkoselaimen nimeltä WorldWideWeb vuonna 1990."
+  },
+  {
+    "question": "Mikä eläin tekee maailman vahvimman silkkiä?",
+    "options": [
+      "Hämähäkki",
+      "Perhonen",
+      "Silkkiäistoukka",
+      "Mehiläinen"
+    ],
+    "answer": "Hämähäkki",
+    "category": "Luonto",
+    "didYouKnow": "Hämähäkinsilkki on painoonsa nähden vahvempaa kuin teräs ja joustoltaan parempi kuin kumi."
+  },
+  {
+    "question": "Kuka kirjoitti 'Don Quijote'?",
+    "options": [
+      "Miguel de Cervantes",
+      "Federico García Lorca",
+      "Gabriel García Márquez",
+      "Pablo Neruda"
+    ],
+    "answer": "Miguel de Cervantes",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Don Quijote (1605) on yksi ensimmäisistä moderneista romaaneista ja maailman käännetyin kirja Raamatun jälkeen."
+  },
+  {
+    "question": "Mikä on blues-musiikin synnyinseutua?",
+    "options": [
+      "Etelä-USA (Mississippi)",
+      "New Orleans",
+      "Chicago",
+      "New York"
+    ],
+    "answer": "Etelä-USA (Mississippi)",
+    "category": "Musiikki",
+    "didYouKnow": "Blues syntyi afroamerikkalaisten yhteisöissä Mississippin alueella 1800-luvun lopulla."
+  },
+  {
+    "question": "Mikä on maailman vanhin viinitarha?",
+    "options": [
+      "Georgia",
+      "Italia",
+      "Ranska",
+      "Espanja"
+    ],
+    "answer": "Georgia",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Georgian alueelta on löydetty todisteita viinintuotannosta jo 8000 vuoden takaa, maailman vanhimpana."
+  }
+]

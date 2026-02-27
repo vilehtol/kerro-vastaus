@@ -1,0 +1,79 @@
+[
+  {
+    "question": "Mikä on maailman suurin lentokenttä pinta-alaltaan?",
+    "options": ["King Fahd International Airport", "Denver International Airport", "Dallas/Fort Worth", "Beijing Daxing"],
+    "answer": "King Fahd International Airport",
+    "category": "Maantieto",
+    "didYouKnow": "King Fahd -lentokenttä Saudi-Arabiassa on 780 neliökilometriä - suurempi kuin koko Bahrain."
+  },
+  {
+    "question": "Kuka kirjoitti 'Taika ja taikuus'?",
+    "options": ["Thomas Mann", "Hermann Hesse", "Franz Kafka", "Robert Musil"],
+    "answer": "Thomas Mann",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Der Zauberberg (Taikavuori) julkaistiin vuonna 1924 ja se on yksi 1900-luvun merkittävimmistä saksankielisistä romaaneista."
+  },
+  {
+    "question": "Mikä on maailman vanhin metro?",
+    "options": ["Lontoon metro", "New Yorkin metro", "Pariisin metro", "Berliinin U-Bahn"],
+    "answer": "Lontoon metro",
+    "category": "Historia",
+    "didYouKnow": "Lontoon Underground avattiin vuonna 1863 ja se on maailman vanhin maanalainen rautatiejärjestelmä."
+  },
+  {
+    "question": "Mikä on ihmisen normaalinpulssi levossa?",
+    "options": ["60-100 lyöntiä/min", "50-80 lyöntiä/min", "70-110 lyöntiä/min", "80-120 lyöntiä/min"],
+    "answer": "60-100 lyöntiä/min",
+    "category": "Tiede",
+    "didYouKnow": "Urheileva ihminen voi have leposyke voi olla jopa 40-50 lyöntiä minuutissa harjoittelun ansiosta."
+  },
+  {
+    "question": "Mikä on maailman myrkyllisin kala?",
+    "options": ["Kivikala", "Pallokala", "Muurahainen", "Piikkikala"],
+    "answer": "Kivikala",
+    "category": "Luonto",
+    "didYouKnow": "Kivikala on maailman myrkyllisin kala ja sen pistosta voi kuolla muutamassa tunnissa ilman vastamyrkkyä."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen Euroopan mestaruuden jalkapallossa?",
+    "options": ["Neuvostoliitto", "Jugoslavia", "Espanja", "Ranska"],
+    "answer": "Neuvostoliitto",
+    "category": "Urheilu",
+    "didYouKnow": "Neuvostoliitto voitti ensimmäiset jalkapallon EM-kisat vuonna 1960 Ranskassa voittaen finaalissa Jugoslavian."
+  },
+  {
+    "question": "Mikä on maailman suurin vuoristoketju?",
+    "options": ["Andit", "Himalaja", "Kalliovuoret", "Alpit"],
+    "answer": "Andit",
+    "category": "Maantieto",
+    "didYouKnow": "Andit ovat maailman pisin vuoristoketju - yli 7000 kilometriä pitkä ja kulkee koko Etelä-Amerikan länsirannikolla."
+  },
+  {
+    "question": "Kuka maalasi 'Tytön helmikorvakoru'?",
+    "options": ["Johannes Vermeer", "Rembrandt van Rijn", "Frans Hals", "Jan Steen"],
+    "answer": "Johannes Vermeer",
+    "category": "Taide",
+    "didYouKnow": "Tyttö helmikorvakoru maalattiin noin vuonna 1665 ja sitä kutsutaan usein 'hollantilaiseksi Mona Lisaksi'."
+  },
+  {
+    "question": "Mikä on maailman vanhin yliopisto, joka on edelleen toiminnassa?",
+    "options": ["Al-Qarawiyyin (Marokko)", "Bolognan yliopisto", "Oxfordin yliopisto", "Pariisin yliopisto"],
+    "answer": "Al-Qarawiyyin (Marokko)",
+    "category": "Historia",
+    "didYouKnow": "Al-Qarawiyyin perustettiin vuonna 859 Fesiin ja Guinnessin ennätysten kirja tunnustaa sen vanhimmaksi yliopistoksi."
+  },
+  {
+    "question": "Mikä on maailman suurin sukellusalus?",
+    "options": ["Typhoon-luokka", "Ohio-luokka", "Borei-luokka", "Vanguard-luokka"],
+    "answer": "Typhoon-luokka",
+    "category": "Tiede",
+    "didYouKnow": "Venäläinen Typhoon-luokan sukellusvene on maailman suurin - 175 metriä pitkä ja 48 000 tonnin uppouma."
+  },
+  {
+    "question": "Mikä eläin tuottaa maailman kalleimman kahvin?",
+    "options": ["Sivetti", "Vaahtera", "Mangusti", "Naali"],
+    "answer": "Sivetti",
+    "category": "Luonto",
+    "didYouKnow": "Kopi Luwak -kahvi tehdään sivetin ulosteen sisältämistä kahvipavuista ja se voi maksaa yli 500€/kg."
+  }
+]

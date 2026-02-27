@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Mikä on Suomen pisin joki?",
+    "options": ["Kemijoki", "Oulujoki", "Kokemäenjoki", "Vuoksi"],
+    "answer": "Kemijoki",
+    "category": "Maantieto",
+    "didYouKnow": "Kemijoki on 550 kilometriä pitkä ja virtaa Kemijoelle Perämereen."
+  },
+  {
+    "question": "Mikä planeetta on aurinkokuntamme suurin?",
+    "options": ["Jupiter", "Saturnus", "Neptunus", "Uranus"],
+    "answer": "Jupiter",
+    "category": "Tiede",
+    "didYouKnow": "Jupiter on niin suuri, että sen sisään mahtuisi yli 1300 Maata."
+  },
+  {
+    "question": "Kuka sävels 'Finlandia-hymnin'?",
+    "options": ["Jean Sibelius", "Oskar Merikanto", "Toivo Kuula", "Leevi Madetoja"],
+    "answer": "Jean Sibelius",
+    "category": "Musiikki",
+    "didYouKnow": "Finlandia valmistui vuonna 1899 ja siitä tuli Suomen epävirallinen kansallislaulu."
+  },
+  {
+    "question": "Mikä on maailman korkein vuori?",
+    "options": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+    "answer": "Mount Everest",
+    "category": "Maantieto",
+    "didYouKnow": "Mount Everest on 8 849 metriä korkea ja sijaitsee Nepalin ja Tiibetin rajalla."
+  },
+  {
+    "question": "Mikä hiukkanen vastaa sähkön kulusta?",
+    "options": ["Elektroni", "Protoni", "Neutroni", "Fotoni"],
+    "answer": "Elektroni",
+    "category": "Tiede",
+    "didYouKnow": "Elektronit ovat negatiivisesti varautuneita hiukkasia, jotka kiertävät atomin ydintä."
+  },
+  {
+    "question": "Missä maassa sijaitsee Eiffel-torni?",
+    "options": ["Ranska", "Italia", "Espanja", "Saksa"],
+    "answer": "Ranska",
+    "category": "Maantieto",
+    "didYouKnow": "Eiffel-torni rakennettiin vuonna 1889 Pariisin maailmannäyttelyä varten."
+  },
+  {
+    "question": "Kuka kirjoitti romaanin '1984'?",
+    "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Isaac Asimov"],
+    "answer": "George Orwell",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Romaani julkaistiin vuonna 1949 ja se kuvaa totalitaarista yhteiskuntaa."
+  },
+  {
+    "question": "Mikä on veden kemiallinen kaava?",
+    "options": ["H2O", "CO2", "O2", "H2SO4"],
+    "answer": "H2O",
+    "category": "Tiede",
+    "didYouKnow": "Vesi koostuu kahdesta vetyatomista ja yhdestä happiatomista."
+  },
+  {
+    "question": "Mikä on Japanin pääkaupunki?",
+    "options": ["Tokio", "Osaka", "Kioto", "Yokohama"],
+    "answer": "Tokio",
+    "category": "Maantieto",
+    "didYouKnow": "Tokio on maailman suurin metropolialue, jossa asuu yli 37 miljoonaa ihmistä."
+  },
+  {
+    "question": "Kuka maalasi Mona Lisan?",
+    "options": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+    "answer": "Leonardo da Vinci",
+    "category": "Taide",
+    "didYouKnow": "Mona Lisa on maalattu 1500-luvun alussa ja se sijaitsee Louvren museossa Pariisissa."
+  }
+]

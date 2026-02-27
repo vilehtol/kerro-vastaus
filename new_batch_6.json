@@ -1,0 +1,338 @@
+[
+  {
+    "question": "Mikä on maailman rikkaimpaan valtio henkeä kohti?",
+    "options": ["Luxemburg", "Qatar", "Singapore", "Sveitsi"],
+    "answer": "Luxemburg",
+    "category": "Maantieto",
+    "didYouKnow": "Luxemburgin BKT henkeä kohti on maailman korkein, yli 120 000 dollaria vuodessa."
+  },
+  {
+    "question": "Kuka sävelli 'Talvi'-konserton osana Neljää vuodenaikaa?",
+    "options": ["Antonio Vivaldi", "Johann Sebastian Bach", "Arcangelo Corelli", "Tomaso Albinoni"],
+    "answer": "Antonio Vivaldi",
+    "category": "Taide",
+    "didYouKnow": "Vivaldin 'Talvi' on yksi tunnetuimmista barokkikonserttoista ja se kuvaa talvimyrskyjä ja jään kilinää."
+  },
+  {
+    "question": "Mikä on maailman vanhin pääkaupunki?",
+    "options": ["Damaskos", "Jeriko", "Ateena", "Rooma"],
+    "answer": "Damaskos",
+    "category": "Historia",
+    "didYouKnow": "Damaskos Syyriassa on ollut jatkuvasti asuttu yli 11 000 vuotta ja se on maailman vanhin pääkaupunki."
+  },
+  {
+    "question": "Mikä on ihmiskehon tärkein hapensiiirtäjä?",
+    "options": ["Hemoglobiini", "Plasmaa", "Valkosoluaatot", "Verihiutaleet"],
+    "answer": "Hemoglobiini",
+    "category": "Tiede",
+    "didYouKnow": "Hemoglobiini on proteiini punasoluissa, joka kuljettaa happea keuhkoista kehon kudoksiin."
+  },
+  {
+    "question": "Mikä on maailman hitaimmin liikkuva nisäkäs?",
+    "options": ["Laiskiainen", "Koala", "Panda", "Saukko"],
+    "answer": "Laiskiainen",
+    "category": "Luonto",
+    "didYouKnow": "Laiskiainen kuluttaa niin vähän energiaa, että sen aineenvaihdunta on puolet hitaampaa kuin millään muulla nisäkkäällä."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen naisten tennisturnauksen Wimbledonissa?",
+    "options": ["Maud Watson", "Lottie Dod", "Blanche Bingley", "Charlotte Cooper"],
+    "answer": "Maud Watson",
+    "category": "Urheilu",
+    "didYouKnow": "Maud Watson voitti ensimmäisen naisten Wimbledonin turnauksen vuonna 1884 voittaen finaalissa sisarensa Lillianin."
+  },
+  {
+    "question": "Mikä on maailman suurin erämaa-alue?",
+    "options": ["Antarktis", "Sahara", "Arabian autiomaa", "Arktinen alue"],
+    "answer": "Antarktis",
+    "category": "Maantieto",
+    "didYouKnow": "Antarktis on teknisesti maailman suurin autiomaa, koska autiomaa määritellään vähäisen sademäärän mukaan, ei lämpötilan."
+  },
+  {
+    "question": "Kuka kirjoitti 'Muistaakseni olemassaoloni'?",
+    "options": ["Marcel Proust", "James Joyce", "Virginia Woolf", "Franz Kafka"],
+    "answer": "Marcel Proust",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Proust kirjoitti seitsemänosaisen teoksen 'Kadonnutta aikaa etsimässä', joka on yksi maailman pisimmistä romaaneista."
+  },
+  {
+    "question": "Mikä on maailman suurin yksittäinen rakennus tilavuudeltaan?",
+    "options": ["Boeing Everett Factory", "Burj Khalifa", "Pentagon", "O2 Arena"],
+    "answer": "Boeing Everett Factory",
+    "category": "Tiede",
+    "didYouKnow": "Boeingin Everett-tehdas Washingtonissa on 13,3 miljoonaa kuutiometriä - niin suuri, että sisälle voi muodostua omia pilviä."
+  },
+  {
+    "question": "Mikä eläin voi vaihtaa sukupuolta elämänsä aikana?",
+    "options": ["Klovnikala", "Meduusa", "Etana", "Rapuu"],
+    "answer": "Klovnikala",
+    "category": "Luonto",
+    "didYouKnow": "Klovnikalat syntyvät kaikki uroksina, mutta parven dominantti voi muuttua naaraaksi tarvittaessa."
+  },
+  {
+    "question": "Missä kaupungissa on maailman suurin metro järjestelmä matkustajamäärän mukaan?",
+    "options": ["Tokio", "Peking", "Seoul", "Moskova"],
+    "answer": "Tokio",
+    "category": "Maantieto",
+    "didYouKnow": "Tokion metro kuljettaa yli 3,1 miljardia matkustajaa vuodessa - enemmän kuin mikään muu metrojärjestelmä."
+  },
+  {
+    "question": "Kuka maalasi 'Vapaudentunnuksen kansaa johdattamassa'?",
+    "options": ["Eugène Delacroix", "Jacques-Louis David", "Théodore Géricault", "Jean-Auguste-Dominique Ingres"],
+    "answer": "Eugène Delacroix",
+    "category": "Taide",
+    "didYouKnow": "Delacroix maalasi teoksen vuonna 1830 Ranskan heinäkuun vallankumouksen kunniaksi."
+  },
+  {
+    "question": "Mikä on maailman ensimmäinen kansallispuisto?",
+    "options": ["Yellowstone", "Yosemite", "Grand Canyon", "Kruger"],
+    "answer": "Yellowstone",
+    "category": "Historia",
+    "didYouKnow": "Yellowstone perustettiin vuonna 1872 Yhdysvalloissa ja se on maailman ensimmäinen kansallispuisto."
+  },
+  {
+    "question": "Mikä on ihmiskehon ainoa luu, joka ei ole yhteydessä toiseen luuhun?",
+    "options": ["Kielikuu", "Jalustinluu", "Kannuspää", "Sormenluu"],
+    "answer": "Kielikuu",
+    "category": "Tiede",
+    "didYouKnow": "Kielikuu (hyoid) sijaitsee kaulassa ja on ihmiskehon ainoa 'kelluva' luu, joka ei liity muihin luihin."
+  },
+  {
+    "question": "Mikä on maailman suurin ampuha-eläin?",
+    "options": ["Afrikan norsu", "Virtahepo", "Valkohai", "Pyöriäinen"],
+    "answer": "Afrikan norsu",
+    "category": "Luonto",
+    "didYouKnow": "Afrikan norsu voi painaa jopa 6000 kilogrammaa ja se on maapallon suurin maalla elävä eläin."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen olympiakultalen modernissa viisiottelussa?",
+    "options": ["Gösta Lilliehöök", "Gustaf Dyrsch", "Åke Grönhagen", "George Patton"],
+    "answer": "Gösta Lilliehöök",
+    "category": "Urheilu",
+    "didYouKnow": "Ruotsalainen Gösta Lilliehöök voitti ensimmäisen modernin viisiottelu kultamitalin Tukholman olympialaisissa 1912."
+  },
+  {
+    "question": "Mikä on maailman syvin järvi?",
+    "options": ["Baikaljärvi", "Tanganjikajärvi", "Kaspianmeri", "Malawi-järvi"],
+    "answer": "Baikaljärvi",
+    "category": "Maantieto",
+    "didYouKnow": "Baikaljärvi Siperiassa on 1642 metriä syvä ja sisältää noin 20% maailman makean veden varannoista."
+  },
+  {
+    "question": "Kuka kirjoitti 'Kuolleet sielut'?",
+    "options": ["Nikolai Gogol", "Fjodor Dostojevski", "Lev Tolstoi", "Anton Tšehov"],
+    "answer": "Nikolai Gogol",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Kuolleet sielut julkaistiin vuonna 1842 ja se on Gogolin satir kaupankäynnistä orjilla Venäjällä."
+  },
+  {
+    "question": "Mikä on maailman suurin atomivoimala?",
+    "options": ["Kashiwazaki-Kariwa (Japani)", "Bruce (Kanada)", "Hanul (Etelä-Korea)", "Zaporizhzhia (Ukraina)"],
+    "answer": "Kashiwazaki-Kariwa (Japani)",
+    "category": "Tiede",
+    "didYouKnow": "Kashiwazaki-Kariwa ydinvoimala tuottaa 7965 megawattia sähköä, mutta se on ollut pois käytöstä vuodesta 2011."
+  },
+  {
+    "question": "Mikä lintu voi lentää korkeimmalle?",
+    "options": ["Hanhikeiju", "Kondori", "Albatrossi", "Kotka"],
+    "answer": "Hanhikeiju",
+    "category": "Luonto",
+    "didYouKnow": "Hanhikeiju voi lentää yli 9000 metrin korkeudessa ylittäessään Himalajaa - korkeammalla kuin Mount Everest."
+  },
+  {
+    "question": "Missä maassa on maailman pisin tie?",
+    "options": ["Australia", "Venäjä", "Kanada", "Yhdysvallat"],
+    "answer": "Australia",
+    "category": "Maantieto",
+    "didYouKnow": "Highway 1 Australiassa on 14 500 kilometriä pitkä ja kiertää koko mantereen rannikolta."
+  },
+  {
+    "question": "Kuka sävelli 'Kuunvalosonautaatin'?",
+    "options": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Frédéric Chopin", "Franz Liszt"],
+    "answer": "Ludwig van Beethoven",
+    "category": "Taide",
+    "didYouKnow": "Kuunvalosonautaa (Moonlight Sonata) sävellettiin vuonna 1801 ja se on yksi Beethovenin tunnetuimmista pianoteoksista."
+  },
+  {
+    "question": "Mikä on maailman vanhin liputtomas päämajatalon?",
+    "options": ["Westminster Palace", "Kreml", "Vatikaani", "Versailles"],
+    "answer": "Westminster Palace",
+    "category": "Historia",
+    "didYouKnow": "Westminster Palace (Britannian parlamenttitalo) on ollut kuninkaallinen palatsi 1000-luvulta lähtien."
+  },
+  {
+    "question": "Mikä on maailman yleisin kaasumainen alkuaine universumissa?",
+    "options": ["Vety", "Helium", "Typpi", "Happi"],
+    "answer": "Vety",
+    "category": "Tiede",
+    "didYouKnow": "Vety muodostaa noin 75% universumin tavallisesta aineesta ja se on yksinkertaisin alkuaine - yksi protoni ja yksi elektroni."
+  },
+  {
+    "question": "Mikä on maailman suurin peto maalla?",
+    "options": ["Jääkarhu", "Kodiak-karhu", "Siperiantiikeri", "Afrikkanleijona"],
+    "answer": "Jääkarhu",
+    "category": "Luonto",
+    "didYouKnow": "Jääkarhuuros voi painaa jopa 800 kilogrammaa ja se on maailman suurin maalla elävä petoeläin."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen naistenotellin olympiakultalen?",
+    "options": ["Charlotte Cooper", "Hélène de Pourtalès", "Margaret Abbott", "Madge Syers"],
+    "answer": "Charlotte Cooper",
+    "category": "Urheilu",
+    "didYouKnow": "Charlotte Cooper voitti tennisen olympiakultaa Pariisissa vuonna 1900 - hän oli ensimmäinen nainen, joka voitti olympiakultaa."
+  },
+  {
+    "question": "Mikä on maailman suurin kaupunki pinta-alaltaan (kaupunkialue)?",
+    "options": ["New York", "Tokio", "Los Angeles", "Shanghai"],
+    "answer": "New York",
+    "category": "Maantieto",
+    "didYouKnow": "New Yorkin metropolialue on yli 34 000 neliökilometriä - suurempi kuin Belgia."
+  },
+  {
+    "question": "Kuka kirjoitti 'Olemisen sietämätön keveys'?",
+    "options": ["Milan Kundera", "Václav Havel", "Franz Kafka", "Bohumil Hrabal"],
+    "answer": "Milan Kundera",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Olemisen sietämätön keveys julkaistiin vuonna 1984 ja se on filosofinen romaani rakkaudesta Prahan kevään aikaan."
+  },
+  {
+    "question": "Mikä on maan sisäisen ytimen lämpötila?",
+    "options": ["5000-6000°C", "3000-4000°C", "7000-8000°C", "2000-3000°C"],
+    "answer": "5000-6000°C",
+    "category": "Tiede",
+    "didYouKnow": "Maan sisäydin on lähes yhtä kuuma kuin auringon pinta - noin 5500°C."
+  },
+  {
+    "question": "Mikä on maailman myrkyllisin puu?",
+    "options": ["Manchineelpuu", "Strykniiini", "Kurlinka", "Myrkkyliittopuu"],
+    "answer": "Manchineelpuu",
+    "category": "Luonto",
+    "didYouKnow": "Manchineelpuu on niin myrkyllinen, että pelkkä kosketuskin aiheuttaa rakkuloita ja sen varjossa seisominen sateella polttaa ihoa."
+  },
+  {
+    "question": "Missä maassa pelattiin ensimmäinen amerikkalaisen jalkapallon (NFL) ottelu?",
+    "options": ["Yhdysvallat", "Kanada", "Meksiko", "Iso-Britannia"],
+    "answer": "Yhdysvallat",
+    "category": "Urheilu",
+    "didYouKnow": "NFL:n ensimmäinen ottelu pelattiin Daytonissa, Ohiossa vuonna 1920, kun liiga perustettiin."
+  },
+  {
+    "question": "Mikä on maailman suurin vuonoalue?",
+    "options": ["Norja", "Uusi-Seelanti", "Chile", "Kanada"],
+    "answer": "Norja",
+    "category": "Maantieto",
+    "didYouKnow": "Norjassa on yli 1000 vuonoa ja niiden kokonaispituus on yli 25 000 kilometriä - pisin on Sognefjord."
+  },
+  {
+    "question": "Kuka maalasi 'Luominen Aadamin'?",
+    "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"],
+    "answer": "Michelangelo",
+    "category": "Taide",
+    "didYouKnow": "Michelangelo maalasi Sikstuksen kappelin kattoon Luomisen Aadamin vuosina 1508-1512 - yksi renessanssin kuuluisimmista teoksista."
+  },
+  {
+    "question": "Mikä on maailman vanhin vielä käytössä oleva lippu?",
+    "options": ["Tanskan Dannebrog", "Skotlannin Saltire", "Englannin St. George's Cross", "Walesin Y Ddraig Goch"],
+    "answer": "Tanskan Dannebrog",
+    "category": "Historia",
+    "didYouKnow": "Dannebrog on ollut käytössä vuodesta 1219 ja legenda kertoo sen pudonneen taivaasta taistelun aikana."
+  },
+  {
+    "question": "Mikä on maailman nopein kemiallinen reaktio?",
+    "options": ["Neutralointi", "Palaminen", "Räjähdys", "Hapettuminen"],
+    "answer": "Neutralointi",
+    "category": "Tiede",
+    "didYouKnow": "Hapon ja emäksen neutralointi on yksi nopeimmista kemiallisista reaktioista ja tapahtuu millisekunnin murto-osissa."
+  },
+  {
+    "question": "Mikä eläin voi elää ilman ravintoa pisimpään?",
+    "options": ["Galapagossaariston kilpikonna", "Krokotiili", "Käärme", "Hai"],
+    "answer": "Galapagossaariston kilpikonna",
+    "category": "Luonto",
+    "didYouKnow": "Galapagoskilpikonna voi elää ilman ruokaa ja vettä jopa vuoden aineenvaihduntansa hitauden vuoksi."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen naisten olympiakultalan uinnissa?",
+    "options": ["Fanny Durack", "Ethelda Bleibtrey", "Sarah Hardcastle", "Duke Kahanamoku"],
+    "answer": "Fanny Durack",
+    "category": "Urheilu",
+    "didYouKnow": "Australialainen Fanny Durack voitti ensimmäisen naisten uintikultalan 100 metrin vapaauinnissa Tukholman olympialaisissa 1912."
+  },
+  {
+    "question": "Mikä on maailman pisin kanava?",
+    "options": ["Pekingin-Hangzhoun kanava", "Suezin kanava", "Panaman kanava", "Kieliin kanava"],
+    "answer": "Pekingin-Hangzhoun kanava",
+    "category": "Maantieto",
+    "didYouKnow": "Pekingin-Hangzhoun kanava Kiinassa on 1794 kilometriä pitkä ja se on maailman vanhin ja pisin kanava."
+  },
+  {
+    "question": "Kuka kirjoitti 'Viisikymmentä harmaansävyä'?",
+    "options": ["E. L. James", "Stephanie Meyer", "Suzanne Collins", "Veronica Roth"],
+    "answer": "E. L. James",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Fifty Shades of Grey julkaistiin vuonna 2011 ja siitä tuli yksi myydyimmistä kirjoista koskaan - yli 150 miljoonaa kappaletta."
+  },
+  {
+    "question": "Mikä on maailman korkein rakenne?",
+    "options": ["Burj Khalifa", "Tokyo Skytree", "Shanghai Tower", "Abraj Al-Bait Clock Tower"],
+    "answer": "Burj Khalifa",
+    "category": "Tiede",
+    "didYouKnow": "Burj Khalifa Dubaissa on 828 metriä korkea ja sen rakentaminen kesti 6 vuotta (2004-2010)."
+  },
+  {
+    "question": "Mikä on maailman nopein hyönteinen?",
+    "options": ["Australialainen sudenkorento", "Hevosenpääsirkkaa", "Mehiläinen", "Perhonen"],
+    "answer": "Australialainen sudenkorento",
+    "category": "Luonto",
+    "didYouKnow": "Australialainen sudenkorento voi lentää jopa 60 km/h nopeudella ja se on maailman nopein hyönteinen."
+  },
+  {
+    "question": "Missä kaupungissa on maailman suurin kirkko?",
+    "options": ["Vatikaani (Pietarinkirkko)", "Sevilla", "Milano", "Firenze"],
+    "answer": "Vatikaani (Pietarinkirkko)",
+    "category": "Historia",
+    "didYouKnow": "Pietarinkirkko Vatikaanissa on maailman suurin kirkko ja sen rakentaminen kesti 120 vuotta (1506-1626)."
+  },
+  {
+    "question": "Mikä on maailman suurin saarivalio?",
+    "options": ["Indonesia", "Madagaskar", "Japani", "Filippiinit"],
+    "answer": "Indonesia",
+    "category": "Maantieto",
+    "didYouKnow": "Indonesia koostuu yli 17 000 saaresta ja on maailman suurin saarivaltio sekä pinta-alan että väkiluvun mukaan."
+  },
+  {
+    "question": "Kuka sävelli 'Boleron'?",
+    "options": ["Maurice Ravel", "Claude Debussy", "Erik Satie", "Camille Saint-Saëns"],
+    "answer": "Maurice Ravel",
+    "category": "Taide",
+    "didYouKnow": "Ravel sävelli Boleron vuonna 1928 balletiksi, ja se on yksi maailman tunnetuimmista orkesteriteoksista sen hypnoottisen toiston vuoksi."
+  },
+  {
+    "question": "Mikä on maailman vanhin kieli, jota puhutaan edelleen?",
+    "options": ["Tamil", "Heprea", "Kreikka", "Kiina"],
+    "answer": "Tamil",
+    "category": "Historia",
+    "didYouKnow": "Tamil on yli 5000 vuotta vanha ja sitä puhutaan edelleen Intiassa ja Sri Lankassa - vanhin elävä kieli."
+  },
+  {
+    "question": "Mikä on ihmiskehon pisin hermo?",
+    "options": ["Iskiashermo", "Selkäydin", "Näköhermo", "Kasvohermo"],
+    "answer": "Iskiashermo",
+    "category": "Tiede",
+    "didYouKnow": "Iskiashermo kulkee lonkasta varpaiden tippaan ja on ihmiskehon pisin hermo - jopa metrin pituinen."
+  },
+  {
+    "question": "Mikä on maailman suurin delfiinisuku?",
+    "options": ["Miekkavaleas", "Butskoi", "Pullopadelfiini", "Valkovalas"],
+    "answer": "Miekkavaleas",
+    "category": "Luonto",
+    "didYouKnow": "Miekkavalas kuuluu delfiniinperheeseen ja se on suurin delfiini - urokset voivat painaa jopa 6 tonnia."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen naisten maratonin olympiakultalan?",
+    "options": ["Joan Benoit", "Grete Waitz", "Rosa Mota", "Ingrid Kristiansen"],
+    "answer": "Joan Benoit",
+    "category": "Urheilu",
+    "didYouKnow": "Amerikkalainen Joan Benoit voitti ensimmäisen naisten olympiamaratonin Los Angelesissa 1984 - maratonin lisättiin vasta silloin olympialajeihin."
+  }
+]

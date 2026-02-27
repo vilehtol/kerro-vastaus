@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Mikä on maailman pisin joki?",
+    "options": [
+      "Niilin joki",
+      "Amazonin joki",
+      "Jangtse",
+      "Mississippi"
+    ],
+    "answer": "Niilin joki",
+    "category": "Maantieto",
+    "didYouKnow": "Niilin joki on noin 6 650 km pitkä ja virtaa läpi 11 maan Afrikan itäosassa."
+  },
+  {
+    "question": "Mikä planeetta on Aurinkokuntamme suurin?",
+    "options": [
+      "Jupiter",
+      "Saturnus",
+      "Uranus",
+      "Neptunus"
+    ],
+    "answer": "Jupiter",
+    "category": "Tiede",
+    "didYouKnow": "Jupiter on niin suuri, että siihen mahtuisi yli 1300 Maata."
+  },
+  {
+    "question": "Minä vuonna Berliinin muuri murtui?",
+    "options": [
+      "1989",
+      "1987",
+      "1991",
+      "1985"
+    ],
+    "answer": "1989",
+    "category": "Historia",
+    "didYouKnow": "Berliinin muuri seisoi 28 vuotta jakamalla Berliinin kahtia ennen sen murtumista 9.11.1989."
+  },
+  {
+    "question": "Mikä bändi julkaisi albumin 'The Dark Side of the Moon'?",
+    "options": [
+      "Pink Floyd",
+      "Led Zeppelin",
+      "The Beatles",
+      "Queen"
+    ],
+    "answer": "Pink Floyd",
+    "category": "Viihde",
+    "didYouKnow": "Albumi pysyi Billboard 200 -listalla uskomattomia 937 viikkoa."
+  },
+  {
+    "question": "Kuinka monta pelaajaa on jalkapallojoukkueessa kentällä kerrallaan?",
+    "options": [
+      "11",
+      "10",
+      "12",
+      "9"
+    ],
+    "answer": "11",
+    "category": "Urheilu",
+    "didYouKnow": "Jalkapallon nykysäännöt vakiintuivat Englannissa 1860-luvulla."
+  },
+  {
+    "question": "Mikä on Euroopan korkein vuori?",
+    "options": [
+      "Elbruz",
+      "Mont Blanc",
+      "Matterhorn",
+      "Jungfrau"
+    ],
+    "answer": "Elbruz",
+    "category": "Maantieto",
+    "didYouKnow": "Elbruz sijaitsee Kaukasuksella Venäjällä ja on 5 642 metriä korkea."
+  },
+  {
+    "question": "Mikä on veden kiehumispiste Celsius-asteina merenpinnan tasolla?",
+    "options": [
+      "100°C",
+      "90°C",
+      "110°C",
+      "95°C"
+    ],
+    "answer": "100°C",
+    "category": "Tiede",
+    "didYouKnow": "Kiehumispiste laskee korkeammalla, esimerkiksi Mount Everestillä vesi kiehuu jo 70°C:ssa."
+  },
+  {
+    "question": "Kuka oli Suomen ensimmäinen presidentti?",
+    "options": [
+      "K.J. Ståhlberg",
+      "P.E. Svinhufvud",
+      "Mannerheim",
+      "Relander"
+    ],
+    "answer": "K.J. Ståhlberg",
+    "category": "Historia",
+    "didYouKnow": "Kaarlo Juho Ståhlberg toimi presidenttinä 1919-1925 ja häntä kutsutaan Suomen perustuslain isäksi."
+  },
+  {
+    "question": "Kuka ohjasi elokuvan 'Titanic' (1997)?",
+    "options": [
+      "James Cameron",
+      "Steven Spielberg",
+      "Martin Scorsese",
+      "Christopher Nolan"
+    ],
+    "answer": "James Cameron",
+    "category": "Viihde",
+    "didYouKnow": "Elokuva voitti 11 Oscar-palkintoa, mukaan lukien parhaan elokuvan ja ohjauksen."
+  },
+  {
+    "question": "Missä kaupungissa järjestettiin kesäolympialaiset vuonna 2012?",
+    "options": [
+      "Lontoo",
+      "Peking",
+      "Rio de Janeiro",
+      "Ateena"
+    ],
+    "answer": "Lontoo",
+    "category": "Urheilu",
+    "didYouKnow": "Lontoo on ainoa kaupunki, joka on isännöinyt kesäolympialaisia kolmesti (1908, 1948, 2012)."
+  },
+  {
+    "question": "Mikä on Saharan aavikon pinta-ala?",
+    "options": [
+      "9 miljoonaa km²",
+      "6 miljoonaa km²",
+      "12 miljoonaa km²",
+      "3 miljoonaa km²"
+    ],
+    "answer": "9 miljoonaa km²",
+    "category": "Maantieto",
+    "didYouKnow": "Sahara on maailman suurin kuuma aavikko ja se on lähes yhtä suuri kuin Yhdysvallat."
+  },
+  {
+    "question": "Mikä on ihmiskehon suurin elin?",
+    "options": [
+      "Iho",
+      "Maksa",
+      "Aivot",
+      "Keuhkot"
+    ],
+    "answer": "Iho",
+    "category": "Tiede",
+    "didYouKnow": "Aikuisen ihmisen ihon pinta-ala on noin 2 neliömetriä ja se painaa noin 4 kiloa."
+  },
+  {
+    "question": "Mikä valtio hyökkäsi Suomeen talvisodassa?",
+    "options": [
+      "Neuvostoliitto",
+      "Saksa",
+      "Ruotsi",
+      "Norja"
+    ],
+    "answer": "Neuvostoliitto",
+    "category": "Historia",
+    "didYouKnow": "Talvisota kesti 30.11.1939–13.3.1940 ja Suomi menetti Karjalan mutta säilytti itsenäisyytensä."
+  },
+  {
+    "question": "Kuka lauloi kappaleen 'Thriller'?",
+    "options": [
+      "Michael Jackson",
+      "Prince",
+      "Stevie Wonder",
+      "James Brown"
+    ],
+    "answer": "Michael Jackson",
+    "category": "Viihde",
+    "didYouKnow": "'Thriller'-albumi (1982) on kaikkien aikojen myydyin albumi yli 70 miljoonalla kappaleella."
+  },
+  {
+    "question": "Kuinka pitkä on maratonin virallinen matka?",
+    "options": [
+      "42,195 km",
+      "40 km",
+      "45 km",
+      "38,5 km"
+    ],
+    "answer": "42,195 km",
+    "category": "Urheilu",
+    "didYouKnow": "Matka perustuu legendaan kreikkalaisesta sanansaattajasta, joka juoksi Marathonista Ateenaan."
+  },
+  {
+    "question": "Mikä on Japanin pääkaupunki?",
+    "options": [
+      "Tokio",
+      "Osaka",
+      "Kioto",
+      "Nagoya"
+    ],
+    "answer": "Tokio",
+    "category": "Maantieto",
+    "didYouKnow": "Tokion metropolialueella asuu yli 37 miljoonaa ihmistä, mikä tekee siitä maailman suurimman kaupunkialueen."
+  },
+  {
+    "question": "Mikä on valon nopeus tyhjiössä?",
+    "options": [
+      "299 792 km/s",
+      "300 000 km/s",
+      "250 000 km/s",
+      "350 000 km/s"
+    ],
+    "answer": "299 792 km/s",
+    "category": "Tiede",
+    "didYouKnow": "Valon nopeus on luonnon vakio ja mikään ei voi liikkua sitä nopeammin."
+  },
+  {
+    "question": "Kuka keksi puhelimen?",
+    "options": [
+      "Alexander Graham Bell",
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "answer": "Alexander Graham Bell",
+    "category": "Historia",
+    "didYouKnow": "Bell patentoi puhelimen vuonna 1876, vaikka Antonio Meucci oli kehittänyt vastaavan laitteen jo aiemmin."
+  },
+  {
+    "question": "Mikä on maailman katsotuin Netflix-sarja (2021)?",
+    "options": [
+      "Squid Game",
+      "Stranger Things",
+      "The Crown",
+      "Bridgerton"
+    ],
+    "answer": "Squid Game",
+    "category": "Viihde",
+    "didYouKnow": "Eteläkorealainen Squid Game keräsi yli 1,65 miljardia katselutuntia ensimmäisen 28 päivän aikana."
+  },
+  {
+    "question": "Missä maassa vietettiin ensimmäiset modernit olympialaiset?",
+    "options": [
+      "Kreikka",
+      "Ranska",
+      "Iso-Britannia",
+      "Yhdysvallat"
+    ],
+    "answer": "Kreikka",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäiset modernit olympialaiset järjestettiin Ateenassa vuonna 1896."
+  },
+  {
+    "question": "Mikä on Australian pääkaupunki?",
+    "options": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "answer": "Canberra",
+    "category": "Maantieto",
+    "didYouKnow": "Canberra valittiin kompromissina, kun Sydney ja Melbourne kilpailivat pääkaupungin statuksesta."
+  },
+  {
+    "question": "Montako luuta ihmiskehossa on?",
+    "options": [
+      "206",
+      "198",
+      "215",
+      "189"
+    ],
+    "answer": "206",
+    "category": "Tiede",
+    "didYouKnow": "Vauvoilla on noin 300 luuta, mutta osa niistä kasvaa yhteen aikuisiässä."
+  },
+  {
+    "question": "Minä vuonna Titanic upposi?",
+    "options": [
+      "1912",
+      "1910",
+      "1915",
+      "1908"
+    ],
+    "answer": "1912",
+    "category": "Historia",
+    "didYouKnow": "Titanic upposi neitsytmatkallaan 15. huhtikuuta 1912 törmättyään jäävuoreen."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen American Idol -kilpailun?",
+    "options": [
+      "Kelly Clarkson",
+      "Carrie Underwood",
+      "Ruben Studdard",
+      "Fantasia Barrino"
+    ],
+    "answer": "Kelly Clarkson",
+    "category": "Viihde",
+    "didYouKnow": "Kelly Clarkson voitti vuonna 2002 ja on myöhemmin myynyt yli 25 miljoonaa albumia maailmanlaajuisesti."
+  },
+  {
+    "question": "Mikä on jääkiekon NHL:n vanhin joukkue?",
+    "options": [
+      "Montreal Canadiens",
+      "Toronto Maple Leafs",
+      "Boston Bruins",
+      "Detroit Red Wings"
+    ],
+    "answer": "Montreal Canadiens",
+    "category": "Urheilu",
+    "didYouKnow": "Montreal Canadiens perustettiin vuonna 1909 ja on voittanut 24 Stanley Cupia."
+  },
+  {
+    "question": "Mikä valtameri on suurin?",
+    "options": [
+      "Tyynimeri",
+      "Atlantin valtameri",
+      "Intian valtameri",
+      "Pohjoinen jäämeri"
+    ],
+    "answer": "Tyynimeri",
+    "category": "Maantieto",
+    "didYouKnow": "Tyynimeri kattaa noin 165 miljoonaa km², mikä on enemmän kuin kaikkien mantereiden yhteenlaskettu pinta-ala."
+  },
+  {
+    "question": "Mikä on Aurinkokunnan kuumin planeetta?",
+    "options": [
+      "Venus",
+      "Merkurius",
+      "Mars",
+      "Maa"
+    ],
+    "answer": "Venus",
+    "category": "Tiede",
+    "didYouKnow": "Venuksen pintalämpötila on noin 465°C kasvihuoneilmiön takia, vaikka Merkurius on lähempänä Aurinkoa."
+  },
+  {
+    "question": "Kuka maalasi Mona Lisan?",
+    "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "answer": "Leonardo da Vinci",
+    "category": "Historia",
+    "didYouKnow": "Mona Lisa maalattiin 1500-luvun alussa ja se on nykyään Louvren museossa Pariisissa."
+  },
+  {
+    "question": "Mikä Disney-elokuva julkaistiin ensimmäisenä pitkänä animaatioelokuvana?",
+    "options": [
+      "Lumikki ja seitsemän kääpiötä",
+      "Pinokkio",
+      "Fantasia",
+      "Bambi"
+    ],
+    "answer": "Lumikki ja seitsemän kääpiötä",
+    "category": "Viihde",
+    "didYouKnow": "Lumikki julkaistiin 1937 ja se oli maailman ensimmäinen pitkä animaatioelokuva."
+  },
+  {
+    "question": "Mikä on tenniksen Grand Slam -turnausten määrä vuodessa?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": "4",
+    "category": "Urheilu",
+    "didYouKnow": "Grand Slam -turnaukset ovat Australian Open, Ranskan avoimet, Wimbledon ja US Open."
+  },
+  {
+    "question": "Missä sijaitsee Machu Picchu?",
+    "options": [
+      "Peru",
+      "Meksiko",
+      "Bolivia",
+      "Chile"
+    ],
+    "answer": "Peru",
+    "category": "Maantieto",
+    "didYouKnow": "Machu Picchu on inkojen 1400-luvulla rakentama kivikaupunki Andeilla 2 430 metrin korkeudessa."
+  },
+  {
+    "question": "Mikä on Einsteinin kuuluisa kaava?",
+    "options": [
+      "E=mc²",
+      "F=ma",
+      "a²+b²=c²",
+      "PV=nRT"
+    ],
+    "answer": "E=mc²",
+    "category": "Tiede",
+    "didYouKnow": "Kaava kuvaa energian ja massan ekvivalenssia ja se on suhteellisuusteorian perusta."
+  },
+  {
+    "question": "Kuka oli Rooman ensimmäinen keisari?",
+    "options": [
+      "Augustus",
+      "Julius Caesar",
+      "Nero",
+      "Tiberius"
+    ],
+    "answer": "Augustus",
+    "category": "Historia",
+    "didYouKnow": "Augustus hallitsi 27 eKr.–14 jKr. ja hänen kautensa alkoi Rooman imperiumin kultakauden."
+  },
+  {
+    "question": "Mikä on kaikkien aikojen myydyin singlelevy?",
+    "options": [
+      "White Christmas - Bing Crosby",
+      "Candle in the Wind - Elton John",
+      "We Are the World - USA for Africa",
+      "I Will Always Love You - Whitney Houston"
+    ],
+    "answer": "White Christmas - Bing Crosby",
+    "category": "Viihde",
+    "didYouKnow": "White Christmas on myynyt yli 50 miljoonaa kappaletta sen julkaisemisesta vuonna 1942 lähtien."
+  },
+  {
+    "question": "Mikä maa on voittanut eniten jalkapallon MM-kultaa?",
+    "options": [
+      "Brasilia",
+      "Saksa",
+      "Italia",
+      "Argentiina"
+    ],
+    "answer": "Brasilia",
+    "category": "Urheilu",
+    "didYouKnow": "Brasilia on voittanut jalkapallon MM-kisat viidesti: 1958, 1962, 1970, 1994 ja 2002."
+  },
+  {
+    "question": "Mikä on maailman syvin valtameri?",
+    "options": [
+      "Tyynimeri",
+      "Atlantin valtameri",
+      "Intian valtameri",
+      "Pohjoinen jäämeri"
+    ],
+    "answer": "Tyynimeri",
+    "category": "Maantieto",
+    "didYouKnow": "Mariaanien hauta Tyynellämerellä on maailman syvin kohta, noin 11 000 metriä syvä."
+  },
+  {
+    "question": "Mikä alkuaine on ihmiskehon yleisin painon mukaan?",
+    "options": [
+      "Happi",
+      "Hiili",
+      "Vety",
+      "Typpi"
+    ],
+    "answer": "Happi",
+    "category": "Tiede",
+    "didYouKnow": "Happi muodostaa noin 65% ihmiskehon painosta, pääasiassa veden muodossa."
+  },
+  {
+    "question": "Minä vuonna ensimmäinen ihminen kävi Kuussa?",
+    "options": [
+      "1969",
+      "1967",
+      "1971",
+      "1965"
+    ],
+    "answer": "1969",
+    "category": "Historia",
+    "didYouKnow": "Neil Armstrong astui Kuun pinnalle 20. heinäkuuta 1969 Apollo 11 -lennolla."
+  },
+  {
+    "question": "Kuka on Harry Potterin luoja?",
+    "options": [
+      "J.K. Rowling",
+      "J.R.R. Tolkien",
+      "C.S. Lewis",
+      "George R.R. Martin"
+    ],
+    "answer": "J.K. Rowling",
+    "category": "Viihde",
+    "didYouKnow": "Rowling kirjoitti ensimmäisen Harry Potter -kirjan osin kahviloissa Edinburghissa."
+  },
+  {
+    "question": "Mikä on nopein urheilu maailmassa?",
+    "options": [
+      "Badminton",
+      "Tennis",
+      "Squash",
+      "Jääkiekko"
+    ],
+    "answer": "Badminton",
+    "category": "Urheilu",
+    "didYouKnow": "Badmintonin sulkapallon nopeus on mitattu jopa 493 km/h, mikä on nopeampi kuin formulan huippunopeus."
+  },
+  {
+    "question": "Mikä on maailman väkirikkain valtio?",
+    "options": [
+      "Intia",
+      "Kiina",
+      "Yhdysvallat",
+      "Indonesia"
+    ],
+    "answer": "Intia",
+    "category": "Maantieto",
+    "didYouKnow": "Intia ohitti Kiinan väkiluvussa vuonna 2023, ja siellä asuu nyt yli 1,4 miljardia ihmistä."
+  },
+  {
+    "question": "Mikä kaasu muodostaa suurimman osan ilmakehästä?",
+    "options": [
+      "Typpi",
+      "Happi",
+      "Hiilidioksidi",
+      "Argon"
+    ],
+    "answer": "Typpi",
+    "category": "Tiede",
+    "didYouKnow": "Typpi muodostaa noin 78% ilmakehästä, kun taas happea on vain noin 21%."
+  },
+  {
+    "question": "Kuka kirjoitti näytelmän 'Romeo ja Julia'?",
+    "options": [
+      "William Shakespeare",
+      "Christopher Marlowe",
+      "Ben Jonson",
+      "John Milton"
+    ],
+    "answer": "William Shakespeare",
+    "category": "Historia",
+    "didYouKnow": "Romeo ja Julia kirjoitettiin 1590-luvun alussa ja se on yksi maailman tunnetuimmista tragedioista."
+  },
+  {
+    "question": "Mikä on maailman pisin elokuva?",
+    "options": [
+      "Logistics (857 h)",
+      "The Cure for Insomnia (87 h)",
+      "Modern Times Forever (240 h)",
+      "Ambiance (720 h)"
+    ],
+    "answer": "Logistics (857 h)",
+    "category": "Viihde",
+    "didYouKnow": "Ruotsalainen kokeellinen elokuva 'Logistics' kestää 35 päivää ja 17 tuntia."
+  },
+  {
+    "question": "Mikä joukkue voitti ensimmäisen Super Bowlin?",
+    "options": [
+      "Green Bay Packers",
+      "Kansas City Chiefs",
+      "New York Jets",
+      "Dallas Cowboys"
+    ],
+    "answer": "Green Bay Packers",
+    "category": "Urheilu",
+    "didYouKnow": "Green Bay Packers voitti ensimmäisen Super Bowlin 1967 ja toisen perättäisen vuonna 1968."
+  },
+  {
+    "question": "Mikä on maailman suurin saari?",
+    "options": [
+      "Grönlanti",
+      "Uusi-Guinea",
+      "Borneo",
+      "Madagaskar"
+    ],
+    "answer": "Grönlanti",
+    "category": "Maantieto",
+    "didYouKnow": "Grönlanti on pinta-alaltaan 2,16 miljoonaa km² ja kuuluu Tanskalle, mutta on itsehallinnollinen."
+  },
+  {
+    "question": "Mikä on äänenvoimakkuuden yksikkö?",
+    "options": [
+      "Desibeli (dB)",
+      "Hertsi (Hz)",
+      "Watti (W)",
+      "Pascal (Pa)"
+    ],
+    "answer": "Desibeli (dB)",
+    "category": "Tiede",
+    "didYouKnow": "Normaalissa keskustelussa äänenvoimakkuus on noin 60 dB, suihkukoneen lähtö taas yli 120 dB."
+  },
+  {
+    "question": "Kuka löysi Amerikan mannereelta ensimmäisenä eurooppalaisena?",
+    "options": [
+      "Kristoffer Kolumbus",
+      "Leif Eriksson",
+      "Amerigo Vespucci",
+      "Ferdinand Magellan"
+    ],
+    "answer": "Leif Eriksson",
+    "category": "Historia",
+    "didYouKnow": "Viikinkitarujen mukaan Leif Eriksson saapui Pohjois-Amerikkaan noin vuonna 1000, noin 500 vuotta ennen Kolumbusta."
+  },
+  {
+    "question": "Mikä on maailman myydyin video-/tietokonepeli kautta aikojen?",
+    "options": [
+      "Minecraft",
+      "Grand Theft Auto V",
+      "Tetris",
+      "Wii Sports"
+    ],
+    "answer": "Minecraft",
+    "category": "Viihde",
+    "didYouKnow": "Minecraft on myynyt yli 300 miljoonaa kappaletta kaikilla alustoilla vuodesta 2011 lähtien."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen Formula 1 -maailmanmestaruuden?",
+    "options": [
+      "Giuseppe Farina",
+      "Juan Manuel Fangio",
+      "Alberto Ascari",
+      "Stirling Moss"
+    ],
+    "answer": "Giuseppe Farina",
+    "category": "Urheilu",
+    "didYouKnow": "Giuseppe 'Nino' Farina voitti ensimmäisen F1-mestaruuden vuonna 1950 Alfa Romeon ratissa."
+  }
+]

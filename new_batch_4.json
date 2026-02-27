@@ -1,0 +1,317 @@
+[
+  {
+    "question": "Kuka maalasi 'Viimeinen ehtoollinen'?",
+    "options": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Caravaggio"],
+    "answer": "Leonardo da Vinci",
+    "category": "Taide",
+    "didYouKnow": "Viimeinen ehtoollinen on seinämaalaus Milanossa ja se on restauroitu useita kertoja huonon säilytystilan vuoksi."
+  },
+  {
+    "question": "Mikä on maailman suurin järvi?",
+    "options": ["Kaspianmeri", "Ylä-järvi", "Victoriajärvi", "Baikaljärvi"],
+    "answer": "Kaspianmeri",
+    "category": "Maantieto",
+    "didYouKnow": "Kaspianmeri on teknisesti järvi, ei meri, ja se on suurempi kuin Suomi."
+  },
+  {
+    "question": "Kuka kirjoitti 'Rikos ja rangaistus'?",
+    "options": ["Fjodor Dostojevski", "Lev Tolstoi", "Anton Tšehov", "Ivan Turgenev"],
+    "answer": "Fjodor Dostojevski",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Dostojevski kirjoitti Rikos ja rangaistuksen osittain maksaakseen uhkapelivelkansa."
+  },
+  {
+    "question": "Mikä on ihmiskehon suurin rauhanen?",
+    "options": ["Maksa", "Haima", "Kilpirauhanen", "Kateenkorva"],
+    "answer": "Maksa",
+    "category": "Tiede",
+    "didYouKnow": "Maksa on ainoa sisäelin, joka voi täysin regeneroitua - jopa 75% maksasta voidaan poistaa ja se kasvaa takaisin."
+  },
+  {
+    "question": "Mikä on maailman hitain eläin?",
+    "options": ["Laiskiainen", "Kilpikonna", "Etana", "Meritähti"],
+    "answer": "Laiskiainen",
+    "category": "Luonto",
+    "didYouKnow": "Laiskiainen liikkuu maalla vain noin 2 metriä minuutissa, ja se nukkuu jopa 15-20 tuntia päivässä."
+  },
+  {
+    "question": "Missä olympialaisissa Suomi voitti eniten kultamitaleita?",
+    "options": ["Amsterdam 1928", "Antwerpen 1920", "Pariisi 1924", "Los Angeles 1932"],
+    "answer": "Pariisi 1924",
+    "category": "Urheilu",
+    "didYouKnow": "Suomi voitti Pariisin olympialaisissa vuonna 1924 peräti 14 kultamitalia, ja Paavo Nurmi voitti niistä viisi."
+  },
+  {
+    "question": "Mikä maa on maailman onnellisin vuoden 2023 tutkimuksen mukaan?",
+    "options": ["Suomi", "Tanska", "Islanti", "Norja"],
+    "answer": "Suomi",
+    "category": "Maantieto",
+    "didYouKnow": "Suomi on ollut maailman onnellisin maa World Happiness Report -tutkimuksen mukaan kuusi vuotta peräkkäin (2018-2023)."
+  },
+  {
+    "question": "Kuka sävelli 'Neljä vuodenaikaa'?",
+    "options": ["Antonio Vivaldi", "Johann Sebastian Bach", "Georg Friedrich Händel", "Wolfgang Amadeus Mozart"],
+    "answer": "Antonio Vivaldi",
+    "category": "Taide",
+    "didYouKnow": "Neljä vuodenaikaa on sarja viulukonsertoja, jotka kuvaavat kevättä, kesää, syksyä ja talvea musiikillisesti."
+  },
+  {
+    "question": "Mikä on maailman vanhin yliopisto?",
+    "options": ["Bolognan yliopisto", "Oxfordin yliopisto", "Pariisin yliopisto", "Cambridgen yliopisto"],
+    "answer": "Bolognan yliopisto",
+    "category": "Historia",
+    "didYouKnow": "Bolognan yliopisto perustettiin vuonna 1088 Italiassa ja on maailman vanhin jatkuvasti toiminut yliopisto."
+  },
+  {
+    "question": "Mikä on DNA:n muoto?",
+    "options": ["Kaksoiskierre", "Yksöiskierre", "Kolmoiskierre", "Rengas"],
+    "answer": "Kaksoiskierre",
+    "category": "Tiede",
+    "didYouKnow": "DNA:n kaksoiskierteen löysivät Watson ja Crick vuonna 1953, ja he saivat siitä Nobel-palkinnon."
+  },
+  {
+    "question": "Mikä eläin voi juosta syntymäpäivänään?",
+    "options": ["Hevonen", "Lehmä", "Lammas", "Kaikki edellä mainitut"],
+    "answer": "Kaikki edellä mainitut",
+    "category": "Luonto",
+    "didYouKnow": "Monet sorkka-eläimet voivat kävellä ja jopa juosta muutaman tunnin sisällä syntymästään - tämä on evoluution tulos petoeläinten välttämiseksi."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen Tour de France -pyöräilykilpailun?",
+    "options": ["Maurice Garin", "Lucien Petit-Breton", "Henri Cornet", "Louis Trousselier"],
+    "answer": "Maurice Garin",
+    "category": "Urheilu",
+    "didYouKnow": "Maurice Garin voitti ensimmäisen Tour de Francen vuonna 1903, ja kilpailu kesti 19 päivää."
+  },
+  {
+    "question": "Mikä on maailman tiheimmin asuttu maa?",
+    "options": ["Monaco", "Singapore", "Vatikaanivaltio", "Bahrain"],
+    "answer": "Monaco",
+    "category": "Maantieto",
+    "didYouKnow": "Monacossa on yli 26 000 asukasta neliökilometrillä, mikä tekee siitä maailman tiheimmin asutun maan."
+  },
+  {
+    "question": "Kuka kirjoitti 'Odysseian'?",
+    "options": ["Homeros", "Vergilius", "Ovidius", "Hesiodos"],
+    "answer": "Homeros",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Odysseia on antiikin kreikkalainen eepos, joka kertoo Odysseuksen 10 vuotta kestäneestä kotimatkasta Troijan sodan jälkeen."
+  },
+  {
+    "question": "Mikä on veden kiehumispiste Celsius-asteikolla?",
+    "options": ["100°C", "90°C", "110°C", "80°C"],
+    "answer": "100°C",
+    "category": "Tiede",
+    "didYouKnow": "Veden kiehumispiste laskee korkeammalla merenpinnasta - Everestillä vesi kiehuu jo noin 70°C:ssa."
+  },
+  {
+    "question": "Mikä on maailman isoin kala?",
+    "options": ["Valashai", "Jättiläismantarauskut", "Valkohai", "Atlantin sinievällinen tonnikala"],
+    "answer": "Valashai",
+    "category": "Luonto",
+    "didYouKnow": "Valashai voi kasvaa jopa 18 metriä pitkäksi ja painaa yli 20 tonnia, mutta se syö vain planktonia."
+  },
+  {
+    "question": "Missä maassa pelattiin ensimmäinen kriketin testiotteluottelu?",
+    "options": ["Australia", "Englanti", "Intia", "Etelä-Afrikka"],
+    "answer": "Australia",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäinen kriketin testiotteluottelu pelattiin Melbournessa vuonna 1877 Australian ja Englannin välillä."
+  },
+  {
+    "question": "Mikä on maailman suurin valtameri?",
+    "options": ["Tyynimeri", "Atlantin valtameri", "Intian valtameri", "Jäämeri"],
+    "answer": "Tyynimeri",
+    "category": "Maantieto",
+    "didYouKnow": "Tyynimeri kattaa noin 46% maailman valtamerten pinta-alasta ja on suurempi kuin kaikki maanosatjtkn yhteensä."
+  },
+  {
+    "question": "Kuka maalasi 'Guernica'n?",
+    "options": ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Henri Matisse"],
+    "answer": "Pablo Picasso",
+    "category": "Taide",
+    "didYouKnow": "Guernica maalattiin vuonna 1937 vastalauseena Espanjan sisällissodan aikaiselle Guernica-kaupungin pommitukselle."
+  },
+  {
+    "question": "Mikä on Einsteinin suhteellisuusteorian perusajatus?",
+    "options": ["Aika ja tila ovat suhteellisia", "Massa ja energia ovat samaa", "Valo on hiukkanen", "Kaikki on suhteellista"],
+    "answer": "Aika ja tila ovat suhteellisia",
+    "category": "Tiede",
+    "didYouKnow": "Suhteellisuusteorian mukaan aika kulkee hitaammin suurilla nopeuksilla ja vahvoissa gravitaatiokentissä."
+  },
+  {
+    "question": "Mikä eläin muuttaa värinsä ympäristöönsä sopivaksi?",
+    "options": ["Kameleontti", "Mustekala", "Kampela", "Kaikki edellä mainitut"],
+    "answer": "Kaikki edellä mainitut",
+    "category": "Luonto",
+    "didYouKnow": "Kaikki nämä eläimet voivat muuttaa väriään naamioimiseen, mutta kameleontti käyttää sitä myös viestintään."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen jääkiekon Stanley Cup -mestaruuden?",
+    "options": ["Montreal Hockey Club", "Ottawa Senators", "Toronto Maple Leafs", "Boston Bruins"],
+    "answer": "Montreal Hockey Club",
+    "category": "Urheilu",
+    "didYouKnow": "Montreal Hockey Club voitti ensimmäisen Stanley Cupin vuonna 1893, kun se oli vielä haastepalkinto."
+  },
+  {
+    "question": "Mikä on maailman kylmin paikka?",
+    "options": ["Vostok, Antarktis", "Verkhojansk, Venäjä", "Oimjakon, Venäjä", "Pohjoisnapa"],
+    "answer": "Vostok, Antarktis",
+    "category": "Maantieto",
+    "didYouKnow": "Vostok-asemalla Antarktiksen kuivilla alueilla mitattiin -89,2°C vuonna 1983 - kylmin koskaan mitattu lämpötila."
+  },
+  {
+    "question": "Kuka kirjoitti 'Iliadiksen'?",
+    "options": ["Homeros", "Vergilius", "Ovidius", "Hesiodos"],
+    "answer": "Homeros",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Iliada on antiikin kreikkalainen eepos, joka kertoo Troijan sodan viimeisistä viikoista ja Akhilleuksen vihasta."
+  },
+  {
+    "question": "Mikä on maailman yleisin kemiallinen alkuaine universumissa?",
+    "options": ["Vety", "Helium", "Happi", "Hiili"],
+    "answer": "Vety",
+    "category": "Tiede",
+    "didYouKnow": "Vety muodostaa noin 75% universumin tavallisen aineen massasta ja syntyi alkuräjähdyksessä."
+  },
+  {
+    "question": "Mikä on maailman myrkyllisin käärme?",
+    "options": ["Sisämaataipaani", "Kuningaskobra", "Mustamamba", "Tiikerikyy"],
+    "answer": "Sisämaataipaani",
+    "category": "Luonto",
+    "didYouKnow": "Sisämaataipainin yksi purema sisältää tarpeeksi myrkkyä tappamaan 100 aikuista ihmistä, mutta se on onneksi hyvin ujo."
+  },
+  {
+    "question": "Missä maassa järjestettiin ensimmäiset Aasian kisat?",
+    "options": ["Intia", "Filippiinit", "Japani", "Thaimaa"],
+    "answer": "Intia",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäiset Aasian kisat järjestettiin New Delhissä, Intiassa vuonna 1951."
+  },
+  {
+    "question": "Mikä on maailman suurin kaupunki pinta-alaltaan?",
+    "options": ["New York", "Tokio", "Los Angeles", "Peking"],
+    "answer": "New York",
+    "category": "Maantieto",
+    "didYouKnow": "New York City on pinta-alaltaan noin 783 neliökilometriä, mukaan lukien vesialueet."
+  },
+  {
+    "question": "Kuka sävelli 'Messiah'-oratorion?",
+    "options": ["Georg Friedrich Händel", "Johann Sebastian Bach", "Antonio Vivaldi", "Henry Purcell"],
+    "answer": "Georg Friedrich Händel",
+    "category": "Taide",
+    "didYouKnow": "Messiah sävellettiin vain 24 päivässä vuonna 1741, ja sen 'Halleluja'-kuoro on yksi klassisen musiikin kuuluisimmista."
+  },
+  {
+    "question": "Mikä on maailman vanhin vielä käytössä oleva lippu?",
+    "options": ["Tanskan lippu", "Skotlannin lippu", "Englannin lippu", "Ranskan lippu"],
+    "answer": "Tanskan lippu",
+    "category": "Historia",
+    "didYouKnow": "Tanskan lippu Dannebrog on ollut käytössä vuodesta 1219, mikä tekee siitä maailman vanhimman kansallislipun."
+  },
+  {
+    "question": "Mikä planeetta on tunnettu renkaistaan?",
+    "options": ["Saturnus", "Jupiter", "Uranus", "Neptunus"],
+    "answer": "Saturnus",
+    "category": "Tiede",
+    "didYouKnow": "Saturnuksen renkaat koostuvat jääpalasista ja kivistä, jotka voivat olla hiekanjaenakoista tai talokokoisia."
+  },
+  {
+    "question": "Mikä on maailman pisin käärme?",
+    "options": ["Verkkojalopyytoni", "Anakonda", "Kuningaskobra", "Mustamamba"],
+    "answer": "Verkkojalopyytoni",
+    "category": "Luonto",
+    "didYouKnow": "Verkkojalopyytoni voi kasvaa yli 7 metrin pituiseksi, mutta anakonda on painavampi käärme."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen golf-majorsurnauksen (The Open)?",
+    "options": ["Willie Park Sr.", "Tom Morris Sr.", "Allan Robertson", "Young Tom Morris"],
+    "answer": "Willie Park Sr.",
+    "category": "Urheilu",
+    "didYouKnow": "Willie Park Sr. voitti ensimmäisen The Open Championship -turnauksen vuonna 1860 Prestwichissä, Skotlannissa."
+  },
+  {
+    "question": "Mikä on maailman suurin metsäalue?",
+    "options": ["Siperialainen taiga", "Amazonin sademetsä", "Kongon sademetsä", "Boreaalinen metsävyöhyke"],
+    "answer": "Siperialainen taiga",
+    "category": "Maantieto",
+    "didYouKnow": "Siperian taiga kattaa yli 12 miljoonaa neliökilometriä ja on maailman suurin yhtenäinen metsäalue."
+  },
+  {
+    "question": "Kuka kirjoitti 'Paratiisin'?",
+    "options": ["John Milton", "Dante Alighieri", "Geoffrey Chaucer", "Edmund Spenser"],
+    "answer": "John Milton",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Paradise Lost ('Kadotettu paratiisi') julkaistiin vuonna 1667 ja on yksi englanninkielisen kirjallisuuden merkittävimmistä eepoista."
+  },
+  {
+    "question": "Mikä on maailman suurin sähköntuottaja?",
+    "options": ["Kiina", "Yhdysvallat", "Intia", "Venäjä"],
+    "answer": "Kiina",
+    "category": "Tiede",
+    "didYouKnow": "Kiina tuottaa yli 25% maailman sähköstä ja on myös maailman suurin uusiutuvan energian tuottaja."
+  },
+  {
+    "question": "Mikä eläin pystyy näkemään ultraviolettivalossa?",
+    "options": ["Mehiläinen", "Koira", "Kissa", "Hevonen"],
+    "answer": "Mehiläinen",
+    "category": "Luonto",
+    "didYouKnow": "Mehiläiset näkevät UV-valon avulla kukkien kuvioita, jotka ohjaavat niitä nektariin ja joita ihminen ei näe."
+  },
+  {
+    "question": "Missä maassa pelattiin ensimmäinen rugbyn maailmanmestaruusturnaus?",
+    "options": ["Uusi-Seelanti ja Australia", "Englanti", "Etelä-Afrikka", "Ranska"],
+    "answer": "Uusi-Seelanti ja Australia",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäinen Rugby World Cup pelattiin vuonna 1987 Uudessa-Seelannissa ja Australiassa, ja sen voitti Uusi-Seelanti."
+  },
+  {
+    "question": "Mikä on maailman kuumin paikka?",
+    "options": ["Dallolin kuuma lähde, Etiopia", "Kuolemanlaakso, Yhdysvallat", "Dasht-e Lut, Iran", "Sahara"],
+    "answer": "Dasht-e Lut, Iran",
+    "category": "Maantieto",
+    "didYouKnow": "Dasht-e Lutin aavikolla Iranissa on mitattu maan pinnasta 70,7°C satelliiteilla - korkein koskaan mitattu lämpötila."
+  },
+  {
+    "question": "Kuka maalasi 'Huutava'n?",
+    "options": ["Edvard Munch", "Vincent van Gogh", "Gustav Klimt", "Egon Schiele"],
+    "answer": "Edvard Munch",
+    "category": "Taide",
+    "didYouKnow": "Huuto (The Scream) on yksi maailman tunnetuimmista maalauksista ja siitä on olemassa neljä versiota."
+  },
+  {
+    "question": "Mikä on maailman vanhin tunnettu musiikki-instrumentti?",
+    "options": ["Luuhuilu", "Rumpu", "Lyyra", "Torvi"],
+    "answer": "Luuhuilu",
+    "category": "Historia",
+    "didYouKnow": "Vanhin tunnettu musiikki-instrumentti on noin 40 000 vuotta vanha luuhuilu, joka löydettiin Saksasta."
+  },
+  {
+    "question": "Mikä on ihmiskehon suurin lihas?",
+    "options": ["Pakaralihaks", "Reisilihask", "Vatsalihas", "Selkälihas"],
+    "answer": "Pakaralihaks",
+    "category": "Tiede",
+    "didYouKnow": "Iso pakaralihas (gluteus maximus) on ihmiskehon suurin ja voimakkain lihas ja sen tärkein tehtävä on pitää vartalo pystyssä."
+  },
+  {
+    "question": "Mikä on maailman harvoin tavatuin eläin?",
+    "options": ["Javan sarvikuono", "Amurpanteri", "Sumatra elephantin", "Vuoristogorilla"],
+    "answer": "Javan sarvikuono",
+    "category": "Luonto",
+    "didYouKnow": "Javan sarvikuonoa on jäljellä vain noin 70 yksilöä, ja se on yksi maailman uhanalaisimmista nisäkkäistä."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen amerikkalaisen jalkapallon Super Bowlin?",
+    "options": ["Green Bay Packers", "Kansas City Chiefs", "Dallas Cowboys", "Pittsburgh Steelers"],
+    "answer": "Green Bay Packers",
+    "category": "Urheilu",
+    "didYouKnow": "Green Bay Packers voitti ensimmäisen Super Bowlin vuonna 1967 voittaen Kansas City Chiefsin 35-10."
+  },
+  {
+    "question": "Mikä on maailman korkein vesiputous?",
+    "options": ["Angel Falls", "Niagaran putoukset", "Victoriaputoukset", "Iguazu Falls"],
+    "answer": "Angel Falls",
+    "category": "Maantieto",
+    "didYouKnow": "Angel Falls Venezuelassa on 979 metriä korkea - maailman korkein keskeytymatön vesiputous."
+  }
+]

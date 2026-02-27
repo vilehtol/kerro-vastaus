@@ -1,0 +1,345 @@
+[
+  {
+    "question": "Mikä on maailman suurin autiomaiden alue?",
+    "options": ["Sahara", "Arabian autiomaa", "Gobi", "Kalahari"],
+    "answer": "Sahara",
+    "category": "Maantieto",
+    "didYouKnow": "Sahara on lähes yhtä suuri kuin Yhdysvallat ja kasvaa jatkuvasti ilmastonmuutoksen vuoksi."
+  },
+  {
+    "question": "Kuka sävelli oopperan 'Taikahuilun'?",
+    "options": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Giuseppe Verdi", "Richard Wagner"],
+    "answer": "Wolfgang Amadeus Mozart",
+    "category": "Taide",
+    "didYouKnow": "Taikahuilu oli Mozartin viimeisiä teoksia, ja hän kuoli vain kaksi kuukautta sen kantaesityksen jälkeen."
+  },
+  {
+    "question": "Mikä planeetta on lähimpänä aurinkoa?",
+    "options": ["Merkurius", "Venus", "Maa", "Mars"],
+    "answer": "Merkurius",
+    "category": "Tiede",
+    "didYouKnow": "Merkuriuksessa vuorokausi kestää pidempään kuin vuosi - planeetta kiertää auringon nopeammin kuin ympäri omaa akseliaan."
+  },
+  {
+    "question": "Mikä on Suomen kansallislintu?",
+    "options": ["Joutsenlaulaja", "Kotka", "Haahka", "Kurki"],
+    "answer": "Joutsenlaulaja",
+    "category": "Luonto",
+    "didYouKnow": "Joutsenlaulaja on maailman suurin lentävä vesilintu ja sen siipien kärkiväli voi olla jopa 2,5 metriä."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen jalkapallon maailmanmestaruuden vuonna 1930?",
+    "options": ["Uruguay", "Argentiina", "Brasilia", "Italia"],
+    "answer": "Uruguay",
+    "category": "Urheilu",
+    "didYouKnow": "Uruguay voitti ensimmäisen MM-turnauksen kotikentällään Montevideossa ja sai pitää alkuperäisen Jules Rimet -pokaalin."
+  },
+  {
+    "question": "Mikä on maailman pisin joki?",
+    "options": ["Niili", "Amazonas", "Jangtse", "Mississippi"],
+    "answer": "Niili",
+    "category": "Maantieto",
+    "didYouKnow": "Niilin pituudesta kiistellään edelleen - jotkut tutkijat väittävät Amazonasin olevan pidempi riippuen lähteiden määrittelystä."
+  },
+  {
+    "question": "Kuka kirjoitti romaanin 'Tuntematon sotilas'?",
+    "options": ["Väinö Linna", "Mika Waltari", "F.E. Sillanpää", "Aleksis Kivi"],
+    "answer": "Väinö Linna",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Tuntematon sotilas julkaistiin vuonna 1954 ja siitä on tehty kolme suomalaista elokuvaversiota."
+  },
+  {
+    "question": "Mikä on ihmiskehon suurin elin?",
+    "options": ["Iho", "Maksa", "Keuhkot", "Aivot"],
+    "answer": "Iho",
+    "category": "Tiede",
+    "didYouKnow": "Aikuisen ihmisen ihon pinta-ala on noin 2 neliömetriä ja se painaa noin 4-5 kilogrammaa."
+  },
+  {
+    "question": "Mikä on Japanin pääkaupunki?",
+    "options": ["Tokio", "Kioto", "Osaka", "Hiroshima"],
+    "answer": "Tokio",
+    "category": "Maantieto",
+    "didYouKnow": "Tokion suurkaupunkialueella asuu yli 38 miljoonaa ihmistä - se on maailman suurin metropolialue."
+  },
+  {
+    "question": "Kuka maalasi Mona Lisan?",
+    "options": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+    "answer": "Leonardo da Vinci",
+    "category": "Taide",
+    "didYouKnow": "Mona Lisa on varastettu Louvresta kerran, vuonna 1911, ja se oli kadoksissa kaksi vuotta."
+  },
+  {
+    "question": "Mikä on valonopeus?",
+    "options": ["300 000 km/s", "150 000 km/s", "500 000 km/s", "100 000 km/s"],
+    "answer": "300 000 km/s",
+    "category": "Tiede",
+    "didYouKnow": "Valo kulkee maapallolta kuuhun noin 1,3 sekunnissa ja auringosta maahan noin 8 minuutissa."
+  },
+  {
+    "question": "Mikä eläin on lajinsa ainoa lentävä nisäkäs?",
+    "options": ["Lepakko", "Liito-orava", "Lentävä koira", "Lentävä maki"],
+    "answer": "Lepakko",
+    "category": "Luonto",
+    "didYouKnow": "Lepakot käyttävät kaikuluotausta navigointiin ja ne voivat syödä jopa 3000 hyönteistä yhdessä yössä."
+  },
+  {
+    "question": "Missä maassa olympialaiset järjestettiin ensimmäisen kerran antiikin jälkeen?",
+    "options": ["Kreikka", "Ranska", "Iso-Britannia", "Yhdysvallat"],
+    "answer": "Kreikka",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäiset modernit olympialaiset pidettiin Ateenassa vuonna 1896, ja niihin osallistui vain 241 urheilijaa 14 maasta."
+  },
+  {
+    "question": "Mikä on maailman korkein vuori?",
+    "options": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+    "answer": "Mount Everest",
+    "category": "Maantieto",
+    "didYouKnow": "Mount Everest kasvaa edelleen noin 4 millimetriä vuodessa tektonisten laattojen liikkeen vuoksi."
+  },
+  {
+    "question": "Kuka kirjoitti näytelmän 'Hamlet'?",
+    "options": ["William Shakespeare", "Christopher Marlowe", "Ben Jonson", "John Webster"],
+    "answer": "William Shakespeare",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Hamletin kuuluisa repliikki 'Olla vai ei olla' on yksi maailman tunnetuimmista sitaateista."
+  },
+  {
+    "question": "Mikä on Einsteinin kuuluisa kaava?",
+    "options": ["E=mc²", "F=ma", "E=hf", "p=mv"],
+    "answer": "E=mc²",
+    "category": "Tiede",
+    "didYouKnow": "Kaava E=mc² osoittaa, että massa ja energia ovat vaihdettavissa, ja pieni massa vastaa valtavaa energiamäärää."
+  },
+  {
+    "question": "Mikä lintu ei osaa lentää mutta on erinomainen uimari?",
+    "options": ["Pingviini", "Strutsi", "Kiwi", "Emu"],
+    "answer": "Pingviini",
+    "category": "Luonto",
+    "didYouKnow": "Keisaripingviinit voivat sukeltaa yli 500 metrin syvyyteen ja pysyä veden alla jopa 22 minuuttia."
+  },
+  {
+    "question": "Missä maassa järjestettiin ensimmäiset jalkapallon EM-kisat?",
+    "options": ["Ranska", "Espanja", "Italia", "Saksa"],
+    "answer": "Ranska",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäiset jalkapallon EM-kisat järjestettiin Ranskassa vuonna 1960, ja turnauksen voitti Neuvostoliitto."
+  },
+  {
+    "question": "Mikä maa on pinta-alaltaan maailman suurin?",
+    "options": ["Venäjä", "Kanada", "Kiina", "Yhdysvallat"],
+    "answer": "Venäjä",
+    "category": "Maantieto",
+    "didYouKnow": "Venäjä on pinta-alaltaan lähes kaksi kertaa suurempi kuin toiseksi suurin maa, Kanada."
+  },
+  {
+    "question": "Kuka sävelli 'Viulukonserton'?",
+    "options": ["Jean Sibelius", "Edvard Grieg", "Pyotr Tšaikovski", "Beethoven"],
+    "answer": "Jean Sibelius",
+    "category": "Taide",
+    "didYouKnow": "Sibeliuksen viulukonsertto on yksi kaikkien aikojen suosituimmista viulukonserttoista maailmassa."
+  },
+  {
+    "question": "Mikä on aurinkokuntamme suurin planeetta?",
+    "options": ["Jupiter", "Saturnus", "Neptunus", "Uranus"],
+    "answer": "Jupiter",
+    "category": "Tiede",
+    "didYouKnow": "Jupiter on niin suuri, että siihen mahtuisi yli 1300 maapalloa."
+  },
+  {
+    "question": "Mikä on maailman suurin eläin?",
+    "options": ["Sinivalas", "Afrikan norsu", "Valkohai", "Jättiläiskalmar"],
+    "answer": "Sinivalas",
+    "category": "Luonto",
+    "didYouKnow": "Sinivalas on maailmanhistorian suurin eläin - suurempi kuin mikään dinosaurus. Se voi painaa jopa 200 tonnia."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen Formulan 1 maailmanmestaruuden?",
+    "options": ["Giuseppe Farina", "Juan Manuel Fangio", "Alberto Ascari", "Mike Hawthorn"],
+    "answer": "Giuseppe Farina",
+    "category": "Urheilu",
+    "didYouKnow": "Giuseppe Farina voitti ensimmäisen F1-mestaruuden vuonna 1950 ajaen Alfa Romeolla."
+  },
+  {
+    "question": "Mikä on maailman syvin kohta?",
+    "options": ["Mariaanien hauta", "Tongan hauta", "Puerto Ricon hauta", "Filippiinien hauta"],
+    "answer": "Mariaanien hauta",
+    "category": "Maantieto",
+    "didYouKnow": "Mariaanien haudan syvin kohta, Challenger Deep, on noin 11 kilometriä syvä - syvempi kuin Mount Everest on korkea."
+  },
+  {
+    "question": "Kuka kirjoitti 'Seitsemän veljestä'?",
+    "options": ["Aleksis Kivi", "Mika Waltari", "Väinö Linna", "F.E. Sillanpää"],
+    "answer": "Aleksis Kivi",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Seitsemän veljestä (1870) on ensimmäinen merkittävä suomenkielinen romaani ja Suomen kansallisromaani."
+  },
+  {
+    "question": "Mikä on DNA:n kokonimi?",
+    "options": ["Deoksiribonukleiinihappo", "Ribonukleiinihappo", "Aminohappo", "Hiilihappo"],
+    "answer": "Deoksiribonukleiinihappo",
+    "category": "Tiede",
+    "didYouKnow": "DNA:n rakenne löydettiin vuonna 1953, ja löytö palkittiin Nobelin palkinnolla vuonna 1962."
+  },
+  {
+    "question": "Mikä on maailman nopein maaeläin?",
+    "options": ["Gepardi", "Antilooppi", "Leijona", "Greyhound-koira"],
+    "answer": "Gepardi",
+    "category": "Luonto",
+    "didYouKnow": "Gepardi voi juosta jopa 120 km/h huippunopeudella, mutta vain lyhyitä matkoja kerrallaan."
+  },
+  {
+    "question": "Missä kaupungissa Summer Olympics järjestettiin vuonna 2012?",
+    "options": ["Lontoo", "Peking", "Rio de Janeiro", "Tokio"],
+    "answer": "Lontoo",
+    "category": "Urheilu",
+    "didYouKnow": "Lontoo on ainoa kaupunki, joka on isännöinyt olympialaisia kolme kertaa: 1908, 1948 ja 2012."
+  },
+  {
+    "question": "Mikä on maailman väkiluvultaan suurin maa?",
+    "options": ["Intia", "Kiina", "Yhdysvallat", "Indonesia"],
+    "answer": "Intia",
+    "category": "Maantieto",
+    "didYouKnow": "Intia ohitti Kiinan maailman väkirikkaimpana maana vuonna 2023, ja sen väkiluku on yli 1,4 miljardia."
+  },
+  {
+    "question": "Kuka maalasi 'Tähtiyön'?",
+    "options": ["Vincent van Gogh", "Claude Monet", "Paul Cézanne", "Pablo Picasso"],
+    "answer": "Vincent van Gogh",
+    "category": "Taide",
+    "didYouKnow": "Van Gogh maalasi Tähtiyön vuonna 1889 mielisairaalassa Saint-Rémyssä Ranskassa."
+  },
+  {
+    "question": "Mikä on ainoa planeetta, joka pyörii eri suuntaan kuin muut?",
+    "options": ["Venus", "Uranus", "Pluto", "Merkurius"],
+    "answer": "Venus",
+    "category": "Tiede",
+    "didYouKnow": "Venus pyörii myötäpäivään (retrograadinen pyöriminen), kun taas muut planeetat pyörivät vastapäivään."
+  },
+  {
+    "question": "Mikä eläin nukkuu seisaaltaan?",
+    "options": ["Hevonen", "Kirahvi", "Norsu", "Kaikki edellä mainitut"],
+    "answer": "Kaikki edellä mainitut",
+    "category": "Luonto",
+    "didYouKnow": "Monet suuret kasvinsyöjät voivat nukkua seisaaltaan pakenemisen helpottamiseksi, mutta syvään uneen ne makuulle."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen Wimbledonin tennisturnauksen?",
+    "options": ["Spencer Gore", "William Renshaw", "John Hartley", "Frank Hadow"],
+    "answer": "Spencer Gore",
+    "category": "Urheilu",
+    "didYouKnow": "Spencer Gore voitti ensimmäisen Wimbledonin turnauksen vuonna 1877, jolloin vain 22 pelaajaa osallistui."
+  },
+  {
+    "question": "Mikä on maailman kuivin paikka?",
+    "options": ["Atacaman autiomaa", "Sahara", "Kuolemanlaakso", "Gobi"],
+    "answer": "Atacaman autiomaa",
+    "category": "Maantieto",
+    "didYouKnow": "Atacaman autiomaan joissakin osissa ei ole satanut lainkaan yli 400 vuoteen."
+  },
+  {
+    "question": "Kuka kirjoitti 'Kalevalan'?",
+    "options": ["Elias Lönnrot", "J.L. Runeberg", "Aleksis Kivi", "Zacharias Topelius"],
+    "answer": "Elias Lönnrot",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Kalevala julkaistiin ensimmäisen kerran vuonna 1835 ja laajennettuna versiona vuonna 1849, ja se sisältää noin 22 800 säettä."
+  },
+  {
+    "question": "Mikä on ihmiskehon pienin luu?",
+    "options": ["Jalustinluu", "Alasin", "Vasara", "Sormen nivel"],
+    "answer": "Jalustinluu",
+    "category": "Tiede",
+    "didYouKnow": "Jalustinluu sijaitsee keskikorvassa ja on vain noin 2,8 millimetriä pitkä."
+  },
+  {
+    "question": "Mikä lintu voi lentää takaperin?",
+    "options": ["Kolibri", "Papukaija", "Peippo", "Tiainen"],
+    "answer": "Kolibri",
+    "category": "Luonto",
+    "didYouKnow": "Kolibrit ovat ainoita lintuja, jotka voivat lentää takaperin ja pysyä täysin paikallaan ilmassa."
+  },
+  {
+    "question": "Missä maassa järjestettiin ensimmäiset talviolympialaiset?",
+    "options": ["Ranska", "Sveitsi", "Norja", "Yhdysvallat"],
+    "answer": "Ranska",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäiset talviolympialaiset järjestettiin Chamonixissa, Ranskassa vuonna 1924."
+  },
+  {
+    "question": "Mikä on maailman alhaisin kohta maalla?",
+    "options": ["Kuollut meri", "Kuolemanlaakso", "Danakil-painanne", "Kaspianmeri"],
+    "answer": "Kuollut meri",
+    "category": "Maantieto",
+    "didYouKnow": "Kuollut meri on noin 430 metriä merenpinnan alapuolella ja laskee edelleen noin 1 metrin vuodessa."
+  },
+  {
+    "question": "Kuka sävelli oopperan 'Aida'?",
+    "options": ["Giuseppe Verdi", "Giacomo Puccini", "Richard Wagner", "Wolfgang Amadeus Mozart"],
+    "answer": "Giuseppe Verdi",
+    "category": "Taide",
+    "didYouKnow": "Aida kantaesitettiin Kairossa vuonna 1871 Suezin kanavan avajaisjuhlien kunniaksi."
+  },
+  {
+    "question": "Mikä on aurinkokunnan kuumin planeetta?",
+    "options": ["Venus", "Merkurius", "Mars", "Jupiter"],
+    "answer": "Venus",
+    "category": "Tiede",
+    "didYouKnow": "Venus on kuumempi kuin Merkurius, vaikka on kauempana auringosta, kasvihuoneilmiön vuoksi. Pintalämpötila on noin 465°C."
+  },
+  {
+    "question": "Mikä on maailman myrkyllisin eläin?",
+    "options": ["Laatikkomedusa", "Sisämaataipaani", "Sinirengasmustekalat", "Kultanuolisammakko"],
+    "answer": "Laatikkomedusa",
+    "category": "Luonto",
+    "didYouKnow": "Laatikkomedusa on tappavan myrkyllinen ja sen pistosta voi kuolla minuuteissa. Se elää Australian vesillä."
+  },
+  {
+    "question": "Kuka voitti ensimmäisen NBA-mestaruuden?",
+    "options": ["Philadelphia Warriors", "Boston Celtics", "Minneapolis Lakers", "New York Knicks"],
+    "answer": "Philadelphia Warriors",
+    "category": "Urheilu",
+    "didYouKnow": "Philadelphia Warriors voitti ensimmäisen NBA-mestaruuden vuonna 1947, kun liiga tunnettiin vielä nimellä BAA."
+  },
+  {
+    "question": "Mikä on Euroopan pisin joki?",
+    "options": ["Volga", "Tonava", "Ural", "Dnepr"],
+    "answer": "Volga",
+    "category": "Maantieto",
+    "didYouKnow": "Volga on 3692 kilometriä pitkä ja se virtaa Venäjällä laskien Kaspianmereen."
+  },
+  {
+    "question": "Kuka kirjoitti 'Sodan ja rauhan'?",
+    "options": ["Lev Tolstoi", "Fjodor Dostojevski", "Anton Tšehov", "Ivan Turgenev"],
+    "answer": "Lev Tolstoi",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Sota ja rauha julkaistiin vuosina 1865-1869 ja on yksi maailmankirjallisuuden pisimmistä romaaneista."
+  },
+  {
+    "question": "Mikä on maailman kovuin luonnonmateriaali?",
+    "options": ["Timantti", "Korundi", "Volframi", "Grafeeni"],
+    "answer": "Timantti",
+    "category": "Tiede",
+    "didYouKnow": "Timantti saa kovuutensa hiiliatomien erityisestä kidehilasta, jossa jokainen atomi on sitoutunut neljään muuhun."
+  },
+  {
+    "question": "Mikä eläin elää pisimpään?",
+    "options": ["Grönlannin valaat", "Jättiläiskilpikonna", "Koi-kala", "Norsu"],
+    "answer": "Grönlannin valaat",
+    "category": "Luonto",
+    "didYouKnow": "Grönlannin valaat voivat elää yli 200 vuotta - vanhin tunnettu yksilö oli noin 211-vuotias."
+  },
+  {
+    "question": "Missä kaupungissa pelattiin ensimmäinen jalkapallon MM-finaaliotteluotteluottelu?",
+    "options": ["Montevideo", "Buenos Aires", "Rio de Janeiro", "Santiago"],
+    "answer": "Montevideo",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäinen MM-finaali pelattiin Montevideon Centenario-stadionilla 30. heinäkuuta 1930."
+  },
+  {
+    "question": "Mikä on maailman suurin saari?",
+    "options": ["Grönlanti", "Uusi-Guinea", "Borneo", "Madagaskar"],
+    "answer": "Grönlanti",
+    "category": "Maantieto",
+    "didYouKnow": "Grönlanti on maailman suurin saari, jonka pinta-ala on yli 2 miljoonaa neliökilometriä, ja 80% siitä on jään peitossa."
+  }
+]
