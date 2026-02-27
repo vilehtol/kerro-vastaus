@@ -1,6 +1,6 @@
 // Service Worker — auto-updating PWA
 // !! Bump this version string every deploy to trigger SW update !!
-const CACHE_NAME = 'visa-v2.3.2-clear-' + Date.now();
+const CACHE_NAME = 'visa-v2.3.3-massive-' + Date.now();
 const ASSETS = [
   './',
   './index.html',
