@@ -1,6 +1,7 @@
 // Service Worker — auto-updating PWA
-// !! Bump this version string every deploy to trigger SW update !!
-const CACHE_NAME = 'visa-v2.3.3-massive-' + Date.now();
+// Bump CACHE_VERSION on each deploy to force full cache refresh
+const CACHE_VERSION = '3.0.0-glassmorphism';
+const CACHE_NAME = 'visa-' + CACHE_VERSION;
 const ASSETS = [
   './',
   './index.html',
@@ -14,29 +15,29 @@ const ASSETS = [
 
 // Install — cache core assets, activate immediately
 self.addEventListener('install', (event) => {
-  self.skipWaiting(); // Force activation immediately
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => cache.addAll(ASSETS))
   );
 });
 
-// Activate — clean old caches, take control immediately
+// Activate — delete ALL old caches, take control immediately
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then(keys =>
       Promise.all(
         keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))
       )
-    ).then(() => self.clients.claim()) // Take control of all pages immediately
+    ).then(() => self.clients.claim())
   );
 });
 
-// Fetch — network-first for pages/scripts (fresh content), cache-first for images
+// Fetch — network-first for HTML/JS/CSS, cache-first for images
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
-  // Images: cache-first (they rarely change)
+  // Images: cache-first
   if (url.pathname.endsWith('.png') || url.pathname.endsWith('.ico')) {
     event.respondWith(
       caches.match(event.request)
@@ -49,7 +50,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Everything else (HTML, JS, CSS): network-first → cache fallback
+  // Everything else: network-first → cache fallback
   event.respondWith(
     fetch(event.request)
       .then(resp => {
