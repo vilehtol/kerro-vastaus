@@ -1,4 +1,4 @@
-// ÄLYPÄÄ VISA v2.3 - 843 kysymystä
+// ÄLYPÄÄ VISA v3.0 — 843 kysymystä, kaikissa didYouKnow
 const kaikkiKysymykset = [
   {
     "question": "Mikä on maan Ranska pääkaupunki?",
@@ -112,7 +112,8 @@ const kaikkiKysymykset = [
         "text": "Pariisi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Lissabon on Länsi-Euroopan vanhin pääkaupunki – vanhempi kuin Lontoo, Pariisi tai Rooma. Kaupunki rakennettiin seitsemälle kukkulalle ja sen kuuluisa raitiovaunu nro 28 on yksi maailman tunnetuimmista julkisen liikenteen linjoista."
   },
   {
     "question": "Mikä on maan Puola pääkaupunki?",
@@ -134,7 +135,8 @@ const kaikkiKysymykset = [
         "text": "Wellington",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Varsovan vanha kaupunki tuhoutui lähes täysin toisessa maailmansodassa, mutta se rakennettiin uudelleen niin tarkasti, että UNESCO hyväksyi sen maailmanperintökohteeksi – ainoana jälleenrakennettuna kaupunkina."
   },
   {
     "question": "Mikä on maan Tanska pääkaupunki?",
@@ -156,7 +158,8 @@ const kaikkiKysymykset = [
         "text": "New York",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kööpenhamina tunnetaan maailman onnellisimpien kaupunkien joukkoon kuuluvana paikkana. Kaupungissa on enemmän polkupyöriä kuin autoja, ja sen kuuluisa Tivoli-huvipuisto avattiin jo vuonna 1843."
   },
   {
     "question": "Mikä on maan Norja pääkaupunki?",
@@ -178,7 +181,8 @@ const kaikkiKysymykset = [
         "text": "Dakar",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Oslo oli nimeltään Kristiania vuosina 1624–1925. Kaupunki sijaitsee Oslofjordin sisäosassa ja sen ympärillä on yli 300 järveä sekä laajat metsäalueet."
   },
   {
     "question": "Mikä on maan Ruotsi pääkaupunki?",
@@ -200,7 +204,8 @@ const kaikkiKysymykset = [
         "text": "Ottawa",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tukholma on rakennettu 14 saarelle ja sitä kutsutaan usein 'Pohjolan Venetsiaksi'. Kaupungin vanhassa kaupungissa (Gamla stan) on yksi maailman kapeimmista kujista, Mårten Trotzigs gränd, joka on vain 90 cm leveä."
   },
   {
     "question": "Mikä on maan Suomi pääkaupunki?",
@@ -245,7 +250,8 @@ const kaikkiKysymykset = [
         "text": "Ateena",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tallinna on yksi Euroopan parhaiten säilyneistä keskiaikaisista kaupungeista. Kaupungin vanhan kaupungin muurit ja tornit ovat peräisin 1200-luvulta, ja Tallinna oli Hansaliiton tärkeä kauppakeskus."
   },
   {
     "question": "Mikä on maan Venäjä pääkaupunki?",
@@ -267,7 +273,8 @@ const kaikkiKysymykset = [
         "text": "Madrid",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Moskovan metro on yksi maailman kauneimmista – sen asemat on koristeltu marmorilla, mosaiikilla ja kristallikruunuilla. Metroverkosto kuljettaa päivittäin noin 9 miljoonaa matkustajaa."
   },
   {
     "question": "Mikä on maan Kiina pääkaupunki?",
@@ -289,7 +296,8 @@ const kaikkiKysymykset = [
         "text": "Canberra",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pekingissä sijaitseva Kielletty kaupunki on maailman suurin palatsikompleksi – siinä on 9 999 huonetta. Legendan mukaan huoneita ei tehty 10 000, koska vain taivaallisella palatsilla sai olla niin monta."
   },
   {
     "question": "Mikä on maan Japani pääkaupunki?",
@@ -311,7 +319,8 @@ const kaikkiKysymykset = [
         "text": "Bagdad",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tokion metropolialueella asuu yli 37 miljoonaa ihmistä, mikä tekee siitä maailman suurimman kaupunkialueen. Kaupungin junaverkosto on niin täsmällinen, että jo 60 sekunnin myöhästymisestä annetaan virallinen pahoitteluilmoitus."
   },
   {
     "question": "Mikä on maan Thaimaa pääkaupunki?",
@@ -333,7 +342,8 @@ const kaikkiKysymykset = [
         "text": "Tokio",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Bangkokin virallinen nimi on maailman pisin kaupunginnimi – thaiksi se on 168 merkkiä pitkä ja alkaa 'Krung Thep Maha Nakhon'. Nimi tarkoittaa suomeksi suunnilleen 'Enkelten kaupunki'."
   },
   {
     "question": "Mikä on maan Vietnam pääkaupunki?",
@@ -355,7 +365,8 @@ const kaikkiKysymykset = [
         "text": "Washington",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Hanoi on yksi Kaakkois-Aasian vanhimmista pääkaupungeista, perustettu vuonna 1010. Kaupungissa on kuuluisa 'junakatu', jossa juna kulkee niin läheltä taloja, että asukkaat keräävät tuolinsa sisälle junan tullessa."
   },
   {
     "question": "Mikä on maan Intia pääkaupunki?",
@@ -377,7 +388,8 @@ const kaikkiKysymykset = [
         "text": "Dakar",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "New Delhi suunniteltiin 1900-luvun alussa Intian uudeksi pääkaupungiksi brittiläisten toimesta. Se sijaitsee laajemman Delhin sisällä, jonka historia ulottuu yli 2 500 vuoden taakse."
   },
   {
     "question": "Mikä on maan Egypti pääkaupunki?",
@@ -399,7 +411,8 @@ const kaikkiKysymykset = [
         "text": "Madrid",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kairo on Afrikan ja arabimaailman suurin kaupunki – metropolialueella asuu yli 20 miljoonaa ihmistä. Kaupunkia kutsutaan arabiaksi nimellä 'al-Qahira', joka tarkoittaa 'voittajaa'."
   },
   {
     "question": "Mikä on maan Etelä-Afrikka pääkaupunki?",
@@ -421,7 +434,8 @@ const kaikkiKysymykset = [
         "text": "Nairobi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Etelä-Afrikalla on itse asiassa kolme pääkaupunkia: Pretoria (hallinnollinen), Kapkaupunki (lainsäädännöllinen) ja Bloemfontein (oikeudellinen). Pretoria tunnetaan myös nimellä 'Jakaranda-kaupunki' sen yli 70 000 jakarandapuun vuoksi."
   },
   {
     "question": "Mikä on maan Kenia pääkaupunki?",
@@ -443,7 +457,8 @@ const kaikkiKysymykset = [
         "text": "Kairo",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Nairobi on ainoa maailman pääkaupunki, jonka sisällä sijaitsee kansallispuisto – Nairobin kansallispuistossa voi nähdä leijonia ja kirahveja kaupungin pilvenpiirtäjien siintäessä taustalla."
   },
   {
     "question": "Mikä on maan Brasilia pääkaupunki?",
@@ -465,7 +480,8 @@ const kaikkiKysymykset = [
         "text": "Lagos",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Brasília rakennettiin tyhjästä vain 41 kuukaudessa (1956–1960) ja se suunniteltiin lentokoneenmuotoiseksi ylhäältä katsottuna. Arkkitehti Oscar Niemeyer suunnitteli kaupungin futuristiset rakennukset."
   },
   {
     "question": "Mikä on maan Argentiina pääkaupunki?",
@@ -487,7 +503,8 @@ const kaikkiKysymykset = [
         "text": "Addis Abeba",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Buenos Airesia kutsutaan 'Etelä-Amerikan Pariisiksi' sen eurooppalaistyylisen arkkitehtuurin vuoksi. Kaupungin Avenida 9 de Julio on yksi maailman leveimmistä kaduista – se on 140 metriä leveä."
   },
   {
     "question": "Mikä on maan Chile pääkaupunki?",
@@ -509,7 +526,8 @@ const kaikkiKysymykset = [
         "text": "Bogota",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Santiago sijaitsee laaksossa Andien vuorten juurella, ja kirkkaana päivänä kaupungista näkee yli 6 000 metriä korkeat vuorenhuiput. Kaupunki perustettiin vuonna 1541."
   },
   {
     "question": "Mikä on maan Peru pääkaupunki?",
@@ -531,7 +549,8 @@ const kaikkiKysymykset = [
         "text": "Alger",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Lima on yksi maailman kuivimmista pääkaupungeista – siellä sataa keskimäärin vain noin 10 mm vuodessa. Silti kaupunki sijaitsee aivan Tyynenmeren rannalla ja on tunnettu huippuluokan gastronomiastaan."
   },
   {
     "question": "Mikä on maan Kanada pääkaupunki?",
@@ -553,7 +572,8 @@ const kaikkiKysymykset = [
         "text": "Rabat",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ottawa valittiin Kanadan pääkaupungiksi vuonna 1857 kuningatar Viktorian toimesta, osittain siksi, että se sijaitsi turvallisen kaukana Yhdysvaltojen rajasta. Kaupungin Rideau-kanava muuttuu talvisin maailman pisimmäksi luistinradaksi (7,8 km)."
   },
   {
     "question": "Mikä on maan Yhdysvallat pääkaupunki?",
@@ -575,7 +595,8 @@ const kaikkiKysymykset = [
         "text": "Brasilia",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Washington D.C. ei kuulu mihinkään osavaltioon – se on oma liittovaltion piirikuntansa (District of Columbia). Kaupungissa ei saa rakentaa Washingtonin monumenttia (169 m) korkeampia rakennuksia."
   },
   {
     "question": "Mikä on maan Meksiko pääkaupunki?",
@@ -597,7 +618,8 @@ const kaikkiKysymykset = [
         "text": "Oslo",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Mexico City rakennettiin atsteekkien muinaisen pääkaupungin Tenochtitlánin päälle, joka sijaitsi järven keskellä olevalla saarella. Kaupunki vajoaa jopa 50 cm vuodessa, koska sen alla oleva maaperä on entistä järvenpohjaa."
   },
   {
     "question": "Mikä on maan Australia pääkaupunki?",
@@ -619,7 +641,8 @@ const kaikkiKysymykset = [
         "text": "Moskova",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Canberra valittiin pääkaupungiksi kompromissina, koska Sydney ja Melbourne eivät päässeet sopuun siitä, kumpi ansaitsisi tittelin. Kaupunki suunniteltiin kokonaan tyhjästä ja sen nimi tulee alkuperäiskansojen sanasta, joka tarkoittaa 'kohtaamispaikkaa'."
   },
   {
     "question": "Mikä on maan Uusi-Seelanti pääkaupunki?",
@@ -641,7 +664,8 @@ const kaikkiKysymykset = [
         "text": "Buenos Aires",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Wellington on maailman eteläisin pääkaupunki ja yksi tuulisimmista kaupungeista – sitä kutsutaan lempinimellä 'Windy Welly'. Kaupunki sijaitsee aktiivisella maanjäristysalueella ja sen alla kulkee useita siirroksia."
   },
   {
     "question": "Mikä on maan Indonesia pääkaupunki?",
@@ -663,7 +687,8 @@ const kaikkiKysymykset = [
         "text": "Caracas",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Jakarta on yksi maailman nopeimmin vajoavista kaupungeista – pohjaveden liikapumppauksen vuoksi osia kaupungista vajoaa jopa 25 cm vuodessa. Indonesia onkin päättänyt siirtää pääkaupunkinsa Nusantaraan Borneon saarelle."
   },
   {
     "question": "Mikä on maan Malesia pääkaupunki?",
@@ -685,7 +710,8 @@ const kaikkiKysymykset = [
         "text": "Rooma",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kuala Lumpur tarkoittaa malaijiksi 'mutaista jokisuistoa'. Kaupungin Petronas-kaksoistornit olivat maailman korkeimmat rakennukset vuosina 1998–2004 ja niiden välillä oleva silta on 170 metrin korkeudessa."
   },
   {
     "question": "Mikä on maan Filippiinit pääkaupunki?",
@@ -707,7 +733,8 @@ const kaikkiKysymykset = [
         "text": "Riika",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Manila on yksi maailman tiheimmin asutuista kaupungeista – neliökilometrillä asuu yli 40 000 ihmistä. Kaupungin Intramuros-linnoitus on espanjalaisvallan aikainen vanha kaupunki, joka rakennettiin 1570-luvulla."
   },
   {
     "question": "Mikä on maan Etelä-Korea pääkaupunki?",
@@ -729,7 +756,8 @@ const kaikkiKysymykset = [
         "text": "Budapest",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Soulin metropolialueella asuu noin puolet koko Etelä-Korean väestöstä. Kaupunki tunnetaan huipputeknologiastaan – sen internetyhteydet ovat maailman nopeimpia, ja metrossa on jopa kirjastoja."
   },
   {
     "question": "Mikä on maan Pohjois-Korea pääkaupunki?",
@@ -751,7 +779,8 @@ const kaikkiKysymykset = [
         "text": "Bogota",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pjongjang on yksi maailman suljetuimmista pääkaupungeista. Kaupungissa asuminen on etuoikeus, ja sinne pääsevät vain hallinnon hyväksymät kansalaiset. Kaupungin Rungrado-stadion on maailman suurin, ja sinne mahtuu 114 000 katsojaa."
   },
   {
     "question": "Mikä on maan Turkki pääkaupunki?",
@@ -773,7 +802,8 @@ const kaikkiKysymykset = [
         "text": "Mexico City",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Vaikka Istanbul on Turkin suurin kaupunki, Ankara valittiin pääkaupungiksi vuonna 1923 Mustafa Kemal Atatürkin päätöksellä. Ankara oli tuolloin pieni anatolialainen kaupunki, mutta sen keskeinen sijainti teki siitä strategisen valinnan."
   },
   {
     "question": "Mikä on maan Kreikka pääkaupunki?",
@@ -795,7 +825,8 @@ const kaikkiKysymykset = [
         "text": "Lima",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ateena on Euroopan vanhin yhtäjaksoisesti asuttu pääkaupunki – siellä on asuttu yli 3 400 vuotta. Akropolis-kukkulan Parthenon-temppeli rakennettiin 447–432 eKr. ja se on kestänyt sotia, räjähdyksiä ja maanjäristyksiä."
   },
   {
     "question": "Mikä on maan Irlanti pääkaupunki?",
@@ -817,7 +848,8 @@ const kaikkiKysymykset = [
         "text": "Peking",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Dublin sai nimensä iirinkielisestä sanasta 'Dubh Linn', joka tarkoittaa 'mustaa lampea'. Kaupungissa sijaitseva Guinness-panimo on vuokrannut tonttinsa 9 000 vuoden sopimuksella vuodesta 1759."
   },
   {
     "question": "Mikä on maan Islanti pääkaupunki?",
@@ -839,7 +871,8 @@ const kaikkiKysymykset = [
         "text": "Teheran",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Reykjavik on maailman pohjoisin pääkaupunki. Kaupungin nimi tarkoittaa 'savuista lahtea', sillä ensimmäiset viikinkiasukkaat luulivat kuumien lähteiden höyryä savuksi. Lähes kaikki kaupungin lämmitys tulee geotermisestä energiasta."
   },
   {
     "question": "Mikä on maan Belgia pääkaupunki?",
@@ -861,7 +894,8 @@ const kaikkiKysymykset = [
         "text": "Kööpenhamina",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Bryssel on EU:n epävirallinen pääkaupunki – siellä sijaitsevat Euroopan komissio ja EU:n neuvosto. Kaupungissa puhutaan sekä ranskaa että hollantia, ja sen tunnetuin maamerkki on 61 cm korkea Manneken Pis -patsas."
   },
   {
     "question": "Mikä on maan Hollanti pääkaupunki?",
@@ -883,7 +917,8 @@ const kaikkiKysymykset = [
         "text": "Abuja",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Amsterdam on rakennettu yli 100 kilometrin kanavapäälle ja kaupungissa on noin 1 500 siltaa – enemmän kuin Venetsiassa. Maan hallitus istuu kuitenkin Haagissa, vaikka Amsterdam on virallinen pääkaupunki."
   },
   {
     "question": "Mikä on maan Itävalta pääkaupunki?",
@@ -905,7 +940,8 @@ const kaikkiKysymykset = [
         "text": "Caracas",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Wien on valittu useita kertoja maailman asuttavimmaksi kaupungiksi. Se oli pitkään klassisen musiikin keskus – Mozart, Beethoven, Schubert ja Strauss kaikki asuivat ja työskentelivät siellä."
   },
   {
     "question": "Mikä on maan Sveitsi pääkaupunki?",
@@ -927,7 +963,8 @@ const kaikkiKysymykset = [
         "text": "Washington",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Bern ei ole virallisesti Sveitsin pääkaupunki vaan 'liittovaltion kaupunki' (Bundesstadt). Kaupungin vanhakaupunki on UNESCO:n maailmanperintökohde ja se on nimetty karhun mukaan – karhuja pidetään edelleen kaupungin karhukuopassa."
   },
   {
     "question": "Mikä on maan Tšekki pääkaupunki?",
@@ -949,7 +986,8 @@ const kaikkiKysymykset = [
         "text": "Rabat",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Prahaa kutsutaan 'sadan tornin kaupungiksi', vaikka todellisuudessa torneja on yli 500. Kaupungin kuuluisa astronominen kello on toiminut vuodesta 1410 ja se on maailman vanhin yhä käytössä oleva astronominen kello."
   },
   {
     "question": "Mikä on maan Unkari pääkaupunki?",
@@ -971,7 +1009,8 @@ const kaikkiKysymykset = [
         "text": "Santiago",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Budapest syntyi vuonna 1873, kun kolme erillistä kaupunkia – Buda, Óbuda ja Pest – yhdistettiin. Kaupungissa on Euroopan suurin termaalivesijärjestelmä ja yli 120 kuumaa lähteen porakaivoa."
   },
   {
     "question": "Mikä on maan Ukraina pääkaupunki?",
@@ -993,7 +1032,8 @@ const kaikkiKysymykset = [
         "text": "Lagos",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kiova on yksi Itä-Euroopan vanhimmista kaupungeista, ja se oli keskiaikaisen Kiovan Rusin pääkaupunki. Kaupungin Petserskin luolaluostari on UNESCO:n maailmanperintökohde ja perustettu vuonna 1051."
   },
   {
     "question": "Mikä on maan Romania pääkaupunki?",
@@ -1015,7 +1055,8 @@ const kaikkiKysymykset = [
         "text": "Wellington",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Bukarestia kutsuttiin 1900-luvun alussa 'Itäisen Pariisiksi' sen kauniiden jugendrakennusten ja bulevardien vuoksi. Kaupungissa sijaitseva parlamenttitalo on maailman toiseksi suurin hallinnollinen rakennus Pentagonin jälkeen."
   },
   {
     "question": "Mikä on maan Bulgaria pääkaupunki?",
@@ -1037,7 +1078,8 @@ const kaikkiKysymykset = [
         "text": "Nairobi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Sofia on Euroopan kolmanneksi vanhin pääkaupunki Ateenan ja Rooman jälkeen – se on ollut asuttu yli 7 000 vuotta. Kaupungin nimi tulee kreikankielisestä viisautta tarkoittavasta sanasta 'sofia'."
   },
   {
     "question": "Mikä on maan Kroatia pääkaupunki?",
@@ -1059,7 +1101,8 @@ const kaikkiKysymykset = [
         "text": "Tallinna",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Zagrebin yläkaupungissa sijaitseva Lotrščak-torni ampuu tykinlaukauksen joka päivä tasan kello 12. Perinne on jatkunut vuodesta 1877, ja se on yksi kaupungin tunnetuimmista tapahtumista."
   },
   {
     "question": "Mikä on maan Serbia pääkaupunki?",
@@ -1081,7 +1124,8 @@ const kaikkiKysymykset = [
         "text": "Budapest",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Belgrad on yksi Euroopan vanhimmista kaupungeista ja se on tuhottu ja rakennettu uudelleen 44 kertaa historiansa aikana. Kaupungin nimi tarkoittaa 'valkoista kaupunkia', ja se sijaitsee Tonavan ja Savan yhtymäkohdassa."
   },
   {
     "question": "Mikä on maan Kolumbia pääkaupunki?",
@@ -1103,7 +1147,8 @@ const kaikkiKysymykset = [
         "text": "Ottawa",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Bogotá sijaitsee 2 640 metrin korkeudessa Andien vuoristossa, mikä tekee siitä yhden maailman korkeimmista pääkaupungeista. Sunnuntaisin 120 km katuja suljetaan autoilta pyöräilijöille ja kävelijöille."
   },
   {
     "question": "Mikä on maan Venezuela pääkaupunki?",
@@ -1125,7 +1170,8 @@ const kaikkiKysymykset = [
         "text": "Santiago",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Caracas sijaitsee laaksossa 900 metrin korkeudessa merenpinnasta, ja kaupunki on ympäröity Avila-vuoristolla. Vuoristossa kulkee yksi maailman pisimmistä kaupunkiköysirataverkoista."
   },
   {
     "question": "Mikä on maan Kuuba pääkaupunki?",
@@ -1147,7 +1193,8 @@ const kaikkiKysymykset = [
         "text": "Alger",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Havanna on kuin aikamatka menneisyyteen – kaupungin kaduilla ajaa tuhansia 1950-luvun amerikkalaisia klassikkoautoja, jotka ovat yhä päivittäisessä käytössä. Kaupungin vanhakaupunki on UNESCO:n maailmanperintökohde."
   },
   {
     "question": "Mikä on maan Marokko pääkaupunki?",
@@ -1169,7 +1216,8 @@ const kaikkiKysymykset = [
         "text": "Varsova",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Vaikka Casablanca on Marokon suurin ja tunnetuin kaupunki, pääkaupunki on Rabat. Rabat sijaitsee Atlantin rannikolla ja sen kasba (linnoitus) on UNESCO:n maailmanperintökohde."
   },
   {
     "question": "Mikä on maan Nigeria pääkaupunki?",
@@ -1191,7 +1239,8 @@ const kaikkiKysymykset = [
         "text": "Alger",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Abuja rakennettiin tyhjästä 1980-luvulla korvaamaan Lagos pääkaupunkina. Lagos oli liian ruuhkainen ja ahdas, joten uusi pääkaupunki sijoitettiin maan keskelle neutraalille alueelle eri etnisten ryhmien väliin."
   },
   {
     "question": "Mikä on maan Etiopia pääkaupunki?",
@@ -1213,7 +1262,8 @@ const kaikkiKysymykset = [
         "text": "Washington",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Addis Abeba tarkoittaa amharaksi 'uutta kukkaa'. Kaupunki sijaitsee 2 355 metrin korkeudessa ja on Afrikan unionin päämaja – sitä pidetään Afrikan diplomaattisena pääkaupunkina."
   },
   {
     "question": "Mikä on maan Iran pääkaupunki?",
@@ -1235,7 +1285,8 @@ const kaikkiKysymykset = [
         "text": "Nairobi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Teheranin pohjoispuolella kohoaa Alborz-vuoristo ja Damavand-tulivuori (5 610 m), joka on Lähi-idän korkein vuori. Teheranissa on yli 800 puistoa ja kaupungin Grand Bazaar on yksi maailman suurimmista katetuista toreista."
   },
   {
     "question": "Mikä on maan Irak pääkaupunki?",
@@ -1257,7 +1308,8 @@ const kaikkiKysymykset = [
         "text": "Tripoli",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Bagdad oli keskiajalla maailman suurin kaupunki ja islamilaisen kulttuurin keskus. Abbasidien kalifaatin aikana (762–1258) kaupungissa sijaitsi legendaarinen Viisauden talo, jossa käännettiin antiikin kreikkalaisia tieteellisiä tekstejä."
   },
   {
     "question": "Mikä on maan Saudi-Arabia pääkaupunki?",
@@ -1279,7 +1331,8 @@ const kaikkiKysymykset = [
         "text": "Madrid",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Riad on kasvanut pienestä aavikkokaupungista yli 7 miljoonan asukkaan metropoliksi vain muutamassa vuosikymmenessä öljytulojen ansiosta. Kaupungin nimi tarkoittaa arabiaksi 'puutarhoja'."
   },
   {
     "question": "Mikä on maan Israel pääkaupunki?",
@@ -1301,7 +1354,8 @@ const kaikkiKysymykset = [
         "text": "Tripoli",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Jerusalem on pyhä kaupunki kolmelle suurelle uskonnolle: juutalaisuudelle, kristinuskolle ja islamille. Kaupungin vanhakaupunki on pinta-alaltaan vain noin yksi neliökilometri, mutta sinne mahtuu valtava kulttuurinen ja uskonnollinen merkitys."
   },
   {
     "question": "Mikä on maan Pakistan pääkaupunki?",
@@ -1323,7 +1377,8 @@ const kaikkiKysymykset = [
         "text": "Teheran",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Islamabad on yksi maailman nuorimmista suunnitelluista pääkaupungeista – se rakennettiin 1960-luvulla korvaamaan Karachin. Kaupunki on suunniteltu ruutukaavaan ja sen nimi tarkoittaa 'islamin kaupunkia'."
   },
   {
     "question": "Mikä on maan Japani valuutta?",
@@ -1345,7 +1400,8 @@ const kaikkiKysymykset = [
         "text": "Dollari",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Japanin jenissä ei ole alayksikköä päivittäisessä käytössä, toisin kuin useimmissa valuutoissa. Kolikoista 5 jenin kolikossa on reikä keskellä, ja sitä pidetään onnenkolikona."
   },
   {
     "question": "Mikä on maan Kiina valuutta?",
@@ -1367,7 +1423,8 @@ const kaikkiKysymykset = [
         "text": "Markka",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kiinalainen yuan on virallisesti nimeltään renminbi ('kansan raha'). Kiina oli ensimmäinen maa, joka otti käyttöön paperirahan – jo Song-dynastian aikana noin 1 000 vuotta sitten."
   },
   {
     "question": "Mikä on maan Venäjä valuutta?",
@@ -1389,7 +1446,8 @@ const kaikkiKysymykset = [
         "text": "Kruunu",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Sana 'rupla' tulee venäjän sanasta 'rubit', joka tarkoittaa 'hakata'. Keskiajalla hopeatanko hakattiin paloiksi, joita käytettiin maksuvälineenä. Ruplan alayksikkö kopeekan nimi taas tulee ratsastajaa kuvaavasta kolikosta."
   },
   {
     "question": "Mikä on maan Iso-Britannia valuutta?",
@@ -1411,7 +1469,8 @@ const kaikkiKysymykset = [
         "text": "Quetzal",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Englannin punta on maailman vanhin yhä käytössä oleva valuutta – sen historia ulottuu yli 1 200 vuoden taakse anglosaksiseen aikaan. Alun perin punta vastasi yhden punnan painoista hopeamäärää."
   },
   {
     "question": "Mikä on maan Sveitsi valuutta?",
@@ -1433,7 +1492,8 @@ const kaikkiKysymykset = [
         "text": "Markka",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Sveitsin frangi on yksi maailman vakaimmista valuutoista ja sitä pidetään 'turvasatamana' talouden epävarmuuksien aikana. Sveitsin setelit ovat pystysuuntaisia ja niissä on erittäin kehittyneet turvaominaisuudet."
   },
   {
     "question": "Mikä on maan Ruotsi valuutta?",
@@ -1455,7 +1515,8 @@ const kaikkiKysymykset = [
         "text": "Won",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ruotsi oli ensimmäinen Euroopan maa, joka otti käyttöön setelit vuonna 1661. Nykyään Ruotsi on yksi maailman vähiten käteistä käyttävistä maista – alle 10 % maksuista tehdään käteisellä."
   },
   {
     "question": "Mikä on maan Norja valuutta?",
@@ -1477,7 +1538,8 @@ const kaikkiKysymykset = [
         "text": "Real",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Norjan kruunun arvo on historiallisesti seurannut öljyn hintaa, sillä Norja on Euroopan suurin öljyntuottaja. Maan valtava öljyrahasto on maailman suurin valtiorahasto, arvoltaan yli 1 500 miljardia dollaria."
   },
   {
     "question": "Mikä on maan Tanska valuutta?",
@@ -1499,7 +1561,8 @@ const kaikkiKysymykset = [
         "text": "Boliviano",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tanskan kruunu on sidottu euroon kiinteällä vaihtokurssilla, vaikka Tanska ei ole ottanut euroa käyttöön. Tanskan vanhimmat rahat ovat viikinkiajalta, ja maa on lyönyt omaa rahaa yli 1 000 vuoden ajan."
   },
   {
     "question": "Mikä on maan Puola valuutta?",
@@ -1521,7 +1584,8 @@ const kaikkiKysymykset = [
         "text": "Real",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Puolan zlotyn nimi tarkoittaa kirjaimellisesti 'kultaista'. Valuutta otettiin käyttöön jo 1500-luvulla, ja viimeksi vuonna 1995 tehtiin redenominaatio, jolloin 10 000 vanhaa zlotya vaihdettiin yhteen uuteen."
   },
   {
     "question": "Mikä on maan Turkki valuutta?",
@@ -1543,7 +1607,8 @@ const kaikkiKysymykset = [
         "text": "Randi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Turkin liira on kokenut valtavan inflaation – vuonna 2005 kuusi nollaa poistettiin valuutasta, kun miljoona vanhaa liiraa muuttui yhdeksi uudeksi liiraksi. Sana 'liira' tulee latinan sanasta 'libra', joka tarkoittaa vaakaa."
   },
   {
     "question": "Mikä on maan Etelä-Afrikka valuutta?",
@@ -1565,7 +1630,8 @@ const kaikkiKysymykset = [
         "text": "Lempira",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Etelä-Afrikan randin nimi tulee Witwatersrand-vuorijonosta, josta löydettiin valtavat kultaesiintymät 1800-luvulla. Maan seteleissä on kuvattu 'Big Five' -eläimiä: leijona, elefantti, sarvikuono, puhveli ja leopardi."
   },
   {
     "question": "Mikä on maan Brasilia valuutta?",
@@ -1587,7 +1653,8 @@ const kaikkiKysymykset = [
         "text": "Jeni",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Brasilian real otettiin käyttöön vuonna 1994 osana Plano Real -talousohjelmaa, joka pysäytti maan hyperinflaation. Sitä ennen Brasilia oli vaihtanut valuuttaansa kahdeksan kertaa 50 vuoden aikana."
   },
   {
     "question": "Mikä on maan Thaimaa valuutta?",
@@ -1609,7 +1676,8 @@ const kaikkiKysymykset = [
         "text": "Jeni",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Thaimaan bahtin kolikossa on aina kuva Thaimaan kuninkaasta. Yksi baht painaa tasan 15 grammaa, ja tämä tarkkuus johtuu siitä, että baht oli alun perin painoyksikkö hopealle."
   },
   {
     "question": "Mikä on maan Vietnam valuutta?",
@@ -1631,7 +1699,8 @@ const kaikkiKysymykset = [
         "text": "Sol",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Vietnamin dong on yksi maailman vähäarvoisimmista valuutoista – yksi euro vastaa kymmeniä tuhansia dongeja. Setelit on valmistettu polymeeristä eli muovista, jotta ne kestävät kosteaa ilmastoa."
   },
   {
     "question": "Mikä on maan Intia valuutta?",
@@ -1653,7 +1722,8 @@ const kaikkiKysymykset = [
         "text": "Won",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Intian rupian symboli ₹ otettiin käyttöön vasta vuonna 2010. Se suunniteltiin yhdistämään devanagari-kirjaimisto ja latinalainen R-kirjain. Intia oli yksi ensimmäisistä sivilisaatioista, jotka käyttivät kolikoita rahana, jo 600-luvulla eKr."
   },
   {
     "question": "Mikä on maan Israel valuutta?",
@@ -1675,7 +1745,8 @@ const kaikkiKysymykset = [
         "text": "Punta",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Uusi israeli sekeli otettiin käyttöön vuonna 1985 korvaamaan hyperinflaatiosta kärsineen vanhan sekelin. Alkuperäinen sekeli oli muinainen painoyksikkö, jota käytettiin jo Mesopotamiassa noin 3 000 vuotta eKr."
   },
   {
     "question": "Mikä on maan Meksiko valuutta?",
@@ -1697,7 +1768,8 @@ const kaikkiKysymykset = [
         "text": "Cordoba",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Meksikon peso oli ensimmäinen maailmassa laajasti käytetty '$'-merkkiä kantava valuutta – jopa ennen Yhdysvaltain dollaria. Espanjalaiset hopeapesokolikot olivat 1500–1800-luvuilla käytännössä maailman kauppavaluutta."
   },
   {
     "question": "Mikä on maan Argentiina valuutta?",
@@ -1719,7 +1791,8 @@ const kaikkiKysymykset = [
         "text": "Frangi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Argentiina on kokenut historiansa aikana useita hyperinflaatiokausia. Pahimmillaan vuonna 1989 inflaatio oli yli 3 000 % vuodessa, ja kauppojen hinnat saattoivat muuttua useita kertoja saman päivän aikana."
   },
   {
     "question": "Mikä on maan Kolumbia valuutta?",
@@ -1741,7 +1814,8 @@ const kaikkiKysymykset = [
         "text": "Dollari",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kolumbian peso on nimetty espanjalaisten conquistadorien käyttämän painoyksikön mukaan. Seteleissä on kuvattu maan merkkihenkilöitä, kuten Nobel-kirjailija Gabriel García Márquezia."
   },
   {
     "question": "Mikä on maan Chile valuutta?",
@@ -1763,7 +1837,8 @@ const kaikkiKysymykset = [
         "text": "Markka",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Chilen peso jakaantuu teoriassa 100 centavoon, mutta centavo-kolikoita ei ole enää käytössä inflaation vuoksi. Chilen setelit ovat polymeerimuovia, mikä tekee niistä kestävämpiä ja vaikeampia väärentää."
   },
   {
     "question": "Mikä on maan Kanada valuutta?",
@@ -1785,7 +1860,8 @@ const kaikkiKysymykset = [
         "text": "Jeni",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kanadan dollarikolikkoa kutsutaan lempinimellä 'loonie' siinä kuvatun kuikan (loon) mukaan. Kahden dollarin kolikkoa taas kutsutaan nimellä 'toonie'. Kanadan polymeeriset setelit ovat lähes mahdottomia repiä kahtia."
   },
   {
     "question": "Mikä on maan Australia valuutta?",
@@ -1807,7 +1883,8 @@ const kaikkiKysymykset = [
         "text": "Kruunu",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Australia oli ensimmäinen maa, joka otti käyttöön polymeeriset (muoviset) setelit vuonna 1988. Ne kestävät neljä kertaa pidempään kuin paperiset setelit ja niissä on läpinäkyvä ikkuna turvaelementtinä."
   },
   {
     "question": "Mikä on maan Uusi-Seelanti valuutta?",
@@ -1829,7 +1906,8 @@ const kaikkiKysymykset = [
         "text": "Frangi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Uuden-Seelannin dollarin seteleissä on kuvattu maan ainutlaatuisia lintuja, kuten kiivilintu ja keltasilmäpingviini. Valuuttaa kutsutaan usein lempinimellä 'kiwi-dollari'."
   },
   {
     "question": "Mikä on maan Singapore valuutta?",
@@ -1851,7 +1929,8 @@ const kaikkiKysymykset = [
         "text": "Dinaari",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Singaporen dollari on yksi maailman vakaimmista valuutoista. Maa on laskenut liikkeelle maailman suuriarvoisimman setelin – 10 000 Singaporen dollarin setelin, jonka arvo on noin 7 000 euroa."
   },
   {
     "question": "Mikä on maan Malesia valuutta?",
@@ -1873,7 +1952,8 @@ const kaikkiKysymykset = [
         "text": "Shillinki",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Malesian ringgitin nimi tulee espanjan sanasta, joka tarkoittaa 'sahalaitaista' – viitaten espanjalaisten hopea-dollareiden sahalaitaiseen reunaan. Seteleissä on maan ensimmäisen kuninkaan kuva."
   },
   {
     "question": "Mikä on maan Indonesia valuutta?",
@@ -1895,7 +1975,8 @@ const kaikkiKysymykset = [
         "text": "Lempira",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Indonesian rupia on yksi maailman vähäarvoisimmista valuutoista – suurin seteli on 100 000 rupiaa, mikä vastaa vain muutamaa euroa. Maassa on käytössä yli 20 eri seteliarvoa ja kolikkoa."
   },
   {
     "question": "Mikä on maan Etelä-Korea valuutta?",
@@ -1917,7 +1998,8 @@ const kaikkiKysymykset = [
         "text": "Punta",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Etelä-Korean won tarkoittaa 'pyöreää', viitaten pyöreisiin kolikoihin. Maan 50 000 wonin setelissä on kuva Shin Saimdangista, joka oli 1500-luvun taiteilija ja ensimmäinen nainen korealaisessa setelissä."
   },
   {
     "question": "Mikä on maan Unkari valuutta?",
@@ -1939,7 +2021,8 @@ const kaikkiKysymykset = [
         "text": "Sol",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Unkarin forintti on nimetty firenzeläisten kultakolikoiden 'fiorino d'oro' mukaan. Unkari koki historian pahimman hyperinflaation vuonna 1946 – hinnat kaksinkertaistuivat joka 15. tunti."
   },
   {
     "question": "Mikä on maan Tšekki valuutta?",
@@ -1961,7 +2044,8 @@ const kaikkiKysymykset = [
         "text": "Frangi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tšekin koruna tarkoittaa 'kruunua' ja se otettiin käyttöön vuonna 1993 Tšekkoslovakian hajottua. Maa on suunnitellut euron käyttöönottoa jo pitkään, mutta tarkkaa ajankohtaa ei ole vieläkään asetettu."
   },
   {
     "question": "Mikä on maan Ukraina valuutta?",
@@ -1983,7 +2067,8 @@ const kaikkiKysymykset = [
         "text": "Baht",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ukrainan hryvnia on nimetty muinaisen Kiovan Rusin hopeisen kaulakorun mukaan, jota käytettiin myös maksuvälineenä. Valuutta otettiin käyttöön vuonna 1996 korvaamaan väliaikainen karbovanets."
   },
   {
     "question": "Mikä on maan Kenia valuutta?",
@@ -2005,7 +2090,8 @@ const kaikkiKysymykset = [
         "text": "Quetzal",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kenian shillinki on nimetty itäafrikkalaisen kauppakolikon mukaan. Kenia on mobiilimaksamisen edelläkävijä – M-Pesa-järjestelmän kautta liikkuu vuosittain yli puolet maan bruttokansantuotteesta."
   },
   {
     "question": "Mikä on maan Egypti valuutta?",
@@ -2027,7 +2113,8 @@ const kaikkiKysymykset = [
         "text": "Sol",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Egyptin punnan alayksikkö on piasteri ja yksi punta on 100 piasteria. Egyptin seteleissä on tekstiä sekä arabiaksi että englanniksi, ja niissä on kuvia muinaisegyptiläisistä temppeleistä ja nykypäivän moskeijoista."
   },
   {
     "question": "Mikä alkuaine on merkiltään H?",
@@ -2072,7 +2159,8 @@ const kaikkiKysymykset = [
         "text": "Radon",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Helium löydettiin ensin Auringosta ennen kuin sitä havaittiin Maassa – siksi se nimettiin kreikan auringon jumalan Helioksen mukaan. Helium on niin kevyttä, että se karkaa maapallon painovoimasta avaruuteen."
   },
   {
     "question": "Mikä alkuaine on merkiltään Li?",
@@ -2094,7 +2182,8 @@ const kaikkiKysymykset = [
         "text": "Sinkki",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Litium on kevein kaikista metalleista – se kelluu jopa vedessä. Litiumia käytetään ladattavissa akuissa ja mielialaa tasaavana lääkkeenä, ja sen maailmanlaajuinen kysyntä on räjähtänyt sähköautojen myötä."
   },
   {
     "question": "Mikä alkuaine on merkiltään C?",
@@ -2116,7 +2205,8 @@ const kaikkiKysymykset = [
         "text": "Kalium",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Hiili on elämän perusta – kaikki tunnetut elävät organismit perustuvat hiiliyhdisteisiin. Timantti ja grafiitti ovat molemmat puhdasta hiiltä, mutta atomien erilainen järjestyminen tekee toisesta maailman kovimman ja toisesta yhden pehmeimmistä aineista."
   },
   {
     "question": "Mikä alkuaine on merkiltään N?",
@@ -2138,7 +2228,8 @@ const kaikkiKysymykset = [
         "text": "Tina",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Typpi muodostaa 78 % maapallon ilmakehästä – hengitämme sitä jatkuvasti, mutta elimistömme ei pysty hyödyntämään sitä suoraan. Nestemäistä typpeä käytetään nopeaan jäädytykseen, ja se on −196 °C kylmää."
   },
   {
     "question": "Mikä alkuaine on merkiltään O?",
@@ -2160,7 +2251,8 @@ const kaikkiKysymykset = [
         "text": "Sinkki",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Vaikka hapen osuus ilmakehästä on vain 21 %, se on välttämätön lähes kaikelle monimutkaiselle elämälle. Happea tuottavat eniten valtamerten kasviplanktonit – ne vastaavat yli puolesta maapallon hapesta."
   },
   {
     "question": "Mikä alkuaine on merkiltään F?",
@@ -2182,7 +2274,8 @@ const kaikkiKysymykset = [
         "text": "Lyijy",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Fluori on kaikkein reaktiivisin alkuaine – se reagoi lähes kaiken kanssa, jopa joidenkin jalojen kaasujen. Hammastahnoissa käytetään fluoriyhdisteitä, koska fluori vahvistaa hammaskiillettä ja ehkäisee reikiintymistä."
   },
   {
     "question": "Mikä alkuaine on merkiltään Ne?",
@@ -2204,7 +2297,8 @@ const kaikkiKysymykset = [
         "text": "Rauta",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Neonvalojen punainen hehku johtuu neonkaasusta, mutta muut 'neonvärit' syntyvät itse asiassa muista jalokaasuista. Neon on yksi harvinaisimmista alkuaineista Maassa, mutta avaruudessa sitä on runsaasti."
   },
   {
     "question": "Mikä alkuaine on merkiltään Na?",
@@ -2226,7 +2320,8 @@ const kaikkiKysymykset = [
         "text": "Pii",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Natriumia heittäessä veteen se reagoi räjähdysmäisesti ja syttyy palamaan kirkkaankeltaisella liekillä. Ruokasuolassa (NaCl) natriumatomi on yhdistyneenä klooriin – erikseen molemmat ovat vaarallisia, mutta yhdessä ne ovat välttämätön mauste."
   },
   {
     "question": "Mikä alkuaine on merkiltään Mg?",
@@ -2248,7 +2343,8 @@ const kaikkiKysymykset = [
         "text": "Sinkki",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Magnesium palaa niin kirkkaalla valkoisella liekillä, ettei sitä voi sammuttaa vedellä – vesi jopa kiihdyttää paloa. Ihmiskehossa magnesiumia tarvitaan yli 300 entsyymireaktion toimintaan."
   },
   {
     "question": "Mikä alkuaine on merkiltään Al?",
@@ -2270,7 +2366,8 @@ const kaikkiKysymykset = [
         "text": "Xenon",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Alumiini oli 1800-luvulla arvokkaampaa kuin kulta, koska sen erottaminen malmista oli erittäin vaikeaa. Napoleon III:n kerrotaan tarjonneen tärkeimmille vierailleen alumiiniaterimet, kun vähemmän tärkeät saivat kulta-aterimet."
   },
   {
     "question": "Mikä alkuaine on merkiltään Si?",
@@ -2292,7 +2389,8 @@ const kaikkiKysymykset = [
         "text": "Hiili",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pii on tietokoneiden ja elektroniikan perusta – ilman piitä ei olisi mikrosiruja eikä nykyaikaista teknologiaa. Piilaakso (Silicon Valley) sai nimensä juuri tästä alkuaineesta. Piitä on maaperässä toiseksi eniten hapen jälkeen."
   },
   {
     "question": "Mikä alkuaine on merkiltään P?",
@@ -2314,7 +2412,8 @@ const kaikkiKysymykset = [
         "text": "Magnesium",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Fosfori löydettiin vahingossa vuonna 1669, kun saksalainen alkemisti Hennig Brand tislasi virtsaa yrittäessään valmistaa kultaa. Valkoinen fosfori hohtaa pimeässä ja syttyy itsestään palamaan ilmassa."
   },
   {
     "question": "Mikä alkuaine on merkiltään S?",
@@ -2336,7 +2435,8 @@ const kaikkiKysymykset = [
         "text": "Happi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Rikki tunnetaan sen pistävästä hajusta, joka muistuttaa mädäntyviä kananmunia – tämä johtuu rikkivedystä. Muinaiset roomalaiset kutsuivat rikkiä 'tulen kiveksi', ja sitä on käytetty vuosituhansia lääkkeenä, lannoitteena ja räjähteissä."
   },
   {
     "question": "Mikä alkuaine on merkiltään Cl?",
@@ -2358,7 +2458,8 @@ const kaikkiKysymykset = [
         "text": "Happi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Klooria käytetään juomaveden puhdistukseen ympäri maailmaa. Se on niin reaktiivinen, ettei sitä tavata luonnossa puhtaana alkuaineena."
   },
   {
     "question": "Mikä alkuaine on merkiltään K?",
@@ -2380,7 +2481,8 @@ const kaikkiKysymykset = [
         "text": "Kulta",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kalium on välttämätön ihmiskeholle – aikuinen tarvitsee sitä noin 3,5 grammaa päivässä. Banaanit ovat kuuluisa kaliumin lähde, mutta perunat sisältävät sitä itse asiassa enemmän."
   },
   {
     "question": "Mikä alkuaine on merkiltään Ca?",
@@ -2402,7 +2504,8 @@ const kaikkiKysymykset = [
         "text": "Hopea",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ihmiskehossa on noin kilo kalsiumia, josta 99 % on luustossa ja hampaissa. Kalsium on maankuoren viidenneksi yleisin alkuaine."
   },
   {
     "question": "Mikä alkuaine on merkiltään Fe?",
@@ -2424,7 +2527,8 @@ const kaikkiKysymykset = [
         "text": "Kulta",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Raudan kemiallinen merkki Fe tulee latinan sanasta 'ferrum'. Maapallon ydin koostuu pääosin raudasta, ja se tekee maastamme magneettisen."
   },
   {
     "question": "Mikä alkuaine on merkiltään Cu?",
@@ -2446,7 +2550,8 @@ const kaikkiKysymykset = [
         "text": "Kalsium",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kuparin merkki Cu tulee latinan sanasta 'cuprum', joka viittaa Kyprokseen – saarella louhittiin kuparia jo 5000 vuotta sitten. Vapaudenpatsas on vihreä juuri kuparin hapettumisen vuoksi."
   },
   {
     "question": "Mikä alkuaine on merkiltään Zn?",
@@ -2468,7 +2573,8 @@ const kaikkiKysymykset = [
         "text": "Magnesium",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Sinkki on mukana yli 300 entsyymin toiminnassa ihmiskehossa. Ilman sinkkiä emme tuntisi makuja tai hajuja kunnolla."
   },
   {
     "question": "Mikä alkuaine on merkiltään Ag?",
@@ -2490,7 +2596,8 @@ const kaikkiKysymykset = [
         "text": "Typpi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Hopean merkki Ag tulee latinan sanasta 'argentum' – sama sana antoi nimen Argentiinalle. Hopea johtaa sähköä paremmin kuin mikään muu alkuaine."
   },
   {
     "question": "Mikä alkuaine on merkiltään Au?",
@@ -2512,7 +2619,8 @@ const kaikkiKysymykset = [
         "text": "Sinkki",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kullan merkki Au tulee latinan sanasta 'aurum', joka tarkoittaa 'loistava aamurusko'. Kaikki maailmassa koskaan louhittu kulta mahtuisi noin 21-metriseen kuutioon."
   },
   {
     "question": "Mikä alkuaine on merkiltään Hg?",
@@ -2534,7 +2642,8 @@ const kaikkiKysymykset = [
         "text": "Xenon",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Elohopea on ainoa metalli, joka on nestemäistä huoneenlämmössä. Sen latinankielinen nimi 'hydrargyrum' tarkoittaa 'nestemäistä hopeaa'."
   },
   {
     "question": "Mikä alkuaine on merkiltään Pb?",
@@ -2556,7 +2665,8 @@ const kaikkiKysymykset = [
         "text": "Kupari",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Lyijyn merkki Pb tulee latinan sanasta 'plumbum', josta myös englannin sana 'plumber' (putkimies) juontaa juurensa. Roomalaiset rakensivat vesijohtonsa lyijystä."
   },
   {
     "question": "Mikä alkuaine on merkiltään U?",
@@ -2578,7 +2688,8 @@ const kaikkiKysymykset = [
         "text": "Magnesium",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Uraani nimettiin Uranus-planeetan mukaan vuonna 1789. Yksi kilo uraania tuottaa ydinvoimalassa yhtä paljon energiaa kuin noin 20 000 kiloa kivihiiltä."
   },
   {
     "question": "Mikä alkuaine on merkiltään Sn?",
@@ -2600,7 +2711,8 @@ const kaikkiKysymykset = [
         "text": "Vety",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tinan merkki Sn tulee latinan sanasta 'stannum'. Pronssiaika sai nimensä pronssin valmistuksesta, jossa tina sekoitettiin kupariin – se mullisti ihmiskunnan historian."
   },
   {
     "question": "Mikä alkuaine on merkiltään I?",
@@ -2622,7 +2734,8 @@ const kaikkiKysymykset = [
         "text": "Hiili",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Jodi löydettiin vahingossa merilevistä vuonna 1811. Kilpirauhanen tarvitsee jodia toimiakseen, ja jodinpuutos on maailman yleisin ravintopuutos."
   },
   {
     "question": "Mikä alkuaine on merkiltään Xe?",
@@ -2644,7 +2757,8 @@ const kaikkiKysymykset = [
         "text": "Neon",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Xenon on jalokaasu, jonka nimi tulee kreikan sanasta 'xenos' eli vieras. Xenon-valoja käytetään elokuvateattereiden projektoreiden lisäksi myös avaruusalusten ionimoottoreissa."
   },
   {
     "question": "Mikä alkuaine on merkiltään Cs?",
@@ -2666,7 +2780,8 @@ const kaikkiKysymykset = [
         "text": "Helium",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Cesium on niin reaktiivinen, että se syttyy spontaanisti ilmassa ja räjähtää vedessä. Cesium-atomikellot ovat niin tarkkoja, etteivät ne menetä sekuntia 300 miljoonaan vuoteen."
   },
   {
     "question": "Mikä alkuaine on merkiltään Ba?",
@@ -2688,7 +2803,8 @@ const kaikkiKysymykset = [
         "text": "Fosfori",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Bariumin nimi tulee kreikan sanasta 'barys' eli raskas. Bariumateria on tuttu röntgentutkimuksista – se tekee ruoansulatuskanavan näkyväksi kuvissa."
   },
   {
     "question": "Mikä alkuaine on merkiltään Pt?",
@@ -2710,7 +2826,8 @@ const kaikkiKysymykset = [
         "text": "Fosfori",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Platina on niin harvinaista, että kaikki koskaan louhittu platina mahtuisi olohuoneeseen. Se kestää happoja ja korroosiota poikkeuksellisen hyvin."
   },
   {
     "question": "Mikä alkuaine on merkiltään Ra?",
@@ -2732,7 +2849,8 @@ const kaikkiKysymykset = [
         "text": "Plutonium",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Marie Curie löysi radiumin vuonna 1898, ja se hehkuu pimeässä sinivihreänä. Ennen sen vaarallisuuden ymmärtämistä radiumia lisättiin jopa hammastahnoihin ja juomiin."
   },
   {
     "question": "Mikä alkuaine on merkiltään Pu?",
@@ -2754,7 +2872,8 @@ const kaikkiKysymykset = [
         "text": "Lyijy",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Plutonium nimettiin Pluto-planeetan mukaan, samalla tavalla kuin uraani Uranuksen ja neptunium Neptunuksen mukaan. Sitä ei esiinny luonnossa käytännössä lainkaan."
   },
   {
     "question": "Mikä alkuaine on merkiltään Ti?",
@@ -2776,7 +2895,8 @@ const kaikkiKysymykset = [
         "text": "Kulta",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Titaani on yhtä luja kuin teräs, mutta 45 % kevyempi. Sitä käytetään lentokoneissa, avaruusaluksissa ja lääketieteellisissä implanteissa, koska keho ei hylji sitä."
   },
   {
     "question": "Mikä alkuaine on merkiltään Cr?",
@@ -2798,7 +2918,8 @@ const kaikkiKysymykset = [
         "text": "Sinkki",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kromin nimi tulee kreikan sanasta 'chroma' eli väri, koska sen yhdisteet ovat kirkkaanvärisiä. Kromi antaa ruostumattomalle teräkselle sen korroosionkestävyyden."
   },
   {
     "question": "Mikä alkuaine on merkiltään Mn?",
@@ -2820,7 +2941,8 @@ const kaikkiKysymykset = [
         "text": "Hopea",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Mangaania käytettiin jo luolamaalauksissa yli 17 000 vuotta sitten. Nykyään sitä tarvitaan erityisesti teräksen valmistuksessa ja sähköautojen akuissa."
   },
   {
     "question": "Mikä alkuaine on merkiltään Co?",
@@ -2842,7 +2964,8 @@ const kaikkiKysymykset = [
         "text": "Sinkki",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Koboltti antaa sinisen värin posliinille ja lasille – tätä tekniikkaa on käytetty jo muinaisessa Egyptissä. Nykyään koboltti on keskeinen osa litiumioniakkuja."
   },
   {
     "question": "Mikä alkuaine on merkiltään Ni?",
@@ -2864,7 +2987,8 @@ const kaikkiKysymykset = [
         "text": "Pii",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Nikkeli sai nimensä saksalaisesta sanasta 'Kupfernickel' eli paholaisen kupari, koska kaivostyöläiset eivät saaneet siitä kuparia. Suomen Pyhäsalmen kaivos tuotti nikkeliä vuosikymmeniä."
   },
   {
     "question": "Mikä alkuaine on merkiltään Br?",
@@ -2886,7 +3010,8 @@ const kaikkiKysymykset = [
         "text": "Boori",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Bromi on ainoa epämetalli, joka on nestemäistä huoneenlämmössä. Sen nimi tulee kreikan sanasta 'bromos' eli löyhkä – ja syystäkin, sillä sen haju on todella pistävä."
   },
   {
     "question": "Mikä alkuaine on merkiltään Kr?",
@@ -2908,7 +3033,8 @@ const kaikkiKysymykset = [
         "text": "Alumiini",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Krypton ei liity Supermaniin vaan kreikan sanaan 'kryptos' eli piilotettu. Krypton-valoputket tuottavat valkoista valoa, ja niitä on käytetty lentokentillä."
   },
   {
     "question": "Milloin ensimmäinen maailmansota alkoi?",
@@ -2953,7 +3079,8 @@ const kaikkiKysymykset = [
         "text": "1970",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ensimmäisen maailmansodan aselepoa juhlitaan yhä 11.11. kello 11.00, sillä aseleposopimus astui voimaan 11. marraskuuta 1918. Sodassa kuoli yli 17 miljoonaa ihmistä."
   },
   {
     "question": "Milloin toinen maailmansota alkoi?",
@@ -2975,7 +3102,8 @@ const kaikkiKysymykset = [
         "text": "1992",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Toinen maailmansota alkoi 1. syyskuuta 1939, kun Saksa hyökkäsi Puolaan. Se oli historian laajin aseellinen konflikti, johon osallistui yli 30 maata."
   },
   {
     "question": "Milloin toinen maailmansota päättyi?",
@@ -2997,7 +3125,8 @@ const kaikkiKysymykset = [
         "text": "1984",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Euroopassa sota päättyi 8. toukokuuta 1945, mutta Tyynellämerellä vasta 2. syyskuuta Japanin antauduttua. Sodassa menehtyi arviolta 70–85 miljoonaa ihmistä."
   },
   {
     "question": "Milloin ihminen käveli kuussa?",
@@ -3019,7 +3148,8 @@ const kaikkiKysymykset = [
         "text": "1918",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Neil Armstrong astui kuun pinnalle 20. heinäkuuta 1969. Hänen jalanjälkensä ovat yhä kuussa, sillä siellä ei ole tuulta eikä sadetta kuluttamassa niitä."
   },
   {
     "question": "Milloin berliinin muuri murtui?",
@@ -3041,7 +3171,8 @@ const kaikkiKysymykset = [
         "text": "1954",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Berliinin muuri murtui 9. marraskuuta 1989 osittain väärinkäsityksen vuoksi – DDR:n tiedottaja ilmoitti uusista matkustussäännöistä ennenaikaisesti. Muuri oli jakanut kaupungin 28 vuotta."
   },
   {
     "question": "Milloin suomi itsenäistyi?",
@@ -3063,7 +3194,8 @@ const kaikkiKysymykset = [
         "text": "1934",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Suomi julistautui itsenäiseksi 6. joulukuuta 1917. Itsenäisyysjulistuksen laati K. J. Ståhlberg, ja eduskunta hyväksyi sen äänin 100–88."
   },
   {
     "question": "Milloin suomi liittyi eu:hun?",
@@ -3085,7 +3217,8 @@ const kaikkiKysymykset = [
         "text": "1914",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Suomi liittyi Euroopan unioniin 1. tammikuuta 1995 yhdessä Ruotsin ja Itävallan kanssa. Liittymistä edelsi kansanäänestys, jossa 56,9 % äänesti puolesta."
   },
   {
     "question": "Milloin kolumbus purjehti amerikkaan?",
@@ -3107,7 +3240,8 @@ const kaikkiKysymykset = [
         "text": "1986",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kolumbus saapui Bahamasaarille 12. lokakuuta 1492 uskoen löytäneensä Intian. Hän ei koskaan ymmärtänyt löytäneensä kokonaan uuden mantereen."
   },
   {
     "question": "Milloin ranskan vallankumous alkoi?",
@@ -3129,7 +3263,8 @@ const kaikkiKysymykset = [
         "text": "1940",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ranskan vallankumous alkoi Bastiljin valtauksella 14. heinäkuuta 1789, ja päivästä tuli Ranskan kansallispäivä. Vallankumous synnytti iskulauseen 'vapaus, veljeys, tasa-arvo'."
   },
   {
     "question": "Milloin titanic upposi?",
@@ -3151,7 +3286,8 @@ const kaikkiKysymykset = [
         "text": "1900",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Titanic upposi 15. huhtikuuta 1912 törmättyään jäävuoreen neitsytmatkallaan. Laivassa oli pelastusveneitä vain noin puolelle matkustajista, ja yli 1 500 ihmistä menehtyi."
   },
   {
     "question": "Milloin john f. kennedy murhattiin?",
@@ -3173,7 +3309,8 @@ const kaikkiKysymykset = [
         "text": "1936",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "JFK murhattiin 22. marraskuuta 1963 Dallasissa, Texasissa. Hän oli Yhdysvaltain nuorin valittu presidentti ja ensimmäinen katolinen presidentti."
   },
   {
     "question": "Milloin tšernobylin ydinvoimalaonnettomuus?",
@@ -3195,7 +3332,8 @@ const kaikkiKysymykset = [
         "text": "1902",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tšernobylin onnettomuus tapahtui 26. huhtikuuta 1986 turvallisuuskokeen aikana. Radioaktiivinen laskeuma levisi ympäri Eurooppaa, ja alue on yhä evakuoituna."
   },
   {
     "question": "Milloin wtc-iskut new yorkissa?",
@@ -3217,7 +3355,8 @@ const kaikkiKysymykset = [
         "text": "1936",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "WTC-iskut tapahtuivat 11. syyskuuta 2001 – päivä muutti maailmanpolitiikkaa pysyvästi. Kaksoistornit romahtivat alle kahdessa tunnissa iskujen jälkeen."
   },
   {
     "question": "Milloin uskonpuhdistus alkoi?",
@@ -3239,7 +3378,8 @@ const kaikkiKysymykset = [
         "text": "1908",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Martin Luther naulasi 95 teesiään Wittenbergin kirkon oveen vuonna 1517. Tämä hetki johti protestanttisten kirkkojen syntyyn ja jakoi läntisen kristikunnan kahtia."
   },
   {
     "question": "Milloin suomesta tuli osa venäjää?",
@@ -3261,7 +3401,8 @@ const kaikkiKysymykset = [
         "text": "1994",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Haminan rauhassa 1809 Ruotsi luovutti Suomen Venäjälle. Suomesta tuli autonominen suuriruhtinaskunta, jolla oli omat lait ja hallinto – tämä loi pohjaa myöhemmälle itsenäisyydelle."
   },
   {
     "question": "Milloin helsingin olympialaiset?",
@@ -3283,7 +3424,8 @@ const kaikkiKysymykset = [
         "text": "1926",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Helsingin olympialaiset pidettiin vuonna 1952, ja ne olivat Suomen ainoa kesäolympialaiset. Paavo Nurmi sytytti olympiatulen Helsingin Olympiastadionilla."
   },
   {
     "question": "Milloin neuvostoliitto hajosi?",
@@ -3305,7 +3447,8 @@ const kaikkiKysymykset = [
         "text": "1994",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Neuvostoliitto hajosi virallisesti 26. joulukuuta 1991 – se oli ollut maailman suurin valtio pinta-alaltaan. Sen tilalle syntyi 15 itsenäistä valtiota."
   },
   {
     "question": "Milloin wrightin veljesten ensilento?",
@@ -3327,7 +3470,8 @@ const kaikkiKysymykset = [
         "text": "1962",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Wrightin veljekset lensivät ensimmäisen moottoroidun lennon 17. joulukuuta 1903 Kitty Hawkissa. Ensimmäinen lento kesti vain 12 sekuntia ja ylitti 37 metriä."
   },
   {
     "question": "Milloin juri gagarin kävi avaruudessa?",
@@ -3349,7 +3493,8 @@ const kaikkiKysymykset = [
         "text": "1962",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Juri Gagarin kiersi maapallon 12. huhtikuuta 1961 Vostok 1 -aluksella. Lento kesti 108 minuuttia, ja Gagarin oli tuolloin vasta 27-vuotias."
   },
   {
     "question": "Milloin hastingsin taistelu?",
@@ -3371,7 +3516,8 @@ const kaikkiKysymykset = [
         "text": "1994",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Hastingsin taistelu vuonna 1066 muutti Englannin historian suunnan, kun Vilhelm Valloittaja kukisti kuningas Haroldin. Taistelu on ikuistettu kuuluisaan Bayeux'n seinävaatteeseen."
   },
   {
     "question": "Milloin yhdysvaltain sisällissota päättyi?",
@@ -3393,7 +3539,8 @@ const kaikkiKysymykset = [
         "text": "1982",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Yhdysvaltain sisällissota päättyi vuonna 1865, kun kenraali Robert E. Lee antautui Appomattoxissa. Sota oli tuhoisin konflikti Amerikan maaperällä – noin 620 000 sotilasta menehtyi."
   },
   {
     "question": "Milloin wall streetin pörssiromahdus?",
@@ -3415,7 +3562,8 @@ const kaikkiKysymykset = [
         "text": "1962",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Wall Streetin pörssiromahdus lokakuussa 1929 käynnisti suuren laman, joka kesti lähes koko 1930-luvun. 'Mustana tiistaina' 29.10.1929 osakkeiden arvo romahti ennätyksellisesti."
   },
   {
     "question": "Milloin lapin sota alkoi?",
@@ -3437,7 +3585,8 @@ const kaikkiKysymykset = [
         "text": "1990",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Lapin sota alkoi syksyllä 1944, kun entiset aseveljet Suomi ja Saksa kääntyivät toisiaan vastaan. Saksalaiset polttivat vetäytyessään lähes koko Lapin – Rovaniemi tuhoutui lähes täysin."
   },
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Jalkapallo?",
@@ -3482,7 +3631,8 @@ const kaikkiKysymykset = [
         "text": "30",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Jääkiekossa kentällä on 6 pelaajaa: maalivahti ja viisi kenttäpelaajaa. Erikoistilanteet kuten ylivoima muuttavat pelaajamäärää – jännittävissä loppuhetkissä maalivahti usein vedetään pois hyökkääjän tieltä."
   },
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Koripallo?",
@@ -3504,7 +3654,8 @@ const kaikkiKysymykset = [
         "text": "12",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Koripallon keksi kanadalainen James Naismith vuonna 1891 liikuntaharjoitukseksi. Viiden pelaajan joukkueet pelaavat korin korkeudella 3,05 metriä – tämä mitta on säilynyt muuttumattomana lajin alusta asti."
   },
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Lentopallo?",
@@ -3526,7 +3677,8 @@ const kaikkiKysymykset = [
         "text": "50",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Lentopallossa kentällä on 6 pelaajaa, ja he kiertävät paikkoja myötäpäivään jokaisen syöttövuoron vaihtuessa. Ammattilaisten iskulyönti voi ylittää 130 km/h nopeuden."
   },
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Käsipallo?",
@@ -3548,7 +3700,8 @@ const kaikkiKysymykset = [
         "text": "10",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Käsipallossa pelaa 7 pelaajaa joukkueessa: 6 kenttäpelaajaa ja maalivahti. Laji on erityisen suosittu Pohjoismaissa ja Keski-Euroopassa, ja se on olympialaji vuodesta 1972."
   },
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Pesäpallo?",
@@ -3570,7 +3723,8 @@ const kaikkiKysymykset = [
         "text": "3",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pesäpallossa kentällä on 9 pelaajaa, ja se on Suomen kansallispeli. Lauri 'Tahko' Pihkala kehitti pelin 1920-luvulla amerikkalaisen baseballin pohjalta."
   },
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Rugby Union?",
@@ -3592,7 +3746,8 @@ const kaikkiKysymykset = [
         "text": "4",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Rugby Unionissa 15 pelaajan joukkue jakautuu kahdeksaan eteenpäin pelaajaan ja seitsemään takapelaajaan. Laji sai nimensä Rugby Schoolista Englannista, missä sitä pelattiin ensimmäisen kerran 1823."
   },
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Amerikkalainen jalkapallo?",
@@ -3614,7 +3769,8 @@ const kaikkiKysymykset = [
         "text": "50",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Amerikkalaisessa jalkapallossa kentällä on 11 pelaajaa per joukkue, mutta kokoonpanossa voi olla jopa 53 pelaajaa. Super Bowl on vuosittain Yhdysvaltain katsotuin tv-lähetys."
   },
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Futsal?",
@@ -3636,7 +3792,8 @@ const kaikkiKysymykset = [
         "text": "7",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Futsalissa pelaa 5 pelaajaa joukkueessa pienellä sisäkentällä. Monet jalkapallon supertähdet kuten Pelé, Ronaldinho ja Messi aloittivat uransa futsalin parissa."
   },
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Vesipallo?",
@@ -3658,7 +3815,8 @@ const kaikkiKysymykset = [
         "text": "30",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Vesipallossa 7 pelaajaa, maalivahti mukaan lukien, pelaa altaassa, jonka syvyys on vähintään 1,8 metriä. Pelaajat voivat uida ottelun aikana jopa 5 kilometriä."
   },
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Kaukalopallo?",
@@ -3680,7 +3838,8 @@ const kaikkiKysymykset = [
         "text": "13",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kaukalopallossa pelaa 6 pelaajaa joukkueessa, ja sitä pelataan jäällä ilman luistimia – tossukengillä. Laji on erityisen suosittu Pohjoismaissa ja Venäjällä."
   },
   {
     "question": "Montako pelaajaa on kentällä joukkueessa lajissa Salibandy?",
@@ -3702,7 +3861,8 @@ const kaikkiKysymykset = [
         "text": "20",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Salibandyssa pelaa 6 pelaajaa joukkueessa: maalivahti ja viisi kenttäpelaajaa. Suomi on salibandyn suurmaa – Suomessa on yli 350 000 harrastajaa."
   },
   {
     "question": "Mihin eläinryhmään leijona kuuluu?",
@@ -3724,7 +3884,8 @@ const kaikkiKysymykset = [
         "text": "Lintu",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Leijona kuuluu kissaeläimiin (Felidae). Se on ainoa kissaeläin, joka elää laumoissa, ja uroksen harja on eläinkunnan näyttävimpiä tunnusmerkkejä."
   },
   {
     "question": "Mihin eläinryhmään susi kuuluu?",
@@ -3746,7 +3907,8 @@ const kaikkiKysymykset = [
         "text": "Matelija",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Susi on koiraeläin ja kaikkien koirarotujen kantaisä – myös chihuahua polveutuu sudesta. Sudet voivat kuulla toistensa ulvontaa jopa 16 kilometrin päästä."
   },
   {
     "question": "Mihin eläinryhmään karhu kuuluu?",
@@ -3768,7 +3930,8 @@ const kaikkiKysymykset = [
         "text": "Hämähäkkieläin",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Karhut muodostavat oman heimonsa Ursidae. Suomessa karhu on kansalliseläin, ja Suomen karhukannan arvioidaan olevan noin 2 000 yksilöä."
   },
   {
     "question": "Mihin eläinryhmään kotka kuuluu?",
@@ -3790,7 +3953,8 @@ const kaikkiKysymykset = [
         "text": "Hyönteinen",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kotka on lintu ja yksi taivaankannen tehokkaimmista saalistajista. Merikotkan siipien kärkiväli voi olla jopa 2,5 metriä, mikä tekee siitä Suomen suurimman linnun."
   },
   {
     "question": "Mihin eläinryhmään hauki kuuluu?",
@@ -3812,7 +3976,8 @@ const kaikkiKysymykset = [
         "text": "Nilviäinen",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Hauki on makean veden petokala, joka voi kasvaa yli metrin pituiseksi. Se iskee saaliiseensa salamannopeasti – hyökkäys kestää vain sadasosia sekunnista."
   },
   {
     "question": "Mihin eläinryhmään sammakko kuuluu?",
@@ -3834,7 +3999,8 @@ const kaikkiKysymykset = [
         "text": "Äyriäinen",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Sammakot ovat sammakkoeläimiä, jotka elävät sekä vedessä että maalla. Ne hengittävät osittain ihonsa kautta ja ovat eläneet maapallolla yli 200 miljoonaa vuotta."
   },
   {
     "question": "Mihin eläinryhmään kyy kuuluu?",
@@ -3856,7 +4022,8 @@ const kaikkiKysymykset = [
         "text": "Nilviäinen",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kyy on matelija ja Suomen ainoa myrkyllinen käärme. Sen myrkky ei ole ihmiselle yleensä hengenvaarallinen, mutta purema vaatii aina lääkärikäynnin."
   },
   {
     "question": "Mihin eläinryhmään ihminen kuuluu?",
@@ -3878,7 +4045,8 @@ const kaikkiKysymykset = [
         "text": "Lintu",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ihminen on nisäkäs, kädellinen ja kuuluu ihmisapinoiden heimoon yhdessä simpanssien, gorillien ja orangien kanssa. Jaamme noin 98,7 % DNA:stamme simpanssien kanssa."
   },
   {
     "question": "Mihin eläinryhmään valas kuuluu?",
@@ -3900,7 +4068,8 @@ const kaikkiKysymykset = [
         "text": "Hämähäkkieläin",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Vaikka valaat elävät meressä, ne ovat nisäkkäitä – ne hengittävät keuhkoilla ja imettävät poikasiaan. Sinivalas on maapallon historian suurin eläin, jopa dinosauruksia suurempi."
   },
   {
     "question": "Mihin eläinryhmään delfiini kuuluu?",
@@ -3922,7 +4091,8 @@ const kaikkiKysymykset = [
         "text": "Matelija",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Delfiinit ovat nisäkkäitä ja kuuluvat hammasvalaiden alaheimoon. Ne nukkuvat puoli aivoa kerrallaan, jotta voivat jatkaa hengittämistä pinnalla."
   },
   {
     "question": "Mihin eläinryhmään hai kuuluu?",
@@ -3944,7 +4114,8 @@ const kaikkiKysymykset = [
         "text": "Äyriäinen",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Hait ovat kaloja, mutta niiden luuranko koostuu luun sijaan rustosta. Hait ovat vanhempia kuin dinosaurukset – ne ovat uineet merissä jo yli 400 miljoonaa vuotta."
   },
   {
     "question": "Mihin eläinryhmään krokotiili kuuluu?",
@@ -3966,7 +4137,8 @@ const kaikkiKysymykset = [
         "text": "Kala",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Krokotiilit ovat matelijoita ja lähimpiä nykypäivän sukulaisia dinosauruksille – lintujen ohella. Ne ovat pysyneet lähes muuttumattomina 200 miljoonan vuoden ajan."
   },
   {
     "question": "Mihin eläinryhmään strutsi kuuluu?",
@@ -3988,7 +4160,8 @@ const kaikkiKysymykset = [
         "text": "Äyriäinen",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Strutsi on lintu, vaikka se ei osaa lentää. Se on maailman suurin lintu ja voi juosta jopa 70 km/h – nopeammin kuin useimmat hevoset."
   },
   {
     "question": "Mihin eläinryhmään pingviini kuuluu?",
@@ -4010,7 +4183,8 @@ const kaikkiKysymykset = [
         "text": "Kala",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pingviinit ovat lintuja, jotka eivät lennä mutta uivat mestarillisesti. Keisaripingviini voi sukeltaa yli 500 metrin syvyyteen ja pidättää hengitystään yli 20 minuuttia."
   },
   {
     "question": "Mihin eläinryhmään lepakko kuuluu?",
@@ -4032,7 +4206,8 @@ const kaikkiKysymykset = [
         "text": "Matelija",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Lepakot ovat nisäkkäitä ja ainoita aidosti lentäviä nisäkkäitä. Maailmassa on yli 1 400 lepakkolajia – ne muodostavat noin neljänneksen kaikista nisäkäslajeista."
   },
   {
     "question": "Mihin eläinryhmään hämähäkki kuuluu?",
@@ -4054,7 +4229,8 @@ const kaikkiKysymykset = [
         "text": "Äyriäinen",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Hämähäkit ovat hämähäkkieläimiä eli arachnideja – eivät hyönteisiä. Niillä on kahdeksan jalkaa, kun hyönteisillä on kuusi. Maailmassa tunnetaan yli 48 000 hämähäkkilajia."
   },
   {
     "question": "Mikä on Netflixin sarjan 'The Crown' aihe?",
@@ -4076,7 +4252,8 @@ const kaikkiKysymykset = [
         "text": "Viikinkien valloitus",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "The Crown kuvaa kuningatar Elisabet II:n elämää ja valtakautta, joka kesti 70 vuotta. Sarja on yksi Netflixin kalleimmista tuotannoista – yhden kauden budjetti on ylittänyt 100 miljoonaa dollaria."
   },
   {
     "question": "Kuka on kuuluisin 007-agentti?",
@@ -4098,7 +4275,8 @@ const kaikkiKysymykset = [
         "text": "Ethan Hunt",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "James Bond on Ian Flemingin luoma fiktiivinen vakooja, joka esiintyi ensimmäisen kerran vuoden 1953 romaanissa Casino Royale. Sean Connery oli ensimmäinen Bond-elokuvan 007, ja roolia on esittänyt kuusi näyttelijää."
   },
   {
     "question": "Mikä on maailman suurin kahvilaketju?",
@@ -4120,7 +4298,8 @@ const kaikkiKysymykset = [
         "text": "Tim Hortons",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Starbucksilla on yli 35 000 kahvilaa yli 80 maassa. Yritys sai nimensä Moby Dick -romaanin hahmosta, ja sen logo on kaksipyrstöinen merenneito eli sireeni."
   },
   {
     "question": "Mikä on Suomen yleisin sukunimi?",
@@ -4142,7 +4321,8 @@ const kaikkiKysymykset = [
         "text": "Nieminen",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Korhonen on Suomen yleisin sukunimi – sitä kantaa yli 23 000 suomalaista. Nimen alkuperä liittyy todennäköisesti sanaan 'korho', joka tarkoittaa korvesta raivatun maan asukasta."
   },
   {
     "question": "Kuka on kirjoittanut 'Muumi'-kirjat?",
@@ -4164,7 +4344,8 @@ const kaikkiKysymykset = [
         "text": "Elsa Beskow",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tove Jansson kirjoitti yhdeksän muumiromaania ja useita kuvakirjoja vuosina 1945–1993. Hän oli myös taidemaalari, ja muumit syntyivät alun perin hänen pilakuviinsa."
   },
   {
     "question": "Mikä on Googlen omistama videopalvelu?",
@@ -4209,7 +4390,8 @@ const kaikkiKysymykset = [
         "text": "Mark",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Elon Musk syntyi Etelä-Afrikassa vuonna 1971 ja muutti teininä Kanadaan. Tesla-yhtiön lisäksi hän johtaa SpaceX:ää, jonka tavoitteena on asuttaa Mars."
   },
   {
     "question": "Mikä on Applen puhelimen nimi?",
@@ -4231,11 +4413,12 @@ const kaikkiKysymykset = [
         "text": "Lumia",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ensimmäinen iPhone julkaistiin vuonna 2007, ja se mullisti koko matkapuhelinteollisuuden. Steve Jobs esitteli sen sanomalla: 'Tänään Apple keksii puhelimen uudelleen.'"
   },
   {
     "question": "Mikä on Italian tunnetuin ruoka?",
-    "category": "Ruoka",
+    "category": "Ruoka & Juoma",
     "answerOptions": [
       {
         "text": "Pizza",
@@ -4253,11 +4436,12 @@ const kaikkiKysymykset = [
         "text": "Hampurilainen",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pizzan juuret ovat Napolissa, jossa ensimmäinen moderni pizza valmistettiin 1800-luvulla. Margherita-pizza nimettiin Italian kuningatar Margheritan mukaan vuonna 1889."
   },
   {
     "question": "Mikä on Japanin tunnetuin ruoka?",
-    "category": "Ruoka",
+    "category": "Ruoka & Juoma",
     "answerOptions": [
       {
         "text": "Sushi",
@@ -4275,7 +4459,8 @@ const kaikkiKysymykset = [
         "text": "Paella",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Sushi ei alun perin ollut herkkuruoka vaan kalan säilöntämenetelmä – kalaa kypsytettiin riisiin pakattuna kuukausia. Nykymuotoinen nigiri-sushi syntyi Tokiossa 1820-luvulla."
   },
   {
     "question": "Kuka maalasi 'Huuto'-taulun?",
@@ -4297,7 +4482,8 @@ const kaikkiKysymykset = [
         "text": "Salvador Dali",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Edvard Munch maalasi Huudon vuonna 1893, ja siitä tuli yksi maailman tunnetuimmista taideteoksista. Munch kertoi saaneensa inspiraation, kun taivas värjäytyi verenpunaiseksi hänen kävellessään vuonon yli."
   },
   {
     "question": "Mikä on maailman nopein lintu (syöksyssä)?",
@@ -4319,7 +4505,8 @@ const kaikkiKysymykset = [
         "text": "Strutsi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Muuttohaukka saavuttaa syöksyessään yli 380 km/h nopeuden – se on nopein eläin maapallolla. Se iskee saaliinsa ilmassa, ja törmäysvoima tainnauttaa uhrin välittömästi."
   },
   {
     "question": "Mikä on maailman suurin maaeläin?",
@@ -4341,7 +4528,8 @@ const kaikkiKysymykset = [
         "text": "Virtahepo",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Afrikannorsu voi painaa jopa 6 000 kiloa ja olla 4 metriä korkea. Sen korvat toimivat lämpöpattereina – niiden suuri pinta-ala auttaa säätelemään ruumiinlämpöä."
   },
   {
     "question": "Mikä on jääkiekkojoukkue Helsingistä?",
@@ -4363,7 +4551,8 @@ const kaikkiKysymykset = [
         "text": "TPS",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "HIFK perustettiin vuonna 1897, mikä tekee siitä yhden Suomen vanhimmista urheiluseuroista. HIFK on voittanut jääkiekon Suomen mestaruuden useita kertoja, ja sen kotihalli on legendaarinen Helsingin jäähalli."
   },
   {
     "question": "Mikä on Suomen suosituin joukkuelaji harrastajamäärältään?",
@@ -4385,7 +4574,8 @@ const kaikkiKysymykset = [
         "text": "Koripallo",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Jalkapallo on maailman suosituin urheilulaji yli 4 miljardilla seuraajallaan, ja Suomessakin se on harrastajamäärältään ykkönen. Suomi pääsi ensimmäistä kertaa jalkapallon EM-kisoihin vuonna 2021."
   },
   {
     "question": "Kuka on Suomen presidentti (2024)?",
@@ -4407,7 +4597,8 @@ const kaikkiKysymykset = [
         "text": "Pekka Haavisto",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Alexander Stubb aloitti Suomen 13. presidentin tehtävässä maaliskuussa 2024. Hän on koulutukseltaan valtiotieteiden tohtori ja tunnettu aktiivisena sosiaalisen median käyttäjänä."
   },
   {
     "question": "Mikä on Ruotsin rahayksikkö?",
@@ -4429,7 +4620,8 @@ const kaikkiKysymykset = [
         "text": "Dollari",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ruotsin kruunu (krona) on ollut käytössä vuodesta 1873. Ruotsi on EU-maa, mutta kansanäänestyksessä 2003 ruotsalaiset äänestivät euron käyttöönottoa vastaan."
   },
   {
     "question": "Mikä on Viron rahayksikkö?",
@@ -4451,7 +4643,8 @@ const kaikkiKysymykset = [
         "text": "Rupla",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Viro otti euron käyttöön 1. tammikuuta 2011 ensimmäisenä entisistä Neuvostoliiton maista. Sitä ennen Virossa käytettiin Viron kruunua, joka oli ollut käytössä vuodesta 1992."
   },
   {
     "question": "Mikä on jalkapallon MM-kisojen väli vuosissa?",
@@ -4473,7 +4666,8 @@ const kaikkiKysymykset = [
         "text": "5 vuotta",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Jalkapallon MM-kisat pelataan neljän vuoden välein, ja ensimmäiset kisat järjestettiin Uruguayssa vuonna 1930. Turnaus on maailman katsotuin urheilutapahtuma – vuoden 2022 finaalilla oli yli 1,5 miljardia katsojaa."
   },
   {
     "question": "Kuka on Aku Ankan tyttöystävä?",
@@ -4495,7 +4689,8 @@ const kaikkiKysymykset = [
         "text": "Milla Magia",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Iines Ankka (Daisy Duck) esiintyi ensimmäisen kerran vuonna 1940. Suomessa Aku Ankka -lehti on ilmestynyt vuodesta 1951 ja on maailman suosituimpia Disney-julkaisuja asukaslukuun suhteutettuna."
   },
   {
     "question": "Mikä on Mikki Hiiren koiran nimi?",
@@ -4517,7 +4712,8 @@ const kaikkiKysymykset = [
         "text": "Lassie",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pluto esiintyi ensin Mikki Hiiren koirakaverina vuonna 1930 – samana vuonna kuin kääpiöplaneetta Pluto löydettiin. Se on yksi harvoista Disney-hahmoista, joka käyttäytyy kuin oikea eläin eikä puhu."
   },
   {
     "question": "Mikä on maailman korkein rakennus (2024)?",
@@ -4539,7 +4735,8 @@ const kaikkiKysymykset = [
         "text": "Shanghai Tower",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Burj Khalifa Dubaissa on 828 metriä korkea ja siinä on 163 kerrosta. Rakennuksen hissit kulkevat nopeudella 10 m/s, ja huipulta voi nähdä auringonlaskun kaksi kertaa – ensin alhaalta ja sitten hissillä ylös noustua."
   },
   {
     "question": "Missä maassa on eniten asukkaita (2024)?",
@@ -4561,7 +4758,8 @@ const kaikkiKysymykset = [
         "text": "Venäjä",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Intia ohitti Kiinan maailman väkirikkaimpana maana vuonna 2023. Intiassa puhutaan yli 780 kieltä, ja sen väkiluku ylittää 1,4 miljardia."
   },
   {
     "question": "Mikä on Facebookin perustajan nimi?",
@@ -4583,7 +4781,8 @@ const kaikkiKysymykset = [
         "text": "Elon Musk",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Mark Zuckerberg perusti Facebookin Harvardin yliopiston asuntolastaan vuonna 2004 ollessaan vasta 19-vuotias. Aluksi palvelu oli käytettävissä vain Harvardin opiskelijoille."
   },
   {
     "question": "Mikä on Amazonin perustajan nimi?",
@@ -4605,7 +4804,8 @@ const kaikkiKysymykset = [
         "text": "Larry Page",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Jeff Bezos perusti Amazonin autotallissaan vuonna 1994 pelkkänä verkkokirjakauppana. Nykyään Amazon on maailman suurimpia yrityksiä ja Bezos yksi maailman rikkaimmista ihmisistä."
   },
   {
     "question": "Mikä on Microsoftin perustajan nimi?",
@@ -4627,7 +4827,8 @@ const kaikkiKysymykset = [
         "text": "Jeff Bezos",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Bill Gates perusti Microsoftin yhdessä Paul Allenin kanssa vuonna 1975 – molemmat olivat tuolloin vasta parikymppisiä. Gates oli maailman rikkain ihminen 18 vuotta peräkkäin."
   },
   {
     "question": "Mikä on maailman suurin valtio pinta-alaltaan?",
@@ -4649,7 +4850,8 @@ const kaikkiKysymykset = [
         "text": "USA",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Venäjä kattaa yli 17 miljoonaa neliökilometriä, mikä on enemmän kuin Pluto-kääpiöplaneetan pinta-ala. Maa ulottuu 11 aikavyöhykkeen yli."
   },
   {
     "question": "Mikä on maailman pienin manner?",
@@ -4671,7 +4873,8 @@ const kaikkiKysymykset = [
         "text": "Etelä-Amerikka",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Australia on pinta-alaltaan noin 7,7 miljoonaa neliökilometriä – silti se on samalla maailman suurin saari. Manner on niin litteä, että sen keskimääräinen korkeus on vain 330 metriä."
   },
   {
     "question": "Mikä on planeetta Maan ainoa luonnollinen satelliitti?",
@@ -4693,7 +4896,8 @@ const kaikkiKysymykset = [
         "text": "Venus",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kuu on noin 4,5 miljardia vuotta vanha, ja se loittonee Maasta noin 3,8 senttimetriä vuodessa. Kuun painovoima aiheuttaa maapallon vuorovesi-ilmiön."
   },
   {
     "question": "Mikä on veden kemiallinen kaava?",
@@ -4715,7 +4919,8 @@ const kaikkiKysymykset = [
         "text": "NaCl",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Yhdessä lasillisessa vettä on enemmän H₂O-molekyylejä kuin kaikissa maailman merissä on lasillisia vettä. Vesi on myös ainoa luonnollinen aine, joka esiintyy kaikissa kolmessa olomuodossa maapallolla."
   },
   {
     "question": "Mikä on ihmisen normaali ruumiinlämpö (noin)?",
@@ -4737,7 +4942,8 @@ const kaikkiKysymykset = [
         "text": "40°C",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Perinteinen 37 °C mitattiin ensimmäisen kerran jo vuonna 1851. Uudemmat tutkimukset viittaavat siihen, että ihmisen keskimääräinen ruumiinlämpö on laskenut noin 36,6 asteeseen teollistumisen myötä."
   },
   {
     "question": "Montako päivää on karkausvuodessa?",
@@ -4759,7 +4965,8 @@ const kaikkiKysymykset = [
         "text": "360",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Karkausvuoden ylimääräinen päivä tarvitaan, koska Maan kierros Auringon ympäri kestää noin 365,25 päivää. Ilman karkausvuosia kalenteri luisuisi pois ja heinäkuussa olisi lopulta talvi."
   },
   {
     "question": "Mikä on Suomen suurin kaupunki?",
@@ -4781,7 +4988,8 @@ const kaikkiKysymykset = [
         "text": "Oulu",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Helsingissä asuu yli 670 000 ihmistä, ja se perustettiin alun perin vuonna 1550 kilpailemaan Tallinnan kaupan kanssa. Kaupunki on yksi maailman pohjoisimmista pääkaupungeista."
   },
   {
     "question": "Mikä on Suomen toiseksi suurin kaupunki (väkiluvultaan)?",
@@ -4803,7 +5011,8 @@ const kaikkiKysymykset = [
         "text": "Turku",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Espoo ohitti Tampereen Suomen toiseksi suurimpana kaupunkina vuonna 2021. Espoo on erikoinen kaupunki, sillä sillä ei ole varsinaista ydinkeskustaa – se koostuu viidestä kaupunkikeskuksesta."
   },
   {
     "question": "Mikä on Suomen pohjoisin kunta?",
@@ -4825,7 +5034,8 @@ const kaikkiKysymykset = [
         "text": "Enontekiö",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Utsjoki on Suomen ainoa kunta, joka sijaitsee kokonaan napapiirin pohjoispuolella. Siellä aurinko ei laske lainkaan noin 2,5 kuukauden ajan kesällä."
   },
   {
     "question": "Kuka voitti F1-maailmanmestaruuden 2007?",
@@ -4847,7 +5057,8 @@ const kaikkiKysymykset = [
         "text": "Felipe Massa",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kimi Räikkönen voitti mestaruuden Ferrarin ratissa vain yhden pisteen erolla kahdesta McLaren-kuljettajasta. 'Jäämies' tunnetaan myös lausahduksestaan 'Leave me alone, I know what I'm doing.'"
   },
   {
     "question": "Kuka on kirjoittanut 'Seitsemän veljestä'?",
@@ -4869,7 +5080,8 @@ const kaikkiKysymykset = [
         "text": "J.L. Runeberg",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Aleksis Kivi kirjoitti ensimmäisen suomenkielisen romaanin vuonna 1870, mutta sai teoksestaan lähinnä murskaavaa kritiikkiä elinaikanaan. Hän kuoli vain 38-vuotiaana."
   },
   {
     "question": "Mikä on Suomen kansalliseläin?",
@@ -4891,7 +5103,8 @@ const kaikkiKysymykset = [
         "text": "Ilves",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Suomen metsissä elää arviolta noin 2 000 karhua. Karhu oli muinaisille suomalaisille niin pyhä eläin, ettei sen oikeaa nimeä saanut lausua ääneen – siksi sille keksittiin kymmeniä kiertoilmauksia kuten 'mesikämmen' ja 'otso'."
   },
   {
     "question": "Mikä on Suomen kansalliskukka?",
@@ -4913,7 +5126,8 @@ const kaikkiKysymykset = [
         "text": "Päivänkakkara",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kielo valittiin Suomen kansalliskukuksi vuonna 1967 äänestyksen perusteella. Kauniista ulkonäöstään huolimatta kielo on erittäin myrkyllinen kasvi – jo pieni määrä voi aiheuttaa sydänongelmia."
   },
   {
     "question": "Mikä on Suomen kansallispuu?",
@@ -4935,7 +5149,8 @@ const kaikkiKysymykset = [
         "text": "Tammi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Koivu on Suomen epävirallinen kansallispuu. Sitä on käytetty kautta historian monipuolisesti - koivuvihtaa saunassa, koivumahla ruoaksi, ja koivusta tehdään huonekaluja. Koivikko on myös kaunis näky suomalaisessa maisemassa!"
   },
   {
     "question": "Mikä valuutta on Yhdysvalloissa?",
@@ -4957,7 +5172,8 @@ const kaikkiKysymykset = [
         "text": "Jeni",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Yhdysvaltain dollari on maailman eniten käytetty varantovaluutta. Seteleitä ei valmisteta paperista vaan 75 % puuvillasta ja 25 % pellavasta, minkä vuoksi ne kestävät pesunkiinkin."
   },
   {
     "question": "Mikä on 'Android'?",
@@ -4979,7 +5195,8 @@ const kaikkiKysymykset = [
         "text": "Automerkki",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Android-käyttöjärjestelmä pyörittää yli 70 % maailman älypuhelimista. Google osti Androidin vuonna 2005 vain 50 miljoonalla dollarilla – yksi historian parhaista kaupoista."
   },
   {
     "question": "Mikä on 'iOS'?",
@@ -5001,7 +5218,8 @@ const kaikkiKysymykset = [
         "text": "Samsungin tabletti",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Applen iOS julkaistiin ensimmäisen iPhonen mukana vuonna 2007, ja se muutti koko älypuhelinteollisuuden. Alun perin Steve Jobs ei halunnut kolmannen osapuolen sovelluksia lainkaan – App Store avattiin vasta vuotta myöhemmin."
   },
   {
     "question": "Kuka on 'Batman' elokuvissa?",
@@ -5023,7 +5241,8 @@ const kaikkiKysymykset = [
         "text": "Tony Stark",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Bruce Wayne menetti vanhempansa lapsena ryöstäjän luoteihin, mikä ajoi hänet taistelemaan rikollisuutta vastaan Gotham Cityssä. Hahmoa on esittänyt valkokankaalla kahdeksan eri näyttelijää."
   },
   {
     "question": "Mikä on 'Hämähäkkimiehen' oikea nimi?",
@@ -5045,7 +5264,8 @@ const kaikkiKysymykset = [
         "text": "Wade Wilson",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Peter Parker sai voimansa radioaktiivisen hämähäkin puremasta. Stan Lee ja Steve Ditko loivat hahmon vuonna 1962, ja se oli ensimmäisiä teini-ikäisiä supersankareita, joka ei ollut pelkkä apuri."
   },
   {
     "question": "Kuka on 'Teräsmies'?",
@@ -5067,7 +5287,8 @@ const kaikkiKysymykset = [
         "text": "Bruce Wayne",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Clark Kent on tosiasiassa avaruusolio Kryptonin planeetalta, ja hänen kryptonilainen nimensä on Kal-El. Teräsmies esiintyi ensimmäistä kertaa Action Comics #1:ssä vuonna 1938 – tuon lehden alkuperäiskappale on myyty yli 3 miljoonalla dollarilla."
   },
   {
     "question": "Mikä on maailman suosituin videopalvelu?",
@@ -5089,7 +5310,8 @@ const kaikkiKysymykset = [
         "text": "Twitch",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "YouTubeen ladataan yli 500 tuntia videota joka minuutti. Palvelun perustivat kolme entistä PayPal-työntekijää, ja ensimmäinen video 'Me at the zoo' julkaistiin huhtikuussa 2005."
   },
   {
     "question": "Kuka on Microsoftin nykyinen toimitusjohtaja (2024)?",
@@ -5111,7 +5333,8 @@ const kaikkiKysymykset = [
         "text": "Tim Cook",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Satya Nadella syntyi Intiassa ja liittyi Microsoftiin vuonna 1992. Hänen johdollaan Microsoftin markkina-arvo on kasvanut moninkertaiseksi, ja yhtiö nousi takaisin maailman arvokkaimpien joukkoon."
   },
   {
     "question": "Kuka on Applen nykyinen toimitusjohtaja (2024)?",
@@ -5133,7 +5356,8 @@ const kaikkiKysymykset = [
         "text": "Sundar Pichai",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tim Cook aloitti Applen toimitusjohtajana vuonna 2011 Steve Jobsin jälkeen. Hänen kaudellaan Applen markkina-arvo ylitti ensimmäisenä yhtiönä maailmassa 3 biljoonaa dollaria."
   },
   {
     "question": "Mikä on Googlen emoyhtiön nimi?",
@@ -5155,7 +5379,8 @@ const kaikkiKysymykset = [
         "text": "Meta",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Alphabet perustettiin vuonna 2015 Googlen uudelleenjärjestelyn yhteydessä. Nimen ideana on, että yhtiö kattaa kaikki kirjaimet A:sta Z:hen – eli kaiken mahdollisen."
   },
   {
     "question": "Mikä maa voitti jalkapallon EM-kultaa 2024?",
@@ -5178,7 +5403,8 @@ const kaikkiKysymykset = [
         "text": "Ranska",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Espanja voitti neljännen Euroopan mestaruutensa vuoden 2024 turnauksessa Saksassa. La Roja on kaikkien aikojen menestynein maa EM-kisoissa."
   },
   {
     "question": "Kuka on kaikkien aikojen eniten NBA-pisteitä tehnyt pelaaja (2025 tilanne)?",
@@ -5201,7 +5427,8 @@ const kaikkiKysymykset = [
         "text": "Stephen Curry",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "LeBron James ohitti Kareem Abdul-Jabbarin kaikkien aikojen pistepörssissä helmikuussa 2023 tehtyään yli 38 000 pistettä. Hän on myös ainoa pelaaja NBA:n historiassa, joka on pelannut samassa joukkueessa poikansa kanssa."
   },
   {
     "question": "Missä kaupungissa pidettiin vuoden 1952 kesäolympialaiset?",
@@ -5224,7 +5451,8 @@ const kaikkiKysymykset = [
         "text": "Oslo",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Helsingin olympialaiset olivat ensimmäiset, joihin Neuvostoliitto osallistui. Paavo Nurmi sytytti olympiatulen stadionilla, ja kisat järjestettiin alun perin jo vuodelle 1940, mutta sota esti ne."
   },
   {
     "question": "Kuka on menestynein suomalainen F1-kuljettaja mestaruuksilla mitattuna?",
@@ -5247,7 +5475,8 @@ const kaikkiKysymykset = [
         "text": "Valtteri Bottas",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Mika Häkkinen voitti kaksi peräkkäistä F1-maailmanmestaruutta vuosina 1998 ja 1999 McLarenilla. Hän oli tunnettu intohimoisista kaksintaisteluistaan Michael Schumacherin kanssa."
   },
   {
     "question": "Mikä on tenniksen Grand Slam -turnaus, joka pelataan massakentällä?",
@@ -5270,7 +5499,8 @@ const kaikkiKysymykset = [
         "isCorrect": true,
         "rationale": "Roland Garros on ainoa massalla pelattava Grand Slam."
       }
-    ]
+    ],
+    "didYouKnow": "Ranskan avoimet pelataan Pariisin Roland Garros -stadionilla joka kevät. Massakenttä hidastaa palloa ja suosii pitkiä pallorallejä – Rafael Nadal voitti turnauksen huikeat 14 kertaa."
   },
   {
     "question": "Kuka on ohjannut elokuvat 'Inception' ja 'Interstellar'?",
@@ -5293,7 +5523,8 @@ const kaikkiKysymykset = [
         "text": "Martin Scorsese",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Christopher Nolan tunnetaan monimutkaisista juonirakenteistaan ja käytännön erikoistehosteistaan. Hän räjäytti 'Tenet'-elokuvaa varten oikean Boeing 747 -lentokoneen, koska se oli halvempaa kuin CGI."
   },
   {
     "question": "Mikä on Netflixin katsotuin englanninkielinen sarja (2024)?",
@@ -5316,7 +5547,8 @@ const kaikkiKysymykset = [
         "text": "The Crown",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Wednesday-sarja keräsi ensimmäisellä viikollaan yli 340 miljoonaa katselutuntia. Jenna Ortegan esittämä ikoninen tanssikohtaus kuvattiin yhdellä otolla, ja Ortega suunnitteli koreografian itse."
   },
   {
     "question": "Kuka näytteli Iron Mania Marvel-elokuvissa?",
@@ -5339,7 +5571,8 @@ const kaikkiKysymykset = [
         "text": "Mark Ruffalo",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Robert Downey Jr. valittiin Iron Manin rooliin vuonna 2008, mikä käynnisti koko Marvel Cinematic Universen. Rooli pelasti hänen uransa ja teki hänestä yhden maailman parhaiten palkatuista näyttelijöistä."
   },
   {
     "question": "Mikä on maailman myydyin albumi?",
@@ -5362,7 +5595,8 @@ const kaikkiKysymykset = [
         "text": "AC/DC - Back in Black",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Michael Jacksonin Thriller on myynyt arviolta 70 miljoonaa kopiota maailmanlaajuisesti. Albumilta irrotettiin seitsemän singleä, joista jokainen nousi Yhdysvaltain top 10 -listalle."
   },
   {
     "question": "Kuka voitti Euroviisut vuonna 2023?",
@@ -5385,7 +5619,8 @@ const kaikkiKysymykset = [
         "text": "Kalush Orchestra (Ukraina)",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Loreen voitti Euroviisut toisen kerran kappaleellaan 'Tattoo' – hän on vasta toinen artisti historiassa, joka on voittanut kilpailun kahdesti. Ensimmäisen voittonsa hän sai vuonna 2012 kappaleella 'Euphoria'."
   },
   {
     "question": "Mikä on 'Avatar' (2009) elokuvan planeetan nimi?",
@@ -5407,7 +5642,8 @@ const kaikkiKysymykset = [
         "text": "Arrakis",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pandora-planeetan inspiraationa olivat oikeat bioluminesoivat eliöt ja trooppiset sademetsät. James Cameronin 'Avatar' piti hallussaan kaikkien aikojen lipputuloennätystä yli vuosikymmenen."
   },
   {
     "question": "Kuka kirjoitti 'Taru sormusten herrasta' -kirjat?",
@@ -5429,7 +5665,8 @@ const kaikkiKysymykset = [
         "text": "J.K. Rowling",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "J.R.R. Tolkien oli Oxfordin yliopiston kielitieteen professori, joka loi useita kokonaisia kieliä teoksiaan varten. Hän kirjoitti trilogiansa osin ensimmäisen maailmansodan kokemustensa inspiroimana."
   },
   {
     "question": "Mikä on videopelihahmo Sonicin väri?",
@@ -5451,7 +5688,8 @@ const kaikkiKysymykset = [
         "text": "Keltainen",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Sininen siili Sonic luotiin vuonna 1991 Segan maskotiksi kilpailemaan Nintendon Marion kanssa. Sonic valittiin siniseksi, koska se on Segan logon väri."
   },
   {
     "question": "Mikä bändi esittää kappaleen 'Enter Sandman'?",
@@ -5473,7 +5711,8 @@ const kaikkiKysymykset = [
         "text": "Nirvana",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Metallican 'Enter Sandman' julkaistiin vuonna 1991 ja siitä tuli yksi heavy metallin tunnetuimmista kappaleista. Yhtyeen 'Black Album' on myynyt yli 30 miljoonaa kopiota maailmanlaajuisesti."
   },
   {
     "question": "Kuka näytteli pääosaa elokuvassa 'Titanic'?",
@@ -5495,7 +5734,8 @@ const kaikkiKysymykset = [
         "text": "Matt Damon",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Leonardo DiCaprio oli vasta 22-vuotias kuvatessaan Titanicia. Kuuluisa 'I'm the king of the world!' -repliikki ei ollut käsikirjoituksessa, vaan DiCaprio improvisoi sen."
   },
   {
     "question": "Mikä on Simpsonien koiran nimi?",
@@ -5517,7 +5757,8 @@ const kaikkiKysymykset = [
         "text": "Pluto",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pukin pikku apuri (Santa's Little Helper) on vinttikoira, jonka Simpsonit adoptoivat koiraradalta sarjan ensimmäisessä jaksossa vuonna 1989. Simpsonit on Yhdysvaltain television pitkäikäisin animaatiosarja."
   },
   {
     "question": "Mikä on maailman katsotuin urheilutapahtuma?",
@@ -5539,7 +5780,8 @@ const kaikkiKysymykset = [
         "text": "Tour de France",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Jalkapallon MM-kisojen finaalia seuraa televisiosta arviolta yli miljardi ihmistä. Vuoden 2022 Qatarin kisojen finaali Argentiina–Ranska on monien mielestä kaikkien aikojen paras MM-finaali."
   },
   {
     "question": "Missä lajissa kilpaillaan Stanley Cupista?",
@@ -5561,7 +5803,8 @@ const kaikkiKysymykset = [
         "text": "Amerikkalainen jalkapallo",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Stanley Cup on jääkiekon NHL-liigan mestaruuspokaali, ja se on nimetty lordi Stanleyn mukaan vuodelta 1893. Jokaisen mestarijoukkueen pelaajat saavat pitää pokaalia yhden päivän – ja sitä onkin nähty mm. uima-altaissa ja kirkoissa."
   },
   {
     "question": "Kuka on kaikkien aikojen menestynein olympiaurheilija (mitalien määrässä)?",
@@ -5583,7 +5826,8 @@ const kaikkiKysymykset = [
         "text": "Larisa Latynina",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Michael Phelps voitti urallaan huikeat 28 olympiamitalia, joista 23 on kultaa. Yhdessä olympialaisissa (Peking 2008) hän voitti kahdeksan kultamitalia, mikä on kaikkien aikojen ennätys."
   },
   {
     "question": "Mikä on golfin 'hole-in-one'?",
@@ -5605,7 +5849,8 @@ const kaikkiKysymykset = [
         "text": "Peli päättyy tasan",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Hole-in-one tarkoittaa, että pallo päätyy reikään yhdellä ainoalla lyönnillä. Tilastollinen todennäköisyys sille on amatööripelaajalla noin 1:12 500 – mutta se on tapahtunut jopa sokeille pelaajille!"
   },
   {
     "question": "Mikä maa on voittanut Euroviisut useimmin (vuoteen 2024 mennessä)?",
@@ -5628,7 +5873,8 @@ const kaikkiKysymykset = [
         "text": "Ranska",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Irlanti on voittanut Euroviisut peräti seitsemän kertaa, mukaan lukien kolme peräkkäistä voittoa vuosina 1992–1994. Maan menestys kilpailussa inspiroi myös Riverdance-tanssinäytöksen syntyä."
   },
   {
     "question": "Kuka on Spider-Manin alter ego?",
@@ -5650,7 +5896,8 @@ const kaikkiKysymykset = [
         "text": "Tony Stark",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Peter Parker on New Yorkissa asuva teini, joka sai hämähäkkivoimansa radioaktiivisen hämähäkin puremasta. Hahmon tunnetuin opetus kuuluu: 'Suuri voima tuo suuren vastuun.'"
   },
   {
     "question": "Mikä on Netflixin suosittu sarja, jossa pelataan lastenleikkejä kuoleman uhalla?",
@@ -5672,7 +5919,8 @@ const kaikkiKysymykset = [
         "text": "Money Heist",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Squid Game tuli vuonna 2021 Netflixin kaikkien aikojen katsotuimmaksi sarjaksi 1,65 miljardilla katselutunnilla ensimmäisen 28 päivän aikana. Sarjan luoja Hwang Dong-hyuk kirjoitti käsikirjoituksen jo vuonna 2009, mutta studiot hylkäsivät sen vuosien ajan."
   },
   {
     "question": "Kuka laulaa kappaleen 'Shape of You'?",
@@ -5694,7 +5942,8 @@ const kaikkiKysymykset = [
         "text": "Shawn Mendes",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ed Sheeranin 'Shape of You' on yksi Spotifyn kaikkien aikojen striimatuimmista kappaleista yli 4 miljardilla kuuntelukerralla. Sheeran kirjoitti kappaleen alun perin Rihannalle, mutta päätti pitää sen itsellään."
   },
   {
     "question": "Mikä on videopeli 'Fortnite' tunnetuin pelimuoto?",
@@ -5716,7 +5965,8 @@ const kaikkiKysymykset = [
         "text": "Story Mode",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Fortniten Battle Royale -pelimuoto julkaistiin vuonna 2017 ja keräsi 125 miljoonaa pelaajaa ensimmäisen vuoden aikana. Pelin ensimmäisen MM-turnauksen voittaja, 16-vuotias Bugha, voitti 3 miljoonan dollarin palkinnon."
   },
   {
     "question": "Mikä on Harry Potterin pöllön nimi?",
@@ -5738,7 +5988,8 @@ const kaikkiKysymykset = [
         "text": "Fawkes",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Hedwig on lumipöllö, jonka Hagrid antoi Harrylle 11. syntymäpäivälahjaksi. Elokuvissa Hedwigiä esitti useampi eri pöllö, joista päätähden nimi oli Gizmo."
   },
   {
     "question": "Kuka näytteli Jokeria elokuvassa 'The Dark Knight'?",
@@ -5760,7 +6011,8 @@ const kaikkiKysymykset = [
         "text": "Jack Nicholson",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Heath Ledger voitti postuumin Oscar-palkinnon Jokerin roolistaan. Hän valmistautui rooliin eristäytymällä hotellihuoneeseen kuudeksi viikoksi ja piti päiväkirjaa hahmon ajatuksista."
   },
   {
     "question": "Mikä on maailman suurin suoratoistopalvelu?",
@@ -5782,7 +6034,8 @@ const kaikkiKysymykset = [
         "text": "HBO Max",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Netflix aloitti vuonna 1997 DVD-postimyyntipalveluna ja siirtyi suoratoistoon vuonna 2007. Palvelulla on yli 260 miljoonaa tilaajaa yli 190 maassa."
   },
   {
     "question": "Kuka on 'Star Wars' -elokuvien luoja?",
@@ -5804,7 +6057,8 @@ const kaikkiKysymykset = [
         "text": "James Cameron",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "George Lucas ohjasi alkuperäisen Star Warsin vuonna 1977 pienellä budjetilla, jota studiot eivät uskoneet menestyvän. Lucas piti itsellään oikeudet oheistuotteisiin, mikä teki hänestä miljardöörin."
   },
   {
     "question": "Mikä on Disneyn ensimmäinen pitkä animaatioelokuva?",
@@ -5826,7 +6080,8 @@ const kaikkiKysymykset = [
         "text": "Dumbo",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Lumikki ja seitsemän kääpiötä valmistui vuonna 1937, ja sitä kutsuttiin tuotantovaiheessa 'Disneyn hullutukseksi', koska kukaan ei uskonut pitkän animaation menestyvän. Elokuva tuotti kuitenkin ensi-iltavuonnaan enemmän kuin mikään muu elokuva."
   },
   {
     "question": "Mikä on YouTuben katsotuin video (2024)?",
@@ -5848,7 +6103,8 @@ const kaikkiKysymykset = [
         "text": "Shape of You",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Baby Shark Dance on kerännyt yli 14 miljardia katselukertaa YouTubessa. Lasten lastenlaulusta tuli maailmanlaajuinen ilmiö, ja sen tarttuva melodia perustuu perinteiseen leirilauluun."
   },
   {
     "question": "Kuka on tunnettu kappaleesta 'Bad Guy'?",
@@ -5870,7 +6126,8 @@ const kaikkiKysymykset = [
         "text": "Taylor Swift",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Billie Eilish äänitti debyyttialbuminsa 'When We All Fall Asleep, Where Do We Go?' veljensä Finneasin makuuhuoneessa. Hän oli vasta 17-vuotias voittaessaan neljä Grammy-palkintoa vuonna 2020."
   },
   {
     "question": "Mikä on Pokémon-sarjan maskotti?",
@@ -5892,7 +6149,8 @@ const kaikkiKysymykset = [
         "text": "Mewtwo",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pikachu on sähkötyyppiä oleva Pokémon, josta tuli sarjan kasvot sen anime-version myötä. Alun perin pelin kehittäjä halusi maskotiksi Clefairyn, mutta Pikachu valittiin sen suosion vuoksi."
   },
   {
     "question": "Kuka on James Bondin pomo?",
@@ -5914,7 +6172,8 @@ const kaikkiKysymykset = [
         "text": "K",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "M on MI6:n johtaja James Bond -elokuvissa. Judi Dench näytteli M:ää seitsemässä Bond-elokuvassa ja teki roolista yhden sarjan rakastetuimmista hahmoista."
   },
   {
     "question": "Mikä on maailman myydyin kirja (Raamatun jälkeen)?",
@@ -5936,7 +6195,8 @@ const kaikkiKysymykset = [
         "text": "Pikku prinssi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Don Quijote julkaistiin vuonna 1605, ja sitä pidetään ensimmäisenä modernina romaanina. Miguel de Cervantesin mestariteos on käännetty yli 50 kielelle ja sitä on myyty arviolta yli 500 miljoonaa kappaletta."
   },
   {
     "question": "Kuka oli Rooman ensimmäinen kristitty keisari?",
@@ -5959,7 +6219,8 @@ const kaikkiKysymykset = [
         "text": "Trajanus",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Konstantinus Suuri antoi vuonna 313 Milanon ediktin, joka takasi uskonnonvapauden kristityille. Hän perusti myös Konstantinopolin kaupungin, joka oli Rooman valtakunnan pääkaupunki yli tuhat vuotta."
   },
   {
     "question": "Mikä maa hyökkäsi Puolaan vuonna 1939?",
@@ -5982,7 +6243,8 @@ const kaikkiKysymykset = [
         "text": "Iso-Britannia",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Saksan hyökkäys Puolaan 1. syyskuuta 1939 käynnisti toisen maailmansodan. Hyökkäyksessä käytettiin ensimmäistä kertaa laajamittaisesti 'salamasota'-taktiikkaa (Blitzkrieg)."
   },
   {
     "question": "Kuka oli Kleopatra?",
@@ -6005,7 +6267,8 @@ const kaikkiKysymykset = [
         "text": "Persian kuningatar",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kleopatra VII oli Egyptin viimeinen faarao ja Ptolemaios-dynastian jäsen. Hän puhui yhdeksää kieltä ja oli aikansa oppineimpia hallitsijoita – hänet muistetaan usein kauneudestaan, mutta hänen todellinen voimansa oli äly."
   },
   {
     "question": "Mikä imperiumi hallitsi suurta osaa Etelä-Amerikkaa ennen espanjalaisia?",
@@ -6028,7 +6291,8 @@ const kaikkiKysymykset = [
         "text": "Olmecit",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Inkojen valtakunta ulottui parhaimmillaan Kolumbiasta Chileen ja kattoi 12 miljoonaa asukasta. Inkat rakensivat yli 40 000 kilometrin tieverkoston ilman pyörän tai hevosen käyttöä."
   },
   {
     "question": "Milloin Yhdysvaltain itsenäisyysjulistus annettiin?",
@@ -6051,7 +6315,8 @@ const kaikkiKysymykset = [
         "text": "1865",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Itsenäisyysjulistus allekirjoitettiin 4. heinäkuuta 1776 Philadelphiassa, ja Thomas Jefferson kirjoitti sen pääosan. Mielenkiintoista kyllä, sekä John Adams että Thomas Jefferson kuolivat samana päivänä – tasan 50 vuotta julistuksen jälkeen."
   },
   {
     "question": "Mikä oli viikinkien tärkein jumala?",
@@ -6074,7 +6339,8 @@ const kaikkiKysymykset = [
         "text": "Freija",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Odin oli viikinkien ylijumala, sodan ja viisauden jumala, joka uhrasi toisen silmänsä saadakseen kosmisen tiedon. Hänellä oli kaksi korppia, Hugin ja Munin, jotka lensivät maailman yli tuoden hänelle uutisia."
   },
   {
     "question": "Kuka maalasi Sikstuksen kappelin katon?",
@@ -6097,7 +6363,8 @@ const kaikkiKysymykset = [
         "text": "Donatello",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Michelangelo maalasi Sikstuksen kappelin katon neljässä vuodessa (1508–1512), ja työ sisältää yli 300 hahmoa. Vastoin yleistä luuloa hän ei maannut selällään vaan seisoi ja taivutti päätään taaksepäin."
   },
   {
     "question": "Mikä oli Samurai?",
@@ -6120,7 +6387,8 @@ const kaikkiKysymykset = [
         "text": "Intialainen prinssi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Samurai olivat japanilaisia sotureita, jotka noudattivat bushido-kunniakoodistoa. Heidän miekkansa, katana, vaati käsityöläiseltä jopa kuukausia valmistaa ja sitä pidettiin soturin sieluna."
   },
   {
     "question": "Mikä on Ruotsin pääkaupunki?",
@@ -6143,7 +6411,8 @@ const kaikkiKysymykset = [
         "text": "Helsinki",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tukholma on rakennettu 14 saaren päälle ja sitä kutsutaan 'Pohjolan Venetsiaksi'. Kaupunki perustettiin vuonna 1252, ja sen vanhakaupunki Gamla Stan on yksi Euroopan parhaiten säilyneistä keskiaikaisista kaupunginosista."
   },
   {
     "question": "Missä maassa sijaitsee Taj Mahal?",
@@ -6166,7 +6435,8 @@ const kaikkiKysymykset = [
         "text": "Indonesia",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Taj Mahal sijaitsee Agran kaupungissa Intiassa, ja se rakennettiin mogulihallitsija Shah Jahanin toimesta rakkaansa muistoksi. Sen rakentamiseen kului 22 vuotta ja 20 000 työntekijää."
   },
   {
     "question": "Mikä on Euroopan pisin joki?",
@@ -6189,7 +6459,8 @@ const kaikkiKysymykset = [
         "text": "Dnepr",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Volga on Euroopan pisin joki, 3530 kilometriä pitkä. Se virtaa läpi Venäjän ja laskee Kaspianmereen. Jokea kutsutaan 'äiti Volgaksi' ja se on ollut tärkeä kuljetusreitti jo vuosisatoja!"
   },
   {
     "question": "Mikä on maailman väkiluvultaan suurin valtio (2023 arvio)?",
@@ -6212,7 +6483,8 @@ const kaikkiKysymykset = [
         "text": "Indonesia",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Intia ohitti Kiinan maailman väkirikkaimpana maana vuonna 2023 yli 1,4 miljardilla asukkaallaan. Intiassa puhutaan yli 780 eri kieltä ja siellä asuu maailman suurin nuorten aikuisten ikäluokka."
   },
   {
     "question": "Missä maassa sijaitsee Machu Picchu?",
@@ -6235,7 +6507,8 @@ const kaikkiKysymykset = [
         "text": "Kolumbia",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Machu Picchu sijaitsee Perun Andeilla 2 430 metrin korkeudessa. Inkojen 'kadonnut kaupunki' rakennettiin 1400-luvulla, mutta länsimaat löysivät sen vasta vuonna 1911."
   },
   {
     "question": "Mikä on Afrikan korkein vuori?",
@@ -6258,7 +6531,8 @@ const kaikkiKysymykset = [
         "text": "Ruwenzori",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kilimanjaro on 5895 metriä korkea ja se on maailman korkein yksittäinen vuori (ei vuorijonossa). Sen huipulla on jäätiköitä, vaikka se sijaitsee lähellä päiväntasaajaa!"
   },
   {
     "question": "Mikä on Australian pääkaupunki?",
@@ -6281,7 +6555,8 @@ const kaikkiKysymykset = [
         "text": "Brisbane",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Canberra on Australian pääkaupunki, vaikka Sydney ja Melbourne ovat suurempia kaupunkeja. Canberra rakennettiin kompromissina näiden kahden kaupungin kilpaillessa pääkaupungin asemasta!"
   },
   {
     "question": "Mikä on maailman suurin saari?",
@@ -6304,7 +6579,8 @@ const kaikkiKysymykset = [
         "text": "Borneo",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Grönlanti on pinta-alaltaan 2,16 miljoonaa km² ja kuuluu Tanskalle, mutta on itsehallinnollinen."
   },
   {
     "question": "Mikä meri erottaa Iso-Britannian Ranskasta?",
@@ -6327,7 +6603,8 @@ const kaikkiKysymykset = [
         "text": "Itämeri",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Englannin kanaalin kapein kohta on vain noin 34 kilometriä leveä. Ensimmäinen henkilö, joka ui sen yli, oli Matthew Webb vuonna 1875 – matka kesti 21 tuntia ja 45 minuuttia."
   },
   {
     "question": "Mikä on Norjan valuutta?",
@@ -6350,7 +6627,8 @@ const kaikkiKysymykset = [
         "text": "Markka",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Norjan kruunu otettiin käyttöön vuonna 1875 Skandinavian rahaunionin myötä. Norja on yksi maailman rikkaimmista maista öljyvarojensa ansiosta, mutta se päätti pitää oman valuuttansa euron sijaan."
   },
   {
     "question": "Mikä on Afrikan väkiluvultaan suurin valtio?",
@@ -6373,7 +6651,8 @@ const kaikkiKysymykset = [
         "text": "Etiopia",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Nigeriassa asuu yli 220 miljoonaa ihmistä, ja se on Afrikan suurin talous. Maassa puhutaan yli 500 eri kieltä, ja Nollywood-elokuvateollisuus tuottaa enemmän elokuvia vuodessa kuin Hollywood."
   },
   {
     "question": "Mihin maanosaan kuuluu Madagaskar?",
@@ -6396,7 +6675,8 @@ const kaikkiKysymykset = [
         "text": "Oseania",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Madagaskar kuuluu Afrikkaan, vaikka se sijaitsee saaren omassa eristyneessä ekosysteemissään. Noin 90 % saaren kasvi- ja eläinlajeista ei esiinny missään muualla maailmassa, kuten lemuri-apinat."
   },
   {
     "question": "Mikä on Turkin pääkaupunki?",
@@ -6419,7 +6699,8 @@ const kaikkiKysymykset = [
         "text": "Antalya",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ankara on ollut Turkin pääkaupunki vuodesta 1923 – ennen sitä pääkaupunki oli Istanbul. Ankara sijaitsee Anatolian ylängöllä ja on Turkin toiseksi suurin kaupunki."
   },
   {
     "question": "Mikä joki virtaa Lontoon läpi?",
@@ -6442,7 +6723,8 @@ const kaikkiKysymykset = [
         "text": "Rein",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Thames-joki on 346 kilometriä pitkä ja virtaa halki Lontoon keskustan. 1800-luvulla joki oli niin saastunut, että vuotta 1858 kutsuttiin 'Suuren hajun kesäksi', mutta nykyään siinä elää jopa hylkeitä."
   },
   {
     "question": "Mikä on maailman kuivin aavikko (napa-alueiden ulkopuolella)?",
@@ -6465,7 +6747,8 @@ const kaikkiKysymykset = [
         "text": "Kalahari",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Atacaman aavikolla Chilessä on paikkoja, joissa ei ole mitattu sadetta koskaan. Kuivuudestaan huolimatta alue on täynnä elämää, ja NASA käyttää sitä Marsin olosuhteiden simulointiin."
   },
   {
     "question": "Missä kaupungissa sijaitsee kuuluisa Colosseum?",
@@ -6488,7 +6771,8 @@ const kaikkiKysymykset = [
         "text": "Pariisi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Rooman Colosseum valmistui vuonna 80 jKr, ja siihen mahtui noin 50 000 katsojaa. Se rakennettiin vain kahdeksassa vuodessa, mikä on hämmästyttävä saavutus ilman nykyaikaista teknologiaa."
   },
   {
     "question": "Mikä on Kanadan pääkaupunki?",
@@ -6511,7 +6795,8 @@ const kaikkiKysymykset = [
         "isCorrect": true,
         "rationale": "Ottawa valittiin pääkaupungiksi vuonna 1857."
       }
-    ]
+    ],
+    "didYouKnow": "Ottawa on Kanadan pääkaupunki, vaikka Toronto on suurin kaupunki. Ottawa valittiin pääkaupungiksi vuonna 1857 kuningatar Viktorian toimesta kompromissina englantilaisten ja ranskalaisten kanadalaisten välillä."
   },
   {
     "question": "Mikä on Viron toiseksi suurin kaupunki?",
@@ -6534,7 +6819,8 @@ const kaikkiKysymykset = [
         "text": "Viljandi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tartto on Viron intellektuellinen keskus ja yliopistolinna – Tarton yliopisto perustettiin jo vuonna 1632 Ruotsin vallan aikana. Kaupunki tunnetaan opiskelijakulttuuristaan ja nuorekkaasta ilmapiiristään."
   },
   {
     "question": "Mikä valtio on muodoltaan kuin saapas?",
@@ -6557,7 +6843,8 @@ const kaikkiKysymykset = [
         "text": "Portugali",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Italian saapasmainen muoto on yksi maailman tunnistettavimmista maantieteellisistä piirteistä. 'Saappaan kärki' Calabrian alueella on vain 3 kilometrin päässä Sisiliasta Messinan salmen yli."
   },
   {
     "question": "Mikä on maailman syvin järvi?",
@@ -6580,7 +6867,8 @@ const kaikkiKysymykset = [
         "text": "Victoriajärvi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Baikaljärvi Siperiassa on 1642 metriä syvä ja sisältää noin 20% maailman makean veden varannoista."
   },
   {
     "question": "Mikä on alkuaineen 'O' nimi?",
@@ -6603,7 +6891,8 @@ const kaikkiKysymykset = [
         "text": "Hopea",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Happi muodostaa noin 21 % maapallon ilmakehästä ja on välttämätön lähes kaikelle elämälle. Mielenkiintoista kyllä, suurin osa maapallon hapesta ei tule metsistä vaan merien kasviplanktonista."
   },
   {
     "question": "Mikä planeetta tunnetaan renkaistaan?",
@@ -6626,7 +6915,8 @@ const kaikkiKysymykset = [
         "text": "Merkurius",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Saturnuksen renkaat koostuvat pääasiassa jääpalasista ja kivistä, ja ne ulottuvat jopa 282 000 kilometrin päähän planeetasta. Renkaat ovat kuitenkin hämmästyttävän ohuet – keskimäärin vain noin 10 metriä paksut."
   },
   {
     "question": "Mitä eläintä pidetään viisauden symbolina?",
@@ -6649,7 +6939,8 @@ const kaikkiKysymykset = [
         "text": "Kettu",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pöllöt ovat olleet viisauden symboli antiikin Kreikasta lähtien, jossa ne yhdistettiin jumalatar Athenaan. Todellisuudessa pöllöt eivät ole erityisen älykkäitä lintuja – varikset ja papukaijat ovat paljon nokkelampia."
   },
   {
     "question": "Mikä on veden jäätymispiste (Celsius)?",
@@ -6672,7 +6963,8 @@ const kaikkiKysymykset = [
         "text": "-273°C",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Vesi jäätyy 0 °C:ssa normaalissa ilmanpaineessa, mutta erittäin puhdas vesi voi pysyä nestemäisenä jopa -48 °C:ssa ilmiössä nimeltä alijäähtyminen. Jää on myös harvinainen aine, joka on kevyempää kuin nestemuotonsa."
   },
   {
     "question": "Mikä on ihmisen suurin aisti?",
@@ -6695,7 +6987,8 @@ const kaikkiKysymykset = [
         "text": "Haju",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Näköaisti käsittelee valtavan määrän tietoa – noin 80 % kaikesta aivoidemme vastaanottamasta informaatiosta tulee silmien kautta. Ihmissilmä pystyy erottamaan noin 10 miljoonaa eri värisävyä."
   },
   {
     "question": "Mikä eläin on 'Kuningas' viidakossa (sanonnan mukaan)?",
@@ -6718,7 +7011,8 @@ const kaikkiKysymykset = [
         "text": "Gorilla",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Leijonaa kutsutaan viidakon kuninkaaksi, vaikka se elää todellisuudessa savanneilla eikä viidakossa. Leijonat nukkuvat jopa 20 tuntia päivässä ja naaraat tekevät suurimman osan metsästyksestä."
   },
   {
     "question": "Mikä kaasu aiheuttaa kasvihuoneilmiötä eniten?",
@@ -6741,7 +7035,8 @@ const kaikkiKysymykset = [
         "text": "Helium",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Hiilidioksidi (CO₂) on merkittävin ihmisen tuottama kasvihuonekaasu. Sen pitoisuus ilmakehässä on noussut yli 50 % esiteollisesta ajasta, ja se pysyy ilmakehässä satoja vuosia."
   },
   {
     "question": "Mikä lintu ei osaa lentää, mutta juoksee nopeasti?",
@@ -6764,7 +7059,8 @@ const kaikkiKysymykset = [
         "text": "Lokki",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Strutsi on maailman suurin lintu ja se voi juosta jopa 70 km/h – nopeammin kuin useimmat hevoset. Sen silmät ovat suuremmat kuin sen aivot, ja yksi strutsin muna vastaa painoltaan noin 24 kananmunaa."
   },
   {
     "question": "Mikä on maailman kovin mineraali?",
@@ -6787,7 +7083,8 @@ const kaikkiKysymykset = [
         "text": "Kulta",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Timantti saa 10/10 pistettä Mohsin kovuusasteikolla, ja se on ainoa mineraali, joka voi naarmuttaa toista timanttia. Timantit muodostuvat noin 150–200 kilometrin syvyydessä maan sisällä äärimmäisessä paineessa ja lämmössä."
   },
   {
     "question": "Mikä on sähkön yksikkö 'W'?",
@@ -6810,7 +7107,8 @@ const kaikkiKysymykset = [
         "text": "Joule",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Watti on nimetty skotlantilaisen keksijän James Wattin mukaan, joka kehitti höyrykonetta 1700-luvulla. Yksi watti vastaa yhtä joulea sekunnissa, ja tavallinen hehkulamppu kuluttaa noin 60 wattia."
   },
   {
     "question": "Kuka oli Ranskan keisari 1800-luvun alussa?",
@@ -6833,7 +7131,8 @@ const kaikkiKysymykset = [
         "text": "Robespierre",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Napoleon Bonaparte nousi vallan huipulle Ranskan vallankumouksen jälkeen ja kruunasi itse itsensä keisariksi vuonna 1804. Vastoin myyttiä hän ei ollut erityisen lyhyt – hänen pituutensa oli noin 170 cm, mikä oli keskimääräistä tuon ajan miehille."
   },
   {
     "question": "Mikä maa rakensi Berliinin muurin?",
@@ -6856,7 +7155,8 @@ const kaikkiKysymykset = [
         "text": "Neuvostoliitto",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Itä-Saksa (DDR) rakensi Berliinin muurin vuonna 1961 estääkseen kansalaisiaan pakenemasta länteen. Muuri seisoi 28 vuotta, ja sen murtuminen marraskuussa 1989 oli yksi 1900-luvun merkittävimmistä hetkistä."
   },
   {
     "question": "Kuka oli Yhdysvaltain ensimmäinen presidentti?",
@@ -6879,7 +7179,8 @@ const kaikkiKysymykset = [
         "text": "John Adams",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "George Washington valittiin yksimielisesti maan ensimmäiseksi presidentiksi vuonna 1789. Hän kieltäytyi kolmannesta kaudesta ja loi näin perinteen, josta tuli myöhemmin laki."
   },
   {
     "question": "Mikä oli viikinkien käyttämä laivatyyppi?",
@@ -6902,7 +7203,8 @@ const kaikkiKysymykset = [
         "text": "Fregatti",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Viikinkien pitkäveneet eli drakkarit olivat aikansa teknologisia ihmeitä – ne olivat tarpeeksi kevyitä kannettaviksi maan yli, mutta tarpeeksi vahvoja Atlantin ylitykseen. Niiden matala syväys mahdollisti purjehtimisen jopa matalissa joissa."
   },
   {
     "question": "Missä maassa käytiin Ruusujen sota?",
@@ -6925,7 +7227,8 @@ const kaikkiKysymykset = [
         "text": "Italia",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ruusujen sota käytiin Englannissa vuosina 1455–1487 Yorkin ja Lancasterin sukujen välillä. Sota sai nimensä sukujen vaakunaruusuista – Yorkilla valkoinen ja Lancasterilla punainen."
   },
   {
     "question": "Kuka keksi kirjapainotaidon Euroopassa?",
@@ -6948,7 +7251,8 @@ const kaikkiKysymykset = [
         "text": "Galileo Galilei",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Johannes Gutenberg kehitti irtokirjasintekniikan noin vuonna 1440 Mainzissa, Saksassa. Hänen painokoneensa mahdollisti kirjojen massatuotannon ja käynnisti tiedon vallankumouksen – Gutenbergin Raamattua pidetään kauneimpana painettuna kirjana koskaan."
   },
   {
     "question": "Milloin ihminen kävi ensimmäisen kerran Kuussa?",
@@ -6971,7 +7275,8 @@ const kaikkiKysymykset = [
         "text": "1980",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Neil Armstrong ja Buzz Aldrin laskeutuivat Kuuhun 20. heinäkuuta 1969 Apollo 11 -lennolla. Armstrongin ensimmäinen askel Kuun pinnalla näytettiin suorana TV-lähetyksenä arviolta 600 miljoonalle katsojalle."
   },
   {
     "question": "Mikä sivilisaatio rakensi pyramidit?",
@@ -6994,7 +7299,8 @@ const kaikkiKysymykset = [
         "text": "Maya-intiaanit",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Muinaisen Egyptin suurin pyramidi, Gizan suuri pyramidi, rakennettiin noin 2560 eKr. ja se oli maailman korkein rakennelma yli 3 800 vuoden ajan. Se koostuu noin 2,3 miljoonasta kivilohkareesta, joista jokainen painaa keskimäärin 2,5 tonnia."
   },
   {
     "question": "Kuka oli Neuvostoliiton johtaja toisen maailmansodan aikana?",
@@ -7017,7 +7323,8 @@ const kaikkiKysymykset = [
         "text": "Gorbatshev",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Josif Stalin johti Neuvostoliittoa vuodesta 1924 kuolemaansa asti vuonna 1953. Hänen alkuperäinen sukunimensä oli Džugašvili, ja 'Stalin' on salaliittäjänimi, joka tarkoittaa 'teräsmiestä'."
   },
   {
     "question": "Mikä on Simpsonien kotikaupunki?",
@@ -7040,7 +7347,8 @@ const kaikkiKysymykset = [
         "text": "Shelbyville",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Yhdysvalloissa on yli 30 oikeaa paikkakuntaa nimeltä Springfield. Sarjan luoja Matt Groening valitsi nimen juuri siksi, että se on niin yleinen – kuka tahansa voisi kuvitella asuvansa Simpsonien naapurissa."
   },
   {
     "question": "Kuka esittää Jack Sparrow'ta?",
@@ -7063,7 +7371,8 @@ const kaikkiKysymykset = [
         "text": "Orlando Bloom",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Johnny Depp improvisoi suuren osan Jack Sparrow'n maneerisesta kävelytyylistä ja puhetavasta. Disneyn johtajat olivat aluksi kauhuissaan tulkinnasta, mutta siitä tuli yksi elokuvahistorian ikonisimmista rooleista."
   },
   {
     "question": "Mikä on Batmanin oikea nimi?",
@@ -7086,7 +7395,8 @@ const kaikkiKysymykset = [
         "text": "Tony Stark",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Bruce Wayne ilmestyi ensimmäisen kerran sarjakuvassa vuonna 1939. Hahmon sukunimi on kunnianosoitus kenraali 'Mad' Anthony Waynelle, joka oli Amerikan vallankumouksen sankari."
   },
   {
     "question": "Kuka laulaa hitin 'Rolling in the Deep'?",
@@ -7109,7 +7419,8 @@ const kaikkiKysymykset = [
         "text": "Lady Gaga",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Adele kirjoitti kappaleen 'Rolling in the Deep' vain 10 minuutissa erään parisuhteen päättymisen jälkeen. Kappaleesta tuli vuoden 2011 myydyin digitaalinen single Yhdysvalloissa."
   },
   {
     "question": "Mikä on James Bondin agenttinumero?",
@@ -7132,7 +7443,8 @@ const kaikkiKysymykset = [
         "text": "911",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ian Flemingin mukaan numero 007 viittaa oikeuteen tappaa. Kaksi nollaa tarkoittavat 'käyttölupaa', ja 7 on agentin henkilökohtainen tunniste. Ensimmäinen Bond-elokuva Dr. No ilmestyi vuonna 1962."
   },
   {
     "question": "Mikä on maailman suosituin lautapeli?",
@@ -7155,7 +7467,8 @@ const kaikkiKysymykset = [
         "text": "Risk",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Monopoly kehitettiin alun perin 1900-luvun alussa nimellä 'The Landlord's Game', ja sen tarkoitus oli opettaa pelaajille maanomistuksen epäoikeudenmukaisuutta. Peliä on myyty yli 275 miljoonaa kappaletta yli 114 maassa."
   },
   {
     "question": "Kuka ohjasi elokuvan 'Taru sormusten herrasta'?",
@@ -7178,7 +7491,8 @@ const kaikkiKysymykset = [
         "text": "Christopher Nolan",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Peter Jackson kuvasi kaikki kolme Taru sormusten herrasta -elokuvaa yhtäjaksoisesti Uudessa-Seelannissa 438 päivän aikana. Trilogia voitti yhteensä 17 Oscar-palkintoa."
   },
   {
     "question": "Mikä on videopelihahmo Marion veljen nimi?",
@@ -7201,7 +7515,8 @@ const kaikkiKysymykset = [
         "text": "Bowser",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Luigi on itse asiassa Marion kaksosveli, vaikka hänet usein mielletään nuoremmaksi. Hahmo on nimetty Nintendon Amerikan-tehtaan lähellä sijaitsevan pizzerian 'Mario & Luigi's' mukaan."
   },
   {
     "question": "Missä kaupungissa 'Frendit' (Friends) sarja tapahtuu?",
@@ -7224,7 +7539,8 @@ const kaikkiKysymykset = [
         "text": "Lontoo",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Vaikka Frendit sijoittuu New Yorkiin, sarja kuvattiin lähes kokonaan Burbankin studiolla Kaliforniassa. Ainoastaan muutama ulkokuva on oikeasti kuvattu Manhattanilla."
   },
   {
     "question": "Kuka on Aku Ankan rikas setä?",
@@ -7247,7 +7563,8 @@ const kaikkiKysymykset = [
         "text": "Milla Magia",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Roope Ankka on Forbesin kuvitteellisten rikkaiden listalla arvioitu maailman rikkaimmaksi fiktiiviseksi hahmoksi. Hänen rahasäiliössään on tarinoiden mukaan 'kolme kuutiokuutiopeninkulmaa' rahaa."
   },
   {
     "question": "Mikä maa on voittanut eniten jääkiekon maailmanmestaruuksia?",
@@ -7270,7 +7587,8 @@ const kaikkiKysymykset = [
         "text": "Ruotsi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Kanada on voittanut jääkiekon MM-kultaa yli 25 kertaa. Jääkiekko on maassa niin suosittu, että Kanadan viiden dollarin setelissä on lapsia pelaamassa jääkiekkoa."
   },
   {
     "question": "Kuinka pitkä on maratonjuoksu?",
@@ -7293,7 +7611,8 @@ const kaikkiKysymykset = [
         "text": "21 km",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Maratonin erikoinen matka 42,195 km juontaa vuoden 1908 Lontoon olympialaisista, joissa reittiä pidennettiin, jotta maali olisi kuninkaallisen aition edessä. Maailmanennätys on hämmästyttävät 2:00:35."
   },
   {
     "question": "Missä lajissa käytetään palloa nimeltä 'kiekko'?",
@@ -7316,7 +7635,8 @@ const kaikkiKysymykset = [
         "text": "Salibandy",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Jääkiekkokiekko on vulkanoitua kumia, ja se jäädytetään ennen ottelua, jotta se ei pomppisi liikaa. Kiekko voi liikkua jäällä yli 170 km/h nopeudella."
   },
   {
     "question": "Kuka on kaikkien aikojen nopein juoksija 100 metrillä?",
@@ -7339,7 +7659,8 @@ const kaikkiKysymykset = [
         "text": "Jesse Owens",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Usain Bolt juoksi 100 metriä 9,58 sekuntiin vuonna 2009 Berliinissä. Huippunopeudessaan hän liikkui noin 44,7 km/h – nopeammin kuin kaupunkiliikenteen nopeusrajoitus."
   },
   {
     "question": "Mikä on Formula 1 -sarjan menestynein talli (valmistajien mestaruudet)?",
@@ -7362,7 +7683,8 @@ const kaikkiKysymykset = [
         "text": "Red Bull",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Ferrari on F1:n vanhin ja menestynein talli, ja se on ainoa tiimi, joka on ollut mukana jokaisella kaudella sarjan alusta 1950 lähtien. Ferrarin punaista väriä kutsutaan nimellä 'Rosso Corsa'."
   },
   {
     "question": "Montako pelaajaa on jalkapallojoukkueessa kentällä?",
@@ -7385,7 +7707,8 @@ const kaikkiKysymykset = [
         "text": "12",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Jalkapallon 11 pelaajan sääntö vakiintui vuonna 1897. Sitä ennen joukkueiden koot vaihtelivat, ja joissakin varhaisissa otteluissa kentällä saattoi olla jopa 20 pelaajaa per puoli."
   },
   {
     "question": "Mikä maa isännöi kesäolympialaisia 2024?",
@@ -7408,7 +7731,8 @@ const kaikkiKysymykset = [
         "text": "Kiina",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pariisi isännöi olympialaisia vuonna 2024 kolmatta kertaa historiassaan – aiemmin vuosina 1900 ja 1924. Avajaisissa soudettiin ensimmäistä kertaa Seinen jokea pitkin stadionin sijasta."
   },
   {
     "question": "Kuka on Teemu Selänne?",
@@ -7431,7 +7755,8 @@ const kaikkiKysymykset = [
         "text": "Hiihtäjä",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Teemu Selänne teki tulokaskaudellaan 1992–93 hämmästyttävät 76 maalia NHL:ssä, mikä on yhä kaikkien aikojen tulokasennätys. Hänen lempinimensä 'Finnish Flash' kuvastaa hänen uskomattoman nopeaa luisteluaan."
   },
   {
     "question": "Mikä laji ei kuulu olympialaisiin?",
@@ -7454,7 +7779,8 @@ const kaikkiKysymykset = [
         "text": "Skeittaus",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Keilailu on yrittänyt päästä olympialajiksi vuosikymmeniä, mutta sitä ei ole hyväksytty ohjelmaan. Lajia harrastaa kuitenkin arviolta yli 100 miljoonaa ihmistä yli 90 maassa."
   },
   {
     "question": "Mitä välinettä käytetään tenniksessä?",
@@ -7477,7 +7803,8 @@ const kaikkiKysymykset = [
         "text": "Kypärä",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tennismailan kehitys on ollut valtava: alun perin mailat olivat puisia ja painoivat jopa 400 grammaa. Nykyiset hiilikuitumailat painavat noin 300 grammaa ja mahdollistavat yli 250 km/h syötöt."
   },
   {
     "question": "Mikä on maailman suurin valtameri?",
@@ -7499,7 +7826,9 @@ const kaikkiKysymykset = [
         "text": "Jäämeri",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Tyynimeri kattaa noin 46% maailman valtamerten pinta-alasta ja on suurempi kuin kaikki maanosatjtkn yhteensä.",
+    "category": "Maantieto"
   },
   {
     "question": "Kuka kirjoitti 'Tuntemattoman sotilaan'?",
@@ -7521,7 +7850,9 @@ const kaikkiKysymykset = [
         "text": "Eino Leino",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Väinö Linna kirjoitti Tuntemattoman sotilaan omien jatkosodan kokemustensa pohjalta. Kirja ilmestyi vuonna 1954, ja sen ensimmäinen painos myytiin loppuun kahdessa viikossa."
   },
   {
     "question": "Mikä on kemiallinen merkki raudalle?",
@@ -7543,7 +7874,9 @@ const kaikkiKysymykset = [
         "text": "Rd",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Raudan kemiallinen merkki Fe tulee latinan sanasta 'ferrum'. Rautaa on maapallon ytimessä enemmän kuin mitään muuta alkuainetta – se muodostaa noin 35 % koko maapallon massasta."
   },
   {
     "question": "Milloin Suomi liittyi Euroopan unioniin?",
@@ -7565,7 +7898,9 @@ const kaikkiKysymykset = [
         "text": "2002",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Suomi liittyi EU:hun vuonna 1995 yhdessä Ruotsin ja Itävallan kanssa. Kansanäänestyksessä 57 % suomalaisista äänesti jäsenyyden puolesta. Suomi oli ensimmäisten maiden joukossa ottamassa euron käyttöön vuonna 1999."
   },
   {
     "question": "Mikä planeetta tunnetaan 'punaisena planeettana'?",
@@ -7587,7 +7922,9 @@ const kaikkiKysymykset = [
         "text": "Merkurius",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Marsin pinta on punainen rautaoksidin eli ruosteen vuoksi. Planeetan päivä kestää lähes saman verran kuin maapallon – 24 tuntia ja 37 minuuttia."
   },
   {
     "question": "Mikä valuutta on käytössä Japanissa?",
@@ -7609,7 +7946,9 @@ const kaikkiKysymykset = [
         "text": "Baht",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Yen tarkoittaa japaniksi kirjaimellisesti 'pyöreää esinettä'. Japanin kolikot ovat niin tarkkaan valmistettuja, että 1 jenin kolikko painaa tasan yhden gramman."
   },
   {
     "question": "Mikä on ihmiskehon suurin sisäelin?",
@@ -7631,7 +7970,9 @@ const kaikkiKysymykset = [
         "text": "Munuaiset",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Maksa painaa noin 1,5 kiloa ja suorittaa yli 500 eri tehtävää elimistössä. Se on myös ainoa sisäelin, joka pystyy kasvattamaan itsensä takaisin – jopa 75 % maksasta voi uusiutua."
   },
   {
     "question": "Kuka maalasi Mona Lisan?",
@@ -7653,7 +7994,9 @@ const kaikkiKysymykset = [
         "text": "Rembrandt",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Mona Lisa maalattiin 1500-luvun alussa ja se on nykyään Louvren museossa Pariisissa.",
+    "category": "Historia"
   },
   {
     "question": "Mikä on Brasilian virallinen kieli?",
@@ -7675,7 +8018,9 @@ const kaikkiKysymykset = [
         "text": "Ranska",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kulttuuri",
+    "didYouKnow": "Brasilia on ainoa portugalinkielinen maa Etelä-Amerikassa. Tämä johtuu vuoden 1494 Tordesillasin sopimuksesta, joka jakoi Uuden maailman Espanjan ja Portugalin kesken."
   },
   {
     "question": "Mikä on nollan (0) ja yhden (1) muodostama lukujärjestelmä?",
@@ -7697,7 +8042,9 @@ const kaikkiKysymykset = [
         "text": "Oktaalijärjestelmä",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Binäärijärjestelmä on kaiken digitaalisen tietotekniikan perusta. Jokainen kuva, video ja viesti, jonka lähetät, muuttuu pohjimmiltaan nollien ja ykkösten jonoksi – esimerkiksi yksi emoji vaatii jopa 32 bittiä."
   },
   {
     "question": "Mikä eläin on maailman nopein maanisäkäs?",
@@ -7719,7 +8066,9 @@ const kaikkiKysymykset = [
         "text": "Hevonen",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Gepardi kiihtyy nollasta sataan kilometriin tunnissa vain kolmessa sekunnissa – nopeammin kuin useimmat urheiluautot. Sen pitkä häntä toimii peräsimenä ja mahdollistaa terävät käännökset täydessä vauhdissa."
   },
   {
     "question": "Mikä on Suomen kansallislintu?",
@@ -7741,7 +8090,9 @@ const kaikkiKysymykset = [
         "text": "Korppi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Joutsenlaulaja on maailman suurin lentävä vesilintu ja sen siipien kärkiväli voi olla jopa 2,5 metriä.",
+    "category": "Luonto"
   },
   {
     "question": "Mikä alkuaine on timantti?",
@@ -7763,7 +8114,9 @@ const kaikkiKysymykset = [
         "text": "Rikki",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Timantti on puhdasta hiiltä, sama alkuaine kuin lyijykynän grafiitti. Ero on vain atomien järjestyksessä – timantti on luonnon kovin tunnettu materiaali, kun taas grafiitti on yksi pehmeimmistä."
   },
   {
     "question": "Kuka keksi hehkulampun (kaupallisesti merkittävän version)?",
@@ -7785,7 +8138,9 @@ const kaikkiKysymykset = [
         "text": "James Watt",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Thomas Edisonin laboratorio testasi yli 3 000 erilaista materiaalia hehkulangan löytämiseksi ennen kuin bambukuitu osoittautui toimivaksi. Edison patentoi elämänsä aikana yli 1 000 keksintöä."
   },
   {
     "question": "Mikä on maapallon eteläisin manner?",
@@ -7807,7 +8162,9 @@ const kaikkiKysymykset = [
         "isCorrect": true,
         "rationale": "Etelämanner sijaitsee etelänavan ympärillä."
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Etelämanner on maapallon kylmin, kuivin ja tuulisin manner. Sen jääpeite sisältää noin 70 % maailman makeasta vedestä, mutta alueella sataa vähemmän kuin Saharassa."
   },
   {
     "question": "Mikä on roomalainen numero luvulle 10?",
@@ -7829,7 +8186,9 @@ const kaikkiKysymykset = [
         "text": "C",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Roomalainen X-merkki saattaa olla peräisin kahdesta päällekkäisestä V-merkistä (5+5). Roomalaiset numerot olivat käytössä Euroopassa yli tuhat vuotta ennen kuin arabialaiset numerot syrjäyttivät ne."
   },
   {
     "question": "Mikä on maailman puhutuin kieli (äidinkielenä)?",
@@ -7851,7 +8210,9 @@ const kaikkiKysymykset = [
         "text": "Hindi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Mandariinikiina on maailman puhutuin äidinkieli, jota puhuu yli 900 miljoonaa ihmistä. Englanti on kuitenkin maailman puhutuin kieli, kun lasketaan mukaan myös toisena kielenä puhujat!",
+    "category": "Maantieto"
   },
   {
     "question": "Mikä on veden pH-arvo (neutraali)?",
@@ -7873,7 +8234,9 @@ const kaikkiKysymykset = [
         "text": "0",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "pH-asteikon kehitti tanskalainen kemisti Søren Sørensen vuonna 1909 olutpanimolla työskennellessään. Asteikko on logaritminen, joten pH 6 on kymmenen kertaa happamampi kuin pH 7."
   },
   {
     "question": "Mikä bändi teki kappaleen 'Bohemian Rhapsody'?",
@@ -7895,7 +8258,9 @@ const kaikkiKysymykset = [
         "text": "Pink Floyd",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Musiikki",
+    "didYouKnow": "Queenin 'Bohemian Rhapsody' kesti kuusi minuuttia aikana, jolloin singlet olivat tyypillisesti kolmeminuuttisia. Levy-yhtiö vastusti sen julkaisua singlenä, mutta Freddie Mercury painosti asian läpi."
   },
   {
     "question": "Mikä on Suomen suurin järvi?",
@@ -7917,7 +8282,9 @@ const kaikkiKysymykset = [
         "text": "Oulujärvi",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Saimaa on Suomen suurin järvi pinta-alaltaan (4 400 km²) ja Euroopan neljänneksi suurin järvi. Siellä asuu harvinainen Saimaannorppa, jota on jäljellä vain noin 400 yksilöä!",
+    "category": "Maantieto"
   },
   {
     "question": "Mikä on valonlähde, joka tuottaa koherenttia valoa?",
@@ -7939,7 +8306,9 @@ const kaikkiKysymykset = [
         "text": "Hehkulamppu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Sana LASER on lyhenne sanoista 'Light Amplification by Stimulated Emission of Radiation'. Ensimmäinen toimiva laser rakennettiin vuonna 1960, ja nykyään lasereita käytetään kaikkialla silmäleikkauksista viivakoodien lukemiseen."
   },
   {
     "question": "Mikä maa voitti jalkapallon miesten maailmanmestaruuden 2022?",
@@ -7961,7 +8330,9 @@ const kaikkiKysymykset = [
         "text": "Saksa",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Urheilu",
+    "didYouKnow": "Argentiina voitti vuoden 2022 MM-finaalin rangaistupotkukilpailussa Ranskaa vastaan ottelussa, jota pidetään kaikkien aikojen jännittävimpänä. Lionel Messi voitti uransa ensimmäisen ja ainoan MM-kullan 35-vuotiaana."
   },
   {
     "question": "Mikä on ihmisen DNA:n rakenne?",
@@ -7983,7 +8354,9 @@ const kaikkiKysymykset = [
         "text": "Suora ketju",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Jos yhden solun DNA-kaksoiskierre avattaisiin suoraksi, se olisi noin kaksi metriä pitkä. Ihmiskehon kaikkien solujen DNA yhteen laitettuna ulottuisi auringosta Plutoon ja takaisin useita kertoja."
   },
   {
     "question": "Mikä on maailman pienin valtio?",
@@ -8005,7 +8378,9 @@ const kaikkiKysymykset = [
         "text": "Liechtenstein",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Vatikaanivaltio on maailman pienin itsenäinen valtio pinta-alaltaan vain 0,44 neliökilometriä. Se on kokonaan Rooman kaupungin sisällä ja väkiluku on noin 800 henkilöä!",
+    "category": "Maantieto"
   },
   {
     "question": "Kuka on kuuluisin salapoliisihahmo, jonka loi Arthur Conan Doyle?",
@@ -8027,7 +8402,9 @@ const kaikkiKysymykset = [
         "text": "Philip Marlowe",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kirjallisuus",
+    "didYouKnow": "Sherlock Holmes on ainoa fiktiivinen henkilö, joka on saanut Britannian kuninkaallisen kemian seuran kunniajäsenyyden. Arthur Conan Doyle yritti tappaa hahmon vuonna 1893, mutta lukijoiden raivo pakotti hänet tuomaan Holmesin takaisin."
   },
   {
     "question": "Mikä on Islannin pääkaupunki?",
@@ -8049,7 +8426,9 @@ const kaikkiKysymykset = [
         "text": "Kööpenhamina",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Reykjavik tarkoittaa islanniksi 'savuista lahtea' – nimi viittaa alueen geotermisistä lähteistä nousevaan höyryyn. Se on maailman pohjoisin pääkaupunki, ja lähes kaksi kolmasosaa islantilaisista asuu siellä."
   },
   {
     "question": "Mikä on sähkövirran yksikkö?",
@@ -8071,7 +8450,9 @@ const kaikkiKysymykset = [
         "text": "Ohmi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Ampeeri on nimetty ranskalaisen fyysikon André-Marie Ampèren mukaan, jota pidetään sähködynamiikan isänä. Tavallisessa kotitalouden pistorasiassa kulkee tyypillisesti 10–16 ampeeria."
   },
   {
     "question": "Mikä on kuuluisin kryptovaluutta?",
@@ -8093,7 +8474,9 @@ const kaikkiKysymykset = [
         "text": "Litecoin",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Bitcoinin loi vuonna 2009 henkilö tai ryhmä nimellä Satoshi Nakamoto, jonka todellista henkilöllisyyttä ei ole koskaan varmistettu. Ensimmäinen tunnettu Bitcoin-ostos oli kaksi pizzaa 10 000 Bitcoinilla vuonna 2010."
   },
   {
     "question": "Mikä on Suomen pisin joki?",
@@ -8115,7 +8498,9 @@ const kaikkiKysymykset = [
         "text": "Kokemäenjoki",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Kemijoki on 550 kilometriä pitkä ja se virtaa lähes koko Lapin halki. Joen valuma-alue kattaa noin 51 000 neliökilometriä eli yli 15 % koko Suomen pinta-alasta."
   },
   {
     "question": "Mikä on 'pilvi' tietotekniikassa?",
@@ -8137,7 +8522,9 @@ const kaikkiKysymykset = [
         "text": "Näytönsuoja",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Pilvipalvelut kuluttavat nykyään arviolta 1–2 % maailman sähköstä. Maailman suurimmat datakeskukset ovat kooltaan useiden jalkapallokenttien kokoisia ja sijaitsevat usein viileissä maissa – jopa Suomessa."
   },
   {
     "question": "Mikä on Suomen korkein tunturi?",
@@ -8159,7 +8546,9 @@ const kaikkiKysymykset = [
         "text": "Rukatunturi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Haltitunturi (1 324 m) sijaitsee Enontekiön kunnassa aivan Norjan rajalla. Mielenkiintoista kyllä, tunturin korkein huippu on itse asiassa Norjan puolella – Suomen puoleinen laki on noin neljä metriä matalampi."
   },
   {
     "question": "Kuka on maalannut teoksen 'Sulavat kellot' (Muiston pysyvyys)?",
@@ -8181,7 +8570,9 @@ const kaikkiKysymykset = [
         "text": "Andy Warhol",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Taide",
+    "didYouKnow": "Salvador Dalí sai inspiraation 'Muiston pysyvyyden' sulaviin kelloihin katsellessaan Camembert-juuston sulamista auringossa. Maalaus on vain 24 × 33 cm kokoinen, mutta se on yksi maailman tunnetuimmista taideteoksista."
   },
   {
     "question": "Mikä on tietokoneen 'aivoina' toimiva osa?",
@@ -8203,7 +8594,9 @@ const kaikkiKysymykset = [
         "text": "Virtalähde",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Nykyaikaisessa prosessorissa on miljardeja transistoreja – esimerkiksi Applen M2-sirulla niitä on yli 20 miljardia. Ensimmäisessä kaupallisessa mikroprosessorissa Intel 4004:ssä vuonna 1971 oli vain 2 300 transistoria."
   },
   {
     "question": "Mikä maa lahjoitti joulukuusen Lontoon Trafalgar Squarelle perinteisesti joka vuosi?",
@@ -8225,7 +8618,9 @@ const kaikkiKysymykset = [
         "text": "Kanada",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Norja on lahjoittanut joulukuusen Trafalgar Squarelle joka vuosi vuodesta 1947 kiitoksena Britannian avusta toisen maailmansodan aikana. Kuusi on tyypillisesti 20–25 metriä korkea norjankuusi."
   },
   {
     "question": "Mikä on maailman suurin nisäkäs?",
@@ -8248,7 +8643,9 @@ const kaikkiKysymykset = [
         "text": "Miekkavalas",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Sinivalas voi painaa jopa 200 tonnia ja on pidempi kuin kolme linja-autoa peräkkäin.",
+    "category": "Luonto"
   },
   {
     "question": "Mikä on kemiallinen merkki kullalle?",
@@ -8270,7 +8667,9 @@ const kaikkiKysymykset = [
         "text": "Cu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Kullan kemiallinen merkki Au tulee latinan sanasta 'aurum', joka tarkoittaa 'loistavaa aamunkoitetta'. Kaikki ihmiskunnan historiassa louhittu kulta mahtuisi noin kolmeen olympiauima-altaaseen."
   },
   {
     "question": "Kuka on luonut hahmon Mikki Hiiri?",
@@ -8292,7 +8691,9 @@ const kaikkiKysymykset = [
         "text": "Charles Schulz",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Mikki Hiiren alkuperäinen nimi oli Mortimer Mouse, mutta Walt Disneyn vaimo ehdotti Mickeyä paremmaksi nimeksi. Ensimmäisessä äänifilmissään 'Steamboat Willie' (1928) Walt Disney itse äänitti Mikin äänen."
   },
   {
     "question": "Mikä on Viron pääkaupunki?",
@@ -8316,7 +8717,9 @@ const kaikkiKysymykset = [
         "text": "Tartto",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Tallinna on yksi Euroopan parhaiten säilyneitä keskiaikaisia kaupunkeja, ja sen vanhakaupunki on UNESCO:n maailmanperintökohde. Suomenlahden yli Helsingistä Tallinnaan on vain noin 80 kilometriä."
   },
   {
     "question": "Mikä on 'PDF'?",
@@ -8338,7 +8741,9 @@ const kaikkiKysymykset = [
         "text": "Sähköpostipalvelu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "PDF-formaatin kehitti Adobe vuonna 1993, ja sen tarkoitus oli mahdollistaa asiakirjojen jakaminen niin, että ne näyttävät samalta kaikilla laitteilla. Nykyään PDF on ISO-standardi, ja päivittäin luodaan arviolta 2,5 miljardia PDF-tiedostoa."
   },
   {
     "question": "Kuka näytteli pääosaa elokuvassa 'Pirates of the Caribbean' (Jack Sparrow)?",
@@ -8360,7 +8765,9 @@ const kaikkiKysymykset = [
         "text": "Tom Cruise",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Johnny Depp ammensi Jack Sparrow -hahmoonsa vaikutteita Keith Richardsilta (Rolling Stones) ja sarjakuvahahmo Pepé Le Pew'stä. Rooli toi hänelle hänen ensimmäisen Oscar-ehdokkuutensa."
   },
   {
     "question": "Mikä on 'Wikipedia'?",
@@ -8382,7 +8789,9 @@ const kaikkiKysymykset = [
         "text": "Uutissivusto",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kirjallisuus",
+    "didYouKnow": "Wikipediassa on yli 60 miljoonaa artikkelia yli 300 kielellä, ja sitä muokataan noin 345 kertaa minuutissa. Suomenkielisessä Wikipediassa on yli 550 000 artikkelia."
   },
   {
     "question": "Mikä on ihmisen normaali sydämen leposyke (keskimäärin)?",
@@ -8404,7 +8813,9 @@ const kaikkiKysymykset = [
         "text": "150+ lyöntiä minuutissa",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Sydän lyö keskimäärin noin 100 000 kertaa päivässä ja pumppaa noin 7 500 litraa verta vuorokaudessa. Elinaikanaan ihmisen sydän lyö yli 2,5 miljardia kertaa."
   },
   {
     "question": "Mikä on 'tofu' tehty pääasiassa?",
@@ -8426,7 +8837,9 @@ const kaikkiKysymykset = [
         "text": "Riisi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Tofun valmistus soijapavuista muistuttaa juuston tekoa maidosta – soijamaito juoksutetaan ja puristetaan. Tofu keksittiin Kiinassa yli 2 000 vuotta sitten Han-dynastian aikana."
   },
   {
     "question": "Mikä maa on kuuluisan huonekalujätin IKEAn kotimaa?",
@@ -8448,7 +8861,9 @@ const kaikkiKysymykset = [
         "text": "Saksa",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "IKEA:n nimi tulee perustajan Ingvar Kampradin nimikirjaimista sekä hänen kotitilansa (Elmtaryd) ja kotikyläänsä (Agunnaryd) alkukirjaimista. Kamprad perusti yrityksen 17-vuotiaana vuonna 1943."
   },
   {
     "question": "Kuka kirjoitti kirjan 'Sinuhe egyptiläinen'?",
@@ -8470,7 +8885,9 @@ const kaikkiKysymykset = [
         "text": "Eino Leino",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Mika Waltarin Sinuhe egyptiläinen (1945) käännettiin yli 40 kielelle ja siitä tehtiin Hollywood-elokuva vuonna 1954. Se on kaikkien aikojen kansainvälisesti menestynein suomalainen romaani."
   },
   {
     "question": "Mikä on 'Wi-Fi'?",
@@ -8492,7 +8909,9 @@ const kaikkiKysymykset = [
         "text": "Radioasema",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Wi-Fi-tekniikan taustalla on australialaisen radiotähtitieteilijän John O'Sullivanin keksintö, joka syntyi mustien aukkojen tutkimuksen sivutuotteena. Nimi 'Wi-Fi' ei ole lyhenne mistään – se keksittiin pelkästään markkinointia varten."
   },
   {
     "question": "Mikä on nollan alapuolella oleva luku matematiikassa?",
@@ -8514,7 +8933,9 @@ const kaikkiKysymykset = [
         "text": "Pariton luku",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Negatiiviset luvut olivat pitkään kiistanalainen käsite – vielä 1700-luvulla monet eurooppalaiset matemaatikot pitivät niitä 'absurdeina lukuina'. Intialaiset ja kiinalaiset matemaatikot käyttivät niitä kuitenkin jo yli tuhat vuotta aiemmin."
   },
   {
     "question": "Kuka on videopelihahmo Mario ammatiltaan?",
@@ -8537,7 +8958,9 @@ const kaikkiKysymykset = [
         "rationale": "Dr. Mario on olemassa, mutta alkuperäinen ammatti on putkimies.",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Mario-hahmo oli alun perin puuseppä, ja hänet tunnettiin nimellä 'Jumpman' vuoden 1981 Donkey Kong -pelissä. Ammatiksi vaihtui putkimies, koska suuri osa peleistä sijoittui maanalaisiin putkistoihin."
   },
   {
     "question": "Mikä on 'emoji'?",
@@ -8559,7 +8982,9 @@ const kaikkiKysymykset = [
         "text": "Videopeli",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Ensimmäiset emojit loi japanilainen Shigetaka Kurita vuonna 1999 matkapuhelinoperaattorille. Alkuperäisiä emojeja oli vain 176 – nykyään Unicode-standardissa on yli 3 600 emojimerkkiä."
   },
   {
     "question": "Kuka oli antiikin Kreikan ylijumala?",
@@ -8581,7 +9006,9 @@ const kaikkiKysymykset = [
         "text": "Apollo",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Zeuksen päätemppeli Olympiassa sisälsi valtavan kultaa ja norsunluuta olevan patsaan, joka oli yksi antiikin maailman seitsemästä ihmeestä. Kreikkalaiset uskoivat salamaniskujen olevan Zeuksen heittämiä aseita."
   },
   {
     "question": "Mikä on 'kebab'?",
@@ -8603,7 +9030,9 @@ const kaikkiKysymykset = [
         "text": "Ranskalainen leivos",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Sana 'kebab' tulee turkinkielisestä sanasta, joka tarkoittaa paistettua lihaa. Döner kebab keksittiin Turkissa, mutta nykymuotoisen döner-taskun kehitti turkkilaissyntyinen Kadir Nurman Berliinissä vuonna 1972."
   },
   {
     "question": "Mikä on 'Musta Pekka'?",
@@ -8625,7 +9054,9 @@ const kaikkiKysymykset = [
         "text": "Videopeli",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Musta Pekka on yksi maailman vanhimmista korttipeleistä ja sitä on pelattu eri muodoissa jo 1800-luvulta lähtien. Pelin englanninkielinen versio tunnetaan nimellä 'Old Maid'."
   },
   {
     "question": "Mikä on 'Instagram'?",
@@ -8647,7 +9078,9 @@ const kaikkiKysymykset = [
         "text": "Karttapalvelu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Instagramin perustajat Kevin Systrom ja Mike Krieger julkaisivat sovelluksen vuonna 2010. Se keräsi miljoona käyttäjää vain kahdessa kuukaudessa, ja Facebook osti sen 1 miljardilla dollarilla vuonna 2012."
   },
   {
     "question": "Mikä on 'origami'?",
@@ -8669,7 +9102,9 @@ const kaikkiKysymykset = [
         "text": "Runo",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kulttuuri",
+    "didYouKnow": "Origami tulee japanin sanoista 'ori' (taittaa) ja 'kami' (paperi). Matemaatikot ovat todistaneet, että origamin avulla voidaan ratkaista kuutiojuuren laskeminen ja muita ongelmia, joita ei voi ratkaista pelkällä viivoittimella ja harpilla."
   },
   {
     "question": "Mikä on maailman pisin joki?",
@@ -8691,7 +9126,9 @@ const kaikkiKysymykset = [
         "text": "Volga",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Amazonas on maailman pisin joki noin 6400 kilometrillä, vaikka Niiliä pidettiin pitkään pisimpänä. Amazonas kuljettaa myös eniten vettä - enemmän kuin seuraavat seitsemän suurinta jokea yhteensä!",
+    "category": "Maantieto"
   },
   {
     "question": "Mikä on 'Tesla'?",
@@ -8713,7 +9150,9 @@ const kaikkiKysymykset = [
         "text": "Vaatemerkki",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Tesla on nimetty sähkötekniikan pioneerin Nikola Teslan mukaan. Yhtiö ei ole alun perin Elon Muskin perustama – sen perustivat Martin Eberhard ja Marc Tarpenning vuonna 2003, ja Musk liittyi mukaan rahoittajana."
   },
   {
     "question": "Kuka on Sherlock Holmesin arkkivihollinen?",
@@ -8736,7 +9175,9 @@ const kaikkiKysymykset = [
         "text": "Irene Adler",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kirjallisuus",
+    "didYouKnow": "Professori Moriarty esiintyy itse asiassa vain kahdessa Arthur Conan Doylen alkuperäisessä Sherlock Holmes -tarinassa. Doyle loi hänet nimenomaan tappamaan Holmesin, jotta kirjailija voisi lopettaa sarjan kirjoittamisen."
   },
   {
     "question": "Mikä on 'Linux'?",
@@ -8758,7 +9199,9 @@ const kaikkiKysymykset = [
         "text": "Virustorjuntaohjelma",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Linus Torvalds, suomalais-amerikkalainen ohjelmistosuunnittelija, loi Linuxin vuonna 1991 Helsingin yliopiston opiskelijana. Nykyään Linux pyörittää yli 90 % maailman supertietokoneista ja suurinta osaa internetin palvelimista."
   },
   {
     "question": "Mikä on 'Sushi'?",
@@ -8780,7 +9223,9 @@ const kaikkiKysymykset = [
         "text": "Intialainen leipä",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Sushi ei viittaa kalaan vaan etikalla maustettuun riisiin – sana tulee vanhasta japanilaisesta adjektiivista 'sui' (hapan). Alkuperäinen sushi oli itse asiassa säilöntäkeino, jossa kalaa fermentoitiin riisin kanssa kuukausia."
   },
   {
     "question": "Kuka on Batmanin salainen henkilöllisyys?",
@@ -8802,7 +9247,9 @@ const kaikkiKysymykset = [
         "text": "Tony Stark",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Bruce Waynen hahmo on inspiroinut lukuisia psykologisia tutkimuksia. Hän on yksi harvoista supersankareista, joilla ei ole yliluonnollisia voimia – hänen 'supervoimansa' ovat älykkyys, fyysinen harjoittelu ja valtava omaisuus."
   },
   {
     "question": "Mikä on 'URL'?",
@@ -8824,7 +9271,9 @@ const kaikkiKysymykset = [
         "text": "Salasana",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "URL-osoitteen keksi Tim Berners-Lee vuonna 1994 osana World Wide Webin kehitystä CERNissä. Ensimmäinen koskaan luotu URL oli http://info.cern.ch, ja se on yhä toiminnassa."
   },
   {
     "question": "Mikä on Suomen vanhin kaupunki?",
@@ -8846,7 +9295,9 @@ const kaikkiKysymykset = [
         "text": "Viipuri",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Turku perustettiin vuonna 1229, ja se toimi Suomen pääkaupunkina aina vuoteen 1812 asti. Turun tuomiokirkko on Suomen kansallispyhäkkö ja maan vanhin kirkkorakennus."
   },
   {
     "question": "Kuka on kirjoittanut 'Taru Sormusten Herrasta'?",
@@ -8868,7 +9319,9 @@ const kaikkiKysymykset = [
         "text": "C.S. Lewis",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kirjallisuus",
+    "didYouKnow": "J.R.R. Tolkien oli Oxfordin yliopiston kielitieteen professori, joka loi teoksiaan varten kokonaisia kieliä kuten haltiakielet quenya ja sindarin. Hän kirjoitti Taru Sormusten Herrasta 12 vuoden ajan."
   },
   {
     "question": "Mikä on 'kantele'?",
@@ -8890,7 +9343,9 @@ const kaikkiKysymykset = [
         "text": "Kosketinsoitin",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Musiikki",
+    "didYouKnow": "Kantele on Suomen kansallissoitin ja yksi maailman vanhimmista kielisoittimista. Kalevalassa Väinämöinen valmistaa ensimmäisen kanteleen hauen leukaluusta, ja soitin on ollut käytössä Suomessa arviolta ainakin 2 000 vuotta."
   },
   {
     "question": "Mikä on maailman väkirikkain valtio (vuonna 2024)?",
@@ -8913,7 +9368,9 @@ const kaikkiKysymykset = [
         "text": "Venäjä",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Intia ohitti Kiinan maailman väkirikkaimpana valtiona huhtikuussa 2023. Maassa asuu yli 1,4 miljardia ihmistä ja siellä puhutaan yli 780 eri kieltä."
   },
   {
     "question": "Mikä on 'fotosynteesi'?",
@@ -8935,7 +9392,9 @@ const kaikkiKysymykset = [
         "text": "Tietokoneen käynnistyminen",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Yhteyttämisessä kasvit muuttavat auringonvaloa, vettä ja hiilidioksidia sokeriksi ja hapeksi. Yksi suuri puu tuottaa yhteyttämällä vuodessa tarpeeksi happea noin neljän ihmisen hengittämiseen."
   },
   {
     "question": "Mikä on 'Nokia' tunnettu historiastaan?",
@@ -8957,7 +9416,9 @@ const kaikkiKysymykset = [
         "text": "Laivat",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Nokia aloitti vuonna 1865 paperitehtaana Nokianvirran rannalla. Ennen matkapuhelimia yhtiö valmisti muun muassa kumisaappaita, kaapeleita ja televisioita. Parhaimmillaan Nokialla oli yli 40 % maailman matkapuhelinmarkkinoista."
   },
   {
     "question": "Kuka maalasi 'Mona Lisan'?",
@@ -8979,7 +9440,9 @@ const kaikkiKysymykset = [
         "text": "Donatello",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Taide",
+    "didYouKnow": "Leonardo da Vinci maalasi Mona Lisaa arviolta neljän vuoden ajan (1503–1507), ja jotkut tutkijat uskovat hänen jatkaneen sitä vielä pidempään. Maalaus on yllättävän pieni – vain 77 × 53 cm – ja se on suojattu luodinkestävällä lasilla Louvressa."
   },
   {
     "question": "Mikä on 'jazz'?",
@@ -9001,7 +9464,9 @@ const kaikkiKysymykset = [
         "text": "Vaatemerkki",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Musiikki",
+    "didYouKnow": "Jazz syntyi 1900-luvun alussa New Orleansin afroamerikkalaisissa yhteisöissä. Se yhdistää afrikkalaisia rytmejä, bluesharmoniaa ja eurooppalaista musiikkiteoriaa, ja improvisaatio on sen keskeinen piirre."
   },
   {
     "question": "Mikä on 'kilotavu' (kB)?",
@@ -9023,7 +9488,9 @@ const kaikkiKysymykset = [
         "text": "10 tavua",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Tietotekniikassa kilotavu on perinteisesti tarkoittanut 1 024 tavua (2¹⁰), mutta SI-järjestelmän mukaan se on tasan 1 000 tavua. Tämä ero aiheuttaa hämmennystä: siksi 1 teratavun kiintolevy näyttääkin tietokoneella vain noin 931 gigatavua."
   },
   {
     "question": "Mikä on 'vety'?",
@@ -9045,7 +9512,9 @@ const kaikkiKysymykset = [
         "text": "Kivilaji",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Vety on universumin yleisin alkuaine – noin 75 % kaiken näkyvän aineen massasta on vetyä. Se on myös kevyin alkuaine ja ainut, jonka atomissa ei normaalitilassa ole yhtään neutronia."
   },
   {
     "question": "Kuka on 'Rölli'?",
@@ -9067,7 +9536,9 @@ const kaikkiKysymykset = [
         "text": "Koiranpentu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Rölli-hahmon loi Allu Tuppurainen vuonna 1986, ja se aloitti TV-sarjana. Rölli on kiltti metsäpeikko, joka yrittää olla pelottava mutta ei oikein onnistu siinä. Hahmo on tuttu useille sukupolville suomalaisia."
   },
   {
     "question": "Mikä on 'salibandy'?",
@@ -9089,7 +9560,9 @@ const kaikkiKysymykset = [
         "text": "Tennis",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Urheilu",
+    "didYouKnow": "Salibandy kehitettiin Ruotsissa 1970-luvulla, ja se on yksi maailman nopeimmin kasvavista palloilulajeista. Suomessa salibandy on lisenssipelaajien määrässä kolmanneksi suosituin urheilulaji jalkapallon ja jääkiekon jälkeen."
   },
   {
     "question": "Mikä on 'Saimaa'?",
@@ -9111,7 +9584,9 @@ const kaikkiKysymykset = [
         "text": "Vuori",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Saimaa on Suomen suurin ja Euroopan neljänneksi suurin järvi pinta-alaltaan (4 400 km²). Saimaan rannalla elää maailman uhanalaisin hylje, saimaannorppa, jota on jäljellä vain noin 450 yksilöä."
   },
   {
     "question": "Kuka oli 'Marilyn Monroe'?",
@@ -9133,7 +9608,9 @@ const kaikkiKysymykset = [
         "text": "Urheilija",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Marilyn Monroen oikea nimi oli Norma Jeane Mortenson. Hän oli aikansa suurin filmitähti, mutta harvemmin tiedetään, että hän oli myös ahkera lukija – hänen kotonaan oli yli 400 kirjaa filosofiasta runouteen."
   },
   {
     "question": "Mikä on 'lego'?",
@@ -9155,7 +9632,9 @@ const kaikkiKysymykset = [
         "text": "Suomalainen puulelu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Lego-nimi tulee tanskan sanoista 'leg godt' eli 'leiki hyvin'. Maailmassa on valmistettu yli 400 miljardia Lego-palikkaa, ja matemaattisesti kaksi kahdeksan nuppia sisältävää palikkaa voidaan yhdistää 24 eri tavalla."
   },
   {
     "question": "Mikä on 'DNA'?",
@@ -9177,7 +9656,9 @@ const kaikkiKysymykset = [
         "text": "Lääkeaine",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Jos kaikki yhden ihmisen DNA purettaisiin ja asetettaisiin jonoon, se ulottuisi noin 600 kertaa auringosta Plutoon ja takaisin. Ihminen jakaa noin 60 % DNA:staan banaanin kanssa."
   },
   {
     "question": "Kuka toimi Suomen presidenttinä talvisodan aikana?",
@@ -9199,7 +9680,9 @@ const kaikkiKysymykset = [
         "text": "J.K. Paasikivi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Kyösti Kallio oli Suomen neljäs presidentti ja johti maata talvisodan raskaina kuukausina 1939–1940. Hänen tiedetään itkeneen allekirjoittaessaan Moskovan rauhansopimuksen, jossa Suomi menetti alueita."
   },
   {
     "question": "Mikä on maailman korkein rakennus (vuonna 2024)?",
@@ -9221,7 +9704,9 @@ const kaikkiKysymykset = [
         "text": "Eiffel-torni",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Burj Khalifa Dubaissa on 828 metriä korkea ja siinä on 163 kerrosta. Rakennus on niin korkea, että sen huipulta voi nähdä auringonlaskun noin kaksi minuuttia myöhemmin kuin maanpinnalta."
   },
   {
     "question": "Mikä tulivuori tuhosi Pompeijin kaupungin vuonna 79 jaa.?",
@@ -9243,7 +9728,9 @@ const kaikkiKysymykset = [
         "text": "Fuji",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Vesuviuksen purkaus vuonna 79 hautasi Pompeijin kaupungin jopa kuuden metrin paksuisen tuhkakerroksen alle. Kaupunki löydettiin uudelleen vuonna 1748, ja tutkijat ovat löytäneet hämmästyttävän hyvin säilyneitä freskomaalauksia ja jopa ruokaa."
   },
   {
     "question": "Minkä maalainen oli tutkimusmatkailija Kristoffer Kolumbus?",
@@ -9265,7 +9752,9 @@ const kaikkiKysymykset = [
         "text": "Hollantilainen",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Kolumbus syntyi Genovassa nykyisessä Italiassa vuonna 1451, mutta hänen matkojaan rahoitti Espanjan kuningaspari. Hän ei koskaan tiennyt löytäneensä uuden mantereen – kuolemaansa asti hän uskoi saapuneensa Aasiaan."
   },
   {
     "question": "Mikä on maailman myydyin musiikkialbumi?",
@@ -9287,7 +9776,9 @@ const kaikkiKysymykset = [
         "text": "The Eagles - Their Greatest Hits",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Musiikki",
+    "didYouKnow": "Michael Jacksonin Thriller (1982) on myynyt arviolta yli 70 miljoonaa kopiota maailmanlaajuisesti. Albumilta julkaistiin seitsemän singleä, joista jokainen nousi Yhdysvaltain top 10 -listalle."
   },
   {
     "question": "Mistä pelistä tunnetaan hahmot nimeltä 'Creeper' ja 'Enderman'?",
@@ -9309,7 +9800,9 @@ const kaikkiKysymykset = [
         "text": "Terraria",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Minecraftin luoja Markus 'Notch' Persson teki pelistä ensimmäisen version vain kuudessa päivässä vuonna 2009. Creeper-hahmo syntyi vahingossa, kun sian 3D-malli meni pieleen – korkeus ja leveys menivät väärinpäin."
   },
   {
     "question": "Mikä on Yhdysvaltain osavaltioiden lukumäärä?",
@@ -9331,7 +9824,9 @@ const kaikkiKysymykset = [
         "text": "52",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Yhdysvalloissa on 50 osavaltiota, joista uusin on Havaiji, joka liittyi unioniin vuonna 1959. Pienin osavaltio Rhode Island on kooltaan vain noin viidenneksen Uudenmaan maakunnan pinta-alasta."
   },
   {
     "question": "Kuka kehitti suhteellisuusteorian?",
@@ -9353,7 +9848,9 @@ const kaikkiKysymykset = [
         "text": "Galileo Galilei",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Albert Einstein julkaisi erityisen suhteellisuusteorian vuonna 1905 ollessaan 26-vuotias patenttivirkailija Sveitsissä. Hänen kuuluisa yhtälönsä E=mc² osoittaa, että pienikin määrä ainetta sisältää valtavan energiamäärän."
   },
   {
     "question": "Mikä on neliöjuuri luvusta 144?",
@@ -9375,7 +9872,9 @@ const kaikkiKysymykset = [
         "text": "16",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Luku 144 on ns. Fibonaccin luku – se kuuluu kuuluisaan lukujonoon, jossa jokainen luku on kahden edellisen summa (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144...). Se on myös täydellinen neliö: 12 × 12."
   },
   {
     "question": "Mikä on Australian suurin kaupunki asukasluvultaan?",
@@ -9397,7 +9896,9 @@ const kaikkiKysymykset = [
         "text": "Canberra",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Sydneyssä asuu yli 5 miljoonaa ihmistä, ja se on Oseanian suurin kaupunki. Sydneyn oopperatalo on yksi maailman tunnetuimmista rakennuksista – sen rakentaminen kesti 16 vuotta ja ylitti alkuperäisen budjetin 1 400 prosentilla."
   },
   {
     "question": "Mikä elin tuottaa insuliinia ihmiskehossa?",
@@ -9419,7 +9920,9 @@ const kaikkiKysymykset = [
         "text": "Sappirakko",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Haima tuottaa insuliinia Langerhansin saarekkeiden beetasoluissa. Insuliini löydettiin vuonna 1921 kanadalaisessa laboratoriossa, ja se oli ensimmäinen proteiini, jonka rakenne selvitettiin kokonaan – Frederick Sanger sai siitä Nobel-palkinnon vuonna 1958."
   },
   {
     "question": "Kuka maalasi teoksen 'Tyttö ja helmikorvakoru'?",
@@ -9441,7 +9944,9 @@ const kaikkiKysymykset = [
         "text": "Edvard Munch",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Taide",
+    "didYouKnow": "Johannes Vermeerin maalauksesta tiedetään hämmästyttävän vähän – sen tarkkaa mallia ei ole koskaan tunnistettu. Teosta kutsutaan usein 'Pohjoisen Mona Lisaksi', ja se maalattiin noin vuonna 1665."
   },
   {
     "question": "Mikä on maapallon syvin järvi?",
@@ -9463,7 +9968,9 @@ const kaikkiKysymykset = [
         "text": "Victoriajärvi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Baikaljärvi Siperiassa on peräti 1 642 metriä syvä ja sisältää noin 20 % maailman sulasta makeasta pintavedestä. Se on myös maailman vanhin järvi – arviolta 25 miljoonaa vuotta vanha."
   },
   {
     "question": "Mikä on Etelä-Amerikan pisin vuoristo?",
@@ -9485,7 +9992,9 @@ const kaikkiKysymykset = [
         "text": "Alpit",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Andit ulottuvat yli 7 000 kilometrin pituudelta seitsemän maan halki, mikä tekee niistä maailman pisimmän vuoriston. Vuoriston korkein huippu Aconcagua kohoaa 6 961 metriin."
   },
   {
     "question": "Kuka on kuuluisan salapoliisin Hercule Poirot'n luoja?",
@@ -9507,7 +10016,9 @@ const kaikkiKysymykset = [
         "text": "Stephen King",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kirjallisuus",
+    "didYouKnow": "Agatha Christie on maailman myydyin kaunokirjailija kautta aikojen – hänen teoksiaan on myyty yli 2 miljardia kappaletta. Hän kirjoitti urallaan 66 salapoliisiromaania ja 14 novellikokoelmaa."
   },
   {
     "question": "Minkä väriset ovat Suomen lipun värit?",
@@ -9529,7 +10040,9 @@ const kaikkiKysymykset = [
         "text": "Valkoinen ja punainen",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Suomen siniristi lippu otettiin virallisesti käyttöön vuonna 1918. Sinisen värin sanotaan symboloivan Suomen tuhansia järviä ja valkoisen lumista talvimaisemaa."
   },
   {
     "question": "Mistä maasta on peräisin juoma nimeltä sake?",
@@ -9551,7 +10064,9 @@ const kaikkiKysymykset = [
         "text": "Thaimaa",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Sake on japanilainen riisiviini, jonka historia ulottuu yli 2 000 vuoden taakse. Valmistusprosessi muistuttaa enemmän oluen panemista kuin viinin tekoa, sillä riisi täytyy ensin muuttaa sokeriksi entsyymien avulla."
   },
   {
     "question": "Kuinka monta silmää mehiläisellä on?",
@@ -9573,7 +10088,9 @@ const kaikkiKysymykset = [
         "text": "100+",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Mehiläisellä on viisi silmää: kaksi suurta verkkosilmää sivuilla ja kolme pientä pistesilmää pään päällä. Verkkosilmät koostuvat tuhansista pienistä linsseistä, jotka auttavat havaitsemaan liikettä ja ultraviolettivaloa."
   },
   {
     "question": "Mikä planeetta on aurinkokuntamme toiseksi suurin?",
@@ -9595,7 +10112,9 @@ const kaikkiKysymykset = [
         "text": "Maa",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Saturnuksen renkaat ulottuvat jopa 282 000 kilometrin päähän planeetasta, mutta ne ovat hämmästyttävän ohuet – vain noin 10 metriä paksut. Saturnus on niin kevyt suhteessa kokoonsa, että se kelluisi vedessä, jos riittävän suuri uima-allas löytyisi."
   },
   {
     "question": "Mikä on elokuvapalkinto Oscarin virallinen englanninkielinen nimi?",
@@ -9617,7 +10136,9 @@ const kaikkiKysymykset = [
         "text": "Hollywood Star",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Academy Award -palkintoa on jaettu vuodesta 1929 lähtien. Kultainen patsas painaa noin 3,9 kilogrammaa ja on 34 senttimetriä korkea."
   },
   {
     "question": "Kuka ohjasi ensimmäisen Star Wars -elokuvan vuonna 1977?",
@@ -9639,7 +10160,9 @@ const kaikkiKysymykset = [
         "text": "James Cameron",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "George Lucas sai alun perin inspiraation Akira Kurosawan samurai-elokuvista ja Flash Gordon -sarjakuvista. Useat Hollywood-studiot hylkäsivät Star Wars -käsikirjoituksen ennen kuin 20th Century Fox otti riskin."
   },
   {
     "question": "Mikä on shakin alkuperämaa?",
@@ -9661,7 +10184,9 @@ const kaikkiKysymykset = [
         "text": "Kreikka",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Shakki syntyi Intiassa noin 1 500 vuotta sitten nimellä 'chaturanga', joka tarkoittaa neljän haaran armeijaa. Peli levisi Persiaan, sieltä arabimaailmaan ja lopulta Eurooppaan."
   },
   {
     "question": "Kuinka monta astetta on suorassa kulmassa?",
@@ -9683,7 +10208,9 @@ const kaikkiKysymykset = [
         "text": "360 astetta",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Ympyrän jakaminen 360 asteeseen on peräisin muinaisesta Babyloniasta, jossa käytettiin 60-kantaista lukujärjestelmää. Suora kulma eli 90 astetta on yksi geometrian perustavanlaatuisimmista käsitteistä."
   },
   {
     "question": "Mikä on maailman pienin lintu?",
@@ -9705,7 +10232,9 @@ const kaikkiKysymykset = [
         "text": "Kanarialintu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Kimalaiskolibri painaa alle 2 grammaa – vähemmän kuin kolikko – ja on vain noin 5 senttimetriä pitkä. Se elää ainoastaan Kuubassa ja räpyttää siipiään jopa 80 kertaa sekunnissa."
   },
   {
     "question": "Mikä verenryhmä on yleinen 'hätäveri' (hätäverenluovuttaja), joka sopii lähes kaikille?",
@@ -9727,7 +10256,9 @@ const kaikkiKysymykset = [
         "text": "B negatiivinen",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "O-negatiivista verta voidaan antaa turvallisesti kaikille potilaille, koska sen punasoluissa ei ole A-, B- eikä Rh-antigeeneja. Vain noin 7 % väestöstä kuuluu tähän veriryhmään, mikä tekee siitä erityisen arvokkaan hätätilanteissa."
   },
   {
     "question": "Mikä on islamin uskonnon pyhä kirja?",
@@ -9749,7 +10280,9 @@ const kaikkiKysymykset = [
         "text": "Veda-kirjat",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kirjallisuus",
+    "didYouKnow": "Koraani koostuu 114 suurasta (luvusta) ja noin 6 236 jakeesta. Muslimien uskomuksen mukaan se ilmoitettiin profeetta Muhammadille arkkienkeli Gabrielin välityksellä noin 23 vuoden aikana."
   },
   {
     "question": "Kuka on Queen-yhtyeen alkuperäinen laulaja?",
@@ -9771,7 +10304,9 @@ const kaikkiKysymykset = [
         "text": "Elton John",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Musiikki",
+    "didYouKnow": "Freddie Mercuryn ääniala kattoi noin neljä oktaavia, ja tutkijat ovat todenneet hänen äänensä poikkeuksellisen vibraton. Hän syntyi Sansibarilla nimellä Farrokh Bulsara."
   },
   {
     "question": "Mikä on Kanadan lipussa oleva tunnus?",
@@ -9793,7 +10328,9 @@ const kaikkiKysymykset = [
         "text": "Kruunu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Kanadan lipun vaahteranlehti on 11-sakarainen, ja lehden muoto valittiin tuulitunnelikokeilla – se tunnistettiin parhaiten myös tuulessa liehuvana. Nykyinen lippu otettiin käyttöön vasta vuonna 1965."
   },
   {
     "question": "Mikä oli Ranskan suuren vallankumouksen tunnuslause?",
@@ -9815,7 +10352,9 @@ const kaikkiKysymykset = [
         "text": "Työ tekee vapaaksi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Tunnuslause 'Liberté, Égalité, Fraternité' eli vapaus, veljeys ja tasa-arvo syntyi vuoden 1789 vallankumouksen myrskyissä. Se on yhä Ranskan tasavallan virallinen motto ja näkyy julkisissa rakennuksissa kaikkialla maassa."
   },
   {
     "question": "Kuka keksi käytännöllisen, toimivan puhelimen (ja sai sille ensimmäisen patentin)?",
@@ -9837,7 +10376,9 @@ const kaikkiKysymykset = [
         "text": "Nikola Tesla",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Alexander Graham Bell sai puhelinpatentin vuonna 1876 – vain tunteja ennen kilpailijaansa Elisha Grayta. Bell oli alun perin kuurojen opettaja, ja hänen äitinsä ja vaimonsa olivat molemmat kuuroja."
   },
   {
     "question": "Minkä maalainen yritys on Spotify?",
@@ -9859,7 +10400,9 @@ const kaikkiKysymykset = [
         "text": "Suomi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Spotify perustettiin Tukholmassa vuonna 2006 Daniel Ekin ja Martin Lorentzonin toimesta. Se lanseerattiin vastauksena musiikin laittomaan lataamiseen ja on kasvanut yli 600 miljoonan käyttäjän palveluksi."
   },
   {
     "question": "Mikä on Rooman valtakunnan kielellinen perintö lääketieteessä?",
@@ -9881,7 +10424,9 @@ const kaikkiKysymykset = [
         "text": "Englanti",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Latina on säilynyt lääketieteen ja oikeustieteen kielenä yli 2 000 vuotta Rooman valtakunnan jälkeen. Lääkärit käyttävät latinankielisiä termejä ympäri maailmaa, jotta eri kieliä puhuvat ammattilaiset ymmärtävät toisiaan."
   },
   {
     "question": "Kuinka pitkä on jääkiekon olympiakaukalon leveys tyypillisesti Euroopassa?",
@@ -9903,7 +10448,9 @@ const kaikkiKysymykset = [
         "text": "20 metriä",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Urheilu",
+    "didYouKnow": "Eurooppalainen kaukalo on 30 metriä leveä, kun taas NHL-kaukalo on vain 26 metriä. Leveämpi kaukalo suosii luistelevaa ja syöttöpainotteista pelityyliä."
   },
   {
     "question": "Mikä on maapallon ytimen pääasiallinen metalli?",
@@ -9925,7 +10472,9 @@ const kaikkiKysymykset = [
         "text": "Alumiini",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Maapallon ydin koostuu pääosin raudasta ja nikkelistä, ja sen lämpötila on noin 5 400 °C – suunnilleen sama kuin Auringon pintalämpötila. Sisäydin on kiinteä valtavan paineen vuoksi, vaikka se on kuumempi kuin ulkoydin."
   },
   {
     "question": "Kuka on maalannut 'Aatamin luominen' -freskon Sikstuksen kappelin kattoon?",
@@ -9947,7 +10496,9 @@ const kaikkiKysymykset = [
         "text": "Sandro Botticelli",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Taide",
+    "didYouKnow": "Michelangelo maalasi Sikstuksen kappelin katon neljässä vuodessa (1508–1512) vaativissa olosuhteissa – hän työskenteli selällään korkeilla telineillä. Katon pinta-ala on noin 520 neliömetriä."
   },
   {
     "question": "Mikä on maailman suurin kukka?",
@@ -9969,7 +10520,9 @@ const kaikkiKysymykset = [
         "text": "Titan Arum",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Rafflesia eli raatokukka voi kasvaa jopa metrin läpimittaiseksi ja painaa yli 10 kiloa. Se haisee mätänevälle lihalle houkutellakseen pölyttäjiään – raatokärpäsiä."
   },
   {
     "question": "Mikä planeetta tunnetaan kauneimmista renkaistaan?",
@@ -9991,7 +10544,9 @@ const kaikkiKysymykset = [
         "text": "Jupiter",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Saturnuksen renkaat koostuvat pääosin jäästä ja kivipalasista, joiden koko vaihtelee hiekanjyvästä kokonaisen talon kokoisiin lohkareisiin. Galileo Galilei havaitsi renkaat ensimmäisenä vuonna 1610, mutta luuli niitä aluksi planeetalle kasvaneiksi 'korviksi'."
   },
   {
     "question": "Minkä urheilulajin legenda on Michael Jordan?",
@@ -10013,7 +10568,9 @@ const kaikkiKysymykset = [
         "text": "Yleisurheilu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Urheilu",
+    "didYouKnow": "Michael Jordan voitti kuusi NBA-mestaruutta Chicago Bullsin kanssa ja valittiin finaalien arvokkaimmaksi pelaajaksi joka kerta. Hänen kenkäbrändinsä Air Jordan tuottaa yhä miljardeja dollareita vuosittain."
   },
   {
     "question": "Mikä on 'Auschwitz' historiassa?",
@@ -10035,7 +10592,9 @@ const kaikkiKysymykset = [
         "text": "Taistelu Ranskassa",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Auschwitz-Birkenau oli natsi-Saksan suurin keskitys- ja tuhoamisleiri, jossa arviolta 1,1 miljoonaa ihmistä menetti henkensä. Leiri vapautettiin 27. tammikuuta 1945, ja päivää vietetään nykyään kansainvälisenä holokaustin muistopäivänä."
   },
   {
     "question": "Kuka perusti Applen yhdessä Steve Jobsin ja Ronald Waynen kanssa?",
@@ -10057,7 +10616,9 @@ const kaikkiKysymykset = [
         "text": "Larry Page",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Steve Wozniak suunnitteli ja rakensi Apple I:n ja Apple II:n käytännössä yksin. Apple II oli yksi ensimmäisistä kaupallisesti menestyneistä henkilökohtaisista tietokoneista ja mullisti koko alan."
   },
   {
     "question": "Mikä eläin voi nukkua jopa kolme vuotta putkeen suojautuakseen kuivuudelta?",
@@ -10079,7 +10640,9 @@ const kaikkiKysymykset = [
         "text": "Kameleontti",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Tietyt aavikkoetanat voivat vaipua horrokseen jopa kolmeksi vuodeksi odottaessaan sadetta. Ne sulkevat kuorensa aukon limakalvolla, joka suojaa kuivumiselta."
   },
   {
     "question": "Mikä on Ranskan Rivieran tunnetuin elokuvajuhlakaupunki?",
@@ -10101,7 +10664,9 @@ const kaikkiKysymykset = [
         "text": "Saint-Tropez",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Cannesin elokuvajuhlat perustettiin vuonna 1946, ja niiden korkein palkinto on Kultainen palmu. Festivaali houkuttelee vuosittain yli 200 000 vierasta pieneen rannikkokaupunkiin."
   },
   {
     "question": "Mikä maa voitti jääkiekon ensimmäisen maailmanmestaruuden (olympialaisten ulkopuolella, oma MM-turnaus) vuonna 1930?",
@@ -10123,7 +10688,9 @@ const kaikkiKysymykset = [
         "text": "Suomi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Urheilu",
+    "didYouKnow": "Kanada on jääkiekon synnyinmaa, ja maan dominointi lajin alkuaikoina oli ylivoimaista. Ensimmäiset viralliset MM-kisat pelattiin Berliinissä, Wienissä ja Chamonixissa vuonna 1930."
   },
   {
     "question": "Mikä on maailmankaikkeuden yleisin alkuaine?",
@@ -10145,7 +10712,9 @@ const kaikkiKysymykset = [
         "text": "Hiili",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Vety muodostaa noin 75 % koko näkyvän maailmankaikkeuden massasta. Se on myös yksinkertaisin alkuaine – sen atomissa on vain yksi protoni ja yksi elektroni."
   },
   {
     "question": "Mikä on 'Sputnik 1'?",
@@ -10167,7 +10736,9 @@ const kaikkiKysymykset = [
         "text": "Ydinase",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "Neuvostoliiton vuonna 1957 laukaisema Sputnik 1 oli kooltaan vain koripalloa hieman suurempi ja painoi 83,6 kiloa. Sen radiolähetys – tasainen piippaus – kuultiin ympäri maailmaa ja käynnisti avaruuskilpailun."
   },
   {
     "question": "Kuka oli Iso-Britannian pääministeri toisen maailmansodan aikana (suurimman osan ajasta)?",
@@ -10189,7 +10760,9 @@ const kaikkiKysymykset = [
         "text": "Tony Blair",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Winston Churchill piti sodanaikaisia puheitaan, jotka kohottivat brittien moraalia pommitusten keskellä. Hän sai Nobelin kirjallisuuspalkinnon vuonna 1953 – ei rauhan, vaan kirjallisuuden alalta."
   },
   {
     "question": "Mikä on 'turska' (eng. cod)?",
@@ -10211,7 +10784,9 @@ const kaikkiKysymykset = [
         "text": "Meduusa",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Turska on ollut Pohjois-Atlantin tärkein talouskala vuosisatoja, ja sen kalastus rahoitti kokonaisten kansakuntien kasvua. Turskasotien aikana 1950–1970-luvuilla Islanti ja Iso-Britannia kiistelivät kalastusoikeuksista jopa sotalaivoin."
   },
   {
     "question": "Mikä on maailman pitkäikäisin puulaji (yksittäinen puu)?",
@@ -10233,7 +10808,9 @@ const kaikkiKysymykset = [
         "text": "Baobab-puu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Vanhin tunnettu bristlecone-mänty (Oka-mänty) on yli 5 000 vuotta vanha – se oli jo kasvussa, kun Egyptin pyramidit rakennettiin. Nämä puut kasvavat Yhdysvaltain vuoristoalueilla äärimmäisen hitaasti ja kovissa oloissa."
   },
   {
     "question": "Mikä on 'Troijan puuhevonen'?",
@@ -10255,7 +10832,9 @@ const kaikkiKysymykset = [
         "text": "Antiikin aikainen lelu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Antiikin kreikkalaisten juoni tuhosi Troijan kaupungin noin 3 200 vuotta sitten – ainakin myyttien mukaan. Nykyään termiä 'troijalainen' käytetään myös tietotekniikassa haittaohjelmista, jotka naamioituvat harmittomiksi."
   },
   {
     "question": "Kuka on luonut sarjakuvan 'Tenavat' (Peanuts), jonka hahmoja ovat Jaska Jokunen ja Ressu?",
@@ -10277,7 +10856,9 @@ const kaikkiKysymykset = [
         "text": "Stan Lee",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Charles M. Schulz piirsi Tenavat-sarjakuvan lähes 50 vuotta (1950–2000) ja teki yhteensä 17 897 strippua. Hän ei koskaan pitänyt sarjan nimestä 'Peanuts', vaan olisi halunnut kutsua sitä nimellä 'Li'l Folks'."
   },
   {
     "question": "Mikä on lääketieteessä sydänsähkökäyrän lyhenne?",
@@ -10299,7 +10880,9 @@ const kaikkiKysymykset = [
         "text": "TT",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "EKG tulee saksankielisestä sanasta Elektrokardiogramm. Willem Einthoven kehitti ensimmäisen käytännöllisen EKG-laitteen vuonna 1903 ja sai siitä Nobelin palkinnon."
   },
   {
     "question": "Kuka esitti supersankari Iron Mania Marvelin elokuvissa?",
@@ -10321,7 +10904,9 @@ const kaikkiKysymykset = [
         "text": "Mark Ruffalo",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Robert Downey Jr. näytteli Tony Starkia yli kymmenessä Marvel-elokuvassa vuosina 2008–2019. Rooli oli myös hänen oman uransa uudelleensyntyminen, sillä hän oli aiemmin kamppaillut henkilökohtaisten vaikeuksien kanssa."
   },
   {
     "question": "Mitä tarkoittaa 'BKT' taloustieteessä?",
@@ -10343,7 +10928,9 @@ const kaikkiKysymykset = [
         "text": "Budjetin kokonaistilanne",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Bruttokansantuote mittaa kaiken maassa tuotetun tavaran ja palvelun arvon vuodessa. Maailman suurin BKT on Yhdysvalloilla, joka tuottaa noin neljänneksen koko maailman taloudesta."
   },
   {
     "question": "Mikä suomalainen yhtye voitti vuoden 2000 MTV Europe Music Awards -palkinnon parhaana pohjoismaisena artistina?",
@@ -10365,7 +10952,9 @@ const kaikkiKysymykset = [
         "text": "Darude",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Bomfunk MC's nousi kansainväliseen maineeseen kappaleella 'Freestyler', joka nousi listaykköseksi useissa Euroopan maissa vuonna 2000. Musiikkivideo kuvattiin Helsingin metrossa."
   },
   {
     "question": "Mikä planeetta pyörii kyljellään (akselin kaltevuus on lähes 90 astetta)?",
@@ -10387,7 +10976,9 @@ const kaikkiKysymykset = [
         "text": "Neptunus",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Uranuksen akselin kaltevuus on 98 astetta, joten se käytännössä vierii radallaan kyljellään. Tämän uskotaan johtuvan valtavasta törmäyksestä Maan kokoisen kappaleen kanssa maapallon historiassa."
   },
   {
     "question": "Mikä on shakin tehokkain nappula (saa liikkua vapaasti vaakaan, pystyyn ja viistoon)?",
@@ -10409,7 +11000,9 @@ const kaikkiKysymykset = [
         "text": "Ratsu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Kuningatar on shakin voimakkain nappula, mutta se ei aina ollut niin. Alkuperäisessä intialaisessa shakissa vastaava nappula oli 'neuvonantaja', joka sai liikkua vain yhden ruudun kerrallaan viistoon."
   },
   {
     "question": "Mihin mantereeseen Egypti pääasiassa kuuluu?",
@@ -10431,7 +11024,9 @@ const kaikkiKysymykset = [
         "text": "Lähi-Itä (Tämä on alue, ei manner)",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Vaikka Egypti mielletään usein Lähi-idän maaksi, se sijaitsee maantieteellisesti Afrikan koilliskulmassa. Siinain niemimaa tosin ulottuu Aasiaan, joten Egypti on teknisesti kahden mantereen maa."
   },
   {
     "question": "Mikä lintulaji on tunnettu siitä, että se munii muiden lintujen pesiin?",
@@ -10453,7 +11048,9 @@ const kaikkiKysymykset = [
         "text": "Korppi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Käki on pesäloinen, joka jättää munansa muiden lintujen pesiin ja antaa isäntälintujen kasvattaa poikasensa. Käen poikanen työntää usein isäntälintujen omat munat pesästä pian kuoriutumisensa jälkeen."
   },
   {
     "question": "Mikä on 'Google' yrityksen emoyhtiön nimi nykyään?",
@@ -10475,7 +11072,9 @@ const kaikkiKysymykset = [
         "text": "Android Corp",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Alphabet Inc. perustettiin vuonna 2015 Googlen uudelleenjärjestelyn yhteydessä. Nimi viittaa kirjaimistoon, mutta myös sanaleikkiin 'alpha-bet' – tuottoa yli markkinoiden keskiarvon."
   },
   {
     "question": "Minä vuonna Berliinin muuri murtui?",
@@ -10497,7 +11096,9 @@ const kaikkiKysymykset = [
         "text": "1993",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Berliinin muuri seisoi 28 vuotta jakamalla Berliinin kahtia ennen sen murtumista 9.11.1989.",
+    "category": "Historia"
   },
   {
     "question": "Kuka sävelsi oopperan 'Taikahuilu'?",
@@ -10519,7 +11120,9 @@ const kaikkiKysymykset = [
         "text": "Richard Wagner",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Musiikki",
+    "didYouKnow": "Mozart sävelsi Taikahuilun vuonna 1791, samana vuonna kun hän kuoli vain 35-vuotiaana. Ooppera yhdistää vakavaa symboliikkaa ja komiikkaa, ja se on yhä yksi maailman esitetyimmistä oopperoista."
   },
   {
     "question": "Mikä on kemiallinen merkki kaliumille?",
@@ -10541,7 +11144,9 @@ const kaikkiKysymykset = [
         "text": "Pt",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Kaliumin kemiallinen merkki K tulee latinan sanasta 'kalium', joka puolestaan juontuu arabian sanasta 'al-qali' eli tuhka. Kalium on elimistölle välttämätön mineraali, joka säätelee sydämen toimintaa."
   },
   {
     "question": "Mikä on maailman suurin maanosa pinta-alaltaan?",
@@ -10563,7 +11168,9 @@ const kaikkiKysymykset = [
         "text": "Etelä-Amerikka",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Aasia kattaa noin 44,6 miljoonaa neliökilometriä – se on suurempi kuin Kuu! Mantereella asuu yli 4,7 miljardia ihmistä eli noin 60 % maailman väestöstä."
   },
   {
     "question": "Kuka näytteli Wolverine-hahmoa X-Men-elokuvasarjassa?",
@@ -10585,7 +11192,9 @@ const kaikkiKysymykset = [
         "text": "Tom Hardy",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Hugh Jackman esitti Wolverinea 17 vuoden ajan yhdeksässä elokuvassa, mikä on Guinness-ennätys pisimpään esitetystä elävän näyttelijän esittämästä Marvel-supersankarista. Australialainen Jackman on myös palkittu musikaalitähti."
   },
   {
     "question": "Mikä planeetta on kolmas Auringosta lukien?",
@@ -10607,7 +11216,9 @@ const kaikkiKysymykset = [
         "text": "Jupiter",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Maa on ainoa tunnettu planeetta, jolla on nestemäistä vettä pinnallaan ja elämää. Sen pinta-alasta noin 71 % on veden peitossa."
   },
   {
     "question": "Minkä niminen on J.R.R. Tolkienin luoman Keski-Maan paha tumma lordi?",
@@ -10629,7 +11240,9 @@ const kaikkiKysymykset = [
         "text": "Morgoth",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kirjallisuus",
+    "didYouKnow": "Sauron esiintyy Tolkienin teoksissa pääasiassa epäsuorasti – hän ei koskaan puhu suoraan Taru sormusten herrasta -trilogiassa. Tolkien loi Sauronin alun perin Silmarillion-taruston palvelija-hahmoksi."
   },
   {
     "question": "Kuinka monta jalkaa on kymmenjalkaisilla ravuilla (kuten taskuravuilla)?",
@@ -10651,7 +11264,9 @@ const kaikkiKysymykset = [
         "text": "12",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Kymmenjalkaiset äyriäiset muodostavat yli 15 000 tunnetun lajin ryhmän, johon kuuluvat ravut, hummerit, katkaravut ja taskuravut. Usein kaksi jaloista on kehittynyt saksiksi."
   },
   {
     "question": "Mikä on Uuden-Seelannin pääkaupunki?",
@@ -10673,7 +11288,9 @@ const kaikkiKysymykset = [
         "text": "Sydney",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Wellington on maailman eteläisin pääkaupunki. Kaupunki tunnetaan myös voimakkaista tuulistaan ja lempinimestä 'Windy Wellington' sekä siitä, että se on Taru sormusten herrasta -elokuvien tuotantoyhtiö Weta Workshopin kotikaupunki."
   },
   {
     "question": "Mikä on ensimmäinen Disneyn tuottama pitkä animaatioelokuva (1937)?",
@@ -10695,7 +11312,9 @@ const kaikkiKysymykset = [
         "text": "Bambi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Lumikki ja seitsemän kääpiötä oli niin riskialtis hanke, että Hollywood-piirit kutsuivat sitä 'Disneyn hullutukseksi'. Elokuva kuitenkin tuotti valtavan voiton ja muutti animaation historiaa pysyvästi."
   },
   {
     "question": "Kenellä on miesten 100 metrin juoksun maailmanennätys?",
@@ -10717,7 +11336,9 @@ const kaikkiKysymykset = [
         "text": "Carl Lewis",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Urheilu",
+    "didYouKnow": "Usain Bolt juoksi sadan metrin maailmanennätyksen 9,58 sekuntia Berliinissä vuonna 2009. Hänen huippunopeutensa kilpailussa mitattiin olevan 44,72 km/h."
   },
   {
     "question": "Mikä on Suomen suurin saari merialueilla?",
@@ -10739,7 +11360,9 @@ const kaikkiKysymykset = [
         "text": "Särkisalo",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Ahvenanmanner on pinta-alaltaan noin 685 neliökilometriä ja samalla Itämeren suurimpia saaria. Ahvenanmaa on itsehallinnollinen ja ruotsinkielinen alue, jonka demilitarisoitu asema juontaa juurensa vuoteen 1856."
   },
   {
     "question": "Kuka oli Yhdistyneen kuningaskunnan ensimmäinen naispääministeri?",
@@ -10761,7 +11384,9 @@ const kaikkiKysymykset = [
         "text": "Angela Merkel",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Margaret Thatcher toimi pääministerinä vuosina 1979–1990 eli pisimpään 1900-luvulla. Hänet tunnettiin lempinimellä 'Rautarouva', jonka alun perin antoi neuvostoliittolainen lehdistö."
   },
   {
     "question": "Mikä on planeettamme ohuin kerros?",
@@ -10783,7 +11408,9 @@ const kaikkiKysymykset = [
         "text": "Sisäydin",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Maan kuori on valtamerillä vain 5–10 kilometriä paksu ja mantereilla 30–70 kilometriä. Se on suhteessa ohuempi kuin omenan kuori on omenaan nähden."
   },
   {
     "question": "Kuka maalasi teoksen 'Huuto'?",
@@ -10805,7 +11432,9 @@ const kaikkiKysymykset = [
         "text": "Pablo Picasso",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Taide",
+    "didYouKnow": "Edvard Munchin 'Huuto' on itse asiassa sarja neljää teosta, jotka hän maalasi vuosina 1893–1910. Munch kirjoitti päiväkirjaansa taulun inspiraatiosta: hän koki luonnon läpi käyvän 'äärettömän huudon'."
   },
   {
     "question": "Mikä seuraavista kielistä EI ole indoeurooppalainen kieli?",
@@ -10827,7 +11456,9 @@ const kaikkiKysymykset = [
         "text": "Venäjä",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kulttuuri",
+    "didYouKnow": "Suomi kuuluu uralilaiseen kieliperheeseen yhdessä viron ja unkarin kanssa. Tämä tekee suomesta rakenteellisesti hyvin erilaisen verrattuna naapurimaihin ruotsiin ja norjaan."
   },
   {
     "question": "Mikä on maailman suurin elossa oleva lintu?",
@@ -10849,7 +11480,9 @@ const kaikkiKysymykset = [
         "text": "Albatrossi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Strutsi voi painaa jopa 150 kiloa ja juosta yli 70 km/h, mikä tekee siitä nopeimman kaksijalkaisesti juoksevan eläimen maailmassa. Sen silmä on nisäkkään aivoja suurempi halkaisijaltaan."
   },
   {
     "question": "Kuka on kirjoittanut näytelmän 'Hamlet'?",
@@ -10871,7 +11504,9 @@ const kaikkiKysymykset = [
         "text": "Henrik Ibsen",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kirjallisuus",
+    "didYouKnow": "William Shakespeare kirjoitti Hamletin noin vuonna 1600, ja se on yksi maailman esitetyimmistä näytelmistä. Kuuluisa 'Ollako vai eikö olla' -monologi on kenties historian tunnetuin näytelmärepliikki."
   },
   {
     "question": "Minkä valuutan lyhenne on CHF?",
@@ -10893,7 +11528,9 @@ const kaikkiKysymykset = [
         "text": "Chilen peso",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "CHF tulee sanoista 'Confoederatio Helvetica Franc' – Helvetica on Sveitsin latinankielinen nimi. Sveitsin frangi on yksi maailman vakaimmista valuutoista ja toimii usein turvasatamana talouden epävarmuuden aikoina."
   },
   {
     "question": "Missä kaupungissa YK:n (Yhdistyneiden kansakuntien) päämaja sijaitsee?",
@@ -10915,7 +11552,9 @@ const kaikkiKysymykset = [
         "text": "Lontoo",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "YK:n päämaja sijaitsee Manhattanilla New Yorkissa alueella, joka on teknisesti kansainvälistä maaperää – se ei kuulu Yhdysvaltoihin. Rakennus valmistui vuonna 1952 ja sen tontin lahjoitti John D. Rockefeller Jr."
   },
   {
     "question": "Mitä alkuainetta on eniten auringossa?",
@@ -10937,7 +11576,9 @@ const kaikkiKysymykset = [
         "text": "Hiili",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Auringossa vety muuttuu heliumiksi fuusioreaktion kautta, ja tässä prosessissa vapautuu valtava määrä energiaa. Joka sekunti Aurinko muuttaa noin 600 miljoonaa tonnia vetyä heliumiksi."
   },
   {
     "question": "Mikä on Japanin korkein vuori?",
@@ -10959,7 +11600,9 @@ const kaikkiKysymykset = [
         "text": "Kilimanjaro",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Fuji-vuori kohoaa 3 776 metriin ja on Japanin pyhä symboli. Se on aktiivinen tulivuori, joka purkautui viimeksi vuonna 1707, ja sen huipulle kiipeää vuosittain noin 300 000 ihmistä."
   },
   {
     "question": "Kuka keksi radion (ja sai sille ensimmäisenä laajan patentin ja maineen)?",
@@ -10981,7 +11624,9 @@ const kaikkiKysymykset = [
         "text": "Nikola Tesla",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Guglielmo Marconi lähetti ensimmäisen langattoman sähkösanoman Atlantin yli vuonna 1901. Hän sai fysiikan Nobelin vuonna 1909 ja hänen keksintönsä pelasti ihmishenkiä muun muassa Titanicin uppoamisen yhteydessä."
   },
   {
     "question": "Mikä maa on voittanut jääkiekon miesten maailmanmestaruuden useimmin (tilanne 2024)?",
@@ -11003,7 +11648,9 @@ const kaikkiKysymykset = [
         "text": "Suomi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Kanada on voittanut jääkiekon MM-kultaa yli 25 kertaa, enemmän kuin mikään muu maa. Jääkiekko on Kanadassa niin tärkeä, että se on maan virallinen talviurheilulaji lailla säädettynä."
   },
   {
     "question": "Mikä on lääketieteellinen termi punasolulle?",
@@ -11025,7 +11672,9 @@ const kaikkiKysymykset = [
         "text": "Fagosyytti",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Erytrosyytti tulee kreikan sanoista 'erythros' (punainen) ja 'kytos' (solu). Ihmiskehossa on noin 25 biljoonaa punasolua, ja uusia syntyy noin 2,4 miljoonaa joka sekunti."
   },
   {
     "question": "Kuka lauloi hitin 'Rolling in the Deep'?",
@@ -11047,7 +11696,9 @@ const kaikkiKysymykset = [
         "text": "Rihanna",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Musiikki",
+    "didYouKnow": "Adelen albumi '21', jolla 'Rolling in the Deep' julkaistiin, myi yli 31 miljoonaa kopiota maailmanlaajuisesti. Hän oli vasta 21-vuotias levyttäessään albumin."
   },
   {
     "question": "Missä maassa järjestettiin vuoden 2022 jalkapallon miesten MM-kisat?",
@@ -11069,7 +11720,9 @@ const kaikkiKysymykset = [
         "text": "Saksa",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Urheilu",
+    "didYouKnow": "Qatar 2022 oli ensimmäiset talvella pelatut jalkapallon MM-kisat, sillä kesälämpötilat olisivat nousseet yli 40 asteeseen. Turnauksen finaalissa Argentiina voitti Ranskan rangaistuspotkukilpailussa."
   },
   {
     "question": "Mikä on Italian suurin saari?",
@@ -11091,7 +11744,9 @@ const kaikkiKysymykset = [
         "text": "Capri",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Sisilia on pinta-alaltaan noin 25 711 neliökilometriä ja samalla Välimeren suurin saari. Saarella sijaitsee Euroopan aktiivisin tulivuori Etna, joka kohoaa 3 357 metriin."
   },
   {
     "question": "Mikä eläin tunnettiin lempinimellä 'Moby Dick' Herman Melvillen romaanissa?",
@@ -11113,7 +11768,9 @@ const kaikkiKysymykset = [
         "text": "Mursu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Melvillen vuonna 1851 julkaisema romaani perustuu osin tositapahtumaan: valaanpyyntialus Essex upposi kaskelotin törmättyä siihen vuonna 1820. Romaani floppasi aluksi pahasti, mutta nousi klassikoksi vasta Melvillen kuoleman jälkeen."
   },
   {
     "question": "Mikä on neliöjuuri luvusta 81?",
@@ -11135,7 +11792,9 @@ const kaikkiKysymykset = [
         "text": "11",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Luku 81 on täydellinen neliö, joka saadaan kertomalla 9 × 9. Se on myös luku 3 potenssiin 4 (3⁴), mikä tekee siitä pienen potenssimatematiikan suosikkiesimerkin."
   },
   {
     "question": "Mikä on suosituin ohjelmointikieli web-selaimissa tapahtuvaan interaktiivisuuteen?",
@@ -11157,7 +11816,9 @@ const kaikkiKysymykset = [
         "text": "Java",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "JavaScript kehitettiin alun perin vain 10 päivässä vuonna 1995 Brendan Eichin toimesta Netscapella. Nimestään huolimatta sillä ei ole juuri mitään tekemistä Java-ohjelmointikielen kanssa – nimi valittiin markkinointisyistä."
   },
   {
     "question": "Kuinka monta pelaajaa on lentopallojoukkueella kentällä kerrallaan?",
@@ -11179,7 +11840,9 @@ const kaikkiKysymykset = [
         "text": "11",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Urheilu",
+    "didYouKnow": "Lentopallo keksittiin vuonna 1895 Yhdysvalloissa nimellä 'Mintonette'. Kuuden pelaajan joukkueet kiertävät kentällä myötäpäivään aina pallon vaihtuessa, mikä tekee pelistä taktisesti monipuolisen."
   },
   {
     "question": "Missä ihmiskehon osassa sijaitsee 'simpukka' (cochlea)?",
@@ -11201,7 +11864,9 @@ const kaikkiKysymykset = [
         "text": "Kurkussa",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Sisäkorvan simpukka on etanan muotoinen rakenne, joka on vain noin 9 millimetrin pituinen. Sen sisällä on noin 15 000 karvasolua, jotka muuttavat ääniaallot hermoimpulsseiksi."
   },
   {
     "question": "Kuka hallitsija rakennutti Versailles’n palatsin loistoonsa?",
@@ -11223,7 +11888,9 @@ const kaikkiKysymykset = [
         "text": "Ludvig XVI",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Ludvig XIV eli Aurinkokuningas rakennutti Versailles'n palatsin politiikan välineeksi – aateliset pakotettiin asumaan siellä, jotta kuningas pystyi valvomaan heitä. Palatsin peilikäytävässä on 357 peiliä ja se oli aikansa teknologinen ihme."
   },
   {
     "question": "Mikä on pisin matka, jonka perhonen (Monarkkiperhonen) voi vaeltaa?",
@@ -11245,7 +11912,9 @@ const kaikkiKysymykset = [
         "text": "1000 km",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Monarkkiperhonen vaeltaa jopa yli 4 000 kilometriä Kanadasta Meksikoon joka syksy. Matka kestää useita sukupolvia – yksikään perhonen ei tee koko matkaa edestakaisin."
   },
   {
     "question": "Minkä maalainen automerkki on Volvo?",
@@ -11267,7 +11936,9 @@ const kaikkiKysymykset = [
         "text": "Italialainen",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Volvo perustettiin Göteborgissa vuonna 1927, ja sen nimi tarkoittaa latinaksi 'minä vierin'. Yhtiö kehitti kolmipisteturvavyön vuonna 1959 ja avasi patentin kaikille – päätös, joka on pelastanut miljoonia ihmishenkiä."
   },
   {
     "question": "Mikä hahmo asuu osoitteessa Privet Drive 4?",
@@ -11289,7 +11960,9 @@ const kaikkiKysymykset = [
         "text": "Frodo Reppuli",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "J.K. Rowling keksi Harry Potterin junamatkan aikana vuonna 1990. Privet Drive 4 on Dursleyn perheen koti Little Whingingissä, jossa Harry vietti lapsuutensa portaiden alla olevassa komerossa."
   },
   {
     "question": "Minkä niminen on Piippolan vaari englanninkielisessä alkuperäisversiossa?",
@@ -11311,7 +11984,9 @@ const kaikkiKysymykset = [
         "text": "Grandpa Joe",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kulttuuri",
+    "didYouKnow": "Old MacDonald Had a Farm on yksi englanninkielisen maailman tunnetuimmista lastenlauluista, ja sen juuret ulottuvat 1700-luvulle. Suomessa laulu tunnetaan nimellä 'Piippolan vaari', ja kummassakin versiossa eläimet pitävät ääntä maatilalla."
   },
   {
     "question": "Mikä on suurin yksinumeroinen alkuluku?",
@@ -11333,7 +12008,9 @@ const kaikkiKysymykset = [
         "text": "1",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Alkuluvut ovat lukuja, jotka ovat jaollisia vain ykkösellä ja itsellään. Yksinumeroisista luvuista alkulukuja ovat 2, 3, 5 ja 7, joista suurin on seitsemän."
   },
   {
     "question": "Mihin uskontoon kuuluu käsite 'Karma' ja 'Nirvana' voimakkaimmin?",
@@ -11355,7 +12032,9 @@ const kaikkiKysymykset = [
         "text": "Juutalaisuus",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kulttuuri",
+    "didYouKnow": "Buddhalaisuudessa karma tarkoittaa tekojen seurausten lakia ja nirvana kärsimyksen loppumista. Buddha eli Siddhartha Gautama eli noin 500 vuotta ennen ajanlaskumme alkua Nepalissa ja Intiassa."
   },
   {
     "question": "Kuka ohjasi elokuvan 'Inception' (2010)?",
@@ -11377,7 +12056,9 @@ const kaikkiKysymykset = [
         "text": "Steven Spielberg",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Christopher Nolan kirjoitti Inception-käsikirjoitusta lähes kymmenen vuotta ennen kuin se toteutettiin. Elokuvan kuuluisa käytäväkohtaus kuvattiin pyörivässä lavasterakenteessa ilman tietokonetehosteita."
   },
   {
     "question": "Mikä on ainoa nisäkäs, joka osaa lentää aktiivisesti?",
@@ -11399,7 +12080,9 @@ const kaikkiKysymykset = [
         "text": "Nokkaeläin",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Lepakot muodostavat noin neljänneksen kaikista nisäkäslajeista – niitä tunnetaan yli 1 400 lajia. Ne navigoivat pimeässä kaikuluotauksen avulla ja voivat syödä jopa tuhansia hyönteisiä yhdessä yössä."
   },
   {
     "question": "Mikä kaupunki on tunnettu 'Iso Omena' (The Big Apple) -lempinimestään?",
@@ -11421,7 +12104,9 @@ const kaikkiKysymykset = [
         "text": "Pariisi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "New Yorkin lempinimi 'Big Apple' yleistyi 1920-luvulla, kun urheilutoimittaja John J. Fitz Gerald käytti sitä viittaamaan kaupungin hevoskilpailupalkintoihin. Kaupungissa puhutaan yli 800 eri kieltä."
   },
   {
     "question": "Mikä maa voitti koripallon miesten maailmanmestaruuden vuonna 2023?",
@@ -11443,7 +12128,9 @@ const kaikkiKysymykset = [
         "text": "Ranska",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Urheilu",
+    "didYouKnow": "Saksa voitti ensimmäisen koripallon maailmanmestaruutensa vuonna 2023 Filippiineillä kaatamalla finaalisssa Serbian. Voitto oli historiallinen yllätys, sillä Saksa ei ollut aiemmin koskaan yltänyt edes mitalisijoille."
   },
   {
     "question": "Mikä on 'katakana' ja 'hiragana'?",
@@ -11465,7 +12152,9 @@ const kaikkiKysymykset = [
         "text": "Tee-laatuja",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kulttuuri",
+    "didYouKnow": "Japanissa käytetään kolmea eri kirjoitusjärjestelmää rinnakkain: hiraganaa, katakanaa ja kanjia. Hiragana ja katakana ovat tavukirjoituksia, joissa kummassakin on 46 perusmerkkiä."
   },
   {
     "question": "Minä vuonna upposi autolautta M/S Estonia?",
@@ -11487,7 +12176,9 @@ const kaikkiKysymykset = [
         "text": "2001",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "M/S Estonian uppoaminen syyskuussa 1994 oli Euroopan pahin rauhan ajan merionnettomuus – 852 ihmistä menehtyi. Lautta upposi Itämerellä matkalla Tallinnasta Tukholmaan myrskyävässä merenkäynnissä."
   },
   {
     "question": "Minkä värisessä paidassa Ranskan ympäriajon kokonaiskilpailun johtaja pyöräilee?",
@@ -11509,7 +12200,9 @@ const kaikkiKysymykset = [
         "text": "Valkoinen",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Urheilu",
+    "didYouKnow": "Tour de Francen keltainen paita eli 'maillot jaune' otettiin käyttöön vuonna 1919. Väri valittiin, koska kilpailua järjestävän L'Auto-lehden sivut olivat keltaista paperia."
   },
   {
     "question": "Mikä seuraavista on maailman eniten puhuttu kieli (jos lasketaan myös toisena kielenä puhuvat)?",
@@ -11531,7 +12224,9 @@ const kaikkiKysymykset = [
         "text": "Hindi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kulttuuri",
+    "didYouKnow": "Englantia puhuu äidinkielenään noin 400 miljoonaa ihmistä, mutta toisena kielenä sitä puhuu yli miljardi. Yhteensä se on maailman eniten puhuttu kieli noin 1,5 miljardilla puhujallaan."
   },
   {
     "question": "Mikä maa on Brasilian pääkaupunki?",
@@ -11553,7 +12248,9 @@ const kaikkiKysymykset = [
         "text": "Salvador",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Brasília rakennettiin tyhjästä vain 41 kuukaudessa 1950–1960-luvuilla ja suunniteltiin lentokoneen muotoiseksi ylhäältä katsottuna. Se korvasi Rio de Janeiron pääkaupunkina vuonna 1960."
   },
   {
     "question": "Mikä on videopelisarja The Legend of Zeldan päähenkilön nimi?",
@@ -11575,7 +12272,9 @@ const kaikkiKysymykset = [
         "text": "Luigi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "Monet luulevat päähenkilön nimeksi Zeldaa, mutta pelaajan ohjaama hahmo on Link – vihreään tunikaan pukeutunut sankari. Zelda on pelin prinsessan nimi, ja sarja on jatkunut vuodesta 1986 yli 30 pelillä."
   },
   {
     "question": "Mitä kaasua kasvit sitovat ilmasta fotosynteesin (yhteyttämisen) aikana?",
@@ -11597,7 +12296,9 @@ const kaikkiKysymykset = [
         "text": "Vetyä",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Kasvit sitovat hiilidioksidia ja muuttavat sen auringonvalon avulla sokeriksi ja hapeksi. Yksi suuri puu voi sitoa ilmasta noin 22 kiloa hiilidioksidia vuodessa ja tuottaa saman verran happea kuin kaksi ihmistä tarvitsee vuodessa."
   },
   {
     "question": "Minä vuonna Suomi liittyi Euroopan unioniin (EU)?",
@@ -11619,7 +12320,9 @@ const kaikkiKysymykset = [
         "text": "2002",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Suomi liittyi EU:hun vuonna 1995 yhdessä Ruotsin ja Itävallan kanssa. Kansanäänestyksessä 57 % suomalaisista äänesti jäsenyyden puolesta."
   },
   {
     "question": "Mikä on maailman pienin valtameri?",
@@ -11641,7 +12344,9 @@ const kaikkiKysymykset = [
         "text": "Eteläinen jäämeri",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Pohjoinen jäämeri on maailman pienin ja matalin valtameri, pinta-alaltaan noin 14 miljoonaa km². Se on suurimmaksi osaksi jään peittämä ja ilmastonmuutos vaikuttaa siihen voimakkaimmin!",
+    "category": "Maantieto"
   },
   {
     "question": "Kuka maalasi kuuluisan taulun 'Venuksen syntymä'?",
@@ -11663,7 +12368,9 @@ const kaikkiKysymykset = [
         "text": "Rafael",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Taide",
+    "didYouKnow": "Sandro Botticellin 'Venuksen syntymä' maalattiin noin vuonna 1485 ja kuvaa jumalatar Venuksen saapumista rantaan simpukankuoressa. Teos on yksi Italian renessanssin tunnetuimmista maalauksista ja se on esillä Uffizin galleriassa Firenzessä."
   },
   {
     "question": "Kuka keksijä tunnetaan erityisesti vaihtovirran (AC) kehittämisestä?",
@@ -11685,7 +12392,9 @@ const kaikkiKysymykset = [
         "text": "James Watt",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Nikola Tesla ja Thomas Edison kävivät kuuluisan 'virtasodan' vaihtovirran ja tasavirran paremmuudesta 1880-luvulla. Teslan vaihtovirta voitti lopulta, ja se on nykyään kaikkialla käytetty sähkönjakelun muoto."
   },
   {
     "question": "Mikä on Harry Potterin omistaman tunturipöllön nimi?",
@@ -11707,7 +12416,9 @@ const kaikkiKysymykset = [
         "text": "Koukkujalka",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Hedwig on lumipöllö, jonka Harry sai 11-vuotislahjaksi Rubeus Hagridilta. J.K. Rowling nimesi pöllön keskiaikaisen pyhimyksen Pyhän Hedwigin mukaan."
   },
   {
     "question": "Kuinka monta kieltä on perinteisessä akustisessa kitarassa?",
@@ -11729,7 +12440,9 @@ const kaikkiKysymykset = [
         "text": "12",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Musiikki",
+    "didYouKnow": "Kitaran kuusi kieltä viritetään standardisti säveliin E-A-D-G-H-E (matalimmasta korkeimpaan). Nylonkieliset klassisen kitaran kielet olivat alun perin lampaansuolesta valmistettuja."
   },
   {
     "question": "Mikä on lyijyn kemiallinen merkki?",
@@ -11751,7 +12464,9 @@ const kaikkiKysymykset = [
         "text": "Pt",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Lyijyn kemiallinen merkki Pb tulee latinan sanasta 'plumbum', josta myös englannin sana 'plumber' (putkimies) juontuu. Roomalaiset rakensivat vesijohtonsa lyijyputkista."
   },
   {
     "question": "Mikä on ihmiskehon pienin luu?",
@@ -11773,7 +12488,9 @@ const kaikkiKysymykset = [
         "text": "Sormiluu",
         "isCorrect": false
       }
-    ]
+    ],
+    "didYouKnow": "Jalustinluu sijaitsee keskikorvassa ja on vain noin 2,8 millimetriä pitkä.",
+    "category": "Tiede"
   },
   {
     "question": "Minä vuonna ensimmäinen maailmansota alkoi?",
@@ -11795,7 +12512,9 @@ const kaikkiKysymykset = [
         "text": "1939",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Ensimmäinen maailmansota syttyi vuonna 1914, kun Itävalta-Unkarin arkkiherttua Franz Ferdinand murhattiin Sarajevossa. Sota kesti neljä vuotta ja siihen osallistui yli 30 maata."
   },
   {
     "question": "Mikä seuraavista on falafelin pääraaka-aine?",
@@ -11817,7 +12536,9 @@ const kaikkiKysymykset = [
         "text": "Soijapapu",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Falafel valmistetaan jauhetuista kikherneistä (tai härkäpavuista) ja se on Lähi-idän keittiön klassikko. Kikherneitä on viljelty yli 7 000 vuotta, ja ne ovat yksi maailman vanhimmista viljelykasveista."
   },
   {
     "question": "Kuka on kirjoittanut romaanin 'Ylpeys ja ennakkoluulo' (Pride and Prejudice)?",
@@ -11839,7 +12560,9 @@ const kaikkiKysymykset = [
         "text": "Mary Shelley",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kirjallisuus",
+    "didYouKnow": "Jane Austen kirjoitti Ylpeyden ja ennakkoluulon alun perin nimellä 'First Impressions' jo 21-vuotiaana vuonna 1797. Romaani julkaistiin nimettömänä vuonna 1813, ja se on yhä yksi englannin kielen luetuimmista kirjoista."
   },
   {
     "question": "Mikä on Australian kansalliseläin (ja esiintyy maan vaakunassa emun kanssa)?",
@@ -11861,7 +12584,9 @@ const kaikkiKysymykset = [
         "text": "Dingo",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Kenguru ja emu valittiin Australian vaakunaan, koska kumpikaan ei fyysisesti pysty kävelemään taaksepäin – symboloiden kansakunnan eteenpäin kulkemista. Australiassa on enemmän kenguruja kuin ihmisiä – noin 50 miljoonaa."
   },
   {
     "question": "Mikä on Intian rahayksikkö?",
@@ -11883,7 +12608,9 @@ const kaikkiKysymykset = [
         "text": "Yuan",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Intian rupia saa nimensä sanskritin sanasta 'rūpya', joka tarkoittaa hopearahaa. Vuonna 2010 rupia sai oman valuuttasymbolin ₹, joka muistuttaa devanagariaakkosten ra-kirjainta."
   },
   {
     "question": "Kuka oli ensimmäinen ihminen, joka astui Kuun pinnalle?",
@@ -11905,7 +12632,9 @@ const kaikkiKysymykset = [
         "text": "Michael Collins",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Neil Armstrong astui Kuun pinnalle 20. heinäkuuta 1969 Apollo 11 -lennolla ja lausui kuuluisat sanansa: 'Pieni askel ihmiselle, suuri harppaus ihmiskunnalle.' Hänen jalanjälkensä ovat yhä Kuun pinnalla, sillä siellä ei ole tuulta eikä eroosiota."
   },
   {
     "question": "Mikä on maailman syvin tunnettu valtameren kohta?",
@@ -11927,7 +12656,9 @@ const kaikkiKysymykset = [
         "text": "Filippiinien hauta",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Mariaanien hauta Tyynellämerellä on noin 11 034 metriä syvä – sinne mahtuisi Mount Everest kokonaan ja vielä jäisi yli kilometri vettä päälle. Vuonna 1960 Jacques Piccard ja Don Walsh sukelsivat ensimmäisinä sen pohjalle."
   },
   {
     "question": "Mikä elokuva on kaikkien aikojen eniten lipputuloja tuottanut elokuva (tilanne 2024)?",
@@ -11949,7 +12680,9 @@ const kaikkiKysymykset = [
         "text": "Star Wars: The Force Awakens",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "James Cameronin ohjaama Avatar (2009) on tuottanut yli 2,9 miljardia dollaria lipputuloja maailmanlaajuisesti. Cameron pitää hallussaan myös kakkossijaa elokuvalla Titanic."
   },
   {
     "question": "Mistä sanoista lyhenne 'HTML' tulee?",
@@ -11971,7 +12704,9 @@ const kaikkiKysymykset = [
         "text": "Home Tool Markup Language",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Teknologia",
+    "didYouKnow": "HyperText Markup Language eli HTML loi Tim Berners-Lee vuonna 1991 CERNissä. Se on jokaisen verkkosivun perusta ja mahdollistaa tekstin, kuvien ja linkkien esittämisen selaimessa."
   },
   {
     "question": "Mikä on Japanin perinteinen kansallisurheilulaji?",
@@ -11993,7 +12728,9 @@ const kaikkiKysymykset = [
         "text": "Kendo",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Sumopainin historia Japanissa ulottuu yli 1 500 vuoden taakse, ja se oli alun perin shintolaisuuteen liittyvä uskonnollinen rituaali. Ylimmän tason sumopainijat eli yokozunat nauttivat Japanissa lähes pyhää arvostusta."
   },
   {
     "question": "Kuinka monta sydänkammiota on ihmisen sydämessä?",
@@ -12015,7 +12752,9 @@ const kaikkiKysymykset = [
         "text": "Kuusi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Ihmisen sydämessä on neljä kammiota: kaksi eteistä ja kaksi kammiota. Sydän lyö keskimäärin noin 100 000 kertaa vuorokaudessa ja pumppaa yli 7 000 litraa verta päivässä."
   },
   {
     "question": "Kuka hollantilainen mestari maalasi teoksen 'Yövartio' (The Night Watch)?",
@@ -12037,7 +12776,9 @@ const kaikkiKysymykset = [
         "text": "Hieronymus Bosch",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Rembrandtin Yövartio on valtava maalaus – 3,6 × 4,4 metriä – ja se on Rijksmuseumin tunnetuin teos Amsterdamissa. Nimestään huolimatta teos kuvaa itse asiassa päivänvalossa tapahtuvaa kohtausta."
   },
   {
     "question": "Mikä on Etelä-Korean pääkaupunki?",
@@ -12059,7 +12800,9 @@ const kaikkiKysymykset = [
         "text": "Busan",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Soulissa asuu noin 10 miljoonaa ihmistä ja sen metropolialueella peräti 25 miljoonaa – lähes puolet koko Etelä-Korean väestöstä. Kaupunki on K-pop-kulttuurin, teknologiajättien ja yli 600 vuotta vanhan historian kohtauspaikka."
   },
   {
     "question": "Mikä eläin on kansainvälisen luonnonsuojelujärjestö WWF:n logossa?",
@@ -12081,7 +12824,9 @@ const kaikkiKysymykset = [
         "text": "Tiikeri",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "WWF:n panda-logo suunniteltiin vuonna 1961, ja yhtenä inspiraationa toimi Lontoon eläintarhan jättiläispanda Chi-Chi. Jättiläispandoja elää luonnossa nykyään noin 1 800 yksilöä, ja niiden suojelutoimet ovat yksi luonnonsuojelun menestystarimista."
   },
   {
     "question": "Mikä on pelon kohde ihmisellä, joka kärsii araknofobiasta?",
@@ -12103,7 +12848,9 @@ const kaikkiKysymykset = [
         "text": "Käärmeet",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Araknofobia eli hämähäkkipelko on yksi maailman yleisimmistä fobioista. Hämähäkkejä on löydetty jokaiselta mantereelta Antarktista lukuun ottamatta, ja ne ovat eläneet maapallolla yli 380 miljoonaa vuotta."
   },
   {
     "question": "Mikä on Mohsin asteikolla pehmein mineraali (saa arvon 1)?",
@@ -12125,7 +12872,9 @@ const kaikkiKysymykset = [
         "text": "Kvartsi",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Talkki on niin pehmeä, että sitä voi raapia pelkällä kynnellä. Mohsin kovuusasteikko ulottuu ykkösestä (talkki) kymmeneen (timantti), ja se kehitettiin vuonna 1812 mineraalien kovuuden vertailuun."
   },
   {
     "question": "Kuinka monta väriä on perinteisesti sateenkaaressa?",
@@ -12147,7 +12896,9 @@ const kaikkiKysymykset = [
         "text": "8",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Isaac Newton määritteli sateenkaaren seitsemän väriä 1600-luvulla: punainen, oranssi, keltainen, vihreä, sininen, indigo ja violetti. Todellisuudessa sateenkaari on jatkuva spektri, eikä värien välillä ole selkeitä rajoja."
   },
   {
     "question": "Kenen kirjoittama on klassikkoromaani 'Rikos ja rangaistus'?",
@@ -12169,7 +12920,9 @@ const kaikkiKysymykset = [
         "text": "Maksim Gorki",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Kirjallisuus",
+    "didYouKnow": "Fjodor Dostojevski kirjoitti Rikoksen ja rangaistuksen vuonna 1866, osittain velkojen painostamana tiukassa aikataulussa. Romaani tutkii syyllisyyttä ja moraalia niin syvällisesti, että se on yhä psykologisen kirjallisuuden kulmakivi."
   },
   {
     "question": "Minkä maan uskotaan olevan teen synnyinmaa?",
@@ -12191,7 +12944,9 @@ const kaikkiKysymykset = [
         "text": "Japani",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Kiinalaisen legendan mukaan tee keksittiin vahingossa vuonna 2737 eaa., kun tuulenpuuska pudotti teenlehtiä keisari Shen Nungin kuumaan veteen. Tee on nykyään maailman juoduin juoma veden jälkeen."
   },
   {
     "question": "Mikä on maailman suurin kalalaji?",
@@ -12213,7 +12968,9 @@ const kaikkiKysymykset = [
         "text": "Jättiläismanta",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Valashai voi kasvaa yli 12 metriä pitkäksi ja painaa yli 20 tonnia, mutta se on lempeä jättiläinen, joka syö planktonia suodattamalla vettä. Se on myös pitkäikäinen – yksilöt voivat elää yli 100 vuotta."
   },
   {
     "question": "Minä vuonna Neuvostoliitto hajosi ja kylmä sota päättyi virallisesti?",
@@ -12235,7 +12992,9 @@ const kaikkiKysymykset = [
         "text": "1985",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Neuvostoliitto hajosi virallisesti 26. joulukuuta 1991, ja 15 uutta itsenäistä valtiota syntyi. Kylmä sota oli kestänyt lähes puoli vuosisataa ja jakanut maailman kahteen leiriin."
   },
   {
     "question": "Missä Celsius-asteikon lämpötilassa vesi on tiheimmillään?",
@@ -12257,7 +13016,9 @@ const kaikkiKysymykset = [
         "text": "-4 °C",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Vesi käyttäytyy poikkeuksellisesti: useimmat aineet tihenevät jäähtyessään, mutta vesi saavuttaa suurimman tiheytensä +4 °C:ssa ja laajenee sen jälkeen. Tämä ilmiö mahdollistaa elämän järvien pohjissa talvella, koska jää kelluu pinnalla."
   },
   {
     "question": "Mistä aineesta suklaa pääasiassa valmistetaan?",
@@ -12279,7 +13040,9 @@ const kaikkiKysymykset = [
         "text": "Sokeriruo'osta",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Kaakaopuu tuottaa suuria hedelmiä, joiden sisällä on 30–50 kaakaopapua. Yhden suklaalevyn valmistamiseen tarvitaan noin 400 papua, ja suurin osa maailman kaakaosta tuotetaan Länsi-Afrikassa."
   },
   {
     "question": "Mikä shakkipeliin kuuluva nappula liikkuu laudalla L-kirjaimen muotoisesti?",
@@ -12301,7 +13064,9 @@ const kaikkiKysymykset = [
         "text": "Sotilas",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Ratsu on ainoa shakkinappula, joka voi hypätä muiden nappuloiden yli. Se liikkuu kaksi ruutua yhteen suuntaan ja yhden sivulle, muodostaen L-kirjaimen muotoisen reitin."
   },
   {
     "question": "Mikä on maapallon toiseksi suurin valtio pinta-alaltaan?",
@@ -12323,7 +13088,9 @@ const kaikkiKysymykset = [
         "text": "Brasilia",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Kanada on pinta-alaltaan noin 10 miljoonaa neliökilometriä, mutta sen väestötiheys on vain 4 asukasta neliökilometriä kohden. Maassa on enemmän järviä kuin kaikissa muissa maailman maissa yhteensä."
   },
   {
     "question": "Mikä on kuuluisan ranskalaisen kuvanveistäjän Auguste Rodinin tunnetuin teos?",
@@ -12345,7 +13112,9 @@ const kaikkiKysymykset = [
         "text": "Pieta",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Rodinin Ajattelija valmistui alun perin vuonna 1904 osana suurempaa 'Helvetin portit' -teosta. Pronssiveistos kuvaa miestä syvissä mietteissä, ja siitä on tehty yli 20 täysikokoista valosta eri puolille maailmaa."
   },
   {
     "question": "Mikä on Portugalin pääkaupunki?",
@@ -12367,7 +13136,9 @@ const kaikkiKysymykset = [
         "text": "Madrid",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Lissabon on yksi Euroopan vanhimmista pääkaupungeista – vanhempi kuin Rooma tai Pariisi. Vuonna 1755 kaupunkia kohtasi tuhoisa maanjäristys, tsunami ja tulipalo, jotka tuhosivat suuren osan kaupungista."
   },
   {
     "question": "Mikä on suurin nykyisin elävä kädellinen?",
@@ -12389,7 +13160,9 @@ const kaikkiKysymykset = [
         "text": "Paviaani",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Yleistieto",
+    "didYouKnow": "Gorillan uros voi painaa jopa 200 kiloa ja sillä on lähes kymmenkertainen voima ihmiseen verrattuna. Tästä huolimatta gorillat ovat luonteeltaan rauhallisia kasvissyöjiä, jotka elävät Afrikan sademetsien perheryhminä."
   },
   {
     "question": "Kuka ohjasi elokuvasarjan 'Tähtien sota' (Star Wars) episodit I-III (esiosat)?",
@@ -12411,7 +13184,9 @@ const kaikkiKysymykset = [
         "text": "Peter Jackson",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Viihde",
+    "didYouKnow": "George Lucas palasi ohjaamaan Tähtien sodan esitrilogian lähes 20 vuoden tauon jälkeen. Episodi I: Pimeä uhka (1999) oli tuollaan yksi eniten lipputuloja tuottaneista elokuvista."
   },
   {
     "question": "Minkä valtion lippu on maailman ainoa, joka ei ole suorakulmion tai neliön muotoinen?",
@@ -12433,7 +13208,9 @@ const kaikkiKysymykset = [
         "text": "Sri Lanka",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Maantieto",
+    "didYouKnow": "Nepalin lippu koostuu kahdesta päällekkäisestä kolmiosta, jotka symboloivat Himalajan vuoristoa sekä hinduismin ja buddhalaisuuden rinnakkaineloa. Se on maailman ainoa ei-suorakulmion muotoinen kansallislippu."
   },
   {
     "question": "Mikä elin puhdistaa ihmisen verestä kuona-aineita virtsaksi?",
@@ -12455,7 +13232,9 @@ const kaikkiKysymykset = [
         "text": "Perna",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Munuaiset suodattavat noin 180 litraa verta vuorokaudessa, mutta lopullista virtsaa syntyy vain 1–2 litraa. Kummassakin munuaisessa on noin miljoona pientä suodatusyksikköä eli nefronia."
   },
   {
     "question": "Mikä yhtye teki läpimurtonsa hitillä 'Smells Like Teen Spirit' vuonna 1991?",
@@ -12477,7 +13256,9 @@ const kaikkiKysymykset = [
         "text": "Soundgarden",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Nirvanan 'Smells Like Teen Spirit' mullisti rockmusiikin ja toi grungen valtavirtaan. Kappaleen nimi tuli deodoranttimerkistä – basistin Krist Novosehicin ystävä oli kirjoittanut seinään 'Kurt smells like Teen Spirit'."
   },
   {
     "question": "Minkä maalainen yritys on viihde-elektroniikkajätti Samsung?",
@@ -12499,7 +13280,9 @@ const kaikkiKysymykset = [
         "text": "Taiwan",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "Samsung perustettiin Etelä-Koreassa vuonna 1938 – alun perin kalankauppana ja nuudeliyrittäjänä. Nykyään se on monialayhtiö, joka tuottaa kaikkea puhelimista laivoihin ja vakuutuksiin."
   },
   {
     "question": "Mikä on shakin maailmanmestarin Magnus Carlsenin kotimaa?",
@@ -12521,7 +13304,9 @@ const kaikkiKysymykset = [
         "text": "Venäjä",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Urheilu",
+    "didYouKnow": "Norjalainen Magnus Carlsen oppi shakin 5-vuotiaana ja saavutti suurmestarin arvon vain 13-vuotiaana. Hän hallitsi shakin maailmanmestaruutta vuodesta 2013 vuoteen 2023."
   },
   {
     "question": "Mikä vitamiini tunnetaan myös nimellä askorbiinihappo?",
@@ -12543,7 +13328,9 @@ const kaikkiKysymykset = [
         "text": "E-vitamiini",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Tiede",
+    "didYouKnow": "C-vitamiini eli askorbiinihappo sai nimensä keripukista (scorbutus), jonka se ehkäisee – 'a-scorbutic' tarkoittaa 'ilman keripukkia'. Ihminen on yksi harvoista nisäkkäistä, joka ei pysty tuottamaan C-vitamiinia itse."
   },
   {
     "question": "Kuka oli Yhdysvaltain 16. presidentti, joka lakkautti orjuuden?",
@@ -12565,7 +13352,9 @@ const kaikkiKysymykset = [
         "text": "Theodore Roosevelt",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Historia",
+    "didYouKnow": "Abraham Lincoln julkaisi vapautusjulistuksen vuonna 1863, ja orjuus kiellettiin perustuslain 13. lisäyksellä vuonna 1865. Hän on ainoa Yhdysvaltain presidentti, jolla on patentti – hän suunnitteli järjestelmän veneiden nostamiseksi matalikoista."
   },
   {
     "question": "Mikä urheiluvälinejärjestelmä on nimeltään 'Hawk-Eye' (Haukansilmä)?",
@@ -12587,7 +13376,9 @@ const kaikkiKysymykset = [
         "text": "Golfin mailasensori",
         "isCorrect": false
       }
-    ]
+    ],
+    "category": "Luonto",
+    "didYouKnow": "Hawk-Eye käyttää useita kameroita ja kehittynyttä algoritmia pallon lentoradan seuraamiseen millimetrien tarkkuudella. Järjestelmä otettiin käyttöön tenniksessä vuonna 2006 ja sitä käytetään nykyään myös jalkapallossa, krikettissä ja muissa lajeissa."
   },
   {
     "question": "Mikä planeetta on Aurinkokuntamme suurin?",
