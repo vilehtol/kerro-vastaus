@@ -82,6 +82,17 @@ function markQuestionsAsSeen(questions) {
   } catch {}
 }
 
+// ---------- localStorage high scores ----------
+function getHighScore(count) {
+  try {
+    return parseInt(localStorage.getItem(`visa_high_${count}`)) || 0;
+  } catch { return 0; }
+}
+
+function setHighScore(count, score) {
+  try { localStorage.setItem(`visa_high_${count}`, score); } catch {}
+}
+
 function selectQuestionsByCategory(category) {
   if (!category || category === 'Kaikki') {
     return kaikkiKysymykset;
@@ -244,15 +255,44 @@ function showScore() {
   const pct = Math.round((score / total) * 100);
   
   let emoji = pct >= 90 ? '🏆' : pct >= 70 ? '🎉' : pct >= 50 ? '👍' : pct >= 30 ? '😅' : '💪';
+  const catLabel = valittuKategoria === 'Kaikki' ? '' : ` — ${valittuKategoria}`;
   
   questionElement.innerHTML = `
     <div class="result-emoji">${emoji}</div>
     <div class="result-score">${score} / ${total} oikein</div>
-    <div class="result-percent">${pct}%</div>
-    <div class="subtitle" style="margin-top:10px">${valittuKategoria}-visa</div>
+    <div class="result-percent">${pct}%${catLabel}</div>
   `;
 
-  if (shareButton) shareButton.style.display = 'block';
+  // High score check
+  const hsKey = `${valittuMaara}_${valittuKategoria}`;
+  const prev = getHighScore(hsKey);
+  if (score > prev) {
+    setHighScore(hsKey, score);
+    if (highScoreElement) {
+      highScoreElement.innerText = '🎖️ Uusi ennätys!';
+      highScoreElement.className = 'high-score new-record';
+      highScoreElement.style.display = 'block';
+    }
+  } else if (prev > 0 && highScoreElement) {
+    highScoreElement.innerText = `Ennätys: ${prev}/${valittuMaara}`;
+    highScoreElement.className = 'high-score';
+    highScoreElement.style.display = 'block';
+  }
+
+  // Share button (Web Share API)
+  if (navigator.share && shareButton) {
+    shareButton.style.display = 'block';
+    shareButton.onclick = async () => {
+      try {
+        await navigator.share({
+          title: 'Älypää-Visa tulos',
+          text: `Sain ${score}/${total} (${pct}%) Älypää-Visassa! Pystytkö parempaan? 🧠`,
+          url: window.location.href
+        });
+      } catch {}
+    };
+  }
+
   if (nextButton) {
     nextButton.innerText = '🔄 Pelaa uudelleen';
     nextButton.style.display = 'block';
@@ -264,5 +304,26 @@ function palaaAlkuvalikkoon() {
   quizBox.style.display = 'none';
   startScreen.style.display = 'block';
   if (shareButton) shareButton.style.display = 'none';
+  if (highScoreElement) highScoreElement.style.display = 'none';
   if (nextButton) nextButton.onclick = nextQuestion;
+  updateQuestionCount();
 }
+
+// ---------- Category question counter ----------
+function updateQuestionCount() {
+  const catSelect = document.getElementById('category-select');
+  const countEl = document.getElementById('question-count');
+  if (!catSelect || !countEl) return;
+  const cat = catSelect.value;
+  const pool = selectQuestionsByCategory(cat);
+  countEl.textContent = `${pool.length} kysymystä saatavilla`;
+}
+
+// Init category counter
+document.addEventListener('DOMContentLoaded', () => {
+  const catSelect = document.getElementById('category-select');
+  if (catSelect) {
+    catSelect.addEventListener('change', updateQuestionCount);
+    updateQuestionCount();
+  }
+});
