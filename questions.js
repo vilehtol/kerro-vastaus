@@ -1,4 +1,4 @@
-// ÄLYPÄÄ VISA v3.0 — 843 kysymystä, kaikissa didYouKnow
+// ÄLYPÄÄ VISA v3.1 — 1016 kysymystä, kaikissa didYouKnow
 const kaikkiKysymykset = [
   {
     "question": "Mikä on maan Ranska pääkaupunki?",
@@ -19701,6 +19701,3985 @@ const kaikkiKysymykset = [
       },
       {
         "text": "Naali",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä maa tunnetaan tangon kotimaana?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Tango syntyi 1800-luvun lopulla Buenos Airesin työläiskaupunginosissa. Se yhdisti vaikutteita afrikkalaisesta, eurooppalaisesta ja alkuperäiskansojen musiikista.",
+    "answerOptions": [
+      {
+        "text": "Brasilia",
+        "isCorrect": false
+      },
+      {
+        "text": "Argentiina",
+        "isCorrect": true
+      },
+      {
+        "text": "Espanja",
+        "isCorrect": false
+      },
+      {
+        "text": "Kuuba",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Japanin perinteinen teaseremonia nimeltään?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Chadō eli 'teen tie' on syvällinen kulttuuriperinne, jossa matcha-teen valmistaminen ja tarjoilu noudattaa tarkkoja rituaaleja. Seremonia korostaa harmoniaa, kunnioitusta, puhtautta ja hiljaisuutta.",
+    "answerOptions": [
+      {
+        "text": "Ikebana",
+        "isCorrect": false
+      },
+      {
+        "text": "Origami",
+        "isCorrect": false
+      },
+      {
+        "text": "Chadō",
+        "isCorrect": true
+      },
+      {
+        "text": "Kabuki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä maassa vietetään Dia de los Muertos -juhlaa?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Dia de los Muertos eli kuolleiden päivä on meksikolainen juhla, jossa muistetaan edesmenneitä läheisiä. UNESCO lisäsi sen aineettoman kulttuuriperinnön luetteloon vuonna 2008.",
+    "answerOptions": [
+      {
+        "text": "Peru",
+        "isCorrect": false
+      },
+      {
+        "text": "Kolumbia",
+        "isCorrect": false
+      },
+      {
+        "text": "Guatemala",
+        "isCorrect": false
+      },
+      {
+        "text": "Meksiko",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman vanhin edelleen toimiva yliopisto?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Al-Qarawiyyinin yliopisto Fessissä, Marokossa, perustettiin vuonna 859. Sen perusti Fatima al-Fihri, ja Guinnessin ennätystenkirja tunnustaa sen maailman vanhimmaksi edelleen toimivaksi oppilaitokseksi.",
+    "answerOptions": [
+      {
+        "text": "Bolognan yliopisto",
+        "isCorrect": false
+      },
+      {
+        "text": "Oxfordin yliopisto",
+        "isCorrect": false
+      },
+      {
+        "text": "Al-Qarawiyyinin yliopisto",
+        "isCorrect": true
+      },
+      {
+        "text": "Pariisin yliopisto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on suomalaisen saunakulttuurin UNESCO-status?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Suomalainen saunakulttuuri lisättiin UNESCOn aineettoman kulttuuriperinnön luetteloon vuonna 2020. Suomessa on arviolta yli kolme miljoonaa saunaa noin 5,5 miljoonan asukkaan maassa.",
+    "answerOptions": [
+      {
+        "text": "Maailmanperintökohde",
+        "isCorrect": false
+      },
+      {
+        "text": "Aineeton kulttuuriperintö",
+        "isCorrect": true
+      },
+      {
+        "text": "Ei UNESCO-statusta",
+        "isCorrect": false
+      },
+      {
+        "text": "Luonnonperintökohde",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä seuraavista on perinteinen inuiittien lumesta rakennettu asumus?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Iglu rakennetaan tiivistetystä lumesta ja se voi pitää sisälämpötilan jopa 16 celsiusastetta ulkolämpötilaa korkeampana pelkän ruumiinlämmön avulla.",
+    "answerOptions": [
+      {
+        "text": "Jurtta",
+        "isCorrect": false
+      },
+      {
+        "text": "Tepee",
+        "isCorrect": false
+      },
+      {
+        "text": "Iglu",
+        "isCorrect": true
+      },
+      {
+        "text": "Kota",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä maassa kehitettiin kirjoitusjärjestelmä nimeltä hangul?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Hangul-aakkoston loi Korean kuningas Sejong Suuri vuonna 1443. Se suunniteltiin tarkoituksella helpoksi oppia, jotta tavallinen kansa voisi lukea ja kirjoittaa.",
+    "answerOptions": [
+      {
+        "text": "Japani",
+        "isCorrect": false
+      },
+      {
+        "text": "Etelä-Korea",
+        "isCorrect": true
+      },
+      {
+        "text": "Kiina",
+        "isCorrect": false
+      },
+      {
+        "text": "Vietnam",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Intian tunnetuin klassinen tanssityyli Etelä-Intiasta?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Bharatanatyam on yli 2000 vuotta vanha tanssiperinne Tamil Nadusta. Se yhdistää rytmikkään jalkatyöskentelyn, käsieleet ja ilmaisuvoimaiset kasvojen liikkeet tarinankerrontaan.",
+    "answerOptions": [
+      {
+        "text": "Kathak",
+        "isCorrect": false
+      },
+      {
+        "text": "Bharatanatyam",
+        "isCorrect": true
+      },
+      {
+        "text": "Odissi",
+        "isCorrect": false
+      },
+      {
+        "text": "Kuchipudi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka sävelsi teoksen 'Neljä vuodenaikaa'?",
+    "category": "Musiikki",
+    "didYouKnow": "Vivaldin 'Neljä vuodenaikaa' julkaistiin vuonna 1725 ja on yksi tunnetuimmista barokkimusiikin teoksista. Jokainen konsertto kuvaa yhtä vuodenaikaa ja sisältää runollisen sonetin.",
+    "answerOptions": [
+      {
+        "text": "Johann Sebastian Bach",
+        "isCorrect": false
+      },
+      {
+        "text": "Antonio Vivaldi",
+        "isCorrect": true
+      },
+      {
+        "text": "Wolfgang Amadeus Mozart",
+        "isCorrect": false
+      },
+      {
+        "text": "Ludwig van Beethoven",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä soitin on ukulele?",
+    "category": "Musiikki",
+    "didYouKnow": "Ukulele on alun perin Havaijilta kotoisin oleva nelikielinen soitin, joka kehittyi portugalilaisten siirtolaisten tuomasta machete-soittimesta 1880-luvulla.",
+    "answerOptions": [
+      {
+        "text": "Lyömäsoitin",
+        "isCorrect": false
+      },
+      {
+        "text": "Puhallinsoitin",
+        "isCorrect": false
+      },
+      {
+        "text": "Kielisoitin",
+        "isCorrect": true
+      },
+      {
+        "text": "Kosketinsoitin",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä musiikkityyli syntyi New Orleansin afroamerikkalaisessa yhteisössä 1900-luvun alussa?",
+    "category": "Musiikki",
+    "didYouKnow": "Jazz syntyi yhdistämällä blues-, ragtime- ja afrikkalaisia musiikkiperinteitä. Louis Armstrong oli yksi jazzin merkittävimmistä pioneereista ja popularisoi improvisaation solistisena taidemuotona.",
+    "answerOptions": [
+      {
+        "text": "Rock",
+        "isCorrect": false
+      },
+      {
+        "text": "Jazz",
+        "isCorrect": true
+      },
+      {
+        "text": "Country",
+        "isCorrect": false
+      },
+      {
+        "text": "Punk",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta kieltä on tavallisessa pianossa?",
+    "category": "Musiikki",
+    "didYouKnow": "Vaikka pianossa on 88 kosketinta, siinä on noin 230 kieltä, koska useimmat nuotit käyttävät kahta tai kolmea kieltä rikkaaman äänen tuottamiseksi. Pianossa on yhteensä noin 12 000 osaa.",
+    "answerOptions": [
+      {
+        "text": "88",
+        "isCorrect": false
+      },
+      {
+        "text": "176",
+        "isCorrect": false
+      },
+      {
+        "text": "Noin 230",
+        "isCorrect": true
+      },
+      {
+        "text": "64",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on Suomen tunnetuin kapellimestari kansainvälisesti?",
+    "category": "Musiikki",
+    "didYouKnow": "Esa-Pekka Salonen toimi Los Angelesin filharmonikkojen musiikkijohtajana 17 vuotta ja on myös arvostettu säveltäjä. Hän on voittanut useita Grammy-palkintoja.",
+    "answerOptions": [
+      {
+        "text": "Leif Segerstam",
+        "isCorrect": false
+      },
+      {
+        "text": "Jukka-Pekka Saraste",
+        "isCorrect": false
+      },
+      {
+        "text": "Osmo Vänskä",
+        "isCorrect": false
+      },
+      {
+        "text": "Esa-Pekka Salonen",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman myydyin single kautta aikojen?",
+    "category": "Musiikki",
+    "didYouKnow": "Bing Crosbyn 'White Christmas' on myynyt arviolta yli 50 miljoonaa kopiota maailmanlaajuisesti. Se levytettiin vuonna 1942 ja on pysynyt joulun klassikkona yli 80 vuotta.",
+    "answerOptions": [
+      {
+        "text": "Bohemian Rhapsody – Queen",
+        "isCorrect": false
+      },
+      {
+        "text": "White Christmas – Bing Crosby",
+        "isCorrect": true
+      },
+      {
+        "text": "Imagine – John Lennon",
+        "isCorrect": false
+      },
+      {
+        "text": "Like a Rolling Stone – Bob Dylan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä soitin tunnetaan myös nimellä 'pilli' Irlannin perinnemusiikissa?",
+    "category": "Musiikki",
+    "didYouKnow": "Tin whistle eli pennywhistle on yksinkertainen metallinen puhallinsoitin, joka on irlantilaisen kansanmusiikin kulmakivi. Se on yksi maailman edullisimmista ja helpoimmin opittavista soittimista.",
+    "answerOptions": [
+      {
+        "text": "Tin whistle",
+        "isCorrect": true
+      },
+      {
+        "text": "Bodhrán",
+        "isCorrect": false
+      },
+      {
+        "text": "Fiddle",
+        "isCorrect": false
+      },
+      {
+        "text": "Concertina",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä eläin nukkuu keskimäärin 22 tuntia päivässä?",
+    "category": "Yleistieto",
+    "didYouKnow": "Koalat nukkuvat jopa 22 tuntia päivässä, koska eukalyptuslehtien sulattaminen vaatii valtavasti energiaa. Eukalyptus on myös myrkyllistä useimmille muille eläimille.",
+    "answerOptions": [
+      {
+        "text": "Laiskiainen",
+        "isCorrect": false
+      },
+      {
+        "text": "Koala",
+        "isCorrect": true
+      },
+      {
+        "text": "Kissa",
+        "isCorrect": false
+      },
+      {
+        "text": "Opossum",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta aikavyöhykettä Venäjällä on?",
+    "category": "Yleistieto",
+    "didYouKnow": "Venäjä ulottuu 11 aikavyöhykkeen yli, mikä tekee siitä maailman laajimman maan myös ajallisin mittarein. Kun Kaliningradissa on keskipäivä, Kamtšatkalla on jo myöhäinen ilta.",
+    "answerOptions": [
+      {
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "text": "11",
+        "isCorrect": true
+      },
+      {
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "text": "13",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta hammasta aikuisella ihmisellä on normaalisti?",
+    "category": "Yleistieto",
+    "didYouKnow": "Aikuisen täydellinen hampaisto koostuu 32 hampaasta, joihin kuuluu 4 viisaudenhammasta. Monet ihmiset eivät kuitenkaan koskaan saa kaikkia viisaudenhampaita.",
+    "answerOptions": [
+      {
+        "text": "28",
+        "isCorrect": false
+      },
+      {
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "text": "32",
+        "isCorrect": true
+      },
+      {
+        "text": "36",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä maa tunnetaan valkosipulista eniten?",
+    "category": "Yleistieto",
+    "didYouKnow": "Kiina tuottaa noin 75 % maailman valkosipulista. Valkosipulia on käytetty sekä ruoanlaitossa että lääkinnässä yli 5 000 vuoden ajan.",
+    "answerOptions": [
+      {
+        "text": "Italia",
+        "isCorrect": false
+      },
+      {
+        "text": "Espanja",
+        "isCorrect": false
+      },
+      {
+        "text": "Kiina",
+        "isCorrect": true
+      },
+      {
+        "text": "Intia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mistä maasta sushi on alun perin kotoisin?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Sushin alkuperäinen muoto, narezushi, kehitettiin Kaakkois-Aasiassa kalan säilöntämenetelmänä riisiin. Japaniin se saapui noin 700-luvulla, ja nykymuotoinen nigiri-sushi syntyi Tokiossa 1820-luvulla.",
+    "answerOptions": [
+      {
+        "text": "Japani",
+        "isCorrect": false
+      },
+      {
+        "text": "Kiina",
+        "isCorrect": false
+      },
+      {
+        "text": "Kaakkois-Aasia",
+        "isCorrect": true
+      },
+      {
+        "text": "Korea",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman kallein mauste painon mukaan?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Sahramin kerääminen on äärimmäisen työlästä: yhden kilon sahramia tuottamiseen tarvitaan noin 150 000–200 000 sahrami­kukan luottia. Sahrami voi maksaa jopa 30 000 euroa kilolta.",
+    "answerOptions": [
+      {
+        "text": "Vanilja",
+        "isCorrect": false
+      },
+      {
+        "text": "Kardemumma",
+        "isCorrect": false
+      },
+      {
+        "text": "Sahrami",
+        "isCorrect": true
+      },
+      {
+        "text": "Muskotin kukka",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mistä maasta croissant on alun perin peräisin?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Croissantin edeltäjä, kipferl, on itävaltalainen leivonnainen. Tarina kertoo, että puolikuun muotoinen leipä luotiin juhlistamaan Wienin voittoa ottomaanien piirityksestä vuonna 1683.",
+    "answerOptions": [
+      {
+        "text": "Ranska",
+        "isCorrect": false
+      },
+      {
+        "text": "Itävalta",
+        "isCorrect": true
+      },
+      {
+        "text": "Belgia",
+        "isCorrect": false
+      },
+      {
+        "text": "Sveitsi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä juusto tunnetaan maailman haisevimpana?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Vieux Boulogne on ranskalainen juusto, joka Cranfieldin yliopiston tutkimuksessa todettiin maailman haisevimmaksi juustoksi elektronisen nenän avulla. Sen kuori pestään oluen kanssa kypsytyksen aikana.",
+    "answerOptions": [
+      {
+        "text": "Roquefort",
+        "isCorrect": false
+      },
+      {
+        "text": "Limburger",
+        "isCorrect": false
+      },
+      {
+        "text": "Vieux Boulogne",
+        "isCorrect": true
+      },
+      {
+        "text": "Gorgonzola",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman vanhin tunnettu alkoholijuoma?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Sima eli mead on hunajasta käytetty alkoholijuoma, jonka juuret ulottuvat noin 9 000 vuoden taakse. Se oli suosittua muinaisissa kulttuureissa Kiinasta Pohjois-Eurooppaan.",
+    "answerOptions": [
+      {
+        "text": "Viini",
+        "isCorrect": false
+      },
+      {
+        "text": "Olut",
+        "isCorrect": false
+      },
+      {
+        "text": "Sima (mead)",
+        "isCorrect": true
+      },
+      {
+        "text": "Sake",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta Michelin-tähteä ravintola voi enimmillään saada?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Michelin-opas jakaa enintään kolme tähteä: yksi tähti tarkoittaa erinomaista ravintolaa, kaksi tähteä loistavaa keittiötä ja kolme tähteä poikkeuksellista ruokailukokemusta, jonka vuoksi kannattaa matkustaa.",
+    "answerOptions": [
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "text": "2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka maalasi teoksen 'Tähtikirkas yö' (The Starry Night)?",
+    "category": "Taide",
+    "didYouKnow": "Van Gogh maalasi Tähtikirkkaan yön vuonna 1889 ollessaan mielisairaalassa Saint-Rémy-de-Provencessa. Hän maalasi näkymän muistinvaraisesti ikkunastaan päiväsaikaan.",
+    "answerOptions": [
+      {
+        "text": "Claude Monet",
+        "isCorrect": false
+      },
+      {
+        "text": "Vincent van Gogh",
+        "isCorrect": true
+      },
+      {
+        "text": "Paul Cézanne",
+        "isCorrect": false
+      },
+      {
+        "text": "Edvard Munch",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä taidesuuntaus tunnetaan pistemäisistä siveltimenvedoista?",
+    "category": "Taide",
+    "didYouKnow": "Pointillismin kehittivät Georges Seurat ja Paul Signac 1880-luvulla. Tekniikassa kuva muodostuu pienistä erillisistä väripisteistä, jotka sekoittuvat katsojan silmässä.",
+    "answerOptions": [
+      {
+        "text": "Kubismi",
+        "isCorrect": false
+      },
+      {
+        "text": "Pointillismi",
+        "isCorrect": true
+      },
+      {
+        "text": "Impressionismi",
+        "isCorrect": false
+      },
+      {
+        "text": "Fauvismi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä museossa Mona Lisa sijaitsee?",
+    "category": "Taide",
+    "didYouKnow": "Mona Lisaa katsoo vuosittain noin 10 miljoonaa vierailijaa Louvressa. Teos on yllättävän pieni – vain 77 × 53 senttimetriä – ja se on suojattu luodinkestävällä lasilla.",
+    "answerOptions": [
+      {
+        "text": "Uffizi, Firenze",
+        "isCorrect": false
+      },
+      {
+        "text": "Prado, Madrid",
+        "isCorrect": false
+      },
+      {
+        "text": "Louvre, Pariisi",
+        "isCorrect": true
+      },
+      {
+        "text": "British Museum, Lontoo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka suomalainen taiteilija tunnetaan Kalevala-aiheisista maalauksistaan?",
+    "category": "Taide",
+    "didYouKnow": "Akseli Gallen-Kallelan Kalevala-aiheiset teokset, kuten Sammon puolustus ja Aino-triptyykki, ovat suomalaisen kansallisromantiikan merkkiteoksia. Hän suunnitteli myös Suomen ensimmäisiä postimerkkejä.",
+    "answerOptions": [
+      {
+        "text": "Helene Schjerfbeck",
+        "isCorrect": false
+      },
+      {
+        "text": "Akseli Gallen-Kallela",
+        "isCorrect": true
+      },
+      {
+        "text": "Albert Edelfelt",
+        "isCorrect": false
+      },
+      {
+        "text": "Hugo Simberg",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman suurin taidemuseo kokoelmien koon perusteella?",
+    "category": "Taide",
+    "didYouKnow": "Pietarin Eremitaaši sisältää yli kolme miljoonaa taideteosta ja kulttuuriesinettä. Jos käyttäisit 30 sekuntia jokaisen esineen katseluun, kestäisi yli kolme vuotta nähdä kaikki.",
+    "answerOptions": [
+      {
+        "text": "Metropolitan Museum of Art",
+        "isCorrect": false
+      },
+      {
+        "text": "Eremitaaši",
+        "isCorrect": true
+      },
+      {
+        "text": "Louvre",
+        "isCorrect": false
+      },
+      {
+        "text": "British Museum",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on origamin perusmateriaali?",
+    "category": "Taide",
+    "didYouKnow": "Origami on japanilainen paperintaittelun taidemuoto, jonka juuret ulottuvat 1600-luvulle. Nykyään origamin matemaattisia periaatteita hyödynnetään jopa avaruusteknologiassa aurinkopaneelien taittelussa.",
+    "answerOptions": [
+      {
+        "text": "Kangas",
+        "isCorrect": false
+      },
+      {
+        "text": "Paperi",
+        "isCorrect": true
+      },
+      {
+        "text": "Metalli",
+        "isCorrect": false
+      },
+      {
+        "text": "Nahka",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka kehitti ensimmäisen toimivan World Wide Web -selaimen?",
+    "category": "Teknologia",
+    "didYouKnow": "Tim Berners-Lee kehitti World Wide Webin CERNissä vuonna 1989. Ensimmäinen verkkosivu julkaistiin vuonna 1991, ja se kertoi itse WWW-projektista.",
+    "answerOptions": [
+      {
+        "text": "Marc Andreessen",
+        "isCorrect": false
+      },
+      {
+        "text": "Tim Berners-Lee",
+        "isCorrect": true
+      },
+      {
+        "text": "Vint Cerf",
+        "isCorrect": false
+      },
+      {
+        "text": "Bill Gates",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä oli ensimmäinen kaupallisesti menestynyt älypuhelin?",
+    "category": "Teknologia",
+    "didYouKnow": "Ensimmäinen iPhone julkaistiin 29. kesäkuuta 2007 ja se mullisti matkapuhelinteollisuuden kosketusnäytöllään. Ensimmäisen viikonlopun aikana myytiin noin 270 000 kappaletta.",
+    "answerOptions": [
+      {
+        "text": "Nokia 9000 Communicator",
+        "isCorrect": false
+      },
+      {
+        "text": "BlackBerry 850",
+        "isCorrect": false
+      },
+      {
+        "text": "iPhone",
+        "isCorrect": true
+      },
+      {
+        "text": "Palm Treo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä ohjelmointikieli on nimetty jaavalaisen kahvin mukaan?",
+    "category": "Teknologia",
+    "didYouKnow": "Java-ohjelmointikielen kehitti James Gosling Sun Microsystemsillä vuonna 1995. Sen alkuperäinen nimi oli Oak, mutta se muutettiin Javaksi, koska kehittäjät joivat paljon kahvia.",
+    "answerOptions": [
+      {
+        "text": "Python",
+        "isCorrect": false
+      },
+      {
+        "text": "Java",
+        "isCorrect": true
+      },
+      {
+        "text": "C++",
+        "isCorrect": false
+      },
+      {
+        "text": "Ruby",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Mooren laki?",
+    "category": "Teknologia",
+    "didYouKnow": "Gordon Moore esitti havaintonsa vuonna 1965, ja se on osoittautunut hämmästyttävän paikkansapitäväksi vuosikymmenten ajan. Lakia pidetään pikemminkin itsensä toteuttavana ennusteena kuin fysiikan lakina.",
+    "answerOptions": [
+      {
+        "text": "Datan määrä kaksinkertaistuu vuosittain",
+        "isCorrect": false
+      },
+      {
+        "text": "Transistorien määrä mikropiirillä kaksinkertaistuu noin kahden vuoden välein",
+        "isCorrect": true
+      },
+      {
+        "text": "Tietokoneen nopeus puolittuu joka viides vuosi",
+        "isCorrect": false
+      },
+      {
+        "text": "Akun kapasiteetti kolminkertaistuu joka vuosikymmen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä yritys valmisti ensimmäisen kaupallisen kvanttitietokoneen?",
+    "category": "Teknologia",
+    "didYouKnow": "Kanadalainen D-Wave Systems myi ensimmäisen kaupallisen kvanttitietokoneen vuonna 2011. Sen asiakkaita ovat olleet muun muassa NASA, Google ja Lockheed Martin.",
+    "answerOptions": [
+      {
+        "text": "IBM",
+        "isCorrect": false
+      },
+      {
+        "text": "Google",
+        "isCorrect": false
+      },
+      {
+        "text": "D-Wave",
+        "isCorrect": true
+      },
+      {
+        "text": "Microsoft",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä teknologiajätti perustettiin autotallissa Menlo Parkissa vuonna 1998?",
+    "category": "Teknologia",
+    "didYouKnow": "Larry Page ja Sergey Brin perustivat Googlen Stanfordin yliopiston jatko-opiskelijoina. Yrityksen ensimmäinen toimisto oli Susan Wojcickin autotalli, ja he maksoivat siitä 1 700 dollaria kuussa vuokraa.",
+    "answerOptions": [
+      {
+        "text": "Amazon",
+        "isCorrect": false
+      },
+      {
+        "text": "Facebook",
+        "isCorrect": false
+      },
+      {
+        "text": "Google",
+        "isCorrect": true
+      },
+      {
+        "text": "Apple",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka kirjoitti romaanin 'Sata vuotta yksinäisyyttä'?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Gabriel García Márquez sai Nobel-palkinnon kirjallisuudessa vuonna 1982. 'Sata vuotta yksinäisyyttä' on käännetty yli 40 kielelle ja myynyt yli 50 miljoonaa kappaletta.",
+    "answerOptions": [
+      {
+        "text": "Isabel Allende",
+        "isCorrect": false
+      },
+      {
+        "text": "Gabriel García Márquez",
+        "isCorrect": true
+      },
+      {
+        "text": "Jorge Luis Borges",
+        "isCorrect": false
+      },
+      {
+        "text": "Mario Vargas Llosa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka kirjoitti dystopiaromaanin '1984'?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "George Orwell kirjoitti '1984'-romaanin vuonna 1949. Kirjan käsitteet kuten 'Isoveli valvoo' ja 'uuskieli' ovat juurtuneet arkikieleen kuvaamaan valvontayhteiskuntaa ja manipulaatiota.",
+    "answerOptions": [
+      {
+        "text": "Aldous Huxley",
+        "isCorrect": false
+      },
+      {
+        "text": "Ray Bradbury",
+        "isCorrect": false
+      },
+      {
+        "text": "George Orwell",
+        "isCorrect": true
+      },
+      {
+        "text": "H.G. Wells",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman myydyin kirjasarja?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Harry Potter -kirjasarja on myynyt yli 500 miljoonaa kappaletta maailmanlaajuisesti ja se on käännetty yli 80 kielelle. J.K. Rowling kirjoitti ensimmäisen kirjan edinburghilaisessa kahvilassa.",
+    "answerOptions": [
+      {
+        "text": "Taru sormusten herrasta",
+        "isCorrect": false
+      },
+      {
+        "text": "Narnian tarinat",
+        "isCorrect": false
+      },
+      {
+        "text": "Harry Potter",
+        "isCorrect": true
+      },
+      {
+        "text": "Eragon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka suomalainen kirjailija loi Muumit?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Tove Jansson julkaisi ensimmäisen Muumi-kirjan vuonna 1945. Muumit ovat erityisen suosittuja Japanissa, jossa niillä on oma teemapuisto Hannōssa nimeltä Metsä (Moomin Valley Park).",
+    "answerOptions": [
+      {
+        "text": "Minna Canth",
+        "isCorrect": false
+      },
+      {
+        "text": "Aleksis Kivi",
+        "isCorrect": false
+      },
+      {
+        "text": "Elias Lönnrot",
+        "isCorrect": false
+      },
+      {
+        "text": "Tove Jansson",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä on vanhin tunnettu kirjallinen teos?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Gilgamešin eepos on peräisin noin 2100 eKr. muinaisesta Mesopotamiasta. Se kertoo Urukin kuninkaan seikkailuista ja sisältää yhden varhaisimmista vedenpaisumuskertomuksista.",
+    "answerOptions": [
+      {
+        "text": "Ilias",
+        "isCorrect": false
+      },
+      {
+        "text": "Raamattu",
+        "isCorrect": false
+      },
+      {
+        "text": "Gilgamešin eepos",
+        "isCorrect": true
+      },
+      {
+        "text": "Tao Te Ching",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä elokuva voitti ensimmäisen parhaan elokuvan Oscar-palkinnon?",
+    "category": "Viihde",
+    "didYouKnow": "Wings voitti ensimmäisen parhaan elokuvan Oscarin vuonna 1929. Se on mykkäelokuva ensimmäisestä maailmansodasta ja sisältää yhden elokuvahistorian ensimmäisistä miestenvälistä suudelmista.",
+    "answerOptions": [
+      {
+        "text": "Siivet (Wings)",
+        "isCorrect": true
+      },
+      {
+        "text": "Jazzlaulaja",
+        "isCorrect": false
+      },
+      {
+        "text": "Metropolis",
+        "isCorrect": false
+      },
+      {
+        "text": "Aamunsarastus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä TV-sarja on maailman pisin yhtäjaksoisesti esitetty animaatiosarja?",
+    "category": "Viihde",
+    "didYouKnow": "Simpsonit alkoi vuonna 1989 ja sillä on yli 750 jaksoa. Sarjan luoja Matt Groening nimesi hahmot omien perheenjäsentensä mukaan, paitsi Bartin, joka on anagrammi sanasta 'brat' (kakara).",
+    "answerOptions": [
+      {
+        "text": "Family Guy",
+        "isCorrect": false
+      },
+      {
+        "text": "Simpsonit",
+        "isCorrect": true
+      },
+      {
+        "text": "South Park",
+        "isCorrect": false
+      },
+      {
+        "text": "Futurama",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka näyttelijä on esittänyt James Bondia eniten elokuvissa?",
+    "category": "Viihde",
+    "didYouKnow": "Roger Moore esitti James Bondia seitsemässä virallisessa Bond-elokuvassa vuosina 1973–1985. Hän oli 57-vuotias viimeisessä Bond-elokuvassaan 'A View to a Kill'.",
+    "answerOptions": [
+      {
+        "text": "Sean Connery",
+        "isCorrect": false
+      },
+      {
+        "text": "Roger Moore",
+        "isCorrect": true
+      },
+      {
+        "text": "Daniel Craig",
+        "isCorrect": false
+      },
+      {
+        "text": "Pierce Brosnan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä videopeli on kaikkien aikojen myydyin?",
+    "category": "Viihde",
+    "didYouKnow": "Minecraft on myynyt yli 300 miljoonaa kopiota ja sillä on kuukausittain yli 170 miljoonaa aktiivista pelaajaa. Pelin loi ruotsalainen Markus 'Notch' Persson vuonna 2009.",
+    "answerOptions": [
+      {
+        "text": "Tetris",
+        "isCorrect": false
+      },
+      {
+        "text": "Grand Theft Auto V",
+        "isCorrect": false
+      },
+      {
+        "text": "Minecraft",
+        "isCorrect": true
+      },
+      {
+        "text": "Wii Sports",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman katsotuin yksittäinen TV-lähetys vuosittain?",
+    "category": "Viihde",
+    "didYouKnow": "Super Bowl kerää vuosittain yli 100 miljoonaa katsojaa pelkästään Yhdysvalloissa. 30 sekunnin mainos Super Bowlissa maksaa yli 7 miljoonaa dollaria.",
+    "answerOptions": [
+      {
+        "text": "UEFA Champions League -finaali",
+        "isCorrect": false
+      },
+      {
+        "text": "Super Bowl",
+        "isCorrect": true
+      },
+      {
+        "text": "Oscar-gaala",
+        "isCorrect": false
+      },
+      {
+        "text": "Eurovision",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman pienin valtio pinta-alaltaan?",
+    "category": "Maantieto",
+    "didYouKnow": "Vatikaanivaltio on vain noin 0,44 neliökilometrin kokoinen, mikä tekee siitä pienemmän kuin useimmat kaupunkien puistot.",
+    "answerOptions": [
+      {
+        "text": "San Marino",
+        "isCorrect": false
+      },
+      {
+        "text": "Vatikaanivaltio",
+        "isCorrect": true
+      },
+      {
+        "text": "Liechtenstein",
+        "isCorrect": false
+      },
+      {
+        "text": "Monaco",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä maassa sijaitsee Angkorin temppelialue?",
+    "category": "Maantieto",
+    "didYouKnow": "Angkor Wat on maailman suurin uskonnollinen rakennus. Se rakennettiin alun perin hindujumalille, mutta muutettiin myöhemmin buddhalaiseksi temppeliksi.",
+    "answerOptions": [
+      {
+        "text": "Myanmar",
+        "isCorrect": false
+      },
+      {
+        "text": "Kambodža",
+        "isCorrect": true
+      },
+      {
+        "text": "Thaimaa",
+        "isCorrect": false
+      },
+      {
+        "text": "Vietnam",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Minkä maan lipussa on lohikäärme?",
+    "category": "Maantieto",
+    "didYouKnow": "Walesin punainen lohikäärme on yksi maailman vanhimmista kansallisista symboleista. Se esiintyi jo roomalaisaikaisissa teksteissä.",
+    "answerOptions": [
+      {
+        "text": "Skotlanti",
+        "isCorrect": false
+      },
+      {
+        "text": "Islanti",
+        "isCorrect": false
+      },
+      {
+        "text": "Norja",
+        "isCorrect": false
+      },
+      {
+        "text": "Wales",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä joki virtaa Kairon läpi?",
+    "category": "Maantieto",
+    "didYouKnow": "Niili on noin 6 650 kilometriä pitkä, ja se on ollut Egyptin sivilisaation elinehto tuhansia vuosia.",
+    "answerOptions": [
+      {
+        "text": "Niger",
+        "isCorrect": false
+      },
+      {
+        "text": "Niili",
+        "isCorrect": true
+      },
+      {
+        "text": "Sambesi",
+        "isCorrect": false
+      },
+      {
+        "text": "Kongo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman syvimmän järven nimi?",
+    "category": "Maantieto",
+    "didYouKnow": "Baikaljärvi Siperiassa on jopa 1 642 metriä syvä ja sisältää noin 20 prosenttia maapallon makeasta pintavedestä.",
+    "answerOptions": [
+      {
+        "text": "Tanganjikajärvi",
+        "isCorrect": false
+      },
+      {
+        "text": "Titicacajärvi",
+        "isCorrect": false
+      },
+      {
+        "text": "Kaspianmeri",
+        "isCorrect": false
+      },
+      {
+        "text": "Baikaljärvi",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä kemiallinen alkuaine on ihmiskehossa runsain?",
+    "category": "Tiede",
+    "didYouKnow": "Happi muodostaa noin 65 prosenttia ihmiskehon massasta, pääasiassa veden muodossa.",
+    "answerOptions": [
+      {
+        "text": "Hiili",
+        "isCorrect": false
+      },
+      {
+        "text": "Happi",
+        "isCorrect": true
+      },
+      {
+        "text": "Vety",
+        "isCorrect": false
+      },
+      {
+        "text": "Typpi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä planeetta on lähinnä Aurinkoa?",
+    "category": "Tiede",
+    "didYouKnow": "Merkurius kiertää Auringon vain 88 maapäivässä, mutta sen vuorokausi kestää 59 maapäivää.",
+    "answerOptions": [
+      {
+        "text": "Mars",
+        "isCorrect": false
+      },
+      {
+        "text": "Maa",
+        "isCorrect": false
+      },
+      {
+        "text": "Venus",
+        "isCorrect": false
+      },
+      {
+        "text": "Merkurius",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä on valon nopeus tyhjiössä pyöristettynä?",
+    "category": "Tiede",
+    "didYouKnow": "Valo kulkee tyhjiössä täsmälleen 299 792 458 metriä sekunnissa. Tämä nopeus on maailmankaikkeuden absoluuttinen nopeusraja.",
+    "answerOptions": [
+      {
+        "text": "500 000 km/s",
+        "isCorrect": false
+      },
+      {
+        "text": "150 000 km/s",
+        "isCorrect": false
+      },
+      {
+        "text": "1 000 000 km/s",
+        "isCorrect": false
+      },
+      {
+        "text": "300 000 km/s",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mitä DNA-lyhenne tarkoittaa suomeksi?",
+    "category": "Tiede",
+    "didYouKnow": "Ihmisen DNA sisältää noin 3 miljardia emäsparia ja noin 20 000–25 000 geeniä. Jos DNA-nauha avattaisiin suoraksi, se olisi noin kaksi metriä pitkä.",
+    "answerOptions": [
+      {
+        "text": "Deoksiribosomaalihappo",
+        "isCorrect": false
+      },
+      {
+        "text": "Deoksiribonukleiinihappo",
+        "isCorrect": true
+      },
+      {
+        "text": "Deoksiriboninukleotidihappo",
+        "isCorrect": false
+      },
+      {
+        "text": "Dinitroammoniumhappo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on jaksollisen järjestelmän ensimmäinen alkuaine?",
+    "category": "Tiede",
+    "didYouKnow": "Vety on maailmankaikkeuden yleisin alkuaine – se muodostaa noin 75 prosenttia kaiken tavallisen aineen massasta.",
+    "answerOptions": [
+      {
+        "text": "Vety",
+        "isCorrect": true
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Litium",
+        "isCorrect": false
+      },
+      {
+        "text": "Helium",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä elimistön elin tuottaa insuliinia?",
+    "category": "Tiede",
+    "didYouKnow": "Haiman Langerhansin saarekkeet sisältävät beetasoluja, jotka tuottavat insuliinia. Insuliini löydettiin vuonna 1921.",
+    "answerOptions": [
+      {
+        "text": "Maksa",
+        "isCorrect": false
+      },
+      {
+        "text": "Haima",
+        "isCorrect": true
+      },
+      {
+        "text": "Perna",
+        "isCorrect": false
+      },
+      {
+        "text": "Munuainen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä kaasu muodostaa suurimman osan maapallon ilmakehästä?",
+    "category": "Tiede",
+    "didYouKnow": "Typpi muodostaa noin 78 prosenttia ilmakehästä. Typpi on välttämätön kaikille eliöille, sillä se on osa proteiineja ja DNA:ta.",
+    "answerOptions": [
+      {
+        "text": "Typpi",
+        "isCorrect": true
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Argon",
+        "isCorrect": false
+      },
+      {
+        "text": "Hiilidioksidi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Minä vuonna alkoi toinen maailmansota?",
+    "category": "Historia",
+    "didYouKnow": "Toinen maailmansota alkoi Saksan hyökättyä Puolaan 1. syyskuuta 1939. Se oli historian tuhoisin konflikti, jossa kuoli arviolta 70–85 miljoonaa ihmistä.",
+    "answerOptions": [
+      {
+        "text": "1939",
+        "isCorrect": true
+      },
+      {
+        "text": "1938",
+        "isCorrect": false
+      },
+      {
+        "text": "1941",
+        "isCorrect": false
+      },
+      {
+        "text": "1937",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä muinainen sivilisaatio rakensi pyramidit Gizaan?",
+    "category": "Historia",
+    "didYouKnow": "Gizan suuri pyramidi rakennettiin noin 2560 eKr. faarao Kheopsille. Se oli maailman korkein rakennelma yli 3 800 vuoden ajan.",
+    "answerOptions": [
+      {
+        "text": "Roomalaiset",
+        "isCorrect": false
+      },
+      {
+        "text": "Kreikkalaiset",
+        "isCorrect": false
+      },
+      {
+        "text": "Egyptiläiset",
+        "isCorrect": true
+      },
+      {
+        "text": "Persialaiset",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Minä vuonna Suomi itsenäistyi?",
+    "category": "Historia",
+    "didYouKnow": "Suomi julistautui itsenäiseksi 6. joulukuuta 1917. Neuvosto-Venäjä tunnusti Suomen itsenäisyyden 31. joulukuuta 1917.",
+    "answerOptions": [
+      {
+        "text": "1917",
+        "isCorrect": true
+      },
+      {
+        "text": "1919",
+        "isCorrect": false
+      },
+      {
+        "text": "1916",
+        "isCorrect": false
+      },
+      {
+        "text": "1918",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka oli Rooman valtakunnan ensimmäinen keisari?",
+    "category": "Historia",
+    "didYouKnow": "Augustus, syntymänimeltään Gaius Octavius, hallitsi Roomaa vuodesta 27 eKr. kuolemaansa 14 jKr. asti. Hänen kautensa tunnetaan Pax Romana -rauhan alkuna.",
+    "answerOptions": [
+      {
+        "text": "Julius Caesar",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiberius",
+        "isCorrect": false
+      },
+      {
+        "text": "Augustus",
+        "isCorrect": true
+      },
+      {
+        "text": "Nero",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä tapahtuma käynnisti ensimmäisen maailmansodan?",
+    "category": "Historia",
+    "didYouKnow": "Arkkiherttua Frans Ferdinandin murha Sarajevossa 28. kesäkuuta 1914 laukaisi tapahtumaketjun, joka johti ensimmäiseen maailmansotaan.",
+    "answerOptions": [
+      {
+        "text": "Arkkiherttua Frans Ferdinandin murha",
+        "isCorrect": true
+      },
+      {
+        "text": "Puolan miehitys",
+        "isCorrect": false
+      },
+      {
+        "text": "Bastillen valtaus",
+        "isCorrect": false
+      },
+      {
+        "text": "Lusitanian uppoaminen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta jalkaa hämähäkillä on?",
+    "category": "Luonto",
+    "didYouKnow": "Hämähäkit eivät ole hyönteisiä vaan hämähäkkieläimiä. Niillä on kahdeksan jalkaa, kun taas hyönteisillä on kuusi.",
+    "answerOptions": [
+      {
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä puu on Suomen yleisin puulaji?",
+    "category": "Luonto",
+    "didYouKnow": "Mänty kattaa noin 50 prosenttia Suomen metsäpinta-alasta. Se on erittäin sopeutuvainen ja menestyy karuillakin kasvupaikoilla.",
+    "answerOptions": [
+      {
+        "text": "Kuusi",
+        "isCorrect": false
+      },
+      {
+        "text": "Haapa",
+        "isCorrect": false
+      },
+      {
+        "text": "Koivu",
+        "isCorrect": false
+      },
+      {
+        "text": "Mänty",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä eläin pystyy lentämään taaksepäin?",
+    "category": "Luonto",
+    "didYouKnow": "Kolibrit ovat ainoita lintuja, jotka voivat lentää taaksepäin. Niiden siivet lyövät jopa 80 kertaa sekunnissa.",
+    "answerOptions": [
+      {
+        "text": "Pääskynen",
+        "isCorrect": false
+      },
+      {
+        "text": "Kolibri",
+        "isCorrect": true
+      },
+      {
+        "text": "Lepakko",
+        "isCorrect": false
+      },
+      {
+        "text": "Sudenkorento",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka pitkään elefantin raskaus kestää?",
+    "category": "Luonto",
+    "didYouKnow": "Norsun raskaus kestää noin 22 kuukautta, mikä on pisin raskausaika kaikista maaeläimistä. Vastasyntynyt poikanen painaa noin 100 kiloa.",
+    "answerOptions": [
+      {
+        "text": "18 kuukautta",
+        "isCorrect": false
+      },
+      {
+        "text": "12 kuukautta",
+        "isCorrect": false
+      },
+      {
+        "text": "9 kuukautta",
+        "isCorrect": false
+      },
+      {
+        "text": "22 kuukautta",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta pelaajaa on jalkapallojoukkueessa kentällä?",
+    "category": "Urheilu",
+    "didYouKnow": "Jalkapallon säännöt luotiin vuonna 1863 Englannissa. Nykyään jalkapallo on maailman suosituin urheilulaji yli 4 miljardin fanin voimin.",
+    "answerOptions": [
+      {
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "text": "11",
+        "isCorrect": true
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä kaupungissa pidettiin ensimmäiset nykyaikaiset olympialaiset?",
+    "category": "Urheilu",
+    "didYouKnow": "Ensimmäiset nykyaikaiset olympialaiset pidettiin Ateenassa vuonna 1896. Kisoihin osallistui 241 urheilijaa 14 maasta.",
+    "answerOptions": [
+      {
+        "text": "Pariisi",
+        "isCorrect": false
+      },
+      {
+        "text": "Ateena",
+        "isCorrect": true
+      },
+      {
+        "text": "Lontoo",
+        "isCorrect": false
+      },
+      {
+        "text": "Rooma",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on kaikkien aikojen eniten Formula 1 -mestaruuksia voittanut kuljettaja?",
+    "category": "Urheilu",
+    "didYouKnow": "Michael Schumacher ja Lewis Hamilton jakavat ennätyksen seitsemällä maailmanmestaruudella. Schumacher voitti mestaruutensa vuosina 1994–2004.",
+    "answerOptions": [
+      {
+        "text": "Michael Schumacher",
+        "isCorrect": true
+      },
+      {
+        "text": "Alain Prost",
+        "isCorrect": false
+      },
+      {
+        "text": "Ayrton Senna",
+        "isCorrect": false
+      },
+      {
+        "text": "Sebastian Vettel",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä lajissa Suomi on voittanut eniten olympiakultaa?",
+    "category": "Urheilu",
+    "didYouKnow": "Suomi on voittanut yleisurheilusta eniten olympiakultamitaleja. Paavo Nurmi voitti urallaan yhdeksän olympiakultaa 1920- ja 1924-luvuilla.",
+    "answerOptions": [
+      {
+        "text": "Yleisurheilu",
+        "isCorrect": true
+      },
+      {
+        "text": "Paini",
+        "isCorrect": false
+      },
+      {
+        "text": "Hiihto",
+        "isCorrect": false
+      },
+      {
+        "text": "Jääkiekko",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako pistettä tarvitaan tennissetti voittamiseen vähintään?",
+    "category": "Urheilu",
+    "didYouKnow": "Tenniksessä setti voitetaan voittamalla kuusi peliä. Jos tilanne on 6-5, tarvitaan vielä yksi peli eli vähimmäispistemäärä setin voittoon on 24 pistettä (4 pistettä per peli × 6 peliä).",
+    "answerOptions": [
+      {
+        "text": "24",
+        "isCorrect": true
+      },
+      {
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "text": "21",
+        "isCorrect": false
+      },
+      {
+        "text": "18",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen kansalliseepos?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Kalevala perustuu Elias Lönnrotin keräämiin kansanrunoihin. Se julkaistiin ensi kerran vuonna 1835 ja laajennettu versio vuonna 1849.",
+    "answerOptions": [
+      {
+        "text": "Kalevala",
+        "isCorrect": true
+      },
+      {
+        "text": "Kanteletar",
+        "isCorrect": false
+      },
+      {
+        "text": "Sinuhe egyptiläinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Seitsemän veljestä",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä japanilainen ruokalaji tarkoittaa 'etikkariisiä'?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Sushi tarkoittaa kirjaimellisesti 'hapan' tai 'etikkariisi'. Alun perin riisiä käytettiin kalan säilömiseen, eikä sitä edes syöty.",
+    "answerOptions": [
+      {
+        "text": "Udon",
+        "isCorrect": false
+      },
+      {
+        "text": "Sushi",
+        "isCorrect": true
+      },
+      {
+        "text": "Tempura",
+        "isCorrect": false
+      },
+      {
+        "text": "Ramen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä juhlapäivä on Suomessa juhannuksena?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Juhannus on alun perin pakanauskonnon kesäpäivänseisausjuhla, joka kristinuskon myötä yhdistettiin Johannes Kastajan päivään.",
+    "answerOptions": [
+      {
+        "text": "Helluntai",
+        "isCorrect": false
+      },
+      {
+        "text": "Pääsiäinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Vappu",
+        "isCorrect": false
+      },
+      {
+        "text": "Johannes Kastajan päivä",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä on perinteinen japanilainen teatteritaiteen muoto, jossa esiintyjät käyttävät naamioita?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Nō-teatteri on yksi maailman vanhimmista yhä esitettävistä teatterimuodoista. Se syntyi 1300-luvulla ja on UNESCO:n aineetonta kulttuuriperintöä.",
+    "answerOptions": [
+      {
+        "text": "Bunraku",
+        "isCorrect": false
+      },
+      {
+        "text": "Nō",
+        "isCorrect": true
+      },
+      {
+        "text": "Kabuki",
+        "isCorrect": false
+      },
+      {
+        "text": "Kyōgen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka sävelsi Kuutamosonaatin?",
+    "category": "Musiikki",
+    "didYouKnow": "Beethovenin pianosonaatti nro 14 sai lempinimen 'Kuutamosonaatti' vasta säveltäjän kuoleman jälkeen musiikkikriitikko Ludwig Rellstabin toimesta.",
+    "answerOptions": [
+      {
+        "text": "Liszt",
+        "isCorrect": false
+      },
+      {
+        "text": "Beethoven",
+        "isCorrect": true
+      },
+      {
+        "text": "Chopin",
+        "isCorrect": false
+      },
+      {
+        "text": "Mozart",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman myydyin albumi kaikkien aikojen?",
+    "category": "Musiikki",
+    "didYouKnow": "Michael Jacksonin Thriller-albumia on myyty yli 70 miljoonaa kappaletta maailmanlaajuisesti. Se julkaistiin vuonna 1982.",
+    "answerOptions": [
+      {
+        "text": "Abbey Road – The Beatles",
+        "isCorrect": false
+      },
+      {
+        "text": "Back in Black – AC/DC",
+        "isCorrect": false
+      },
+      {
+        "text": "Thriller – Michael Jackson",
+        "isCorrect": true
+      },
+      {
+        "text": "The Dark Side of the Moon – Pink Floyd",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta kieltä soitetaan tavallisessa kitarassa?",
+    "category": "Musiikki",
+    "didYouKnow": "Kuusikielisen kitaran standardiviritys on E-A-D-G-H-E. Kitaran juuret ulottuvat yli 4 000 vuoden taakse muinaisiin kielisoittimiin.",
+    "answerOptions": [
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Kuka suomalainen säveltäjä on tunnettu teoksesta Finlandia?",
+    "category": "Musiikki",
+    "didYouKnow": "Jean Sibelius sävelsi Finlandian vuonna 1899 Venäjän sensuurin aikana. Teosta esitettiin aluksi eri nimillä, koska Venäjä kielsi sen esittämisen.",
+    "answerOptions": [
+      {
+        "text": "Toivo Kuula",
+        "isCorrect": false
+      },
+      {
+        "text": "Oskar Merikanto",
+        "isCorrect": false
+      },
+      {
+        "text": "Leevi Madetoja",
+        "isCorrect": false
+      },
+      {
+        "text": "Jean Sibelius",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman puhutuin äidinkieli puhujamäärältään?",
+    "category": "Yleistieto",
+    "didYouKnow": "Mandariinikiina on maailman puhutuin äidinkieli noin 920 miljoonalla natiivipuhujalla. Se käyttää tuhansia kirjoitusmerkkejä aakkosten sijaan.",
+    "answerOptions": [
+      {
+        "text": "Mandariinikiina",
+        "isCorrect": true
+      },
+      {
+        "text": "Hindi",
+        "isCorrect": false
+      },
+      {
+        "text": "Espanja",
+        "isCorrect": false
+      },
+      {
+        "text": "Englanti",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako tähteä on Euroopan unionin lipussa?",
+    "category": "Yleistieto",
+    "didYouKnow": "EU:n lipussa on 12 tähteä, jotka eivät liity jäsenmaiden lukumäärään. Luku 12 symboloi täydellisyyttä, kokonaisuutta ja yhtenäisyyttä.",
+    "answerOptions": [
+      {
+        "text": "12",
+        "isCorrect": true
+      },
+      {
+        "text": "15",
+        "isCorrect": false
+      },
+      {
+        "text": "27",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta maata kuuluu Yhdistyneisiin kansakuntiin (YK) vuonna 2025?",
+    "category": "Yleistieto",
+    "didYouKnow": "YK:ssa on 193 jäsenvaltiota. YK perustettiin vuonna 1945 toisen maailmansodan jälkeen edistämään kansainvälistä rauhaa ja yhteistyötä.",
+    "answerOptions": [
+      {
+        "text": "193",
+        "isCorrect": true
+      },
+      {
+        "text": "200",
+        "isCorrect": false
+      },
+      {
+        "text": "210",
+        "isCorrect": false
+      },
+      {
+        "text": "180",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä yritys kehitti ensimmäisen kaupallisen älypuhelimen Simon vuonna 1994?",
+    "category": "Teknologia",
+    "didYouKnow": "IBM Simon oli ensimmäinen laite, jota voidaan kutsua älypuhelimeksi. Siinä oli kosketusnäyttö, sähköposti ja faksi – jo yli 30 vuotta sitten!",
+    "answerOptions": [
+      {
+        "text": "Nokia",
+        "isCorrect": false
+      },
+      {
+        "text": "IBM",
+        "isCorrect": true
+      },
+      {
+        "text": "Motorola",
+        "isCorrect": false
+      },
+      {
+        "text": "Apple",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä ohjelmointikieli kehitettiin alun perin kahvinkeittimen ohjaamiseen?",
+    "category": "Teknologia",
+    "didYouKnow": "Java-kieli kehitettiin alun perin sulautettuihin järjestelmiin, kuten kodinkoneiden ohjaamiseen. Se nimettiin kahvin mukaan, koska kehittäjät joivat paljon kahvia.",
+    "answerOptions": [
+      {
+        "text": "Python",
+        "isCorrect": false
+      },
+      {
+        "text": "C++",
+        "isCorrect": false
+      },
+      {
+        "text": "Java",
+        "isCorrect": true
+      },
+      {
+        "text": "Ruby",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta bittiä on yhdessä tavussa (byte)?",
+    "category": "Teknologia",
+    "didYouKnow": "Tavu eli byte koostuu kahdeksasta bitistä. Yksi tavu voi esittää 256 eri arvoa, mikä riittää esimerkiksi yhden ASCII-merkin tallentamiseen.",
+    "answerOptions": [
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä teknologiajätti osti WhatsAppin vuonna 2014?",
+    "category": "Teknologia",
+    "didYouKnow": "Facebook (nykyinen Meta) osti WhatsAppin 19 miljardilla dollarilla vuonna 2014. Se oli tuolloin historian suurin teknologiayrityskauppa.",
+    "answerOptions": [
+      {
+        "text": "Google",
+        "isCorrect": false
+      },
+      {
+        "text": "Microsoft",
+        "isCorrect": false
+      },
+      {
+        "text": "Amazon",
+        "isCorrect": false
+      },
+      {
+        "text": "Facebook",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman eniten käytetty versionhallintajärjestelmä?",
+    "category": "Teknologia",
+    "didYouKnow": "Git-versionhallintajärjestelmän loi Linus Torvalds vuonna 2005 Linux-ytimen kehitystä varten. Torvalds on myös suomalaista syntyperää.",
+    "answerOptions": [
+      {
+        "text": "Git",
+        "isCorrect": true
+      },
+      {
+        "text": "SVN",
+        "isCorrect": false
+      },
+      {
+        "text": "Mercurial",
+        "isCorrect": false
+      },
+      {
+        "text": "CVS",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä maassa Spotify perustettiin?",
+    "category": "Teknologia",
+    "didYouKnow": "Spotify perustettiin Tukholmassa, Ruotsissa vuonna 2006 Daniel Ekin ja Martin Lorentzonin toimesta. Palvelu lanseerattiin yleisölle vuonna 2008.",
+    "answerOptions": [
+      {
+        "text": "Suomi",
+        "isCorrect": false
+      },
+      {
+        "text": "Norja",
+        "isCorrect": false
+      },
+      {
+        "text": "Ruotsi",
+        "isCorrect": true
+      },
+      {
+        "text": "Tanska",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä lyhenne kuvaa tekoälymallia, joka tuottaa uutta sisältöä kuten tekstiä ja kuvia?",
+    "category": "Teknologia",
+    "didYouKnow": "Generatiivinen tekoäly (GenAI) nousi suuren yleisön tietoisuuteen ChatGPT:n myötä vuonna 2022. Se osaa tuottaa tekstiä, kuvia, musiikkia ja jopa ohjelmakoodia.",
+    "answerOptions": [
+      {
+        "text": "RPA",
+        "isCorrect": false
+      },
+      {
+        "text": "IoT",
+        "isCorrect": false
+      },
+      {
+        "text": "VPN",
+        "isCorrect": false
+      },
+      {
+        "text": "GenAI",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Kuka kirjoitti romaanin \"Sadan vuoden yksinäisyys\"?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Gabriel García Márquez sai Nobelin kirjallisuuspalkinnon vuonna 1982. Hänen mestariteoksensa \"Sadan vuoden yksinäisyys\" on käännetty yli 40 kielelle.",
+    "answerOptions": [
+      {
+        "text": "Gabriel García Márquez",
+        "isCorrect": true
+      },
+      {
+        "text": "Jorge Luis Borges",
+        "isCorrect": false
+      },
+      {
+        "text": "Mario Vargas Llosa",
+        "isCorrect": false
+      },
+      {
+        "text": "Isabel Allende",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Väinö Linnan tunnetuin romaani?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Tuntematon sotilas (1954) aiheutti ilmestyessään kiivasta keskustelua, sillä se kuvasi sotaa raadollisesti ilman sankariromantiikkaa. Teos on filmattu kolmesti.",
+    "answerOptions": [
+      {
+        "text": "Sinuhe, egyptiläinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Tuntematon sotilas",
+        "isCorrect": true
+      },
+      {
+        "text": "Seitsemän veljestä",
+        "isCorrect": false
+      },
+      {
+        "text": "Puhtaat valkeat lakanat",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka kirjoitti dystopiaromaanin \"1984\"?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "George Orwell kirjoitti romaanin vuonna 1949 varoitukseksi totalitarismista. Teoksen käsitteet kuten \"Isoveli valvoo\" ovat vakiintuneet arkikieleen.",
+    "answerOptions": [
+      {
+        "text": "Aldous Huxley",
+        "isCorrect": false
+      },
+      {
+        "text": "Ray Bradbury",
+        "isCorrect": false
+      },
+      {
+        "text": "George Orwell",
+        "isCorrect": true
+      },
+      {
+        "text": "H.G. Wells",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä kirjasarja kertoo velhopojasta, joka opiskelee Tylypahkassa?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "J.K. Rowlingin Harry Potter -kirjoja on myyty yli 500 miljoonaa kappaletta maailmanlaajuisesti. Ensimmäinen kirja hylättiin 12 kustantamossa ennen julkaisua.",
+    "answerOptions": [
+      {
+        "text": "Narnia",
+        "isCorrect": false
+      },
+      {
+        "text": "Harry Potter",
+        "isCorrect": true
+      },
+      {
+        "text": "Percy Jackson",
+        "isCorrect": false
+      },
+      {
+        "text": "Taru sormusten herrasta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on Muumi-hahmojen luoja?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Tove Jansson alkoi piirtää muumipeikkoja jo 1930-luvulla, mutta ensimmäinen Muumi-kirja ilmestyi vuonna 1945. Jansson oli myös arvostettu taidemaalari.",
+    "answerOptions": [
+      {
+        "text": "Astrid Lindgren",
+        "isCorrect": false
+      },
+      {
+        "text": "Elsa Beskow",
+        "isCorrect": false
+      },
+      {
+        "text": "Mauri Kunnas",
+        "isCorrect": false
+      },
+      {
+        "text": "Tove Jansson",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman myydyin kirja Raamatun jälkeen?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Don Quijote, jonka Miguel de Cervantes kirjoitti 1600-luvun alussa, on myyty arviolta yli 500 miljoonaa kappaletta. Sitä pidetään ensimmäisenä modernina romaanina.",
+    "answerOptions": [
+      {
+        "text": "Taru sormusten herrasta",
+        "isCorrect": false
+      },
+      {
+        "text": "Don Quijote",
+        "isCorrect": true
+      },
+      {
+        "text": "Pikku prinssi",
+        "isCorrect": false
+      },
+      {
+        "text": "Harry Potter ja viisasten kivi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kenelle myönnettiin ensimmäinen suomalainen Nobelin kirjallisuuspalkinto?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Frans Eemil Sillanpää sai Nobelin kirjallisuuspalkinnon vuonna 1939. Hän on edelleen ainoa suomalainen kirjallisuuden Nobel-palkittu.",
+    "answerOptions": [
+      {
+        "text": "Aleksis Kivi",
+        "isCorrect": false
+      },
+      {
+        "text": "Frans Eemil Sillanpää",
+        "isCorrect": true
+      },
+      {
+        "text": "Mika Waltari",
+        "isCorrect": false
+      },
+      {
+        "text": "Eino Leino",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä elokuva voitti ensimmäisen Oscar-palkinnon parhaasta elokuvasta?",
+    "category": "Viihde",
+    "didYouKnow": "Ensimmäiset Oscar-palkinnot jaettiin vuonna 1929. Paras elokuva -palkinnon sai \"Wings\" (Siivet), ensimmäinen maailmansotaa käsittelevä mykkäelokuva.",
+    "answerOptions": [
+      {
+        "text": "Metropolis",
+        "isCorrect": false
+      },
+      {
+        "text": "Wings",
+        "isCorrect": true
+      },
+      {
+        "text": "The Jazz Singer",
+        "isCorrect": false
+      },
+      {
+        "text": "Sunrise",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä TV-sarja rikkoi katsojaennätykset viimeisellä kaudellaan vuonna 2019?",
+    "category": "Viihde",
+    "didYouKnow": "Game of Thronesin viimeisen kauden jaksoja katsoi parhaimmillaan yli 19 miljoonaa amerikkalaista. Sarja perustuu George R.R. Martinin kirjoihin.",
+    "answerOptions": [
+      {
+        "text": "Breaking Bad",
+        "isCorrect": false
+      },
+      {
+        "text": "Game of Thrones",
+        "isCorrect": true
+      },
+      {
+        "text": "The Walking Dead",
+        "isCorrect": false
+      },
+      {
+        "text": "Stranger Things",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä suomalainen elokuva valittiin Suomen kaikkien aikojen katsotuimmaksi?",
+    "category": "Viihde",
+    "didYouKnow": "Tuntematon sotilas (2017) keräsi yli 900 000 katsojaa teattereissa. Väinö Linnan romaanista on tehty kolme elokuvaversiota vuosina 1955, 1985 ja 2017.",
+    "answerOptions": [
+      {
+        "text": "Häjyt",
+        "isCorrect": false
+      },
+      {
+        "text": "Alaston mies",
+        "isCorrect": false
+      },
+      {
+        "text": "Tuntematon sotilas (2017)",
+        "isCorrect": true
+      },
+      {
+        "text": "Lumikuningatar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka näyttelijä tunnetaan parhaiten roolistaan James Bondina 007-elokuvissa vuodesta 2006?",
+    "category": "Viihde",
+    "didYouKnow": "Daniel Craig esitti James Bondia viidessä elokuvassa (2006–2021). Hänen ensimmäinen Bond-elokuvansa Casino Royale sai ylistävät arvostelut.",
+    "answerOptions": [
+      {
+        "text": "Pierce Brosnan",
+        "isCorrect": false
+      },
+      {
+        "text": "Daniel Craig",
+        "isCorrect": true
+      },
+      {
+        "text": "Sean Connery",
+        "isCorrect": false
+      },
+      {
+        "text": "Timothy Dalton",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä animaatiostudio loi elokuvat Toy Story ja Löydä Nemo?",
+    "category": "Viihde",
+    "didYouKnow": "Pixar Animation Studios loi ensimmäisen täysin tietokoneella tehdyn kokopitkän animaatioelokuvan Toy Story vuonna 1995. Steve Jobs oli Pixarin suurin omistaja.",
+    "answerOptions": [
+      {
+        "text": "DreamWorks",
+        "isCorrect": false
+      },
+      {
+        "text": "Walt Disney Animation",
+        "isCorrect": false
+      },
+      {
+        "text": "Pixar",
+        "isCorrect": true
+      },
+      {
+        "text": "Studio Ghibli",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä Netflix-sarja etelä-Koreasta rikkoi katseluennätyksiä vuonna 2021?",
+    "category": "Viihde",
+    "didYouKnow": "Squid Game (Mustekalaleikki) oli ensimmäinen ei-englanninkielinen sarja, joka nousi Netflixin katsotuimmaksi. Sitä katsottiin yli 1,65 miljardia tuntia ensimmäisten 28 päivän aikana.",
+    "answerOptions": [
+      {
+        "text": "Parasite",
+        "isCorrect": false
+      },
+      {
+        "text": "Squid Game",
+        "isCorrect": true
+      },
+      {
+        "text": "Kingdom",
+        "isCorrect": false
+      },
+      {
+        "text": "All of Us Are Dead",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka maalasi teoksen \"Tähtitaivas\" (The Starry Night)?",
+    "category": "Taide",
+    "didYouKnow": "Vincent van Gogh maalasi Tähtitaivaan vuonna 1889 mielisairaalassa Saint-Rémy-de-Provencessa. Elinaikanaan hän myi vain yhden maalauksen.",
+    "answerOptions": [
+      {
+        "text": "Claude Monet",
+        "isCorrect": false
+      },
+      {
+        "text": "Vincent van Gogh",
+        "isCorrect": true
+      },
+      {
+        "text": "Paul Cézanne",
+        "isCorrect": false
+      },
+      {
+        "text": "Edvard Munch",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä taidesuuntaus syntyi 1900-luvun alussa Pablo Picasson johdolla?",
+    "category": "Taide",
+    "didYouKnow": "Kubismi mullisti taiteen esittämällä kohteita useista kulmista samanaikaisesti. Picasso ja Georges Braque kehittivät suuntausta yhdessä vuosina 1907–1914.",
+    "answerOptions": [
+      {
+        "text": "Impressionismi",
+        "isCorrect": false
+      },
+      {
+        "text": "Kubismi",
+        "isCorrect": true
+      },
+      {
+        "text": "Surrealismi",
+        "isCorrect": false
+      },
+      {
+        "text": "Dadaismi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka suomalainen taiteilija tunnetaan erityisesti Kalevala-aiheisista maalauksistaan?",
+    "category": "Taide",
+    "didYouKnow": "Akseli Gallen-Kallelan Kalevala-aiheiset teokset, kuten Sammon puolustus ja Aino-triptyykki, ovat suomalaisen taiteen ikonisia merkkiteoksia.",
+    "answerOptions": [
+      {
+        "text": "Albert Edelfelt",
+        "isCorrect": false
+      },
+      {
+        "text": "Hugo Simberg",
+        "isCorrect": false
+      },
+      {
+        "text": "Akseli Gallen-Kallela",
+        "isCorrect": true
+      },
+      {
+        "text": "Helene Schjerfbeck",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä Edvard Munchin teos esittää henkilöä, joka pitää käsiään kasvojensa sivuilla?",
+    "category": "Taide",
+    "didYouKnow": "Munchin \"Huuto\" (1893) on yksi maailman tunnetuimmista maalauksista. Vuonna 2012 yksi versioista myytiin huutokaupassa lähes 120 miljoonalla dollarilla.",
+    "answerOptions": [
+      {
+        "text": "Pelko",
+        "isCorrect": false
+      },
+      {
+        "text": "Ahdistus",
+        "isCorrect": false
+      },
+      {
+        "text": "Huuto",
+        "isCorrect": true
+      },
+      {
+        "text": "Tuska",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka rakensi Barcelonan kuuluisan Sagrada Família -kirkon?",
+    "category": "Taide",
+    "didYouKnow": "Antoni Gaudín suunnittelema Sagrada Família on ollut rakenteilla vuodesta 1882. Kirkko on yhä keskeneräinen, ja sen on määrä valmistua 2030-luvulla.",
+    "answerOptions": [
+      {
+        "text": "Le Corbusier",
+        "isCorrect": false
+      },
+      {
+        "text": "Antoni Gaudí",
+        "isCorrect": true
+      },
+      {
+        "text": "Frank Lloyd Wright",
+        "isCorrect": false
+      },
+      {
+        "text": "Alvar Aalto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä taidemuoto tunnetaan japaninkielisellä nimellä \"ukiyo-e\"?",
+    "category": "Taide",
+    "didYouKnow": "Ukiyo-e tarkoittaa \"kelluvaa maailmaa\" ja se on japanilainen puupiirrostaide. Tunnetuin ukiyo-e-teos on Katsushika Hokusain \"Suuri aalto Kanagawan edustalla\".",
+    "answerOptions": [
+      {
+        "text": "Keramiikka",
+        "isCorrect": false
+      },
+      {
+        "text": "Puupiirrostaide",
+        "isCorrect": true
+      },
+      {
+        "text": "Kalligrafia",
+        "isCorrect": false
+      },
+      {
+        "text": "Origami",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mistä maasta sushi on kotoisin?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Sushin juuret ovat itse asiassa Kaakkois-Aasiassa, jossa kalaa säilöttiin riisin avulla. Nykymuotoinen sushi kehittyi kuitenkin Japanissa 1800-luvulla.",
+    "answerOptions": [
+      {
+        "text": "Kiina",
+        "isCorrect": false
+      },
+      {
+        "text": "Japani",
+        "isCorrect": true
+      },
+      {
+        "text": "Etelä-Korea",
+        "isCorrect": false
+      },
+      {
+        "text": "Thaimaa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä mauste antaa safraanille sen keltaisen värin?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Safraaninväri tulee krokiinoista, ja sen tuottamiseen tarvitaan noin 150 000 kukkaa yhtä kilogrammaa kohti. Se on maailman kallein mauste, jopa 30 000 €/kg.",
+    "answerOptions": [
+      {
+        "text": "Kurkumiini",
+        "isCorrect": false
+      },
+      {
+        "text": "Krokiini",
+        "isCorrect": true
+      },
+      {
+        "text": "Karoteeni",
+        "isCorrect": false
+      },
+      {
+        "text": "Paprikaöljy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Suomen kansallisruoka?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Karjalanpiirakka valittiin Suomen viralliseksi kansallisruoaksi. Perinteisesti se täytetään riisipuurolla ja tarjoillaan munavoin kanssa.",
+    "answerOptions": [
+      {
+        "text": "Kalakukko",
+        "isCorrect": false
+      },
+      {
+        "text": "Hernekeitto",
+        "isCorrect": false
+      },
+      {
+        "text": "Karjalanpiirakka",
+        "isCorrect": true
+      },
+      {
+        "text": "Lihapullat",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mistä maasta espresso-kahvi on peräisin?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Ensimmäinen espressokone patentoitiin Italiassa vuonna 1884. Sana \"espresso\" tarkoittaa italiaksi nopeaa – kahvi valmistettiin tilauksesta paikan päällä.",
+    "answerOptions": [
+      {
+        "text": "Italia",
+        "isCorrect": true
+      },
+      {
+        "text": "Ranska",
+        "isCorrect": false
+      },
+      {
+        "text": "Turkki",
+        "isCorrect": false
+      },
+      {
+        "text": "Brasilia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä juusto on perinteisesti käytetty aidossa italialaisessa Carbonara-pastassa?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Aito Carbonara valmistetaan pecorino romano -juustosta, guancialesta (poskenliha), kananmunasta ja mustapippurista. Kermaa ei perinteisesti käytetä lainkaan.",
+    "answerOptions": [
+      {
+        "text": "Parmesaani",
+        "isCorrect": false
+      },
+      {
+        "text": "Mozzarella",
+        "isCorrect": false
+      },
+      {
+        "text": "Pecorino Romano",
+        "isCorrect": true
+      },
+      {
+        "text": "Gorgonzola",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä hedelmä tunnetaan myös nimellä \"kuninkaiden hedelmä\"?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Mangostania kutsutaan kuninkaiden hedelmäksi. Legendan mukaan kuningatar Victoria lupasi ritariarvon sille, joka toisi hänelle tuoreen mangostanin.",
+    "answerOptions": [
+      {
+        "text": "Durian",
+        "isCorrect": false
+      },
+      {
+        "text": "Litsi",
+        "isCorrect": false
+      },
+      {
+        "text": "Mangostani",
+        "isCorrect": true
+      },
+      {
+        "text": "Rambutan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä maa kuluttaa eniten kahvia henkeä kohti?",
+    "category": "Ruoka & Juoma",
+    "didYouKnow": "Suomi on maailman suurin kahvinkuluttaja henkeä kohti – suomalaiset juovat keskimäärin noin 12 kg kahvia vuodessa eli yli neljä kuppia päivässä.",
+    "answerOptions": [
+      {
+        "text": "Brasilia",
+        "isCorrect": false
+      },
+      {
+        "text": "Italia",
+        "isCorrect": false
+      },
+      {
+        "text": "Suomi",
+        "isCorrect": true
+      },
+      {
+        "text": "Kolumbia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on japanilainen perinteinen teaseremonia?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Japanilainen teaseremonia eli \"chadō\" tarkoittaa \"teen tietä\". Se on satoja vuosia vanha rituaali, jossa korostetaan harmoniaa, kunnioitusta ja hiljaisuutta.",
+    "answerOptions": [
+      {
+        "text": "Ikebana",
+        "isCorrect": false
+      },
+      {
+        "text": "Kabuki",
+        "isCorrect": false
+      },
+      {
+        "text": "Chadō",
+        "isCorrect": true
+      },
+      {
+        "text": "Bunraku",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Intian suurin juhlapyhä, joka tunnetaan myös \"valon juhlana\"?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Diwali on hindujen, sikhien ja jainilaisten juhla, jossa sytytetään tuhansia lamppuja ja kynttilöitä. Juhla symboloi valon voittoa pimeydestä.",
+    "answerOptions": [
+      {
+        "text": "Holi",
+        "isCorrect": false
+      },
+      {
+        "text": "Diwali",
+        "isCorrect": true
+      },
+      {
+        "text": "Navratri",
+        "isCorrect": false
+      },
+      {
+        "text": "Pongal",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on suomalainen juhannuksen perinne?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Juhannuskokko on vanha suomalainen perinne, jolla alun perin karkotettiin pahoja henkiä. Nykyään Suomessa poltetaan juhannusyönä tuhansia kokkoja.",
+    "answerOptions": [
+      {
+        "text": "Joulukuusi",
+        "isCorrect": false
+      },
+      {
+        "text": "Juhannuskokko",
+        "isCorrect": true
+      },
+      {
+        "text": "Vappuaatto",
+        "isCorrect": false
+      },
+      {
+        "text": "Pääsiäismuna",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on Meksikon kuolleiden päivän (Día de los Muertos) symboli?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Kuolleiden päivää vietetään Meksikossa 1.–2. marraskuuta. Sen symboli on koristeltu pääkallo (calavera), ja juhlassa muistetaan edesmenneitä iloisesti.",
+    "answerOptions": [
+      {
+        "text": "Musta kissa",
+        "isCorrect": false
+      },
+      {
+        "text": "Koristeltu pääkallo",
+        "isCorrect": true
+      },
+      {
+        "text": "Haamu",
+        "isCorrect": false
+      },
+      {
+        "text": "Kurpitsa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä maassa on tapana kumartaa tervehdyksenä kättelyn sijaan?",
+    "category": "Kulttuuri",
+    "didYouKnow": "Japanissa kumartaminen (ojigi) on perinteinen tervehdystapa. Kumartamisen syvyys ja kesto kertovat kunnioituksen asteesta.",
+    "answerOptions": [
+      {
+        "text": "Intia",
+        "isCorrect": false
+      },
+      {
+        "text": "Kiina",
+        "isCorrect": false
+      },
+      {
+        "text": "Japani",
+        "isCorrect": true
+      },
+      {
+        "text": "Thaimaa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka sävelsi \"Kuutamosonaatin\" (Moonlight Sonata)?",
+    "category": "Musiikki",
+    "didYouKnow": "Ludwig van Beethoven sävelsi Kuutamosonaatin vuonna 1801. Lempinimi \"Kuutamosonaatti\" annettiin teokselle vasta Beethovenin kuoleman jälkeen.",
+    "answerOptions": [
+      {
+        "text": "Wolfgang Amadeus Mozart",
+        "isCorrect": false
+      },
+      {
+        "text": "Ludwig van Beethoven",
+        "isCorrect": true
+      },
+      {
+        "text": "Frédéric Chopin",
+        "isCorrect": false
+      },
+      {
+        "text": "Johann Sebastian Bach",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman eniten myynyt albumi kaikkien aikojen?",
+    "category": "Musiikki",
+    "didYouKnow": "Michael Jacksonin \"Thriller\" (1982) on myynyt arviolta 70 miljoonaa kopiota. Se sisältää hittejä kuten \"Billie Jean\" ja \"Beat It\".",
+    "answerOptions": [
+      {
+        "text": "Back in Black – AC/DC",
+        "isCorrect": false
+      },
+      {
+        "text": "The Dark Side of the Moon – Pink Floyd",
+        "isCorrect": false
+      },
+      {
+        "text": "Thriller – Michael Jackson",
+        "isCorrect": true
+      },
+      {
+        "text": "Abbey Road – The Beatles",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mistä musiikkigenrestä reggae on peräisin?",
+    "category": "Musiikki",
+    "didYouKnow": "Reggae syntyi Jamaikalla 1960-luvun lopulla ska- ja rocksteady-musiikin pohjalta. Bob Marley teki genrestä maailmankuulun 1970-luvulla.",
+    "answerOptions": [
+      {
+        "text": "Kuuba",
+        "isCorrect": false
+      },
+      {
+        "text": "Trinidad ja Tobago",
+        "isCorrect": false
+      },
+      {
+        "text": "Jamaika",
+        "isCorrect": true
+      },
+      {
+        "text": "Barbados",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka suomalainen säveltäjä tunnetaan teoksestaan \"Finlandia\"?",
+    "category": "Musiikki",
+    "didYouKnow": "Jean Sibeliuksen Finlandia (1899) oli alun perin protestimusiikkia Venäjän sortovaltaa vastaan. Teoksen esittämistä sensuroitiin, ja sitä esitettiin peitenimillä.",
+    "answerOptions": [
+      {
+        "text": "Oskar Merikanto",
+        "isCorrect": false
+      },
+      {
+        "text": "Jean Sibelius",
+        "isCorrect": true
+      },
+      {
+        "text": "Toivo Kuula",
+        "isCorrect": false
+      },
+      {
+        "text": "Leevi Madetoja",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä soitin on perinteisesti keskeinen flamencossa?",
+    "category": "Musiikki",
+    "didYouKnow": "Flamenco on Etelä-Espanjan andalusialainen taiteen muoto, joka yhdistää kitaransoittoa, laulua ja tanssia. Se on UNESCOn aineettoman kulttuuriperinnön listalla.",
+    "answerOptions": [
+      {
+        "text": "Viulu",
+        "isCorrect": false
+      },
+      {
+        "text": "Mandoliini",
+        "isCorrect": false
+      },
+      {
+        "text": "Kitara",
+        "isCorrect": true
+      },
+      {
+        "text": "Banjo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta maata kuuluu Euroopan unioniin vuonna 2025?",
+    "category": "Yleistieto",
+    "didYouKnow": "EU:ssa on 27 jäsenvaltiota Ison-Britannian eron jälkeen vuonna 2020. Viimeisin liittyjä oli Kroatia vuonna 2013.",
+    "answerOptions": [
+      {
+        "text": "25",
+        "isCorrect": false
+      },
+      {
+        "text": "27",
+        "isCorrect": true
+      },
+      {
+        "text": "28",
+        "isCorrect": false
+      },
+      {
+        "text": "30",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Montako hammasta aikuisella ihmisellä on normaalisti?",
+    "category": "Yleistieto",
+    "didYouKnow": "Aikuisella on normaalisti 32 hammasta, mukaan lukien 4 viisaudenhammasta. Monet ihmiset eivät kuitenkaan koskaan saa kaikkia viisaudenhampaita.",
+    "answerOptions": [
+      {
+        "text": "28",
+        "isCorrect": false
+      },
+      {
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "text": "32",
+        "isCorrect": true
+      },
+      {
+        "text": "36",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä maassa sijaitsee Socotra-saari, joka tunnetaan ainutlaatuisesta kasvillisuudestaan?",
+    "category": "Maantieto",
+    "didYouKnow": "Socotran saaren kasvilajeista noin kolmannes on endeemisiä eli niitä ei esiinny missään muualla maailmassa. Tunnetuin on lohikäärmeveripuu, jonka punaista mahlaa on käytetty väriaineena vuosituhansia.",
+    "answerOptions": [
+      {
+        "text": "Oman",
+        "isCorrect": false
+      },
+      {
+        "text": "Madagaskar",
+        "isCorrect": false
+      },
+      {
+        "text": "Jemen",
+        "isCorrect": true
+      },
+      {
+        "text": "Somalia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä Euroopan pääkaupunki sijaitsee kahden mantereen rajalla?",
+    "category": "Maantieto",
+    "didYouKnow": "Istanbul ulottuu sekä Euroopan että Aasian puolelle Bosporinsalmen molemmin puolin. Vaikka Istanbul on Turkin suurin kaupunki, maan pääkaupunki on Ankara.",
+    "answerOptions": [
+      {
+        "text": "Ateena",
+        "isCorrect": false
+      },
+      {
+        "text": "Istanbul",
+        "isCorrect": true
+      },
+      {
+        "text": "Moskova",
+        "isCorrect": false
+      },
+      {
+        "text": "Tbilisi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä valtio on pinta-alaltaan maailman pienin tasavalta?",
+    "category": "Maantieto",
+    "didYouKnow": "Naurun pinta-ala on vain 21 neliökilometriä, mikä tekee siitä maailman pienimmän saaritasavallan. Nauru on myös ainoa valtio maailmassa, jolla ei ole virallista pääkaupunkia.",
+    "answerOptions": [
+      {
+        "text": "Nauru",
+        "isCorrect": true
+      },
+      {
+        "text": "Monaco",
+        "isCorrect": false
+      },
+      {
+        "text": "San Marino",
+        "isCorrect": false
+      },
+      {
+        "text": "Tuvalu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä maassa sijaitsee Danakielin alanko, yksi maapallon kuumimmista paikoista?",
+    "category": "Maantieto",
+    "didYouKnow": "Danakielin alanko Etiopiassa on yksi maailman kuumimmista asutuista paikoista, jossa keskilämpötila on noin 34,4 °C. Alue on jopa 125 metriä merenpinnan alapuolella.",
+    "answerOptions": [
+      {
+        "text": "Sudan",
+        "isCorrect": false
+      },
+      {
+        "text": "Somalia",
+        "isCorrect": false
+      },
+      {
+        "text": "Etiopia",
+        "isCorrect": true
+      },
+      {
+        "text": "Eritrea",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman pisin maanalainen joki?",
+    "category": "Maantieto",
+    "didYouKnow": "Puerto Princesa -maanalainen joki Filippiineillä on noin 8,2 kilometriä pitkä ja se virtaa kalkkikiviluolan läpi suoraan mereen. Se on UNESCO:n maailmanperintökohde.",
+    "answerOptions": [
+      {
+        "text": "Timavo, Italia",
+        "isCorrect": false
+      },
+      {
+        "text": "Puerto Princesa, Filippiinit",
+        "isCorrect": true
+      },
+      {
+        "text": "Trebišnjica, Bosnia",
+        "isCorrect": false
+      },
+      {
+        "text": "Sistema Sac Actun, Meksiko",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä maa omistaa maailman suurimman saaren Grönlannin?",
+    "category": "Maantieto",
+    "didYouKnow": "Grönlanti on autonominen alue, joka kuuluu Tanskan kuningaskuntaan. Sen pinta-alasta noin 80 % on jäätikön peitossa, ja siellä asuu vain noin 56 000 ihmistä.",
+    "answerOptions": [
+      {
+        "text": "Norja",
+        "isCorrect": false
+      },
+      {
+        "text": "Kanada",
+        "isCorrect": false
+      },
+      {
+        "text": "Islanti",
+        "isCorrect": false
+      },
+      {
+        "text": "Tanska",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä alkuaine on yleisin maailmankaikkeudessa?",
+    "category": "Tiede",
+    "didYouKnow": "Vety muodostaa noin 75 % kaikesta näkyvästä aineesta maailmankaikkeudessa. Tähdet, kuten Aurinko, tuottavat energiansa fuusioimalla vetyä heliumiksi.",
+    "answerOptions": [
+      {
+        "text": "Helium",
+        "isCorrect": false
+      },
+      {
+        "text": "Happi",
+        "isCorrect": false
+      },
+      {
+        "text": "Vety",
+        "isCorrect": true
+      },
+      {
+        "text": "Hiili",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta kuuta planeetalla Marsilla on?",
+    "category": "Tiede",
+    "didYouKnow": "Marsin kaksi kuuta ovat nimeltään Phobos ja Deimos, jotka on nimetty kreikkalaisen sotajumala Areksen poikien mukaan. Phobos kiertää Marsia niin lähellä, että se nousee ja laskee kolme kertaa Mars-päivän aikana.",
+    "answerOptions": [
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä fysiikan ilmiö selittää sen, että neutronitähti voi pyöriä satoja kertoja sekunnissa?",
+    "category": "Tiede",
+    "didYouKnow": "Liikemäärämomentin säilymislaki tarkoittaa, että kun tähti romahtaa pienemmäksi, sen pyörimisnopeus kasvaa dramaattisesti. Nopeimmat millisekunti-pulsarit pyörivät yli 700 kertaa sekunnissa.",
+    "answerOptions": [
+      {
+        "text": "Doppler-ilmiö",
+        "isCorrect": false
+      },
+      {
+        "text": "Liikemäärämomentin säilyminen",
+        "isCorrect": true
+      },
+      {
+        "text": "Gravitaatioaaltot",
+        "isCorrect": false
+      },
+      {
+        "text": "Sähkömagneettinen induktio",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä avaruusluotain oli ensimmäinen, joka ohitti Pluton?",
+    "category": "Tiede",
+    "didYouKnow": "NASA:n New Horizons -luotain ohitti Pluton heinäkuussa 2015 ja paljasti kääpiöplaneetan pinnalla olevan sydämenmuotoisen typpijäätasangon nimeltä Tombaugh Regio.",
+    "answerOptions": [
+      {
+        "text": "Voyager 1",
+        "isCorrect": false
+      },
+      {
+        "text": "Cassini",
+        "isCorrect": false
+      },
+      {
+        "text": "New Horizons",
+        "isCorrect": true
+      },
+      {
+        "text": "Pioneer 10",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mitä hiukkasta pidetään niin kutsuttuna 'Jumalan hiukkasena'?",
+    "category": "Tiede",
+    "didYouKnow": "Higgsin bosoni löydettiin kokeellisesti vuonna 2012 CERNin LHC-kiihdyttimessä. Peter Higgs ja François Englert saivat löydöstä Nobelin fysiikanpalkinnon vuonna 2013.",
+    "answerOptions": [
+      {
+        "text": "Higgsin bosoni",
+        "isCorrect": true
+      },
+      {
+        "text": "Gluoni",
+        "isCorrect": false
+      },
+      {
+        "text": "Neutrino",
+        "isCorrect": false
+      },
+      {
+        "text": "Fotoni",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka kauan valolla kestää matkustaa Auringosta Maahan?",
+    "category": "Tiede",
+    "didYouKnow": "Valon nopeus on noin 299 792 km/s, ja Auringon ja Maan välinen keskietäisyys on noin 150 miljoonaa kilometriä. Tämä tarkoittaa, että näkemämme auringonvalo lähti Auringosta noin 8 minuuttia sitten.",
+    "answerOptions": [
+      {
+        "text": "Noin 1 minuutti",
+        "isCorrect": false
+      },
+      {
+        "text": "Noin 8 minuuttia",
+        "isCorrect": true
+      },
+      {
+        "text": "Noin 30 minuuttia",
+        "isCorrect": false
+      },
+      {
+        "text": "Noin 1 tunti",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on ihmiskehon kovin aine?",
+    "category": "Tiede",
+    "didYouKnow": "Hammaskiille on ihmiskehon kovin kudos ja koostuu pääasiassa hydroksiapatiitista. Se on jopa kovempaa kuin teräs, mutta hauraampaa, joten se voi haljeta iskusta.",
+    "answerOptions": [
+      {
+        "text": "Luukudos",
+        "isCorrect": false
+      },
+      {
+        "text": "Kynsi",
+        "isCorrect": false
+      },
+      {
+        "text": "Rusto",
+        "isCorrect": false
+      },
+      {
+        "text": "Hammaskiille",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Mikä eläin pystyy nukkumaan puoli aivoa kerrallaan?",
+    "category": "Luonto",
+    "didYouKnow": "Delfiinit käyttävät unihemisfääristä unta, jossa toinen aivopuolisko nukkuu ja toinen valvoo. Tämä mahdollistaa hengittämisen vedenpinnalla ja saalistajien tarkkailun nukkuessa.",
+    "answerOptions": [
+      {
+        "text": "Delfiini",
+        "isCorrect": true
+      },
+      {
+        "text": "Hai",
+        "isCorrect": false
+      },
+      {
+        "text": "Mustekala",
+        "isCorrect": false
+      },
+      {
+        "text": "Merikilpikonna",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman nopeimmin lentävä lintu syöksyssä?",
+    "category": "Luonto",
+    "didYouKnow": "Muuttohaukka voi saavuttaa syöksyssä yli 380 km/h nopeuden, mikä tekee siitä nopeimman eläimen maapallolla. Se iskee saaliinsa ilmassa räjähdysmäisellä tarkalla syöksyllä.",
+    "answerOptions": [
+      {
+        "text": "Merikotka",
+        "isCorrect": false
+      },
+      {
+        "text": "Muuttohaukka",
+        "isCorrect": true
+      },
+      {
+        "text": "Kondori",
+        "isCorrect": false
+      },
+      {
+        "text": "Tuulihaukka",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta sydäntä mustekalalla on?",
+    "category": "Luonto",
+    "didYouKnow": "Mustekalalla on kolme sydäntä: kaksi kidussydäntä pumppaavat verta kidusten läpi ja yksi pääsydän pumppaa verta muualle kehoon. Mustekalan veri on sinistä, koska se sisältää kuparia hemoglobiinin sijaan.",
+    "answerOptions": [
+      {
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä kasvi tunnetaan maailman suurimpana kukkana?",
+    "category": "Luonto",
+    "didYouKnow": "Rafflesia arnoldii -kukka voi kasvaa jopa metrin levyiseksi ja painaa 11 kiloa. Se on loiskasvi, jolla ei ole vartta, lehtiä eikä juuria, ja se tuoksuu mädäntyneeltä lihalta houkutellakseen pölyttäjiä.",
+    "answerOptions": [
+      {
+        "text": "Titaniumaroni",
+        "isCorrect": false
+      },
+      {
+        "text": "Victoria amazonica",
+        "isCorrect": false
+      },
+      {
+        "text": "Rafflesia arnoldii",
+        "isCorrect": true
+      },
+      {
+        "text": "Auringonkukka",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä eläin voi selviytyä avaruuden tyhjiössä?",
+    "category": "Luonto",
+    "didYouKnow": "Karhukainen eli tardigradi on mikroskooppinen eläin, joka kestää äärimmäisiä olosuhteita: avaruuden tyhjiötä, säteilyä, jopa 150 °C lämpötilaa ja lähes absoluuttista nollapistettä.",
+    "answerOptions": [
+      {
+        "text": "Vesikiipijä",
+        "isCorrect": false
+      },
+      {
+        "text": "Karhukainen (tardigradi)",
+        "isCorrect": true
+      },
+      {
+        "text": "Torakka",
+        "isCorrect": false
+      },
+      {
+        "text": "Skorpioni",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka pitkä on sinivalaan kieli?",
+    "category": "Luonto",
+    "didYouKnow": "Sinivalaan kieli voi painaa yhtä paljon kuin aikuinen norsu, noin 2 700 kiloa. Sinivalas on suurin eläin, joka on koskaan elänyt maapallolla, jopa suurempi kuin tunnetut dinosaurukset.",
+    "answerOptions": [
+      {
+        "text": "Noin 50 cm",
+        "isCorrect": false
+      },
+      {
+        "text": "Noin 1 metri",
+        "isCorrect": false
+      },
+      {
+        "text": "Noin 5 metriä",
+        "isCorrect": true
+      },
+      {
+        "text": "Noin 10 metriä",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka on kaikkien aikojen menestynein olympiaurheilija mitalimäärällä mitattuna?",
+    "category": "Urheilu",
+    "didYouKnow": "Michael Phelps voitti urallaan 28 olympiamitalia, joista 23 oli kultaa. Hänen kultamitalimääränsä on enemmän kuin monilla kokonaisilla mailla olympiahistoriassa yhteensä.",
+    "answerOptions": [
+      {
+        "text": "Usain Bolt",
+        "isCorrect": false
+      },
+      {
+        "text": "Michael Phelps",
+        "isCorrect": true
+      },
+      {
+        "text": "Carl Lewis",
+        "isCorrect": false
+      },
+      {
+        "text": "Larisa Latynina",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Missä urheilulajissa käytetään termiä 'birdie'?",
+    "category": "Urheilu",
+    "didYouKnow": "Golf-termi 'birdie' tarkoittaa yhden lyönnin alitusta väylän par-tulokseen nähden. Termi syntyi 1900-luvun alussa Yhdysvalloissa, kun 'bird' oli slangisana jollekin erinomaiselle.",
+    "answerOptions": [
+      {
+        "text": "Tennis",
+        "isCorrect": false
+      },
+      {
+        "text": "Sulkapallo",
+        "isCorrect": false
+      },
+      {
+        "text": "Golf",
+        "isCorrect": true
+      },
+      {
+        "text": "Kriketti",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä maa voitti ensimmäisen jalkapallon MM-turnauksen vuonna 1930?",
+    "category": "Urheilu",
+    "didYouKnow": "Uruguay isännöi ja voitti ensimmäiset jalkapallon MM-kisat vuonna 1930 Montevideossa. Finaalissa Uruguay voitti Argentiinan 4–2, ja turnaukseen osallistui vain 13 joukkuetta.",
+    "answerOptions": [
+      {
+        "text": "Brasilia",
+        "isCorrect": false
+      },
+      {
+        "text": "Italia",
+        "isCorrect": false
+      },
+      {
+        "text": "Argentiina",
+        "isCorrect": false
+      },
+      {
+        "text": "Uruguay",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Kuka suomalainen voitti Formula 1 -maailmanmestaruuden vuonna 2007?",
+    "category": "Urheilu",
+    "didYouKnow": "Kimi Räikkönen voitti vuoden 2007 F1-mestaruuden Ferrarin ratissa vain yhden pisteen erolla. Hän on toistaiseksi viimeinen Ferrari-kuljettaja, joka on voittanut kuljettajien maailmanmestaruuden.",
+    "answerOptions": [
+      {
+        "text": "Mika Häkkinen",
+        "isCorrect": false
+      },
+      {
+        "text": "Kimi Räikkönen",
+        "isCorrect": true
+      },
+      {
+        "text": "Valtteri Bottas",
+        "isCorrect": false
+      },
+      {
+        "text": "Heikki Kovalainen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä laji lisättiin olympiaohjelmaan ensimmäisen kerran Tokion 2020 kisoissa?",
+    "category": "Urheilu",
+    "didYouKnow": "Rullalautailu (skeittaus) debytoi olympialajina Tokion 2020 kisoissa. Japanilainen Yuto Horigome voitti ensimmäisen olympiakullan street-sarjassa. Myös surffaus, kiipeily ja karate olivat uusia lajeja.",
+    "answerOptions": [
+      {
+        "text": "Parkour",
+        "isCorrect": false
+      },
+      {
+        "text": "Rullalautailu",
+        "isCorrect": true
+      },
+      {
+        "text": "Padel",
+        "isCorrect": false
+      },
+      {
+        "text": "Lacrosse",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuinka monta pelaajaa on jääkiekkojoukkueessa jäällä normaalipelissä (maalivahti mukaan lukien)?",
+    "category": "Urheilu",
+    "didYouKnow": "Jääkiekkojoukkueessa on jäällä kuusi pelaajaa: maalivahti, kaksi puolustajaa ja kolme hyökkääjää. Joukkueen kokoonpanossa on tyypillisesti 20–23 pelaajaa, joista osa on vaihtopelaajia.",
+    "answerOptions": [
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": true
+      },
+      {
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä muinainen ihmettä maailman seitsemästä ihmeestä on edelleen pystyssä?",
+    "category": "Historia",
+    "didYouKnow": "Gizan suuri pyramidi rakennettiin noin 2560 eKr. ja se oli maailman korkein rakennelma yli 3 800 vuoden ajan. Se on ainoa antiikin maailman seitsemästä ihmeestä, joka on säilynyt nykypäivään.",
+    "answerOptions": [
+      {
+        "text": "Rodoksen kolossi",
+        "isCorrect": false
+      },
+      {
+        "text": "Babylonin riippuvat puutarhat",
+        "isCorrect": false
+      },
+      {
+        "text": "Gizan suuri pyramidi",
+        "isCorrect": true
+      },
+      {
+        "text": "Artemiin temppeli",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka oli Egyptin viimeinen faarao?",
+    "category": "Historia",
+    "didYouKnow": "Kleopatra VII oli Ptolemaiossuvun viimeinen hallitsija ja Egyptin viimeinen faarao. Hän puhui yhdeksää kieltä ja oli ensimmäinen Ptolemaios-hallitsija, joka oppi egyptin kieltä.",
+    "answerOptions": [
+      {
+        "text": "Nefertiti",
+        "isCorrect": false
+      },
+      {
+        "text": "Kleopatra VII",
+        "isCorrect": true
+      },
+      {
+        "text": "Hatshepsut",
+        "isCorrect": false
+      },
+      {
+        "text": "Ramses II",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä valtakunta tunnetaan historian suurimpana yhtenäisenä maavaltiiona?",
+    "category": "Historia",
+    "didYouKnow": "Mongolivaltakunta ulottui laajimmillaan 1200-luvulla Koreasta Puolaan saakka ja kattoi noin 24 miljoonaa neliökilometriä. Tšingis-kaani yhdisti mongolit ja aloitti valloitukset vuonna 1206.",
+    "answerOptions": [
+      {
+        "text": "Rooman valtakunta",
+        "isCorrect": false
+      },
+      {
+        "text": "Mongolivaltakunta",
+        "isCorrect": true
+      },
+      {
+        "text": "Brittiläinen imperiumi",
+        "isCorrect": false
+      },
+      {
+        "text": "Ottomaanien valtakunta",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä muinainen kaupunki tuhoutui Vesuviuksen purkauksessa vuonna 79 jKr.?",
+    "category": "Historia",
+    "didYouKnow": "Pompeji hautautui vulkaanisen tuhkan alle ja säilyi hämmästyttävän hyvin lähes 1 700 vuotta. Kaupungista on löydetty ihmisten ja eläinten muotteja, jotka tuhka muovasi kuolinhetkellä.",
+    "answerOptions": [
+      {
+        "text": "Karthago",
+        "isCorrect": false
+      },
+      {
+        "text": "Troja",
+        "isCorrect": false
+      },
+      {
+        "text": "Pompeji",
+        "isCorrect": true
+      },
+      {
+        "text": "Aleksandria",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka keksi kirjapainotaidon Euroopassa noin vuonna 1440?",
+    "category": "Historia",
+    "didYouKnow": "Johannes Gutenberg kehitti irtokirjasintekniikan, joka mahdollisti kirjojen massatuotannon. Hänen kuuluisin teoksensa, Gutenbergin Raamattu, on yksi maailman arvokkaimmista kirjoista.",
+    "answerOptions": [
+      {
+        "text": "Leonardo da Vinci",
+        "isCorrect": false
+      },
+      {
+        "text": "Johannes Gutenberg",
+        "isCorrect": true
+      },
+      {
+        "text": "William Caxton",
+        "isCorrect": false
+      },
+      {
+        "text": "Aldus Manutius",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä elokuva voitti parhaan elokuvan Oscar-palkinnon vuonna 2020?",
+    "category": "Viihde",
+    "didYouKnow": "Eteläkorealainen Parasite (Loinen) oli ensimmäinen ei-englanninkielinen elokuva, joka voitti parhaan elokuvan Oscarin. Se voitti samana iltana myös parhaan ohjaajan, parhaan alkuperäisen käsikirjoituksen ja parhaan kansainvälisen elokuvan palkinnot.",
+    "answerOptions": [
+      {
+        "text": "1917",
+        "isCorrect": false
+      },
+      {
+        "text": "Joker",
+        "isCorrect": false
+      },
+      {
+        "text": "Parasite (Loinen)",
+        "isCorrect": true
+      },
+      {
+        "text": "Once Upon a Time in Hollywood",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä Netflix-sarja nousi kaikkien aikojen katsotuimmaksi sarjaksi vuonna 2021?",
+    "category": "Viihde",
+    "didYouKnow": "Squid Game keräsi yli 1,65 miljardia katselutuntia ensimmäisten 28 päivän aikana. Eteläkorealainen selviytymisdraama teki luojastaan Hwang Dong-hyukista kansainvälisen tähden ja sai jatko-osan vuonna 2024.",
+    "answerOptions": [
+      {
+        "text": "Stranger Things",
+        "isCorrect": false
+      },
+      {
+        "text": "Squid Game",
+        "isCorrect": true
+      },
+      {
+        "text": "Money Heist",
+        "isCorrect": false
+      },
+      {
+        "text": "Bridgerton",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka näytteli pääroolia elokuvassa Oppenheimer (2023)?",
+    "category": "Viihde",
+    "didYouKnow": "Cillian Murphy voitti parhaan miespääosan Oscar-palkinnon roolistaan J. Robert Oppenheimerina. Christopher Nolanin ohjaama elokuva voitti yhteensä seitsemän Oscar-palkintoa.",
+    "answerOptions": [
+      {
+        "text": "Benedict Cumberbatch",
+        "isCorrect": false
+      },
+      {
+        "text": "Cillian Murphy",
+        "isCorrect": true
+      },
+      {
+        "text": "Robert Downey Jr.",
+        "isCorrect": false
+      },
+      {
+        "text": "Matt Damon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä oli ensimmäinen Pixar-animaatioelokuva?",
+    "category": "Viihde",
+    "didYouKnow": "Toy Story (1995) oli ensimmäinen kokonaan tietokoneanimoitu kokopitkä elokuva. Sen budjetti oli 30 miljoonaa dollaria ja se tuotti maailmanlaajuisesti yli 373 miljoonaa dollaria.",
+    "answerOptions": [
+      {
+        "text": "Toy Story",
+        "isCorrect": true
+      },
+      {
+        "text": "Monsters, Inc.",
+        "isCorrect": false
+      },
+      {
+        "text": "Finding Nemo",
+        "isCorrect": false
+      },
+      {
+        "text": "A Bug's Life",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka perusti SpaceX-yhtiön?",
+    "category": "Teknologia",
+    "didYouKnow": "Elon Musk perusti SpaceX:n vuonna 2002 tavoitteenaan alentaa avaruuslennon kustannuksia ja mahdollistaa Marsin kolonisaatio. SpaceX:n Falcon 9 oli ensimmäinen uudelleenkäytettävä orbitaaliluokan kantoraketti.",
+    "answerOptions": [
+      {
+        "text": "Jeff Bezos",
+        "isCorrect": false
+      },
+      {
+        "text": "Elon Musk",
+        "isCorrect": true
+      },
+      {
+        "text": "Richard Branson",
+        "isCorrect": false
+      },
+      {
+        "text": "Peter Thiel",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä ohjelmointikieli on yleisimmin käytetty tekoälyn ja koneoppimisen kehityksessä?",
+    "category": "Teknologia",
+    "didYouKnow": "Python on hallitseva kieli tekoälykehityksessä sen selkeyden ja laajojen kirjastojen ansiosta. TensorFlow, PyTorch ja scikit-learn ovat kaikki Python-pohjaisia suosittuja koneoppimiskirjastoja.",
+    "answerOptions": [
+      {
+        "text": "Java",
+        "isCorrect": false
+      },
+      {
+        "text": "C++",
+        "isCorrect": false
+      },
+      {
+        "text": "Python",
+        "isCorrect": true
+      },
+      {
+        "text": "JavaScript",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä teknologia mahdollistaa kvanttitietokoneiden laskentatehon?",
+    "category": "Teknologia",
+    "didYouKnow": "Kvanttitietokoneet käyttävät kubitteja, jotka voivat olla superpositiossa eli samanaikaisesti tiloissa 0 ja 1. Tämä mahdollistaa tiettyjen laskentatehtävien eksponentiaalisen nopeuttamisen perinteisiin tietokoneisiin verrattuna.",
+    "answerOptions": [
+      {
+        "text": "Kubitit ja superpositio",
+        "isCorrect": true
+      },
+      {
+        "text": "Nanoprosessorit",
+        "isCorrect": false
+      },
+      {
+        "text": "Grafeenipiirit",
+        "isCorrect": false
+      },
+      {
+        "text": "Fotonisirut",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Minä vuonna Apple julkaisi ensimmäisen iPhonen?",
+    "category": "Teknologia",
+    "didYouKnow": "Steve Jobs esitteli ensimmäisen iPhonen tammikuussa 2007 ja se mullisti matkapuhelinmarkkinat. Alkuperäisessä iPhonessa ei ollut App Storea – se lisättiin vasta vuonna 2008 ohjelmistopäivityksellä.",
+    "answerOptions": [
+      {
+        "text": "2005",
+        "isCorrect": false
+      },
+      {
+        "text": "2006",
+        "isCorrect": false
+      },
+      {
+        "text": "2007",
+        "isCorrect": true
+      },
+      {
+        "text": "2008",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä tekoälymalli aiheutti maailmanlaajuisen kohun marraskuussa 2022?",
+    "category": "Teknologia",
+    "didYouKnow": "OpenAI:n ChatGPT saavutti 100 miljoonaa käyttäjää vain kaksi kuukautta julkaisunsa jälkeen, mikä teki siitä historian nopeimmin kasvaneen verkkosovelluksen. Se käynnisti tekoälykilpailun suurten teknologiayhtiöiden välillä.",
+    "answerOptions": [
+      {
+        "text": "Google Bard",
+        "isCorrect": false
+      },
+      {
+        "text": "DALL-E",
+        "isCorrect": false
+      },
+      {
+        "text": "ChatGPT",
+        "isCorrect": true
+      },
+      {
+        "text": "Midjourney",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka kirjoitti romaanin 'Sadan vuoden yksinäisyys'?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Gabriel García Márquez julkaisi teoksen vuonna 1967 ja se on yksi maagisen realismin tunnetuimmista teoksista. Kolumbialainen kirjailija sai Nobelin kirjallisuuspalkinnon vuonna 1982.",
+    "answerOptions": [
+      {
+        "text": "Pablo Neruda",
+        "isCorrect": false
+      },
+      {
+        "text": "Gabriel García Márquez",
+        "isCorrect": true
+      },
+      {
+        "text": "Jorge Luis Borges",
+        "isCorrect": false
+      },
+      {
+        "text": "Mario Vargas Llosa",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka suomalainen kirjailija loi Muumi-hahmot?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Tove Jansson piirsi ensimmäisen Muumipeikon jo 1930-luvulla, mutta ensimmäinen Muumi-kirja 'Muumit ja suuri tuhotulva' julkaistiin vuonna 1945. Muumilaakson tarinat on käännetty yli 50 kielelle.",
+    "answerOptions": [
+      {
+        "text": "Tove Jansson",
+        "isCorrect": true
+      },
+      {
+        "text": "Minna Canth",
+        "isCorrect": false
+      },
+      {
+        "text": "Aleksis Kivi",
+        "isCorrect": false
+      },
+      {
+        "text": "Elina Hirvonen",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka voitti Nobelin kirjallisuuspalkinnon vuonna 2017 romaanillaan 'The Remains of the Day'?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Kazuo Ishiguro on Japanissa syntynyt brittikirjailija, joka muutti Englantiin 5-vuotiaana. Nobel-komitea kuvasi häntä kirjailijaksi, joka 'on paljastanut syvän kuilun arkipäiväisen maailmamme alla'.",
+    "answerOptions": [
+      {
+        "text": "Haruki Murakami",
+        "isCorrect": false
+      },
+      {
+        "text": "Kazuo Ishiguro",
+        "isCorrect": true
+      },
+      {
+        "text": "Salman Rushdie",
+        "isCorrect": false
+      },
+      {
+        "text": "Ian McEwan",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Mikä on maailman myydyin kirjasarja kautta aikojen?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "Harry Potter -sarjasta on myyty yli 600 miljoonaa kopiota maailmanlaajuisesti ja se on käännetty 85 kielelle. J.K. Rowlingin käsikirjoituksen hylkäsi 12 kustantamoa ennen kuin Bloomsbury julkaisi sen.",
+    "answerOptions": [
+      {
+        "text": "Taru sormusten herrasta",
+        "isCorrect": false
+      },
+      {
+        "text": "Narnian tarinat",
+        "isCorrect": false
+      },
+      {
+        "text": "Harry Potter",
+        "isCorrect": true
+      },
+      {
+        "text": "Eragon",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Kuka kirjoitti dystopiaromaanin 'Vuonna 1984'?",
+    "category": "Kirjallisuus",
+    "didYouKnow": "George Orwell julkaisi teoksen vuonna 1949, vain vuosi ennen kuolemaansa. Kirjan termit kuten 'Isoveli valvoo' ja 'uuskieli' ovat vakiintuneet yleiskieleen kuvaamaan valvontayhteiskuntaa ja propagandaa.",
+    "answerOptions": [
+      {
+        "text": "Aldous Huxley",
+        "isCorrect": false
+      },
+      {
+        "text": "Ray Bradbury",
+        "isCorrect": false
+      },
+      {
+        "text": "George Orwell",
+        "isCorrect": true
+      },
+      {
+        "text": "H.G. Wells",
         "isCorrect": false
       }
     ]

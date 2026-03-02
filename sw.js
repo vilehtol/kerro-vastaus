@@ -1,6 +1,6 @@
 // Service Worker — auto-updating PWA
 // Bump CACHE_VERSION on each deploy to force full cache refresh
-const CACHE_VERSION = '3.0.0-glassmorphism';
+const CACHE_VERSION = '3.1.0-1016q';
 const CACHE_NAME = 'visa-' + CACHE_VERSION;
 const ASSETS = [
   './',
